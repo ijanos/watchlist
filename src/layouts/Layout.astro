@@ -4,26 +4,23 @@ interface Props {
 }
 
 const { title } = Astro.props;
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content="Janos' watchlist, the movies I saw" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="max-w-6xl mx-auto">
+		<Nav />
 		<slot />
+		<Footer />
 	</body>
 </html>
-<style is:global>
-	html {
-		font-family: system-ui, sans-serif;
-		background: seashell;
-		background-size: 224px;
-	}
-</style>
