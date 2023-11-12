@@ -62,9 +62,9 @@
     "runtime": 179,
     "ageCertification": "R",
     "genres": [
-      "comedy",
       "drama",
-      "horror"
+      "horror",
+      "comedy"
     ]
   },
   {
@@ -77,14 +77,14 @@
     "imdbID": "tt7634766",
     "releaseYear": 2023,
     "releaseDate": "2023-04-05",
-    "runtime": 92,
+    "runtime": 93,
     "ageCertification": "PG",
     "genres": [
+      "action-and-adventure",
+      "fantasy",
       "comedy",
       "animation",
-      "kids-and-family",
-      "action-and-adventure",
-      "fantasy"
+      "kids-and-family"
     ]
   },
   {
@@ -671,9 +671,9 @@
     "runtime": 96,
     "ageCertification": "R",
     "genres": [
-      "horror",
       "drama",
-      "mystery-and-thriller"
+      "mystery-and-thriller",
+      "horror"
     ]
   },
   {
@@ -792,9 +792,9 @@
     "runtime": 104,
     "ageCertification": "PG-13",
     "genres": [
-      "comedy",
       "war-and-military",
       "drama",
+      "comedy",
       "made-in-europe"
     ]
   },
@@ -982,12 +982,12 @@
     "imdbID": "tt4154796",
     "releaseYear": 2019,
     "releaseDate": "2019-04-24",
-    "runtime": 182,
+    "runtime": 181,
     "ageCertification": "PG-13",
     "genres": [
+      "action-and-adventure",
       "science-fiction",
-      "drama",
-      "action-and-adventure"
+      "drama"
     ]
   },
   {
@@ -1019,6 +1019,23 @@
     "genres": [
       "horror",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Captain Marvel",
+    "originalTitle": "Captain Marvel",
+    "director": [
+      "Anna Boden",
+      "Ryan Fleck"
+    ],
+    "imdbID": "tt4154664",
+    "releaseYear": 2019,
+    "releaseDate": "2019-03-06",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
     ]
   },
   {
@@ -1460,6 +1477,23 @@
     ]
   },
   {
+    "englishTitle": "I, Tonya",
+    "originalTitle": "I, Tonya",
+    "director": [
+      "Craig Gillespie"
+    ],
+    "imdbID": "tt5580036",
+    "releaseYear": 2017,
+    "releaseDate": "2017-12-08",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "sport"
+    ]
+  },
+  {
     "englishTitle": "Molly's Game",
     "originalTitle": "Molly's Game",
     "director": [
@@ -1558,8 +1592,8 @@
     "runtime": 164,
     "ageCertification": "R",
     "genres": [
-      "drama",
       "science-fiction",
+      "drama",
       "mystery-and-thriller",
       "action-and-adventure"
     ]
@@ -1750,8 +1784,8 @@
     "runtime": 137,
     "ageCertification": "PG-13",
     "genres": [
-      "action-and-adventure",
       "science-fiction",
+      "action-and-adventure",
       "comedy"
     ]
   },
@@ -1768,9 +1802,9 @@
     "ageCertification": "R",
     "genres": [
       "drama",
+      "comedy",
       "fantasy",
-      "science-fiction",
-      "comedy"
+      "science-fiction"
     ]
   },
   {
@@ -1885,13 +1919,13 @@
     "imdbID": "tt1355644",
     "releaseYear": 2016,
     "releaseDate": "2016-12-21",
-    "runtime": 116,
+    "runtime": 117,
     "ageCertification": "PG-13",
     "genres": [
-      "romance",
       "drama",
-      "science-fiction",
-      "mystery-and-thriller"
+      "mystery-and-thriller",
+      "romance",
+      "science-fiction"
     ]
   },
   {
@@ -1989,8 +2023,8 @@
     "runtime": 120,
     "ageCertification": "PG-13",
     "genres": [
-      "drama",
-      "history"
+      "history",
+      "drama"
     ]
   },
   {
@@ -2023,8 +2057,8 @@
     "runtime": 120,
     "ageCertification": "PG-13",
     "genres": [
-      "action-and-adventure",
       "science-fiction",
+      "action-and-adventure",
       "mystery-and-thriller"
     ]
   },
@@ -2116,6 +2150,22 @@
       "action-and-adventure",
       "crime",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Hunt for the Wilderpeople",
+    "originalTitle": "Hunt for the Wilderpeople",
+    "director": [
+      "Taika Waititi"
+    ],
+    "imdbID": "tt4698684",
+    "releaseYear": 2016,
+    "releaseDate": "2016-03-31",
+    "runtime": 101,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama"
     ]
   },
   {
@@ -2327,9 +2377,9 @@
     "runtime": 124,
     "ageCertification": "PG-13",
     "genres": [
+      "action-and-adventure",
       "science-fiction",
-      "mystery-and-thriller",
-      "action-and-adventure"
+      "mystery-and-thriller"
     ]
   },
   {
@@ -2552,6 +2602,23 @@
     ]
   },
   {
+    "englishTitle": "What We Do in the Shadows",
+    "originalTitle": "What We Do in the Shadows",
+    "director": [
+      "Jemaine Clement",
+      "Taika Waititi"
+    ],
+    "imdbID": "tt3416742",
+    "releaseYear": 2014,
+    "releaseDate": "2014-06-19",
+    "runtime": 86,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "Edge of Tomorrow",
     "originalTitle": "Edge of Tomorrow",
     "director": [
@@ -2724,8 +2791,8 @@
     "runtime": 93,
     "ageCertification": "PG-13",
     "genres": [
-      "drama",
       "mystery-and-thriller",
+      "drama",
       "science-fiction",
       "action-and-adventure"
     ]
@@ -2848,8 +2915,8 @@
       "drama",
       "mystery-and-thriller",
       "made-in-europe",
-      "action-and-adventure",
-      "crime"
+      "crime",
+      "action-and-adventure"
     ]
   },
   {
@@ -3017,6 +3084,39 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Looper",
+    "originalTitle": "Looper",
+    "director": [
+      "Rian Johnson"
+    ],
+    "imdbID": "tt1276104",
+    "releaseYear": 2012,
+    "releaseDate": "2012-09-26",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "The Perks of Being a Wallflower",
+    "originalTitle": "The Perks of Being a Wallflower",
+    "director": [
+      "Stephen Chbosky"
+    ],
+    "imdbID": "tt1659337",
+    "releaseYear": 2012,
+    "releaseDate": "2012-09-20",
+    "runtime": 103,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama"
     ]
   },
   {
@@ -3189,8 +3289,24 @@
     "ageCertification": "PG-13",
     "genres": [
       "fantasy",
-      "action-and-adventure",
       "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Super 8",
+    "originalTitle": "Super 8",
+    "director": [
+      "J.J. Abrams"
+    ],
+    "imdbID": "tt1650062",
+    "releaseYear": 2011,
+    "releaseDate": "2011-06-08",
+    "runtime": 112,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "science-fiction"
     ]
   },
   {
@@ -3222,9 +3338,9 @@
     "ageCertification": "PG-13",
     "genres": [
       "mystery-and-thriller",
-      "science-fiction",
       "action-and-adventure",
       "drama",
+      "science-fiction",
       "made-in-europe"
     ]
   },
@@ -3245,6 +3361,23 @@
     ]
   },
   {
+    "englishTitle": "True Grit",
+    "originalTitle": "True Grit",
+    "director": [
+      "Ethan Coen",
+      "Joel Coen"
+    ],
+    "imdbID": "tt1403865",
+    "releaseYear": 2010,
+    "releaseDate": "2010-12-22",
+    "runtime": 110,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "western"
+    ]
+  },
+  {
     "englishTitle": "Black Swan",
     "originalTitle": "Black Swan",
     "director": [
@@ -3256,8 +3389,8 @@
     "runtime": 108,
     "ageCertification": "R",
     "genres": [
-      "drama",
       "mystery-and-thriller",
+      "drama",
       "horror"
     ]
   },
@@ -3292,12 +3425,12 @@
     "ageCertification": "PG",
     "genres": [
       "comedy",
+      "crime",
+      "kids-and-family",
       "science-fiction",
       "mystery-and-thriller",
       "animation",
-      "action-and-adventure",
-      "crime",
-      "kids-and-family"
+      "action-and-adventure"
     ]
   },
   {
@@ -3349,6 +3482,26 @@
       "science-fiction",
       "music-and-musical",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Despicable Me",
+    "originalTitle": "Despicable Me",
+    "director": [
+      "Chris Renaud",
+      "Pierre Coffin"
+    ],
+    "imdbID": "tt1323594",
+    "releaseYear": 2010,
+    "releaseDate": "2010-07-08",
+    "runtime": 95,
+    "ageCertification": "",
+    "genres": [
+      "crime",
+      "kids-and-family",
+      "science-fiction",
+      "animation",
+      "comedy"
     ]
   },
   {
@@ -3482,11 +3635,11 @@
     "ageCertification": "PG-13",
     "genres": [
       "mystery-and-thriller",
-      "action-and-adventure",
       "drama",
       "fantasy",
       "science-fiction",
-      "animation"
+      "animation",
+      "action-and-adventure"
     ]
   },
   {
@@ -3504,6 +3657,23 @@
       "science-fiction",
       "action-and-adventure",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "(500) Days of Summer",
+    "originalTitle": "(500) Days of Summer",
+    "director": [
+      "Marc Webb"
+    ],
+    "imdbID": "tt1022603",
+    "releaseYear": 2009,
+    "releaseDate": "2009-07-17",
+    "runtime": 95,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "comedy",
+      "romance"
     ]
   },
   {
@@ -3813,6 +3983,24 @@
     ]
   },
   {
+    "englishTitle": "Ratatouille",
+    "originalTitle": "Ratatouille",
+    "director": [
+      "Brad Bird"
+    ],
+    "imdbID": "tt0382932",
+    "releaseYear": 2007,
+    "releaseDate": "2007-06-28",
+    "runtime": 111,
+    "ageCertification": "G",
+    "genres": [
+      "kids-and-family",
+      "fantasy",
+      "animation",
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "The Man from Earth",
     "originalTitle": "The Man from Earth",
     "director": [
@@ -4005,6 +4193,25 @@
     ]
   },
   {
+    "englishTitle": "Ghost in the Shell: Stand Alone Complex – Solid State Society",
+    "originalTitle": "攻殻機動隊: Stand Alone Complex - Solid State Society",
+    "director": [
+      "Kenji Kamiyama"
+    ],
+    "imdbID": "tt0856797",
+    "releaseYear": 2006,
+    "releaseDate": "2006-09-01",
+    "runtime": 105,
+    "ageCertification": "PG",
+    "genres": [
+      "science-fiction",
+      "fantasy",
+      "mystery-and-thriller",
+      "animation",
+      "action-and-adventure"
+    ]
+  },
+  {
     "englishTitle": "Crank",
     "originalTitle": "Crank",
     "director": [
@@ -4037,6 +4244,24 @@
     ]
   },
   {
+    "englishTitle": "V for Vendetta",
+    "originalTitle": "V for Vendetta",
+    "director": [
+      "James McTeigue"
+    ],
+    "imdbID": "tt0434409",
+    "releaseYear": 2006,
+    "releaseDate": "2006-02-23",
+    "runtime": 132,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
     "englishTitle": "Harry Potter and the Goblet of Fire",
     "originalTitle": "Harry Potter and the Goblet of Fire",
     "director": [
@@ -4050,6 +4275,21 @@
     "genres": [
       "fantasy",
       "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Saw II",
+    "originalTitle": "Saw II",
+    "director": [
+      "Darren Lynn Bousman"
+    ],
+    "imdbID": "tt0432348",
+    "releaseYear": 2005,
+    "releaseDate": "2005-10-28",
+    "runtime": 93,
+    "ageCertification": "",
+    "genres": [
+      "horror"
     ]
   },
   {
@@ -4082,8 +4322,8 @@
     "runtime": 77,
     "ageCertification": "PG",
     "genres": [
-      "animation",
       "fantasy",
+      "animation",
       "romance",
       "drama",
       "kids-and-family"
@@ -4159,6 +4399,23 @@
     ]
   },
   {
+    "englishTitle": "Constantine",
+    "originalTitle": "Constantine",
+    "director": [
+      "Francis Lawrence"
+    ],
+    "imdbID": "tt0360486",
+    "releaseYear": 2005,
+    "releaseDate": "2005-02-08",
+    "runtime": 121,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "horror",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "The Polar Express",
     "originalTitle": "The Polar Express",
     "director": [
@@ -4192,6 +4449,22 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Saw",
+    "originalTitle": "Saw",
+    "director": [
+      "James Wan"
+    ],
+    "imdbID": "tt0387564",
+    "releaseYear": 2004,
+    "releaseDate": "2004-10-01",
+    "runtime": 103,
+    "ageCertification": "",
+    "genres": [
+      "horror",
+      "mystery-and-thriller"
     ]
   },
   {
@@ -4265,6 +4538,22 @@
     ]
   },
   {
+    "englishTitle": "The Notebook",
+    "originalTitle": "The Notebook",
+    "director": [
+      "Nick Cassavetes"
+    ],
+    "imdbID": "tt0332280",
+    "releaseYear": 2004,
+    "releaseDate": "2004-06-25",
+    "runtime": 123,
+    "ageCertification": "PG-13",
+    "genres": [
+      "romance",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "The Chronicles of Riddick",
     "originalTitle": "The Chronicles of Riddick",
     "director": [
@@ -4313,6 +4602,42 @@
       "mystery-and-thriller",
       "crime",
       "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Hellboy",
+    "originalTitle": "Hellboy",
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "imdbID": "tt0167190",
+    "releaseYear": 2004,
+    "releaseDate": "2004-04-02",
+    "runtime": 121,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "horror",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Ghost in the Shell 2: Innocence",
+    "originalTitle": "イノセンス",
+    "director": [
+      "Mamoru Oshii"
+    ],
+    "imdbID": "tt0347246",
+    "releaseYear": 2004,
+    "releaseDate": "2004-03-06",
+    "runtime": 100,
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "drama",
+      "science-fiction",
+      "mystery-and-thriller"
     ]
   },
   {
@@ -4618,9 +4943,9 @@
     "ageCertification": "R",
     "genres": [
       "mystery-and-thriller",
-      "science-fiction",
       "action-and-adventure",
-      "horror"
+      "horror",
+      "science-fiction"
     ]
   },
   {
@@ -4635,9 +4960,9 @@
     "runtime": 100,
     "ageCertification": "R",
     "genres": [
-      "horror",
       "action-and-adventure",
       "science-fiction",
+      "horror",
       "made-in-europe"
     ]
   },
@@ -4707,6 +5032,25 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Cowboy Bebop: The Movie",
+    "originalTitle": "カウボーイビバップ 天国の扉",
+    "director": [
+      "Shinichiro Watanabe"
+    ],
+    "imdbID": "tt0275277",
+    "releaseYear": 2001,
+    "releaseDate": "2001-09-01",
+    "runtime": 115,
+    "ageCertification": "R",
+    "genres": [
+      "animation",
+      "science-fiction",
+      "action-and-adventure",
+      "crime",
+      "drama"
     ]
   },
   {
@@ -5042,6 +5386,23 @@
     ]
   },
   {
+    "englishTitle": "Blade",
+    "originalTitle": "Blade",
+    "director": [
+      "Stephen Norrington"
+    ],
+    "imdbID": "tt0120611",
+    "releaseYear": 1998,
+    "releaseDate": "1998-08-21",
+    "runtime": 120,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
     "englishTitle": "Armageddon",
     "originalTitle": "Armageddon",
     "director": [
@@ -5053,8 +5414,8 @@
     "runtime": 151,
     "ageCertification": "PG-13",
     "genres": [
-      "mystery-and-thriller",
       "science-fiction",
+      "mystery-and-thriller",
       "action-and-adventure"
     ]
   },
@@ -5349,8 +5710,8 @@
     "ageCertification": "PG-13",
     "genres": [
       "science-fiction",
-      "fantasy",
-      "comedy"
+      "comedy",
+      "fantasy"
     ]
   },
   {
@@ -5367,6 +5728,23 @@
     "genres": [
       "science-fiction",
       "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Fargo",
+    "originalTitle": "Fargo",
+    "director": [
+      "Joel Coen"
+    ],
+    "imdbID": "tt0116282",
+    "releaseYear": 1996,
+    "releaseDate": "1996-03-08",
+    "runtime": 99,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "crime"
     ]
   },
   {
@@ -5458,6 +5836,24 @@
     ]
   },
   {
+    "englishTitle": "Mortal Kombat",
+    "originalTitle": "Mortal Kombat",
+    "director": [
+      "Paul W. S. Anderson"
+    ],
+    "imdbID": "tt0113855",
+    "releaseYear": 1995,
+    "releaseDate": "1995-08-18",
+    "runtime": 101,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  },
+  {
     "englishTitle": "Judge Dredd",
     "originalTitle": "Judge Dredd",
     "director": [
@@ -5470,9 +5866,9 @@
     "ageCertification": "R",
     "genres": [
       "science-fiction",
+      "mystery-and-thriller",
       "action-and-adventure",
-      "crime",
-      "mystery-and-thriller"
+      "crime"
     ]
   },
   {
@@ -5637,8 +6033,8 @@
     "ageCertification": "R",
     "genres": [
       "science-fiction",
-      "action-and-adventure",
-      "mystery-and-thriller"
+      "mystery-and-thriller",
+      "action-and-adventure"
     ]
   },
   {
@@ -6210,7 +6606,7 @@
     "imdbID": "tt0079944",
     "releaseYear": 1979,
     "releaseDate": "1979-05-25",
-    "runtime": 162,
+    "runtime": 154,
     "ageCertification": "",
     "genres": [
       "science-fiction",
