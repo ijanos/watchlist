@@ -1,0 +1,34 @@
+---
+import watchlist from "../data/watchlist.json";
+const imdbURI = "https://imdb.com/title/";
+---
+
+<table>
+    <thead>
+        <tr>
+          <th>Title</th>
+          <th>Director</th>
+          <th>Runtime</th>
+          <th>Release year</th>
+          <th>imdb</th>
+        </tr>
+    </thead>
+{watchlist.map((movie) =>
+    <tr>
+        <td>{movie.englishTitle}</td>
+        <td>{movie.director.join(", ")}</td>
+        <td>{movie.runtime}</td>
+        <td>{movie.releaseYear}</td>
+        <td><a href={imdbURI + movie.imdbID} target="_blank">imdb</a></td>
+    </tr>)}
+</table>
+
+<style>
+table {
+    border-collapse: collapse;
+}
+tr:hover {
+    background: rgb(230,230,230);
+    border: 12px;
+}
+</style>

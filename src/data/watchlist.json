@@ -1,0 +1,6288 @@
+[
+  {
+    "englishTitle": "Oppenheimer",
+    "originalTitle": "Oppenheimer",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt15398776",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-19",
+    "runtime": 181,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "Asteroid City",
+    "originalTitle": "Asteroid City",
+    "director": [
+      "Wes Anderson"
+    ],
+    "imdbID": "tt14230388",
+    "releaseYear": 2023,
+    "releaseDate": "2023-06-08",
+    "runtime": 104,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "comedy",
+      "romance",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Guardians of the Galaxy Vol. 3",
+    "originalTitle": "Guardians of the Galaxy Vol. 3",
+    "director": [
+      "James Gunn"
+    ],
+    "imdbID": "tt6791350",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-03",
+    "runtime": 150,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "comedy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Beau Is Afraid",
+    "originalTitle": "Beau Is Afraid",
+    "director": [
+      "Ari Aster"
+    ],
+    "imdbID": "tt13521006",
+    "releaseYear": 2023,
+    "releaseDate": "2023-04-20",
+    "runtime": 179,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "The Super Mario Bros. Movie",
+    "originalTitle": "The Super Mario Bros. Movie",
+    "director": [
+      "Aaron Horvath",
+      "Michael Jelenic"
+    ],
+    "imdbID": "tt7634766",
+    "releaseYear": 2023,
+    "releaseDate": "2023-04-05",
+    "runtime": 92,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "animation",
+      "kids-and-family",
+      "action-and-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Dungeons & Dragons: Honor Among Thieves",
+    "originalTitle": "Dungeons & Dragons: Honor Among Thieves",
+    "director": [
+      "Jonathan Goldstein",
+      "John Francis Daley"
+    ],
+    "imdbID": "tt2906216",
+    "releaseYear": 2023,
+    "releaseDate": "2023-03-23",
+    "runtime": 134,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "fantasy",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Ant-Man and the Wasp: Quantumania",
+    "originalTitle": "Ant-Man and the Wasp: Quantumania",
+    "director": [
+      "Peyton Reed"
+    ],
+    "imdbID": "tt10954600",
+    "releaseYear": 2023,
+    "releaseDate": "2023-02-15",
+    "runtime": 125,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Babylon",
+    "originalTitle": "Babylon",
+    "director": [
+      "Damien Chazelle"
+    ],
+    "imdbID": "tt10640346",
+    "releaseYear": 2022,
+    "releaseDate": "2022-12-22",
+    "runtime": 189,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "The Guardians of the Galaxy Holiday Special",
+    "originalTitle": "The Guardians of the Galaxy Holiday Special",
+    "director": [
+      "James Gunn"
+    ],
+    "imdbID": "tt13623136",
+    "releaseYear": 2022,
+    "releaseDate": "2022-11-25",
+    "runtime": 45,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "The Menu",
+    "originalTitle": "The Menu",
+    "director": [
+      "Mark Mylod"
+    ],
+    "imdbID": "tt9764362",
+    "releaseYear": 2022,
+    "releaseDate": "2022-11-17",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "mystery-and-thriller",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Glass Onion: A Knives Out Mystery",
+    "originalTitle": "Glass Onion: A Knives Out Mystery",
+    "director": [
+      "Rian Johnson"
+    ],
+    "imdbID": "tt11564570",
+    "releaseYear": 2022,
+    "releaseDate": "2022-11-12",
+    "runtime": 140,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "crime",
+      "mystery-and-thriller",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Suzume",
+    "originalTitle": "すずめの戸締まり",
+    "director": [
+      "Makoto Shinkai"
+    ],
+    "imdbID": "tt16428256",
+    "releaseYear": 2022,
+    "releaseDate": "2022-11-11",
+    "runtime": 122,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "fantasy",
+      "animation",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Banshees of Inisherin",
+    "originalTitle": "The Banshees of Inisherin",
+    "director": [
+      "Martin McDonagh"
+    ],
+    "imdbID": "tt11813216",
+    "releaseYear": 2022,
+    "releaseDate": "2022-10-20",
+    "runtime": 114,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Prey",
+    "originalTitle": "Prey",
+    "director": [
+      "Dan Trachtenberg"
+    ],
+    "imdbID": "tt11866324",
+    "releaseYear": 2022,
+    "releaseDate": "2022-08-02",
+    "runtime": 100,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "mystery-and-thriller",
+      "horror",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Nope",
+    "originalTitle": "Nope",
+    "director": [
+      "Jordan Peele"
+    ],
+    "imdbID": "tt10954984",
+    "releaseYear": 2022,
+    "releaseDate": "2022-07-20",
+    "runtime": 130,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Thor: Love and Thunder",
+    "originalTitle": "Thor: Love and Thunder",
+    "director": [
+      "Taika Waititi"
+    ],
+    "imdbID": "tt10648342",
+    "releaseYear": 2022,
+    "releaseDate": "2022-07-06",
+    "runtime": 119,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "fantasy",
+      "romance",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Doctor Strange in the Multiverse of Madness",
+    "originalTitle": "Doctor Strange in the Multiverse of Madness",
+    "director": [
+      "Sam Raimi"
+    ],
+    "imdbID": "tt9419884",
+    "releaseYear": 2022,
+    "releaseDate": "2022-05-04",
+    "runtime": 126,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "horror",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "The Northman",
+    "originalTitle": "The Northman",
+    "director": [
+      "Robert Eggers"
+    ],
+    "imdbID": "tt11138512",
+    "releaseYear": 2022,
+    "releaseDate": "2022-04-07",
+    "runtime": 137,
+    "ageCertification": "R",
+    "genres": [
+      "fantasy",
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "drama",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "Everything Everywhere All at Once",
+    "originalTitle": "Everything Everywhere All at Once",
+    "director": [
+      "Daniel Kwan",
+      "Daniel Scheinert"
+    ],
+    "imdbID": "tt6710474",
+    "releaseYear": 2022,
+    "releaseDate": "2022-03-24",
+    "runtime": 139,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "The Batman",
+    "originalTitle": "The Batman",
+    "director": [
+      "Matt Reeves"
+    ],
+    "imdbID": "tt1877830",
+    "releaseYear": 2022,
+    "releaseDate": "2022-03-01",
+    "runtime": 176,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Tinder Swindler",
+    "originalTitle": "The Tinder Swindler",
+    "director": [
+      "Felicity Morris"
+    ],
+    "imdbID": "tt14992922",
+    "releaseYear": 2022,
+    "releaseDate": "2022-02-02",
+    "runtime": 114,
+    "ageCertification": "",
+    "genres": [
+      "crime",
+      "documentary"
+    ]
+  },
+  {
+    "englishTitle": "The Matrix Resurrections",
+    "originalTitle": "The Matrix Resurrections",
+    "director": [
+      "Lana Wachowski"
+    ],
+    "imdbID": "tt10838180",
+    "releaseYear": 2021,
+    "releaseDate": "2021-12-16",
+    "runtime": 147,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Spider-Man: No Way Home",
+    "originalTitle": "Spider-Man: No Way Home",
+    "director": [
+      "Jon Watts"
+    ],
+    "imdbID": "tt10872600",
+    "releaseYear": 2021,
+    "releaseDate": "2021-12-15",
+    "runtime": 148,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "fantasy",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Don't Look Up",
+    "originalTitle": "Don't Look Up",
+    "director": [
+      "Adam McKay"
+    ],
+    "imdbID": "tt11286314",
+    "releaseYear": 2021,
+    "releaseDate": "2021-12-07",
+    "runtime": 145,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "drama",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "House of Gucci",
+    "originalTitle": "House of Gucci",
+    "director": [
+      "Ridley Scott"
+    ],
+    "imdbID": "tt11214590",
+    "releaseYear": 2021,
+    "releaseDate": "2021-11-24",
+    "runtime": 163,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Eternals",
+    "originalTitle": "Eternals",
+    "director": [
+      "Chloé Zhao"
+    ],
+    "imdbID": "tt9032400",
+    "releaseYear": 2021,
+    "releaseDate": "2021-11-03",
+    "runtime": 156,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "The French Dispatch",
+    "originalTitle": "The French Dispatch",
+    "director": [
+      "Wes Anderson"
+    ],
+    "imdbID": "tt8847712",
+    "releaseYear": 2021,
+    "releaseDate": "2021-10-21",
+    "runtime": 108,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "romance",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Dune",
+    "originalTitle": "Dune",
+    "director": [
+      "Denis Villeneuve"
+    ],
+    "imdbID": "tt1160419",
+    "releaseYear": 2021,
+    "releaseDate": "2021-09-15",
+    "runtime": 155,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Shang-Chi and the Legend of the Ten Rings",
+    "originalTitle": "Shang-Chi and the Legend of the Ten Rings",
+    "director": [
+      "Destin Daniel Cretton"
+    ],
+    "imdbID": "tt9376612",
+    "releaseYear": 2021,
+    "releaseDate": "2021-09-01",
+    "runtime": 132,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Free Guy",
+    "originalTitle": "Free Guy",
+    "director": [
+      "Shawn Levy"
+    ],
+    "imdbID": "tt6264654",
+    "releaseYear": 2021,
+    "releaseDate": "2021-08-11",
+    "runtime": 114,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "fantasy",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Suicide Squad",
+    "originalTitle": "The Suicide Squad",
+    "director": [
+      "James Gunn"
+    ],
+    "imdbID": "tt6334354",
+    "releaseYear": 2021,
+    "releaseDate": "2021-07-28",
+    "runtime": 132,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Black Widow",
+    "originalTitle": "Black Widow",
+    "director": [
+      "Cate Shortland"
+    ],
+    "imdbID": "tt3480822",
+    "releaseYear": 2021,
+    "releaseDate": "2021-07-07",
+    "runtime": 134,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "I Care a Lot",
+    "originalTitle": "I Care a Lot",
+    "director": [
+      "J Blakeson"
+    ],
+    "imdbID": "tt9893250",
+    "releaseYear": 2021,
+    "releaseDate": "2021-02-18",
+    "runtime": 118,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime",
+      "drama",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Wolfwalkers",
+    "originalTitle": "Wolfwalkers",
+    "director": [
+      "Tomm Moore",
+      "Ross Stewart"
+    ],
+    "imdbID": "tt5198068",
+    "releaseYear": 2020,
+    "releaseDate": "2020-10-26",
+    "runtime": 103,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "drama",
+      "kids-and-family",
+      "mystery-and-thriller",
+      "animation",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "I'm Thinking of Ending Things",
+    "originalTitle": "I'm Thinking of Ending Things",
+    "director": [
+      "Charlie Kaufman"
+    ],
+    "imdbID": "tt7939766",
+    "releaseYear": 2020,
+    "releaseDate": "2020-08-28",
+    "runtime": 135,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Tenet",
+    "originalTitle": "Tenet",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt6723592",
+    "releaseYear": 2020,
+    "releaseDate": "2020-08-22",
+    "runtime": 150,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "mystery-and-thriller",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Eurovision Song Contest: The Story of Fire Saga",
+    "originalTitle": "Eurovision Song Contest: The Story of Fire Saga",
+    "director": [
+      "David Dobkin"
+    ],
+    "imdbID": "tt8580274",
+    "releaseYear": 2020,
+    "releaseDate": "2020-06-26",
+    "runtime": 123,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "music-and-musical"
+    ]
+  },
+  {
+    "englishTitle": "The Social Dilemma",
+    "originalTitle": "The Social Dilemma",
+    "director": [
+      "Jeff Orlowski"
+    ],
+    "imdbID": "tt11464826",
+    "releaseYear": 2020,
+    "releaseDate": "2020-01-26",
+    "runtime": 94,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "documentary"
+    ]
+  },
+  {
+    "englishTitle": "Swallow",
+    "originalTitle": "Swallow",
+    "director": [
+      "Carlo Mirabella-Davis"
+    ],
+    "imdbID": "tt8372298",
+    "releaseYear": 2020,
+    "releaseDate": "2020-01-15",
+    "runtime": 96,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "drama",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Star Wars: The Rise of Skywalker",
+    "originalTitle": "Star Wars: The Rise of Skywalker",
+    "director": [
+      "J.J. Abrams"
+    ],
+    "imdbID": "tt2527338",
+    "releaseYear": 2019,
+    "releaseDate": "2019-12-18",
+    "runtime": 141,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "drama",
+      "fantasy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Knives Out",
+    "originalTitle": "Knives Out",
+    "director": [
+      "Rian Johnson"
+    ],
+    "imdbID": "tt8946378",
+    "releaseYear": 2019,
+    "releaseDate": "2019-11-27",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "crime",
+      "drama",
+      "mystery-and-thriller",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Ford v Ferrari",
+    "originalTitle": "Ford v Ferrari",
+    "director": [
+      "James Mangold"
+    ],
+    "imdbID": "tt1950186",
+    "releaseYear": 2019,
+    "releaseDate": "2019-11-13",
+    "runtime": 153,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "action-and-adventure",
+      "sport"
+    ]
+  },
+  {
+    "englishTitle": "Klaus",
+    "originalTitle": "Klaus",
+    "director": [
+      "Sergio Pablos"
+    ],
+    "imdbID": "tt4729430",
+    "releaseYear": 2019,
+    "releaseDate": "2019-11-08",
+    "runtime": 96,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "fantasy",
+      "animation",
+      "kids-and-family",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Playing with FIRE: The Documentary",
+    "originalTitle": "Playing with FIRE: The Documentary",
+    "director": [
+      "Travis Shakespeare"
+    ],
+    "imdbID": "tt8941986",
+    "releaseYear": 2019,
+    "releaseDate": "2019-11-08",
+    "runtime": 90,
+    "ageCertification": "",
+    "genres": [
+      "documentary"
+    ]
+  },
+  {
+    "englishTitle": "The Irishman",
+    "originalTitle": "The Irishman",
+    "director": [
+      "Martin Scorsese"
+    ],
+    "imdbID": "tt1302006",
+    "releaseYear": 2019,
+    "releaseDate": "2019-11-01",
+    "runtime": 209,
+    "ageCertification": "R",
+    "genres": [
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Jojo Rabbit",
+    "originalTitle": "Jojo Rabbit",
+    "director": [
+      "Taika Waititi"
+    ],
+    "imdbID": "tt2584384",
+    "releaseYear": 2019,
+    "releaseDate": "2019-10-18",
+    "runtime": 104,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "war-and-military",
+      "drama",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Lighthouse",
+    "originalTitle": "The Lighthouse",
+    "director": [
+      "Robert Eggers"
+    ],
+    "imdbID": "tt7984734",
+    "releaseYear": 2019,
+    "releaseDate": "2019-10-18",
+    "runtime": 110,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "horror",
+      "animation",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Joker",
+    "originalTitle": "Joker",
+    "director": [
+      "Todd Phillips"
+    ],
+    "imdbID": "tt7286456",
+    "releaseYear": 2019,
+    "releaseDate": "2019-10-01",
+    "runtime": 121,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "American Factory",
+    "originalTitle": "American Factory",
+    "director": [
+      "Steven Bognar",
+      "Julia Reichert"
+    ],
+    "imdbID": "tt9351980",
+    "releaseYear": 2019,
+    "releaseDate": "2019-08-21",
+    "runtime": 115,
+    "ageCertification": "",
+    "genres": [
+      "documentary"
+    ]
+  },
+  {
+    "englishTitle": "Ready or Not",
+    "originalTitle": "Ready or Not",
+    "director": [
+      "Matt Bettinelli-Olpin",
+      "Tyler Gillett"
+    ],
+    "imdbID": "tt7798634",
+    "releaseYear": 2019,
+    "releaseDate": "2019-08-21",
+    "runtime": 95,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "horror",
+      "mystery-and-thriller",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Once Upon a Time… in Hollywood",
+    "originalTitle": "Once Upon a Time… in Hollywood",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "imdbID": "tt7131622",
+    "releaseYear": 2019,
+    "releaseDate": "2019-07-24",
+    "runtime": 162,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Midsommar",
+    "originalTitle": "Midsommar",
+    "director": [
+      "Ari Aster"
+    ],
+    "imdbID": "tt8772262",
+    "releaseYear": 2019,
+    "releaseDate": "2019-07-03",
+    "runtime": 148,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "drama",
+      "mystery-and-thriller",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Spider-Man: Far From Home",
+    "originalTitle": "Spider-Man: Far From Home",
+    "director": [
+      "Jon Watts"
+    ],
+    "imdbID": "tt6320628",
+    "releaseYear": 2019,
+    "releaseDate": "2019-06-28",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Parasite",
+    "originalTitle": "기생충",
+    "director": [
+      "Bong Joon-ho"
+    ],
+    "imdbID": "tt6751668",
+    "releaseYear": 2019,
+    "releaseDate": "2019-05-30",
+    "runtime": 132,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Climb",
+    "originalTitle": "The Climb",
+    "director": [
+      "Michael Angelo Covino"
+    ],
+    "imdbID": "tt8637440",
+    "releaseYear": 2019,
+    "releaseDate": "2019-05-17",
+    "runtime": 98,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Pokémon Detective Pikachu",
+    "originalTitle": "Pokémon Detective Pikachu",
+    "director": [
+      "Rob Letterman"
+    ],
+    "imdbID": "tt5884052",
+    "releaseYear": 2019,
+    "releaseDate": "2019-05-03",
+    "runtime": 104,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "comedy",
+      "kids-and-family",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Avengers: Endgame",
+    "originalTitle": "Avengers: Endgame",
+    "director": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "imdbID": "tt4154796",
+    "releaseYear": 2019,
+    "releaseDate": "2019-04-24",
+    "runtime": 182,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "drama",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Not for Resale",
+    "originalTitle": "Not for Resale",
+    "director": [
+      "Kevin J. James"
+    ],
+    "imdbID": "tt6483458",
+    "releaseYear": 2019,
+    "releaseDate": "2019-04-24",
+    "runtime": 85,
+    "ageCertification": "",
+    "genres": [
+      "documentary"
+    ]
+  },
+  {
+    "englishTitle": "Us",
+    "originalTitle": "Us",
+    "director": [
+      "Jordan Peele"
+    ],
+    "imdbID": "tt6857112",
+    "releaseYear": 2019,
+    "releaseDate": "2019-03-14",
+    "runtime": 120,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Alita: Battle Angel",
+    "originalTitle": "Alita: Battle Angel",
+    "director": [
+      "Robert Rodriguez"
+    ],
+    "imdbID": "tt0437086",
+    "releaseYear": 2019,
+    "releaseDate": "2019-01-31",
+    "runtime": 122,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Inventor: Out for Blood in Silicon Valley",
+    "originalTitle": "The Inventor: Out for Blood in Silicon Valley",
+    "director": [
+      "Alex Gibney"
+    ],
+    "imdbID": "tt8488126",
+    "releaseYear": 2019,
+    "releaseDate": "2019-01-24",
+    "runtime": 119,
+    "ageCertification": "",
+    "genres": [
+      "documentary",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Black Mirror: Bandersnatch",
+    "originalTitle": "Black Mirror: Bandersnatch",
+    "director": [
+      "David Slade"
+    ],
+    "imdbID": "tt9495224",
+    "releaseYear": 2018,
+    "releaseDate": "2018-12-28",
+    "runtime": 90,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Spider-Man: Into the Spider-Verse",
+    "originalTitle": "Spider-Man: Into the Spider-Verse",
+    "director": [
+      "Bob Persichetti",
+      "Rodney Rothman",
+      "Peter Ramsey"
+    ],
+    "imdbID": "tt4633694",
+    "releaseYear": 2018,
+    "releaseDate": "2018-12-06",
+    "runtime": 117,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "animation",
+      "science-fiction",
+      "fantasy",
+      "comedy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "The Favourite",
+    "originalTitle": "The Favourite",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "imdbID": "tt5083738",
+    "releaseYear": 2018,
+    "releaseDate": "2018-11-23",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy",
+      "mystery-and-thriller",
+      "history",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Green Book",
+    "originalTitle": "Green Book",
+    "director": [
+      "Peter Farrelly"
+    ],
+    "imdbID": "tt6966692",
+    "releaseYear": 2018,
+    "releaseDate": "2018-11-16",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "kids-and-family",
+      "comedy",
+      "music-and-musical"
+    ]
+  },
+  {
+    "englishTitle": "Fantastic Beasts: The Crimes of Grindelwald",
+    "originalTitle": "Fantastic Beasts: The Crimes of Grindelwald",
+    "director": [
+      "David Yates"
+    ],
+    "imdbID": "tt4123430",
+    "releaseYear": 2018,
+    "releaseDate": "2018-11-14",
+    "runtime": 134,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "First Man",
+    "originalTitle": "First Man",
+    "director": [
+      "Damien Chazelle"
+    ],
+    "imdbID": "tt1213641",
+    "releaseYear": 2018,
+    "releaseDate": "2018-10-10",
+    "runtime": 141,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "Venom",
+    "originalTitle": "Venom",
+    "director": [
+      "Ruben Fleischer"
+    ],
+    "imdbID": "tt1270797",
+    "releaseYear": 2018,
+    "releaseDate": "2018-09-28",
+    "runtime": 112,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Free Solo",
+    "originalTitle": "Free Solo",
+    "director": [
+      "Jimmy Chin",
+      "Elizabeth Chai Vasarhelyi"
+    ],
+    "imdbID": "tt7775622",
+    "releaseYear": 2018,
+    "releaseDate": "2018-09-28",
+    "runtime": 100,
+    "ageCertification": "PG-13",
+    "genres": [
+      "documentary",
+      "action-and-adventure",
+      "sport"
+    ]
+  },
+  {
+    "englishTitle": "Roma",
+    "originalTitle": "Roma",
+    "director": [
+      "Alfonso Cuarón"
+    ],
+    "imdbID": "tt6155172",
+    "releaseYear": 2018,
+    "releaseDate": "2018-08-25",
+    "runtime": 135,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Ant-Man and the Wasp",
+    "originalTitle": "Ant-Man and the Wasp",
+    "director": [
+      "Peyton Reed"
+    ],
+    "imdbID": "tt5095030",
+    "releaseYear": 2018,
+    "releaseDate": "2018-07-04",
+    "runtime": 119,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Under the Silver Lake",
+    "originalTitle": "Under the Silver Lake",
+    "director": [
+      "David Robert Mitchell"
+    ],
+    "imdbID": "tt5691670",
+    "releaseYear": 2018,
+    "releaseDate": "2018-06-21",
+    "runtime": 139,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "crime",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Mirai",
+    "originalTitle": "未来のミライ",
+    "director": [
+      "Mamoru Hosoda"
+    ],
+    "imdbID": "tt6900448",
+    "releaseYear": 2018,
+    "releaseDate": "2018-06-16",
+    "runtime": 98,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "fantasy",
+      "animation",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Hereditary",
+    "originalTitle": "Hereditary",
+    "director": [
+      "Ari Aster"
+    ],
+    "imdbID": "tt7784604",
+    "releaseYear": 2018,
+    "releaseDate": "2018-06-07",
+    "runtime": 126,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "horror",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Avengers: Infinity War",
+    "originalTitle": "Avengers: Infinity War",
+    "director": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "imdbID": "tt4154756",
+    "releaseYear": 2018,
+    "releaseDate": "2018-04-25",
+    "runtime": 149,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "A Quiet Place",
+    "originalTitle": "A Quiet Place",
+    "director": [
+      "John Krasinski"
+    ],
+    "imdbID": "tt6644200",
+    "releaseYear": 2018,
+    "releaseDate": "2018-04-03",
+    "runtime": 90,
+    "ageCertification": "PG-13",
+    "genres": [
+      "horror",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Ready Player One",
+    "originalTitle": "Ready Player One",
+    "director": [
+      "Steven Spielberg"
+    ],
+    "imdbID": "tt1677720",
+    "releaseYear": 2018,
+    "releaseDate": "2018-03-28",
+    "runtime": 140,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "animation"
+    ]
+  },
+  {
+    "englishTitle": "Isle of Dogs",
+    "originalTitle": "Isle of Dogs",
+    "director": [
+      "Wes Anderson"
+    ],
+    "imdbID": "tt5104604",
+    "releaseYear": 2018,
+    "releaseDate": "2018-03-23",
+    "runtime": 101,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "animation",
+      "action-and-adventure",
+      "drama",
+      "science-fiction",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Thoroughbreds",
+    "originalTitle": "Thoroughbreds",
+    "director": [
+      "Cory Finley"
+    ],
+    "imdbID": "tt5649108",
+    "releaseYear": 2018,
+    "releaseDate": "2018-03-09",
+    "runtime": 92,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "comedy",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Annihilation",
+    "originalTitle": "Annihilation",
+    "director": [
+      "Alex Garland"
+    ],
+    "imdbID": "tt2798920",
+    "releaseYear": 2018,
+    "releaseDate": "2018-02-22",
+    "runtime": 115,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "horror",
+      "mystery-and-thriller",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Game Night",
+    "originalTitle": "Game Night",
+    "director": [
+      "John Francis Daley",
+      "Jonathan Goldstein"
+    ],
+    "imdbID": "tt2704998",
+    "releaseYear": 2018,
+    "releaseDate": "2018-02-15",
+    "runtime": 100,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Black Panther",
+    "originalTitle": "Black Panther",
+    "director": [
+      "Ryan Coogler"
+    ],
+    "imdbID": "tt1825683",
+    "releaseYear": 2018,
+    "releaseDate": "2018-02-13",
+    "runtime": 134,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Cloverfield Paradox",
+    "originalTitle": "God Particle",
+    "director": [
+      "Julius Onah"
+    ],
+    "imdbID": "tt2548396",
+    "releaseYear": 2018,
+    "releaseDate": "2018-02-04",
+    "runtime": 102,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "horror",
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Star Wars: The Last Jedi",
+    "originalTitle": "Star Wars: The Last Jedi",
+    "director": [
+      "Rian Johnson"
+    ],
+    "imdbID": "tt2527336",
+    "releaseYear": 2017,
+    "releaseDate": "2017-12-13",
+    "runtime": 150,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Molly's Game",
+    "originalTitle": "Molly's Game",
+    "director": [
+      "Aaron Sorkin"
+    ],
+    "imdbID": "tt4209788",
+    "releaseYear": 2017,
+    "releaseDate": "2017-12-07",
+    "runtime": 140,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "crime",
+      "sport"
+    ]
+  },
+  {
+    "englishTitle": "The Shape of Water",
+    "originalTitle": "The Shape of Water",
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "imdbID": "tt5580390",
+    "releaseYear": 2017,
+    "releaseDate": "2017-12-01",
+    "runtime": 123,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "fantasy",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Three Billboards Outside Ebbing, Missouri",
+    "originalTitle": "Three Billboards Outside Ebbing, Missouri",
+    "director": [
+      "Martin McDonagh"
+    ],
+    "imdbID": "tt5027774",
+    "releaseYear": 2017,
+    "releaseDate": "2017-12-01",
+    "runtime": 115,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "The Killing of a Sacred Deer",
+    "originalTitle": "The Killing of a Sacred Deer",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "imdbID": "tt5715874",
+    "releaseYear": 2017,
+    "releaseDate": "2017-10-20",
+    "runtime": 109,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "horror",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Death of Stalin",
+    "originalTitle": "The Death of Stalin",
+    "director": [
+      "Armando Iannucci"
+    ],
+    "imdbID": "tt4686844",
+    "releaseYear": 2017,
+    "releaseDate": "2017-10-20",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy",
+      "history",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Blade Runner 2049",
+    "originalTitle": "Blade Runner 2049",
+    "director": [
+      "Denis Villeneuve"
+    ],
+    "imdbID": "tt1856101",
+    "releaseYear": 2017,
+    "releaseDate": "2017-10-04",
+    "runtime": 164,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "science-fiction",
+      "mystery-and-thriller",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "mother!",
+    "originalTitle": "mother!",
+    "director": [
+      "Darren Aronofsky"
+    ],
+    "imdbID": "tt5109784",
+    "releaseYear": 2017,
+    "releaseDate": "2017-09-13",
+    "runtime": 115,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Lady Bird",
+    "originalTitle": "Lady Bird",
+    "director": [
+      "Greta Gerwig"
+    ],
+    "imdbID": "tt4925292",
+    "releaseYear": 2017,
+    "releaseDate": "2017-09-01",
+    "runtime": 93,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Valerian and the City of a Thousand Planets",
+    "originalTitle": "Valerian and the City of a Thousand Planets",
+    "director": [
+      "Luc Besson"
+    ],
+    "imdbID": "tt2239822",
+    "releaseYear": 2017,
+    "releaseDate": "2017-07-20",
+    "runtime": 137,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "fantasy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Dunkirk",
+    "originalTitle": "Dunkirk",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt5013056",
+    "releaseYear": 2017,
+    "releaseDate": "2017-07-19",
+    "runtime": 107,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "action-and-adventure",
+      "history",
+      "mystery-and-thriller",
+      "war-and-military"
+    ]
+  },
+  {
+    "englishTitle": "Spider-Man: Homecoming",
+    "originalTitle": "Spider-Man: Homecoming",
+    "director": [
+      "Jon Watts"
+    ],
+    "imdbID": "tt2250912",
+    "releaseYear": 2017,
+    "releaseDate": "2017-07-05",
+    "runtime": 133,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Baby Driver",
+    "originalTitle": "Baby Driver",
+    "director": [
+      "Edgar Wright"
+    ],
+    "imdbID": "tt3890160",
+    "releaseYear": 2017,
+    "releaseDate": "2017-06-28",
+    "runtime": 113,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "crime",
+      "drama",
+      "music-and-musical"
+    ]
+  },
+  {
+    "englishTitle": "It Comes at Night",
+    "originalTitle": "It Comes at Night",
+    "director": [
+      "Trey Edward Shults"
+    ],
+    "imdbID": "tt4695012",
+    "releaseYear": 2017,
+    "releaseDate": "2017-06-09",
+    "runtime": 91,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "mystery-and-thriller",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Icarus",
+    "originalTitle": "Icarus",
+    "director": [
+      "Bryan Fogel"
+    ],
+    "imdbID": "tt6333060",
+    "releaseYear": 2017,
+    "releaseDate": "2017-06-03",
+    "runtime": 121,
+    "ageCertification": "",
+    "genres": [
+      "documentary",
+      "sport"
+    ]
+  },
+  {
+    "englishTitle": "Wonder Woman",
+    "originalTitle": "Wonder Woman",
+    "director": [
+      "Patty Jenkins"
+    ],
+    "imdbID": "tt0451279",
+    "releaseYear": 2017,
+    "releaseDate": "2017-05-30",
+    "runtime": 141,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "science-fiction",
+      "war-and-military"
+    ]
+  },
+  {
+    "englishTitle": "Alien: Covenant",
+    "originalTitle": "Alien: Covenant",
+    "director": [
+      "Ridley Scott"
+    ],
+    "imdbID": "tt2316204",
+    "releaseYear": 2017,
+    "releaseDate": "2017-05-09",
+    "runtime": 122,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Guardians of the Galaxy Vol. 2",
+    "originalTitle": "Guardians of the Galaxy Vol. 2",
+    "director": [
+      "James Gunn"
+    ],
+    "imdbID": "tt3896198",
+    "releaseYear": 2017,
+    "releaseDate": "2017-04-19",
+    "runtime": 137,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Colossal",
+    "originalTitle": "Colossal",
+    "director": [
+      "Nacho Vigalondo"
+    ],
+    "imdbID": "tt4680182",
+    "releaseYear": 2017,
+    "releaseDate": "2017-04-06",
+    "runtime": 110,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "fantasy",
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Ghost in the Shell",
+    "originalTitle": "Ghost in the Shell",
+    "director": [
+      "Rupert Sanders"
+    ],
+    "imdbID": "tt1219827",
+    "releaseYear": 2017,
+    "releaseDate": "2017-03-29",
+    "runtime": 107,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "drama",
+      "action-and-adventure",
+      "crime",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Bet on Revenge",
+    "originalTitle": "Kincsem",
+    "director": [
+      "Gábor Herendi"
+    ],
+    "imdbID": "tt4964310",
+    "releaseYear": 2017,
+    "releaseDate": "2017-03-16",
+    "runtime": 121,
+    "ageCertification": "",
+    "genres": [
+      "drama",
+      "action-and-adventure",
+      "romance",
+      "history",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "On Body and Soul",
+    "originalTitle": "Testről és lélekről",
+    "director": [
+      "Ildikó Enyedi"
+    ],
+    "imdbID": "tt5607714",
+    "releaseYear": 2017,
+    "releaseDate": "2017-03-02",
+    "runtime": 116,
+    "ageCertification": "",
+    "genres": [
+      "drama",
+      "fantasy",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Get Out",
+    "originalTitle": "Get Out",
+    "director": [
+      "Jordan Peele"
+    ],
+    "imdbID": "tt5052448",
+    "releaseYear": 2017,
+    "releaseDate": "2017-02-24",
+    "runtime": 104,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Split",
+    "originalTitle": "Split",
+    "director": [
+      "M. Night Shyamalan"
+    ],
+    "imdbID": "tt4972582",
+    "releaseYear": 2016,
+    "releaseDate": "2017-01-19",
+    "runtime": 117,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Silence",
+    "originalTitle": "Silence",
+    "director": [
+      "Martin Scorsese"
+    ],
+    "imdbID": "tt0490215",
+    "releaseYear": 2017,
+    "releaseDate": "2017-01-01",
+    "runtime": 161,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "Passengers",
+    "originalTitle": "Passengers",
+    "director": [
+      "Morten Tyldum"
+    ],
+    "imdbID": "tt1355644",
+    "releaseYear": 2016,
+    "releaseDate": "2016-12-21",
+    "runtime": 116,
+    "ageCertification": "PG-13",
+    "genres": [
+      "romance",
+      "drama",
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Hidden Figures",
+    "originalTitle": "Hidden Figures",
+    "director": [
+      "Theodore Melfi"
+    ],
+    "imdbID": "tt4846340",
+    "releaseYear": 2016,
+    "releaseDate": "2016-12-10",
+    "runtime": 127,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "La La Land",
+    "originalTitle": "La La Land",
+    "director": [
+      "Damien Chazelle"
+    ],
+    "imdbID": "tt3783958",
+    "releaseYear": 2016,
+    "releaseDate": "2016-11-29",
+    "runtime": 126,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama",
+      "music-and-musical",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Fantastic Beasts and Where to Find Them",
+    "originalTitle": "Fantastic Beasts and Where to Find Them",
+    "director": [
+      "David Yates"
+    ],
+    "imdbID": "tt3183660",
+    "releaseYear": 2016,
+    "releaseDate": "2016-11-16",
+    "runtime": 133,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Arrival",
+    "originalTitle": "Arrival",
+    "director": [
+      "Denis Villeneuve"
+    ],
+    "imdbID": "tt2543164",
+    "releaseYear": 2016,
+    "releaseDate": "2016-11-10",
+    "runtime": 116,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Nocturnal Animals",
+    "originalTitle": "Nocturnal Animals",
+    "director": [
+      "Tom Ford"
+    ],
+    "imdbID": "tt4550098",
+    "releaseYear": 2016,
+    "releaseDate": "2016-11-04",
+    "runtime": 116,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Founder",
+    "originalTitle": "The Founder",
+    "director": [
+      "John Lee Hancock"
+    ],
+    "imdbID": "tt4276820",
+    "releaseYear": 2016,
+    "releaseDate": "2016-09-13",
+    "runtime": 120,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "Your Name.",
+    "originalTitle": "君の名は。",
+    "director": [
+      "Makoto Shinkai"
+    ],
+    "imdbID": "tt5311514",
+    "releaseYear": 2016,
+    "releaseDate": "2016-08-26",
+    "runtime": 106,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "romance",
+      "animation",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Star Trek Beyond",
+    "originalTitle": "Star Trek Beyond",
+    "director": [
+      "Justin Lin"
+    ],
+    "imdbID": "tt2660888",
+    "releaseYear": 2016,
+    "releaseDate": "2016-07-07",
+    "runtime": 120,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Red Turtle",
+    "originalTitle": "La tortue rouge",
+    "director": [
+      "Michael Dudok de Wit"
+    ],
+    "imdbID": "tt3666024",
+    "releaseYear": 2016,
+    "releaseDate": "2016-06-29",
+    "runtime": 81,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "romance",
+      "animation",
+      "kids-and-family",
+      "fantasy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Neon Demon",
+    "originalTitle": "The Neon Demon",
+    "director": [
+      "Nicolas Winding Refn"
+    ],
+    "imdbID": "tt1974419",
+    "releaseYear": 2016,
+    "releaseDate": "2016-05-31",
+    "runtime": 118,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "mystery-and-thriller",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Tickled",
+    "originalTitle": "Tickled",
+    "director": [
+      "Dylan Reeve",
+      "David Farrier"
+    ],
+    "imdbID": "tt5278506",
+    "releaseYear": 2016,
+    "releaseDate": "2016-05-26",
+    "runtime": 92,
+    "ageCertification": "R",
+    "genres": [
+      "documentary",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Warcraft",
+    "originalTitle": "Warcraft",
+    "director": [
+      "Duncan Jones"
+    ],
+    "imdbID": "tt0803096",
+    "releaseYear": 2016,
+    "releaseDate": "2016-05-25",
+    "runtime": 123,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "The Nice Guys",
+    "originalTitle": "The Nice Guys",
+    "director": [
+      "Shane Black"
+    ],
+    "imdbID": "tt3799694",
+    "releaseYear": 2016,
+    "releaseDate": "2016-05-15",
+    "runtime": 116,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance",
+      "action-and-adventure",
+      "crime",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "10 Cloverfield Lane",
+    "originalTitle": "10 Cloverfield Lane",
+    "director": [
+      "Dan Trachtenberg"
+    ],
+    "imdbID": "tt1179933",
+    "releaseYear": 2016,
+    "releaseDate": "2016-03-10",
+    "runtime": 104,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "drama",
+      "horror",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Zootopia",
+    "originalTitle": "Zootopia",
+    "director": [
+      "Byron Howard",
+      "Rich Moore"
+    ],
+    "imdbID": "tt2948356",
+    "releaseYear": 2016,
+    "releaseDate": "2016-02-11",
+    "runtime": 109,
+    "ageCertification": "PG",
+    "genres": [
+      "animation",
+      "crime",
+      "action-and-adventure",
+      "kids-and-family",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Deadpool",
+    "originalTitle": "Deadpool",
+    "director": [
+      "Tim Miller"
+    ],
+    "imdbID": "tt1431045",
+    "releaseYear": 2016,
+    "releaseDate": "2016-02-09",
+    "runtime": 108,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Hateful Eight",
+    "originalTitle": "The Hateful Eight",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "imdbID": "tt3460252",
+    "releaseYear": 2015,
+    "releaseDate": "2015-12-25",
+    "runtime": 187,
+    "ageCertification": "R",
+    "genres": [
+      "western",
+      "drama",
+      "mystery-and-thriller",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Star Wars: The Force Awakens",
+    "originalTitle": "Star Wars: The Force Awakens",
+    "director": [
+      "J.J. Abrams"
+    ],
+    "imdbID": "tt2488496",
+    "releaseYear": 2015,
+    "releaseDate": "2015-12-15",
+    "runtime": 136,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Big Short",
+    "originalTitle": "The Big Short",
+    "director": [
+      "Adam McKay"
+    ],
+    "imdbID": "tt1596363",
+    "releaseYear": 2015,
+    "releaseDate": "2015-12-11",
+    "runtime": 130,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy",
+      "history"
+    ]
+  },
+  {
+    "englishTitle": "The Lobster",
+    "originalTitle": "The Lobster",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "imdbID": "tt3464902",
+    "releaseYear": 2015,
+    "releaseDate": "2015-10-15",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "made-in-europe",
+      "romance",
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Martian",
+    "originalTitle": "The Martian",
+    "director": [
+      "Ridley Scott"
+    ],
+    "imdbID": "tt3659388",
+    "releaseYear": 2015,
+    "releaseDate": "2015-09-30",
+    "runtime": 141,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Sicario",
+    "originalTitle": "Sicario",
+    "director": [
+      "Denis Villeneuve"
+    ],
+    "imdbID": "tt3397884",
+    "releaseYear": 2015,
+    "releaseDate": "2015-09-17",
+    "runtime": 121,
+    "ageCertification": "R",
+    "genres": [
+      "crime",
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Ant-Man",
+    "originalTitle": "Ant-Man",
+    "director": [
+      "Peyton Reed"
+    ],
+    "imdbID": "tt0478970",
+    "releaseYear": 2015,
+    "releaseDate": "2015-07-14",
+    "runtime": 117,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Inside Out",
+    "originalTitle": "Inside Out",
+    "director": [
+      "Pete Docter"
+    ],
+    "imdbID": "tt2096673",
+    "releaseYear": 2015,
+    "releaseDate": "2015-06-09",
+    "runtime": 95,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "comedy",
+      "animation",
+      "kids-and-family",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Jurassic World",
+    "originalTitle": "Jurassic World",
+    "director": [
+      "Colin Trevorrow"
+    ],
+    "imdbID": "tt0369610",
+    "releaseYear": 2015,
+    "releaseDate": "2015-06-06",
+    "runtime": 124,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "mystery-and-thriller",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Mad Max: Fury Road",
+    "originalTitle": "Mad Max: Fury Road",
+    "director": [
+      "George Miller"
+    ],
+    "imdbID": "tt1392190",
+    "releaseYear": 2015,
+    "releaseDate": "2015-05-13",
+    "runtime": 120,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Jupiter Ascending",
+    "originalTitle": "Jupiter Ascending",
+    "director": [
+      "Lana Wachowski",
+      "Lilly Wachowski"
+    ],
+    "imdbID": "tt1617661",
+    "releaseYear": 2015,
+    "releaseDate": "2015-02-04",
+    "runtime": 127,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "fantasy",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "It Follows",
+    "originalTitle": "It Follows",
+    "director": [
+      "David Robert Mitchell"
+    ],
+    "imdbID": "tt3235888",
+    "releaseYear": 2015,
+    "releaseDate": "2015-02-04",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Ex Machina",
+    "originalTitle": "Ex Machina",
+    "director": [
+      "Alex Garland"
+    ],
+    "imdbID": "tt0470752",
+    "releaseYear": 2015,
+    "releaseDate": "2015-01-21",
+    "runtime": 108,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "drama",
+      "mystery-and-thriller",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Hobbit: The Battle of the Five Armies",
+    "originalTitle": "The Hobbit: The Battle of the Five Armies",
+    "director": [
+      "Peter Jackson"
+    ],
+    "imdbID": "tt2310332",
+    "releaseYear": 2014,
+    "releaseDate": "2014-12-10",
+    "runtime": 144,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Imitation Game",
+    "originalTitle": "The Imitation Game",
+    "director": [
+      "Morten Tyldum"
+    ],
+    "imdbID": "tt2084970",
+    "releaseYear": 2014,
+    "releaseDate": "2014-11-14",
+    "runtime": 114,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "war-and-military"
+    ]
+  },
+  {
+    "englishTitle": "Interstellar",
+    "originalTitle": "Interstellar",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt0816692",
+    "releaseYear": 2014,
+    "releaseDate": "2014-11-05",
+    "runtime": 169,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "John Wick",
+    "originalTitle": "John Wick",
+    "director": [
+      "Chad Stahelski"
+    ],
+    "imdbID": "tt2911666",
+    "releaseYear": 2014,
+    "releaseDate": "2014-10-22",
+    "runtime": 101,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "originalTitle": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "director": [
+      "Alejandro González Iñárritu"
+    ],
+    "imdbID": "tt2562232",
+    "releaseYear": 2014,
+    "releaseDate": "2014-10-17",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Whiplash",
+    "originalTitle": "Whiplash",
+    "director": [
+      "Damien Chazelle"
+    ],
+    "imdbID": "tt2582802",
+    "releaseYear": 2014,
+    "releaseDate": "2014-10-10",
+    "runtime": 106,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "music-and-musical"
+    ]
+  },
+  {
+    "englishTitle": "Gone Girl",
+    "originalTitle": "Gone Girl",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt2267998",
+    "releaseYear": 2014,
+    "releaseDate": "2014-10-01",
+    "runtime": 145,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Predestination",
+    "originalTitle": "Predestination",
+    "director": [
+      "Peter Spierig",
+      "Michael Spierig"
+    ],
+    "imdbID": "tt2397535",
+    "releaseYear": 2014,
+    "releaseDate": "2014-08-28",
+    "runtime": 98,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Guardians of the Galaxy",
+    "originalTitle": "Guardians of the Galaxy",
+    "director": [
+      "James Gunn"
+    ],
+    "imdbID": "tt2015381",
+    "releaseYear": 2014,
+    "releaseDate": "2014-07-30",
+    "runtime": 121,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Edge of Tomorrow",
+    "originalTitle": "Edge of Tomorrow",
+    "director": [
+      "Doug Liman"
+    ],
+    "imdbID": "tt1631867",
+    "releaseYear": 2014,
+    "releaseDate": "2014-05-27",
+    "runtime": 114,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "X-Men: Days of Future Past",
+    "originalTitle": "X-Men: Days of Future Past",
+    "director": [
+      "Bryan Singer"
+    ],
+    "imdbID": "tt1877832",
+    "releaseYear": 2014,
+    "releaseDate": "2014-05-15",
+    "runtime": 132,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "fantasy",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Grand Budapest Hotel",
+    "originalTitle": "The Grand Budapest Hotel",
+    "director": [
+      "Wes Anderson"
+    ],
+    "imdbID": "tt2278388",
+    "releaseYear": 2014,
+    "releaseDate": "2014-02-26",
+    "runtime": 100,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "made-in-europe",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "The Lego Movie",
+    "originalTitle": "The Lego Movie",
+    "director": [
+      "Phil Lord",
+      "Christopher Miller"
+    ],
+    "imdbID": "tt1490017",
+    "releaseYear": 2014,
+    "releaseDate": "2014-02-06",
+    "runtime": 100,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "science-fiction",
+      "animation",
+      "action-and-adventure",
+      "kids-and-family",
+      "fantasy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Wolf of Wall Street",
+    "originalTitle": "The Wolf of Wall Street",
+    "director": [
+      "Martin Scorsese"
+    ],
+    "imdbID": "tt0993846",
+    "releaseYear": 2013,
+    "releaseDate": "2013-12-25",
+    "runtime": 179,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "The Hobbit: The Desolation of Smaug",
+    "originalTitle": "The Hobbit: The Desolation of Smaug",
+    "director": [
+      "Peter Jackson"
+    ],
+    "imdbID": "tt1170358",
+    "releaseYear": 2013,
+    "releaseDate": "2013-12-11",
+    "runtime": 161,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Frozen",
+    "originalTitle": "Frozen",
+    "director": [
+      "Chris Buck",
+      "Jennifer Lee"
+    ],
+    "imdbID": "tt2294629",
+    "releaseYear": 2013,
+    "releaseDate": "2013-11-20",
+    "runtime": 102,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "animation",
+      "comedy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Ender's Game",
+    "originalTitle": "Ender's Game",
+    "director": [
+      "Gavin Hood"
+    ],
+    "imdbID": "tt1731141",
+    "releaseYear": 2013,
+    "releaseDate": "2013-10-24",
+    "runtime": 115,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Captain Phillips",
+    "originalTitle": "Captain Phillips",
+    "director": [
+      "Paul Greengrass"
+    ],
+    "imdbID": "tt1535109",
+    "releaseYear": 2013,
+    "releaseDate": "2013-10-10",
+    "runtime": 134,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Gravity",
+    "originalTitle": "Gravity",
+    "director": [
+      "Alfonso Cuarón"
+    ],
+    "imdbID": "tt1454468",
+    "releaseYear": 2013,
+    "releaseDate": "2013-10-03",
+    "runtime": 93,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Coherence",
+    "originalTitle": "Coherence",
+    "director": [
+      "James Ward Byrkit"
+    ],
+    "imdbID": "tt2866360",
+    "releaseYear": 2013,
+    "releaseDate": "2013-09-19",
+    "runtime": 89,
+    "ageCertification": "PG",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Riddick",
+    "originalTitle": "Riddick",
+    "director": [
+      "David Twohy"
+    ],
+    "imdbID": "tt1411250",
+    "releaseYear": 2013,
+    "releaseDate": "2013-09-02",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Elysium",
+    "originalTitle": "Elysium",
+    "director": [
+      "Neill Blomkamp"
+    ],
+    "imdbID": "tt1535108",
+    "releaseYear": 2013,
+    "releaseDate": "2013-08-07",
+    "runtime": 110,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Wind Rises",
+    "originalTitle": "風立ちぬ",
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "imdbID": "tt2013293",
+    "releaseYear": 2013,
+    "releaseDate": "2013-07-20",
+    "runtime": 125,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "war-and-military",
+      "animation",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Pacific Rim",
+    "originalTitle": "Pacific Rim",
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "imdbID": "tt1663662",
+    "releaseYear": 2013,
+    "releaseDate": "2013-07-11",
+    "runtime": 131,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Europa Report",
+    "originalTitle": "Europa Report",
+    "director": [
+      "Sebastián Cordero"
+    ],
+    "imdbID": "tt2051879",
+    "releaseYear": 2013,
+    "releaseDate": "2013-06-27",
+    "runtime": 90,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Only God Forgives",
+    "originalTitle": "Only God Forgives",
+    "director": [
+      "Nicolas Winding Refn"
+    ],
+    "imdbID": "tt1602613",
+    "releaseYear": 2013,
+    "releaseDate": "2013-05-30",
+    "runtime": 90,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "made-in-europe",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "The Great Gatsby",
+    "originalTitle": "The Great Gatsby",
+    "director": [
+      "Baz Luhrmann"
+    ],
+    "imdbID": "tt1343092",
+    "releaseYear": 2013,
+    "releaseDate": "2013-05-09",
+    "runtime": 143,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Star Trek Into Darkness",
+    "originalTitle": "Star Trek Into Darkness",
+    "director": [
+      "J.J. Abrams"
+    ],
+    "imdbID": "tt1408101",
+    "releaseYear": 2013,
+    "releaseDate": "2013-05-05",
+    "runtime": 132,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Oblivion",
+    "originalTitle": "Oblivion",
+    "director": [
+      "Joseph Kosinski"
+    ],
+    "imdbID": "tt1483013",
+    "releaseYear": 2013,
+    "releaseDate": "2013-04-10",
+    "runtime": 124,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "mystery-and-thriller",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Upstream Color",
+    "originalTitle": "Upstream Color",
+    "director": [
+      "Shane Carruth"
+    ],
+    "imdbID": "tt2084989",
+    "releaseYear": 2013,
+    "releaseDate": "2013-04-05",
+    "runtime": 96,
+    "ageCertification": "",
+    "genres": [
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Django Unchained",
+    "originalTitle": "Django Unchained",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "imdbID": "tt1853728",
+    "releaseYear": 2012,
+    "releaseDate": "2012-12-25",
+    "runtime": 165,
+    "ageCertification": "R",
+    "genres": [
+      "western",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Hobbit: An Unexpected Journey",
+    "originalTitle": "The Hobbit: An Unexpected Journey",
+    "director": [
+      "Peter Jackson"
+    ],
+    "imdbID": "tt0903624",
+    "releaseYear": 2012,
+    "releaseDate": "2012-12-12",
+    "runtime": 169,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Battlestar Galactica: Blood & Chrome",
+    "originalTitle": "Battlestar Galactica: Blood & Chrome",
+    "director": [
+      "Jonas Pate"
+    ],
+    "imdbID": "tt1704292",
+    "releaseYear": 2012,
+    "releaseDate": "2012-12-09",
+    "runtime": 91,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Life of Pi",
+    "originalTitle": "Life of Pi",
+    "director": [
+      "Ang Lee"
+    ],
+    "imdbID": "tt0454876",
+    "releaseYear": 2012,
+    "releaseDate": "2012-11-20",
+    "runtime": 127,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Cloud Atlas",
+    "originalTitle": "Cloud Atlas",
+    "director": [
+      "Lana Wachowski",
+      "Tom Tykwer",
+      "Lilly Wachowski"
+    ],
+    "imdbID": "tt1371111",
+    "releaseYear": 2012,
+    "releaseDate": "2012-10-26",
+    "runtime": 172,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "science-fiction",
+      "mystery-and-thriller",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Argo",
+    "originalTitle": "Argo",
+    "director": [
+      "Ben Affleck"
+    ],
+    "imdbID": "tt1024648",
+    "releaseYear": 2012,
+    "releaseDate": "2012-10-11",
+    "runtime": 120,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "ParaNorman",
+    "originalTitle": "ParaNorman",
+    "director": [
+      "Sam Fell",
+      "Chris Butler"
+    ],
+    "imdbID": "tt1623288",
+    "releaseYear": 2012,
+    "releaseDate": "2012-08-03",
+    "runtime": 90,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "animation",
+      "kids-and-family",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Prometheus",
+    "originalTitle": "Prometheus",
+    "director": [
+      "Ridley Scott"
+    ],
+    "imdbID": "tt1446714",
+    "releaseYear": 2012,
+    "releaseDate": "2012-05-30",
+    "runtime": 124,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Men in Black 3",
+    "originalTitle": "Men in Black 3",
+    "director": [
+      "Barry Sonnenfeld"
+    ],
+    "imdbID": "tt1409024",
+    "releaseYear": 2012,
+    "releaseDate": "2012-05-23",
+    "runtime": 103,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Moonrise Kingdom",
+    "originalTitle": "Moonrise Kingdom",
+    "director": [
+      "Wes Anderson"
+    ],
+    "imdbID": "tt1748122",
+    "releaseYear": 2012,
+    "releaseDate": "2012-05-16",
+    "runtime": 94,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "romance",
+      "comedy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "The Avengers",
+    "originalTitle": "The Avengers",
+    "director": [
+      "Joss Whedon"
+    ],
+    "imdbID": "tt0848228",
+    "releaseYear": 2012,
+    "releaseDate": "2012-04-25",
+    "runtime": 143,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "John Carter",
+    "originalTitle": "John Carter",
+    "director": [
+      "Andrew Stanton"
+    ],
+    "imdbID": "tt0401729",
+    "releaseYear": 2012,
+    "releaseDate": "2012-03-07",
+    "runtime": 132,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Girl with the Dragon Tattoo",
+    "originalTitle": "The Girl with the Dragon Tattoo",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt1568346",
+    "releaseYear": 2011,
+    "releaseDate": "2011-12-14",
+    "runtime": 158,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "documentary",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "In Time",
+    "originalTitle": "In Time",
+    "director": [
+      "Andrew Niccol"
+    ],
+    "imdbID": "tt1637688",
+    "releaseYear": 2011,
+    "releaseDate": "2011-10-27",
+    "runtime": 109,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Drive",
+    "originalTitle": "Drive",
+    "director": [
+      "Nicolas Winding Refn"
+    ],
+    "imdbID": "tt0780504",
+    "releaseYear": 2011,
+    "releaseDate": "2011-09-15",
+    "runtime": 100,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "animation",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Harry Potter and the Deathly Hallows: Part 2",
+    "originalTitle": "Harry Potter and the Deathly Hallows: Part 2",
+    "director": [
+      "David Yates"
+    ],
+    "imdbID": "tt1201607",
+    "releaseYear": 2011,
+    "releaseDate": "2011-07-12",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Thor",
+    "originalTitle": "Thor",
+    "director": [
+      "Kenneth Branagh"
+    ],
+    "imdbID": "tt0800369",
+    "releaseYear": 2011,
+    "releaseDate": "2011-04-21",
+    "runtime": 115,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Source Code",
+    "originalTitle": "Source Code",
+    "director": [
+      "Duncan Jones"
+    ],
+    "imdbID": "tt0945513",
+    "releaseYear": 2011,
+    "releaseDate": "2011-03-30",
+    "runtime": 93,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure",
+      "drama",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Limitless",
+    "originalTitle": "Limitless",
+    "director": [
+      "Neil Burger"
+    ],
+    "imdbID": "tt1219289",
+    "releaseYear": 2011,
+    "releaseDate": "2011-03-08",
+    "runtime": 105,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Black Swan",
+    "originalTitle": "Black Swan",
+    "director": [
+      "Darren Aronofsky"
+    ],
+    "imdbID": "tt0947798",
+    "releaseYear": 2010,
+    "releaseDate": "2010-12-17",
+    "runtime": 108,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "TRON: Legacy",
+    "originalTitle": "TRON: Legacy",
+    "director": [
+      "Joseph Kosinski"
+    ],
+    "imdbID": "tt1104001",
+    "releaseYear": 2010,
+    "releaseDate": "2010-12-14",
+    "runtime": 125,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "music-and-musical",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Megamind",
+    "originalTitle": "Megamind",
+    "director": [
+      "Tom McGrath"
+    ],
+    "imdbID": "tt1001526",
+    "releaseYear": 2010,
+    "releaseDate": "2010-10-28",
+    "runtime": 96,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "science-fiction",
+      "mystery-and-thriller",
+      "animation",
+      "action-and-adventure",
+      "crime",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "The Social Network",
+    "originalTitle": "The Social Network",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt1285016",
+    "releaseYear": 2010,
+    "releaseDate": "2010-10-01",
+    "runtime": 120,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Scott Pilgrim vs. the World",
+    "originalTitle": "Scott Pilgrim vs. the World",
+    "director": [
+      "Edgar Wright"
+    ],
+    "imdbID": "tt0446029",
+    "releaseYear": 2010,
+    "releaseDate": "2010-08-12",
+    "runtime": 113,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "fantasy",
+      "romance",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Inception",
+    "originalTitle": "Inception",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt1375666",
+    "releaseYear": 2010,
+    "releaseDate": "2010-07-15",
+    "runtime": 148,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "music-and-musical",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Predators",
+    "originalTitle": "Predators",
+    "director": [],
+    "imdbID": "tt1424381",
+    "releaseYear": 2010,
+    "releaseDate": "2010-07-03",
+    "runtime": 106,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure",
+      "animation",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Kick-Ass",
+    "originalTitle": "Kick-Ass",
+    "director": [
+      "Matthew Vaughn"
+    ],
+    "imdbID": "tt1250777",
+    "releaseYear": 2010,
+    "releaseDate": "2010-03-22",
+    "runtime": 117,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "comedy",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Shutter Island",
+    "originalTitle": "Shutter Island",
+    "director": [
+      "Martin Scorsese"
+    ],
+    "imdbID": "tt1130884",
+    "releaseYear": 2010,
+    "releaseDate": "2010-02-14",
+    "runtime": 138,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Avatar",
+    "originalTitle": "Avatar",
+    "director": [
+      "James Cameron"
+    ],
+    "imdbID": "tt0499549",
+    "releaseYear": 2009,
+    "releaseDate": "2009-12-15",
+    "runtime": 162,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Mr. Nobody",
+    "originalTitle": "Mr. Nobody",
+    "director": [
+      "Jaco Van Dormael"
+    ],
+    "imdbID": "tt0485947",
+    "releaseYear": 2009,
+    "releaseDate": "2009-11-06",
+    "runtime": 141,
+    "ageCertification": "",
+    "genres": [
+      "fantasy",
+      "made-in-europe",
+      "science-fiction",
+      "drama",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Battlestar Galactica: The Plan",
+    "originalTitle": "Battlestar Galactica: The Plan",
+    "director": [
+      "Edward James Olmos"
+    ],
+    "imdbID": null,
+    "releaseYear": 2009,
+    "releaseDate": "2009-10-27",
+    "runtime": 112,
+    "ageCertification": "",
+    "genres": [
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Inglourious Basterds",
+    "originalTitle": "Inglourious Basterds",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "imdbID": "tt0361748",
+    "releaseYear": 2009,
+    "releaseDate": "2009-08-19",
+    "runtime": 153,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "war-and-military"
+    ]
+  },
+  {
+    "englishTitle": "9",
+    "originalTitle": "9",
+    "director": [
+      "Shane Acker"
+    ],
+    "imdbID": "tt0472033",
+    "releaseYear": 2009,
+    "releaseDate": "2009-08-19",
+    "runtime": 80,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "drama",
+      "fantasy",
+      "science-fiction",
+      "animation"
+    ]
+  },
+  {
+    "englishTitle": "District 9",
+    "originalTitle": "District 9",
+    "director": [
+      "Neill Blomkamp"
+    ],
+    "imdbID": "tt1136608",
+    "releaseYear": 2009,
+    "releaseDate": "2009-08-05",
+    "runtime": 112,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Transformers: Revenge of the Fallen",
+    "originalTitle": "Transformers: Revenge of the Fallen",
+    "director": [
+      "Michael Bay"
+    ],
+    "imdbID": "tt1055369",
+    "releaseYear": 2009,
+    "releaseDate": "2009-06-19",
+    "runtime": 150,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Moon",
+    "originalTitle": "Moon",
+    "director": [
+      "Duncan Jones"
+    ],
+    "imdbID": "tt1182345",
+    "releaseYear": 2009,
+    "releaseDate": "2009-06-12",
+    "runtime": 97,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Up",
+    "originalTitle": "Up",
+    "director": [
+      "Pete Docter"
+    ],
+    "imdbID": "tt1049413",
+    "releaseYear": 2009,
+    "releaseDate": "2009-05-28",
+    "runtime": 96,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "animation",
+      "drama",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Star Trek",
+    "originalTitle": "Star Trek",
+    "director": [
+      "J.J. Abrams"
+    ],
+    "imdbID": "tt0796366",
+    "releaseYear": 2009,
+    "releaseDate": "2009-05-06",
+    "runtime": 127,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Watchmen",
+    "originalTitle": "Watchmen",
+    "director": [
+      "Zack Snyder"
+    ],
+    "imdbID": "tt0409459",
+    "releaseYear": 2009,
+    "releaseDate": "2009-03-04",
+    "runtime": 163,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Coraline",
+    "originalTitle": "Coraline",
+    "director": [
+      "Henry Selick"
+    ],
+    "imdbID": "tt0327597",
+    "releaseYear": 2009,
+    "releaseDate": "2009-02-05",
+    "runtime": 100,
+    "ageCertification": "PG",
+    "genres": [
+      "animation",
+      "kids-and-family",
+      "fantasy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Curious Case of Benjamin Button",
+    "originalTitle": "The Curious Case of Benjamin Button",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt0421715",
+    "releaseYear": 2008,
+    "releaseDate": "2008-12-25",
+    "runtime": 166,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "fantasy",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Revolutionary Road",
+    "originalTitle": "Revolutionary Road",
+    "director": [
+      "Sam Mendes"
+    ],
+    "imdbID": "tt0959337",
+    "releaseYear": 2008,
+    "releaseDate": "2008-12-19",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Twilight",
+    "originalTitle": "Twilight",
+    "director": [
+      "Catherine Hardwicke"
+    ],
+    "imdbID": "tt1099212",
+    "releaseYear": 2008,
+    "releaseDate": "2008-11-20",
+    "runtime": 122,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "fantasy",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Iron Man",
+    "originalTitle": "Iron Man",
+    "director": [
+      "Jon Favreau"
+    ],
+    "imdbID": "tt0371746",
+    "releaseYear": 2008,
+    "releaseDate": "2008-04-30",
+    "runtime": 126,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Stargate: The Ark of Truth",
+    "originalTitle": "Stargate: The Ark of Truth",
+    "director": [
+      "Robert C. Cooper"
+    ],
+    "imdbID": null,
+    "releaseYear": 2008,
+    "releaseDate": "2008-03-11",
+    "runtime": 97,
+    "ageCertification": "",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "In Bruges",
+    "originalTitle": "In Bruges",
+    "director": [
+      "Martin McDonagh"
+    ],
+    "imdbID": "tt0780536",
+    "releaseYear": 2008,
+    "releaseDate": "2008-02-08",
+    "runtime": 108,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "crime",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Cloverfield",
+    "originalTitle": "Cloverfield",
+    "director": [
+      "Matt Reeves"
+    ],
+    "imdbID": "tt1060277",
+    "releaseYear": 2008,
+    "releaseDate": "2008-01-15",
+    "runtime": 85,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "mystery-and-thriller",
+      "science-fiction",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Sweeney Todd: The Demon Barber of Fleet Street",
+    "originalTitle": "Sweeney Todd: The Demon Barber of Fleet Street",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt0408236",
+    "releaseYear": 2007,
+    "releaseDate": "2007-12-20",
+    "runtime": 116,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "I Am Legend",
+    "originalTitle": "I Am Legend",
+    "director": [
+      "Francis Lawrence"
+    ],
+    "imdbID": "tt0480249",
+    "releaseYear": 2007,
+    "releaseDate": "2007-12-12",
+    "runtime": 101,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "science-fiction",
+      "action-and-adventure",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "The Darjeeling Limited",
+    "originalTitle": "The Darjeeling Limited",
+    "director": [
+      "Wes Anderson"
+    ],
+    "imdbID": "tt0838221",
+    "releaseYear": 2007,
+    "releaseDate": "2007-09-07",
+    "runtime": 92,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Stardust",
+    "originalTitle": "Stardust",
+    "director": [
+      "Matthew Vaughn"
+    ],
+    "imdbID": "tt0486655",
+    "releaseYear": 2007,
+    "releaseDate": "2007-08-09",
+    "runtime": 127,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "romance",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Harry Potter and the Order of the Phoenix",
+    "originalTitle": "Harry Potter and the Order of the Phoenix",
+    "director": [
+      "David Yates"
+    ],
+    "imdbID": "tt0373889",
+    "releaseYear": 2007,
+    "releaseDate": "2007-07-08",
+    "runtime": 138,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "The Man from Earth",
+    "originalTitle": "The Man from Earth",
+    "director": [
+      "Richard Schenkman"
+    ],
+    "imdbID": "tt0756683",
+    "releaseYear": 2007,
+    "releaseDate": "2007-06-10",
+    "runtime": 87,
+    "ageCertification": "",
+    "genres": [
+      "drama",
+      "fantasy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Sunshine",
+    "originalTitle": "Sunshine",
+    "director": [
+      "Danny Boyle"
+    ],
+    "imdbID": "tt0448134",
+    "releaseYear": 2007,
+    "releaseDate": "2007-04-05",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "300",
+    "originalTitle": "300",
+    "director": [
+      "Zack Snyder"
+    ],
+    "imdbID": "tt0416449",
+    "releaseYear": 2007,
+    "releaseDate": "2007-03-07",
+    "runtime": 117,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Zodiac",
+    "originalTitle": "Zodiac",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt0443706",
+    "releaseYear": 2007,
+    "releaseDate": "2007-03-02",
+    "runtime": 163,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "The Fountain",
+    "originalTitle": "The Fountain",
+    "director": [
+      "Darren Aronofsky"
+    ],
+    "imdbID": "tt0414993",
+    "releaseYear": 2006,
+    "releaseDate": "2006-11-22",
+    "runtime": 96,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "romance",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Paprika",
+    "originalTitle": "パプリカ",
+    "director": [
+      "Satoshi Kon"
+    ],
+    "imdbID": "tt0851578",
+    "releaseYear": 2006,
+    "releaseDate": "2006-10-21",
+    "runtime": 91,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "animation",
+      "mystery-and-thriller",
+      "drama",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "The Prestige",
+    "originalTitle": "The Prestige",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt0482571",
+    "releaseYear": 2006,
+    "releaseDate": "2006-10-19",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Pan's Labyrinth",
+    "originalTitle": "El laberinto del fauno",
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "imdbID": "tt0457430",
+    "releaseYear": 2006,
+    "releaseDate": "2006-10-10",
+    "runtime": 118,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "war-and-military",
+      "fantasy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Children of Men",
+    "originalTitle": "Children of Men",
+    "director": [
+      "Alfonso Cuarón"
+    ],
+    "imdbID": "tt0206634",
+    "releaseYear": 2006,
+    "releaseDate": "2006-09-22",
+    "runtime": 109,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Perfume: The Story of a Murderer",
+    "originalTitle": "Perfume: The Story of a Murderer",
+    "director": [
+      "Tom Tykwer"
+    ],
+    "imdbID": "tt0396171",
+    "releaseYear": 2006,
+    "releaseDate": "2006-09-13",
+    "runtime": 147,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "crime",
+      "fantasy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Idiocracy",
+    "originalTitle": "Idiocracy",
+    "director": [
+      "Mike Judge"
+    ],
+    "imdbID": "tt0387808",
+    "releaseYear": 2006,
+    "releaseDate": "2006-09-01",
+    "runtime": 84,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "comedy",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Crank",
+    "originalTitle": "Crank",
+    "director": [
+      "Mark Neveldine",
+      "Brian Taylor"
+    ],
+    "imdbID": "tt0479884",
+    "releaseYear": 2006,
+    "releaseDate": "2006-08-31",
+    "runtime": 88,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "mystery-and-thriller",
+      "crime",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Da Vinci Code",
+    "originalTitle": "The Da Vinci Code",
+    "director": [],
+    "imdbID": "tt0382625",
+    "releaseYear": 2006,
+    "releaseDate": "2006-05-17",
+    "runtime": 149,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Harry Potter and the Goblet of Fire",
+    "originalTitle": "Harry Potter and the Goblet of Fire",
+    "director": [
+      "Mike Newell"
+    ],
+    "imdbID": "tt0330373",
+    "releaseYear": 2005,
+    "releaseDate": "2005-11-16",
+    "runtime": 158,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Serenity",
+    "originalTitle": "Serenity",
+    "director": [
+      "Joss Whedon"
+    ],
+    "imdbID": "tt0379786",
+    "releaseYear": 2005,
+    "releaseDate": "2005-09-25",
+    "runtime": 119,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Corpse Bride",
+    "originalTitle": "Corpse Bride",
+    "director": [
+      "Tim Burton",
+      "Mike Johnson"
+    ],
+    "imdbID": "tt0121164",
+    "releaseYear": 2005,
+    "releaseDate": "2005-09-12",
+    "runtime": 77,
+    "ageCertification": "PG",
+    "genres": [
+      "animation",
+      "fantasy",
+      "romance",
+      "drama",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Charlie and the Chocolate Factory",
+    "originalTitle": "Charlie and the Chocolate Factory",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt0367594",
+    "releaseYear": 2005,
+    "releaseDate": "2005-07-13",
+    "runtime": 115,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "kids-and-family",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Star Wars: Episode III - Revenge of the Sith",
+    "originalTitle": "Star Wars: Episode III - Revenge of the Sith",
+    "director": [
+      "George Lucas"
+    ],
+    "imdbID": "tt0121766",
+    "releaseYear": 2005,
+    "releaseDate": "2005-05-17",
+    "runtime": 150,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "The Hitchhiker's Guide to the Galaxy",
+    "originalTitle": "The Hitchhiker's Guide to the Galaxy",
+    "director": [
+      "Garth Jennings"
+    ],
+    "imdbID": "tt0371724",
+    "releaseYear": 2005,
+    "releaseDate": "2005-04-28",
+    "runtime": 109,
+    "ageCertification": "PG",
+    "genres": [
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Sin City",
+    "originalTitle": "Sin City",
+    "director": [
+      "Quentin Tarantino",
+      "Frank Miller",
+      "Robert Rodriguez"
+    ],
+    "imdbID": "tt0401792",
+    "releaseYear": 2005,
+    "releaseDate": "2005-04-01",
+    "runtime": 124,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "The Polar Express",
+    "originalTitle": "The Polar Express",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0338348",
+    "releaseYear": 2004,
+    "releaseDate": "2004-11-10",
+    "runtime": 100,
+    "ageCertification": "G",
+    "genres": [
+      "action-and-adventure",
+      "kids-and-family",
+      "fantasy",
+      "animation",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Primer",
+    "originalTitle": "Primer",
+    "director": [
+      "Shane Carruth"
+    ],
+    "imdbID": "tt0390384",
+    "releaseYear": 2004,
+    "releaseDate": "2004-10-08",
+    "runtime": 78,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Argo",
+    "originalTitle": "Argo",
+    "director": [
+      "Attila Árpa"
+    ],
+    "imdbID": "tt0297741",
+    "releaseYear": 2004,
+    "releaseDate": "2004-09-16",
+    "runtime": 103,
+    "ageCertification": "",
+    "genres": [
+      "comedy",
+      "made-in-europe",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Howl's Moving Castle",
+    "originalTitle": "ハウルの動く城",
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "imdbID": "tt0347149",
+    "releaseYear": 2004,
+    "releaseDate": "2004-09-09",
+    "runtime": 119,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "drama",
+      "music-and-musical",
+      "animation",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "The Village",
+    "originalTitle": "The Village",
+    "director": [
+      "M. Night Shyamalan"
+    ],
+    "imdbID": "tt0368447",
+    "releaseYear": 2004,
+    "releaseDate": "2004-07-30",
+    "runtime": 108,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Spider-Man 2",
+    "originalTitle": "Spider-Man 2",
+    "director": [
+      "Sam Raimi"
+    ],
+    "imdbID": "tt0316654",
+    "releaseYear": 2004,
+    "releaseDate": "2004-06-25",
+    "runtime": 127,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "science-fiction",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Chronicles of Riddick",
+    "originalTitle": "The Chronicles of Riddick",
+    "director": [
+      "David Twohy"
+    ],
+    "imdbID": "tt0296572",
+    "releaseYear": 2004,
+    "releaseDate": "2004-06-11",
+    "runtime": 134,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "mystery-and-thriller",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Harry Potter and the Prisoner of Azkaban",
+    "originalTitle": "Harry Potter and the Prisoner of Azkaban",
+    "director": [
+      "Alfonso Cuarón"
+    ],
+    "imdbID": "tt0304141",
+    "releaseYear": 2004,
+    "releaseDate": "2004-05-31",
+    "runtime": 141,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Kill Bill: Vol. 2",
+    "originalTitle": "Kill Bill: Vol. 2",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "imdbID": "tt0378194",
+    "releaseYear": 2004,
+    "releaseDate": "2004-04-16",
+    "runtime": 136,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "crime",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Butterfly Effect",
+    "originalTitle": "The Butterfly Effect",
+    "director": [
+      "Eric Bress",
+      "J. Mackye Gruber"
+    ],
+    "imdbID": "tt0289879",
+    "releaseYear": 2004,
+    "releaseDate": "2004-01-17",
+    "runtime": 113,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Lord of the Rings: The Return of the King",
+    "originalTitle": "The Lord of the Rings: The Return of the King",
+    "director": [
+      "Peter Jackson"
+    ],
+    "imdbID": "tt0167260",
+    "releaseYear": 2003,
+    "releaseDate": "2003-12-01",
+    "runtime": 201,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Matrix Revolutions",
+    "originalTitle": "The Matrix Revolutions",
+    "director": [
+      "Lilly Wachowski",
+      "Lana Wachowski"
+    ],
+    "imdbID": "tt0242653",
+    "releaseYear": 2003,
+    "releaseDate": "2003-11-05",
+    "runtime": 129,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Kill Bill: Vol. 1",
+    "originalTitle": "Kill Bill: Vol. 1",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "imdbID": "tt0266697",
+    "releaseYear": 2003,
+    "releaseDate": "2003-10-10",
+    "runtime": 111,
+    "ageCertification": "R",
+    "genres": [
+      "crime",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Underworld",
+    "originalTitle": "Underworld",
+    "director": [
+      "Len Wiseman"
+    ],
+    "imdbID": "tt0320691",
+    "releaseYear": 2003,
+    "releaseDate": "2003-09-19",
+    "runtime": 121,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "fantasy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "originalTitle": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "director": [
+      "Gore Verbinski"
+    ],
+    "imdbID": "tt0325980",
+    "releaseYear": 2003,
+    "releaseDate": "2003-07-09",
+    "runtime": 143,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Finding Nemo",
+    "originalTitle": "Finding Nemo",
+    "director": [
+      "Andrew Stanton"
+    ],
+    "imdbID": "tt0266543",
+    "releaseYear": 2003,
+    "releaseDate": "2003-05-30",
+    "runtime": 100,
+    "ageCertification": "G",
+    "genres": [
+      "animation",
+      "kids-and-family",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "The Matrix Reloaded",
+    "originalTitle": "The Matrix Reloaded",
+    "director": [
+      "Lilly Wachowski",
+      "Lana Wachowski"
+    ],
+    "imdbID": "tt0234215",
+    "releaseYear": 2003,
+    "releaseDate": "2003-05-15",
+    "runtime": 138,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Phone Booth",
+    "originalTitle": "Phone Booth",
+    "director": [
+      "Joel Schumacher"
+    ],
+    "imdbID": "tt0183649",
+    "releaseYear": 2003,
+    "releaseDate": "2003-04-04",
+    "runtime": 78,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "The Lord of the Rings: The Two Towers",
+    "originalTitle": "The Lord of the Rings: The Two Towers",
+    "director": [
+      "Peter Jackson"
+    ],
+    "imdbID": "tt0167261",
+    "releaseYear": 2002,
+    "releaseDate": "2002-12-18",
+    "runtime": 179,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Catch Me If You Can",
+    "originalTitle": "Catch Me If You Can",
+    "director": [
+      "Steven Spielberg"
+    ],
+    "imdbID": "tt0264464",
+    "releaseYear": 2002,
+    "releaseDate": "2002-12-16",
+    "runtime": 190,
+    "ageCertification": "PG-13",
+    "genres": [
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Harry Potter and the Chamber of Secrets",
+    "originalTitle": "Harry Potter and the Chamber of Secrets",
+    "director": [
+      "Chris Columbus"
+    ],
+    "imdbID": "tt0295297",
+    "releaseYear": 2002,
+    "releaseDate": "2002-11-13",
+    "runtime": 161,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Frida",
+    "originalTitle": "Frida",
+    "director": [
+      "Julie Taymor"
+    ],
+    "imdbID": "tt0248814",
+    "releaseYear": 2002,
+    "releaseDate": "2002-08-29",
+    "runtime": 123,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "romance",
+      "documentary",
+      "comedy",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Signs",
+    "originalTitle": "Signs",
+    "director": [
+      "M. Night Shyamalan"
+    ],
+    "imdbID": "tt0286106",
+    "releaseYear": 2002,
+    "releaseDate": "2002-08-02",
+    "runtime": 106,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Men in Black II",
+    "originalTitle": "Men in Black II",
+    "director": [
+      "Barry Sonnenfeld"
+    ],
+    "imdbID": "tt0120912",
+    "releaseYear": 2002,
+    "releaseDate": "2002-07-03",
+    "runtime": 88,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "comedy",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Minority Report",
+    "originalTitle": "Minority Report",
+    "director": [],
+    "imdbID": "tt0181689",
+    "releaseYear": 2002,
+    "releaseDate": "2002-06-20",
+    "runtime": 144,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "documentary",
+      "science-fiction",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Spider-Man",
+    "originalTitle": "Spider-Man",
+    "director": [
+      "Sam Raimi"
+    ],
+    "imdbID": "tt0145487",
+    "releaseYear": 2002,
+    "releaseDate": "2002-05-01",
+    "runtime": 121,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Blade II",
+    "originalTitle": "Blade II",
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "imdbID": "tt0187738",
+    "releaseYear": 2002,
+    "releaseDate": "2002-03-22",
+    "runtime": 120,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Resident Evil",
+    "originalTitle": "Resident Evil",
+    "director": [
+      "Paul W. S. Anderson"
+    ],
+    "imdbID": "tt0120804",
+    "releaseYear": 2002,
+    "releaseDate": "2002-03-15",
+    "runtime": 100,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "action-and-adventure",
+      "science-fiction",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "The Lord of the Rings: The Fellowship of the Ring",
+    "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
+    "director": [
+      "Peter Jackson"
+    ],
+    "imdbID": "tt0120737",
+    "releaseYear": 2001,
+    "releaseDate": "2001-12-18",
+    "runtime": 178,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Ocean's Eleven",
+    "originalTitle": "Ocean's Eleven",
+    "director": [
+      "Steven Soderbergh"
+    ],
+    "imdbID": "tt0240772",
+    "releaseYear": 2001,
+    "releaseDate": "2001-12-07",
+    "runtime": 116,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Harry Potter and the Philosopher's Stone",
+    "originalTitle": "Harry Potter and the Philosopher's Stone",
+    "director": [
+      "Chris Columbus"
+    ],
+    "imdbID": "tt0241527",
+    "releaseYear": 2001,
+    "releaseDate": "2001-11-16",
+    "runtime": 152,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Donnie Darko",
+    "originalTitle": "Donnie Darko",
+    "director": [
+      "Richard Kelly"
+    ],
+    "imdbID": "tt0246578",
+    "releaseYear": 2001,
+    "releaseDate": "2001-10-24",
+    "runtime": 113,
+    "ageCertification": "R",
+    "genres": [
+      "fantasy",
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Jay and Silent Bob Strike Back",
+    "originalTitle": "Jay and Silent Bob Strike Back",
+    "director": [
+      "Kevin Smith"
+    ],
+    "imdbID": "tt0261392",
+    "releaseYear": 2001,
+    "releaseDate": "2001-08-22",
+    "runtime": 104,
+    "ageCertification": "R",
+    "genres": [
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Spirited Away",
+    "originalTitle": "千と千尋の神隠し",
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "imdbID": "tt0245429",
+    "releaseYear": 2001,
+    "releaseDate": "2001-07-20",
+    "runtime": 125,
+    "ageCertification": "PG",
+    "genres": [
+      "kids-and-family",
+      "fantasy",
+      "animation"
+    ]
+  },
+  {
+    "englishTitle": "A Knight's Tale",
+    "originalTitle": "A Knight's Tale",
+    "director": [
+      "Brian Helgeland"
+    ],
+    "imdbID": "tt0183790",
+    "releaseYear": 2001,
+    "releaseDate": "2001-05-11",
+    "runtime": 132,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "action-and-adventure",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Amélie",
+    "originalTitle": "Le Fabuleux Destin d'Amélie Poulain",
+    "director": [
+      "Jean-Pierre Jeunet"
+    ],
+    "imdbID": "tt0211915",
+    "releaseYear": 2001,
+    "releaseDate": "2001-04-25",
+    "runtime": 122,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "romance",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Hannibal",
+    "originalTitle": "Hannibal",
+    "director": [
+      "Ridley Scott"
+    ],
+    "imdbID": "tt0212985",
+    "releaseYear": 2001,
+    "releaseDate": "2001-02-08",
+    "runtime": 131,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Unbreakable",
+    "originalTitle": "Unbreakable",
+    "director": [
+      "M. Night Shyamalan"
+    ],
+    "imdbID": "tt0217869",
+    "releaseYear": 2000,
+    "releaseDate": "2000-11-22",
+    "runtime": 106,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "science-fiction",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Memento",
+    "originalTitle": "Memento",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt0209144",
+    "releaseYear": 2000,
+    "releaseDate": "2000-10-11",
+    "runtime": 113,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Requiem for a Dream",
+    "originalTitle": "Requiem for a Dream",
+    "director": [
+      "Darren Aronofsky"
+    ],
+    "imdbID": "tt0180093",
+    "releaseYear": 2000,
+    "releaseDate": "2000-10-06",
+    "runtime": 102,
+    "ageCertification": "R",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Meet the Parents",
+    "originalTitle": "Meet the Parents",
+    "director": [
+      "Jay Roach"
+    ],
+    "imdbID": "tt0212338",
+    "releaseYear": 2000,
+    "releaseDate": "2000-10-06",
+    "runtime": 107,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Snatch",
+    "originalTitle": "Snatch",
+    "director": [
+      "Guy Ritchie"
+    ],
+    "imdbID": "tt0208092",
+    "releaseYear": 2000,
+    "releaseDate": "2000-09-01",
+    "runtime": 103,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "X-Men",
+    "originalTitle": "X-Men",
+    "director": [
+      "Bryan Singer"
+    ],
+    "imdbID": "tt0120903",
+    "releaseYear": 2000,
+    "releaseDate": "2000-07-13",
+    "runtime": 104,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "American Psycho",
+    "originalTitle": "American Psycho",
+    "director": [
+      "Mary Harron"
+    ],
+    "imdbID": "tt0144084",
+    "releaseYear": 2000,
+    "releaseDate": "2000-04-13",
+    "runtime": 102,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "crime",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Pitch Black",
+    "originalTitle": "Pitch Black",
+    "director": [
+      "David Twohy"
+    ],
+    "imdbID": "tt0134847",
+    "releaseYear": 2000,
+    "releaseDate": "2000-02-18",
+    "runtime": 108,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "horror",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Sleepy Hollow",
+    "originalTitle": "Sleepy Hollow",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt0162661",
+    "releaseYear": 1999,
+    "releaseDate": "1999-11-19",
+    "runtime": 105,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "horror",
+      "animation",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Fight Club",
+    "originalTitle": "Fight Club",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt0137523",
+    "releaseYear": 1999,
+    "releaseDate": "1999-10-15",
+    "runtime": 139,
+    "ageCertification": "R",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "American Beauty",
+    "originalTitle": "American Beauty",
+    "director": [
+      "Sam Mendes"
+    ],
+    "imdbID": "tt0169547",
+    "releaseYear": 1999,
+    "releaseDate": "1999-09-15",
+    "runtime": 122,
+    "ageCertification": "R",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Mummy",
+    "originalTitle": "The Mummy",
+    "director": [
+      "Stephen Sommers"
+    ],
+    "imdbID": "tt0120616",
+    "releaseYear": 1999,
+    "releaseDate": "1999-04-16",
+    "runtime": 125,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "The Matrix",
+    "originalTitle": "The Matrix",
+    "director": [
+      "Lana Wachowski",
+      "Lilly Wachowski"
+    ],
+    "imdbID": "tt0133093",
+    "releaseYear": 1999,
+    "releaseDate": "1999-03-30",
+    "runtime": 136,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Meet Joe Black",
+    "originalTitle": "Meet Joe Black",
+    "director": [
+      "Martin Brest"
+    ],
+    "imdbID": "tt0119643",
+    "releaseYear": 1998,
+    "releaseDate": "1998-11-12",
+    "runtime": 178,
+    "ageCertification": "PG-13",
+    "genres": [
+      "romance",
+      "fantasy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Lock, Stock and Two Smoking Barrels",
+    "originalTitle": "Lock, Stock and Two Smoking Barrels",
+    "director": [
+      "Guy Ritchie"
+    ],
+    "imdbID": "tt0120735",
+    "releaseYear": 1998,
+    "releaseDate": "1998-08-28",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Armageddon",
+    "originalTitle": "Armageddon",
+    "director": [
+      "Michael Bay"
+    ],
+    "imdbID": "tt0120591",
+    "releaseYear": 1998,
+    "releaseDate": "1998-07-01",
+    "runtime": 151,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "American History X",
+    "originalTitle": "American History X",
+    "director": [
+      "Tony Kaye"
+    ],
+    "imdbID": "tt0120586",
+    "releaseYear": 1998,
+    "releaseDate": "1998-07-01",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Godzilla",
+    "originalTitle": "Godzilla",
+    "director": [
+      "Roland Emmerich"
+    ],
+    "imdbID": "tt0120685",
+    "releaseYear": 1998,
+    "releaseDate": "1998-05-20",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Big Lebowski",
+    "originalTitle": "The Big Lebowski",
+    "director": [
+      "Ethan Coen",
+      "Joel Coen"
+    ],
+    "imdbID": "tt0118715",
+    "releaseYear": 1998,
+    "releaseDate": "1998-03-06",
+    "runtime": 117,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Alien Resurrection",
+    "originalTitle": "Alien Resurrection",
+    "director": [
+      "Jean-Pierre Jeunet"
+    ],
+    "imdbID": "tt0118583",
+    "releaseYear": 1997,
+    "releaseDate": "1997-11-12",
+    "runtime": 109,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Starship Troopers",
+    "originalTitle": "Starship Troopers",
+    "director": [
+      "Paul Verhoeven"
+    ],
+    "imdbID": "tt0120201",
+    "releaseYear": 1997,
+    "releaseDate": "1997-11-07",
+    "runtime": 130,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "mystery-and-thriller",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Devil's Advocate",
+    "originalTitle": "The Devil's Advocate",
+    "director": [
+      "Taylor Hackford"
+    ],
+    "imdbID": "tt0118971",
+    "releaseYear": 1997,
+    "releaseDate": "1997-10-17",
+    "runtime": 144,
+    "ageCertification": "",
+    "genres": [
+      "horror",
+      "drama",
+      "mystery-and-thriller",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Cube",
+    "originalTitle": "Cube",
+    "director": [
+      "Vincenzo Natali"
+    ],
+    "imdbID": "tt0123755",
+    "releaseYear": 1997,
+    "releaseDate": "1997-09-09",
+    "runtime": 90,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Gattaca",
+    "originalTitle": "Gattaca",
+    "director": [
+      "Andrew Niccol"
+    ],
+    "imdbID": "tt0119177",
+    "releaseYear": 1997,
+    "releaseDate": "1997-09-07",
+    "runtime": 106,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Event Horizon",
+    "originalTitle": "Event Horizon",
+    "director": [
+      "Paul W. S. Anderson"
+    ],
+    "imdbID": "tt0119081",
+    "releaseYear": 1997,
+    "releaseDate": "1997-08-15",
+    "runtime": 96,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Neon Genesis Evangelion: The End of Evangelion",
+    "originalTitle": "新世紀エヴァンゲリオン劇場版 Air／まごころを、君に",
+    "director": [
+      "Hideaki Anno",
+      "Kazuya Tsurumaki"
+    ],
+    "imdbID": "tt0169858",
+    "releaseYear": 1997,
+    "releaseDate": "1997-07-19",
+    "runtime": 87,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "drama",
+      "animation",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Princess Mononoke",
+    "originalTitle": "もののけ姫",
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "imdbID": "tt0119698",
+    "releaseYear": 1997,
+    "releaseDate": "1997-07-12",
+    "runtime": 134,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "animation"
+    ]
+  },
+  {
+    "englishTitle": "Contact",
+    "originalTitle": "Contact",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0118884",
+    "releaseYear": 1997,
+    "releaseDate": "1997-07-11",
+    "runtime": 150,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Men in Black",
+    "originalTitle": "Men in Black",
+    "director": [
+      "Barry Sonnenfeld"
+    ],
+    "imdbID": "tt0119654",
+    "releaseYear": 1997,
+    "releaseDate": "1997-07-02",
+    "runtime": 98,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Face/Off",
+    "originalTitle": "Face/Off",
+    "director": [
+      "Marius Th. Barna"
+    ],
+    "imdbID": "tt0119094",
+    "releaseYear": 1997,
+    "releaseDate": "1997-06-27",
+    "runtime": 139,
+    "ageCertification": "R",
+    "genres": [
+      "crime",
+      "science-fiction",
+      "action-and-adventure",
+      "drama",
+      "made-in-europe",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Lost World: Jurassic Park",
+    "originalTitle": "The Lost World: Jurassic Park",
+    "director": [
+      "Steven Spielberg"
+    ],
+    "imdbID": "tt0119567",
+    "releaseYear": 1997,
+    "releaseDate": "1997-05-23",
+    "runtime": 129,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Fifth Element",
+    "originalTitle": "The Fifth Element",
+    "director": [
+      "Luc Besson"
+    ],
+    "imdbID": "tt0119116",
+    "releaseYear": 1997,
+    "releaseDate": "1997-05-02",
+    "runtime": 126,
+    "ageCertification": "PG-13",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "fantasy",
+      "action-and-adventure",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Mars Attacks!",
+    "originalTitle": "Mars Attacks!",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt0116996",
+    "releaseYear": 1996,
+    "releaseDate": "1996-12-13",
+    "runtime": 106,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "fantasy",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Independence Day",
+    "originalTitle": "Independence Day",
+    "director": [
+      "Roland Emmerich"
+    ],
+    "imdbID": "tt0116629",
+    "releaseYear": 1996,
+    "releaseDate": "1996-06-25",
+    "runtime": 145,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "From Dusk Till Dawn",
+    "originalTitle": "From Dusk Till Dawn",
+    "director": [
+      "Robert Rodriguez"
+    ],
+    "imdbID": "tt0116367",
+    "releaseYear": 1996,
+    "releaseDate": "1996-01-19",
+    "runtime": 104,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "horror",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Twelve Monkeys",
+    "originalTitle": "Twelve Monkeys",
+    "director": [
+      "Terry Gilliam"
+    ],
+    "imdbID": "tt0114746",
+    "releaseYear": 1995,
+    "releaseDate": "1995-12-29",
+    "runtime": 129,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Jumanji",
+    "originalTitle": "Jumanji",
+    "director": [
+      "Joe Johnston"
+    ],
+    "imdbID": "tt0113497",
+    "releaseYear": 1995,
+    "releaseDate": "1995-12-15",
+    "runtime": 104,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "kids-and-family",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Ghost in the Shell",
+    "originalTitle": "GHOST IN THE SHELL",
+    "director": [
+      "Mamoru Oshii"
+    ],
+    "imdbID": "tt0113568",
+    "releaseYear": 1995,
+    "releaseDate": "1995-11-18",
+    "runtime": 82,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "animation",
+      "drama",
+      "mystery-and-thriller",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Se7en",
+    "originalTitle": "Se7en",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt0114369",
+    "releaseYear": 1995,
+    "releaseDate": "1995-09-22",
+    "runtime": 127,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Judge Dredd",
+    "originalTitle": "Judge Dredd",
+    "director": [
+      "Danny Cannon"
+    ],
+    "imdbID": "tt0113492",
+    "releaseYear": 1995,
+    "releaseDate": "1995-06-30",
+    "runtime": 96,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "crime",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Interview with the Vampire",
+    "originalTitle": "Interview with the Vampire",
+    "director": [
+      "Neil Jordan"
+    ],
+    "imdbID": "tt0110148",
+    "releaseYear": 1994,
+    "releaseDate": "1994-11-11",
+    "runtime": 123,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "fantasy",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Stargate",
+    "originalTitle": "Stargate",
+    "director": [
+      "Roland Emmerich"
+    ],
+    "imdbID": "tt0111282",
+    "releaseYear": 1994,
+    "releaseDate": "1994-10-28",
+    "runtime": 121,
+    "ageCertification": "",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Shawshank Redemption",
+    "originalTitle": "The Shawshank Redemption",
+    "director": [
+      "Frank Darabont"
+    ],
+    "imdbID": "tt0111161",
+    "releaseYear": 1994,
+    "releaseDate": "1994-09-23",
+    "runtime": 142,
+    "ageCertification": "R",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "Pulp Fiction",
+    "originalTitle": "Pulp Fiction",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "imdbID": "tt0110912",
+    "releaseYear": 1994,
+    "releaseDate": "1994-09-10",
+    "runtime": 154,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Lion King",
+    "originalTitle": "The Lion King",
+    "director": [
+      "Roger Allers",
+      "Rob Minkoff"
+    ],
+    "imdbID": "tt0110357",
+    "releaseYear": 1994,
+    "releaseDate": "1994-06-24",
+    "runtime": 89,
+    "ageCertification": "G",
+    "genres": [
+      "drama",
+      "animation",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Forrest Gump",
+    "originalTitle": "Forrest Gump",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0109830",
+    "releaseYear": 1994,
+    "releaseDate": "1994-06-23",
+    "runtime": 142,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Ace Ventura: Pet Detective",
+    "originalTitle": "Ace Ventura: Pet Detective",
+    "director": [
+      "Tom Shadyac"
+    ],
+    "imdbID": "tt0109040",
+    "releaseYear": 1994,
+    "releaseDate": "1994-02-04",
+    "runtime": 86,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Mrs. Doubtfire",
+    "originalTitle": "Mrs. Doubtfire",
+    "director": [
+      "Chris Columbus"
+    ],
+    "imdbID": "tt0107614",
+    "releaseYear": 1993,
+    "releaseDate": "1993-11-24",
+    "runtime": 120,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Nightmare Before Christmas",
+    "originalTitle": "The Nightmare Before Christmas",
+    "director": [
+      "Henry Selick"
+    ],
+    "imdbID": "tt0107688",
+    "releaseYear": 1993,
+    "releaseDate": "1993-10-09",
+    "runtime": 76,
+    "ageCertification": "PG",
+    "genres": [
+      "animation",
+      "kids-and-family",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Demolition Man",
+    "originalTitle": "Demolition Man",
+    "director": [
+      "Marco Brambilla"
+    ],
+    "imdbID": "tt0106697",
+    "releaseYear": 1993,
+    "releaseDate": "1993-10-08",
+    "runtime": 115,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Jurassic Park",
+    "originalTitle": "Jurassic Park",
+    "director": [
+      "Steven Spielberg"
+    ],
+    "imdbID": "tt0107290",
+    "releaseYear": 1993,
+    "releaseDate": "1993-06-11",
+    "runtime": 127,
+    "ageCertification": "PG-13",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Home Alone 2: Lost in New York",
+    "originalTitle": "Home Alone 2: Lost in New York",
+    "director": [
+      "Chris Columbus"
+    ],
+    "imdbID": "tt0104431",
+    "releaseYear": 1992,
+    "releaseDate": "1992-11-19",
+    "runtime": 120,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "kids-and-family",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Batman Returns",
+    "originalTitle": "Batman Returns",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt0103776",
+    "releaseYear": 1992,
+    "releaseDate": "1992-06-19",
+    "runtime": 126,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Sister Act",
+    "originalTitle": "Sister Act",
+    "director": [
+      "Emile Ardolino"
+    ],
+    "imdbID": "tt0105417",
+    "releaseYear": 1992,
+    "releaseDate": "1992-05-28",
+    "runtime": 100,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "kids-and-family",
+      "music-and-musical"
+    ]
+  },
+  {
+    "englishTitle": "Alien³",
+    "originalTitle": "Alien³",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt0103644",
+    "releaseYear": 1992,
+    "releaseDate": "1992-05-22",
+    "runtime": 114,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "horror",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Terminator 2: Judgment Day",
+    "originalTitle": "Terminator 2: Judgment Day",
+    "director": [
+      "James Cameron"
+    ],
+    "imdbID": "tt0103064",
+    "releaseYear": 1991,
+    "releaseDate": "1991-07-03",
+    "runtime": 137,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "The Silence of the Lambs",
+    "originalTitle": "The Silence of the Lambs",
+    "director": [
+      "Jonathan Demme"
+    ],
+    "imdbID": "tt0102926",
+    "releaseYear": 1991,
+    "releaseDate": "1991-02-14",
+    "runtime": 118,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery-and-thriller",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Edward Scissorhands",
+    "originalTitle": "Edward Scissorhands",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt0099487",
+    "releaseYear": 1990,
+    "releaseDate": "1990-12-07",
+    "runtime": 105,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "drama",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Home Alone",
+    "originalTitle": "Home Alone",
+    "director": [
+      "Chris Columbus"
+    ],
+    "imdbID": "tt0099785",
+    "releaseYear": 1990,
+    "releaseDate": "1990-11-16",
+    "runtime": 103,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "GoodFellas",
+    "originalTitle": "GoodFellas",
+    "director": [
+      "Martin Scorsese"
+    ],
+    "imdbID": "tt0099685",
+    "releaseYear": 1990,
+    "releaseDate": "1990-09-12",
+    "runtime": 145,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Gremlins 2: The New Batch",
+    "originalTitle": "Gremlins 2: The New Batch",
+    "director": [
+      "Joe Dante"
+    ],
+    "imdbID": "tt0099700",
+    "releaseYear": 1990,
+    "releaseDate": "1990-06-15",
+    "runtime": 106,
+    "ageCertification": "PG-13",
+    "genres": [
+      "horror",
+      "fantasy",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Back to the Future Part II",
+    "originalTitle": "Back to the Future Part II",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0096874",
+    "releaseYear": 1989,
+    "releaseDate": "1989-11-22",
+    "runtime": 108,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Batman",
+    "originalTitle": "Batman",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt0096895",
+    "releaseYear": 1989,
+    "releaseDate": "1989-06-21",
+    "runtime": 126,
+    "ageCertification": "PG-13",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Akira",
+    "originalTitle": "AKIRA",
+    "director": [
+      "Katsuhiro Otomo"
+    ],
+    "imdbID": "tt0094625",
+    "releaseYear": 1988,
+    "releaseDate": "1988-07-16",
+    "runtime": 124,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "action-and-adventure",
+      "drama",
+      "animation",
+      "fantasy",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "My Neighbor Totoro",
+    "originalTitle": "となりのトトロ",
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "imdbID": "tt0096283",
+    "releaseYear": 1988,
+    "releaseDate": "1988-04-16",
+    "runtime": 86,
+    "ageCertification": "G",
+    "genres": [
+      "kids-and-family",
+      "fantasy",
+      "animation",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "RoboCop",
+    "originalTitle": "RoboCop",
+    "director": [
+      "Paul Verhoeven"
+    ],
+    "imdbID": "tt0093870",
+    "releaseYear": 1987,
+    "releaseDate": "1987-07-17",
+    "runtime": 102,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "science-fiction",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Full Metal Jacket",
+    "originalTitle": "Full Metal Jacket",
+    "director": [
+      "Stanley Kubrick"
+    ],
+    "imdbID": "tt0093058",
+    "releaseYear": 1987,
+    "releaseDate": "1987-06-26",
+    "runtime": 116,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "war-and-military"
+    ]
+  },
+  {
+    "englishTitle": "Spaceballs",
+    "originalTitle": "Spaceballs",
+    "director": [
+      "Mel Brooks"
+    ],
+    "imdbID": "tt0094012",
+    "releaseYear": 1987,
+    "releaseDate": "1987-06-24",
+    "runtime": 96,
+    "ageCertification": "PG",
+    "genres": [
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Predator",
+    "originalTitle": "Predator",
+    "director": [
+      "John McTiernan"
+    ],
+    "imdbID": "tt0093773",
+    "releaseYear": 1987,
+    "releaseDate": "1987-06-12",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "science-fiction",
+      "mystery-and-thriller",
+      "action-and-adventure",
+      "horror"
+    ]
+  },
+  {
+    "englishTitle": "Aliens",
+    "originalTitle": "Aliens",
+    "director": [
+      "James Cameron"
+    ],
+    "imdbID": "tt0090605",
+    "releaseYear": 1986,
+    "releaseDate": "1986-07-18",
+    "runtime": 137,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "horror",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Highlander",
+    "originalTitle": "Highlander",
+    "director": [
+      "Russell Mulcahy"
+    ],
+    "imdbID": "tt0091203",
+    "releaseYear": 1986,
+    "releaseDate": "1986-03-07",
+    "runtime": 116,
+    "ageCertification": "R",
+    "genres": [
+      "fantasy",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Back to the Future",
+    "originalTitle": "Back to the Future",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0088763",
+    "releaseYear": 1985,
+    "releaseDate": "1985-07-03",
+    "runtime": 116,
+    "ageCertification": "PG",
+    "genres": [
+      "science-fiction",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "The Terminator",
+    "originalTitle": "The Terminator",
+    "director": [
+      "James Cameron"
+    ],
+    "imdbID": "tt0088247",
+    "releaseYear": 1984,
+    "releaseDate": "1984-10-26",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "science-fiction",
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Gremlins",
+    "originalTitle": "Gremlins",
+    "director": [
+      "Joe Dante"
+    ],
+    "imdbID": "tt0087363",
+    "releaseYear": 1984,
+    "releaseDate": "1984-06-08",
+    "runtime": 106,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "horror",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Ghostbusters",
+    "originalTitle": "Ghostbusters",
+    "director": [
+      "Ivan Reitman"
+    ],
+    "imdbID": "tt0087332",
+    "releaseYear": 1984,
+    "releaseDate": "1984-06-08",
+    "runtime": 105,
+    "ageCertification": "PG",
+    "genres": [
+      "fantasy",
+      "action-and-adventure",
+      "comedy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "The NeverEnding Story",
+    "originalTitle": "Die unendliche Geschichte",
+    "director": [
+      "Wolfgang Petersen"
+    ],
+    "imdbID": "tt0088323",
+    "releaseYear": 1984,
+    "releaseDate": "1984-04-06",
+    "runtime": 102,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "fantasy",
+      "kids-and-family",
+      "drama",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Police Academy",
+    "originalTitle": "Police Academy",
+    "director": [
+      "Hugh Wilson"
+    ],
+    "imdbID": "tt0087928",
+    "releaseYear": 1984,
+    "releaseDate": "1984-03-22",
+    "runtime": 96,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime"
+    ]
+  },
+  {
+    "englishTitle": "Nausicaä of the Valley of the Wind",
+    "originalTitle": "風の谷のナウシカ",
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "imdbID": "tt0087544",
+    "releaseYear": 1984,
+    "releaseDate": "1984-03-11",
+    "runtime": 116,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "animation",
+      "fantasy",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Blade Runner",
+    "originalTitle": "Blade Runner",
+    "director": [
+      "Ridley Scott"
+    ],
+    "imdbID": "tt0083658",
+    "releaseYear": 1982,
+    "releaseDate": "1982-06-25",
+    "runtime": 117,
+    "ageCertification": "R",
+    "genres": [
+      "mystery-and-thriller",
+      "drama",
+      "action-and-adventure",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "E.T. the Extra-Terrestrial",
+    "originalTitle": "E.T. the Extra-Terrestrial",
+    "director": [
+      "Steven Spielberg"
+    ],
+    "imdbID": "tt0083866",
+    "releaseYear": 1982,
+    "releaseDate": "1982-06-11",
+    "runtime": 115,
+    "ageCertification": "PG",
+    "genres": [
+      "science-fiction",
+      "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Raiders of the Lost Ark",
+    "originalTitle": "Raiders of the Lost Ark",
+    "director": [
+      "Steven Spielberg"
+    ],
+    "imdbID": "tt0082971",
+    "releaseYear": 1981,
+    "releaseDate": "1981-06-12",
+    "runtime": 115,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure"
+    ]
+  },
+  {
+    "englishTitle": "Life of Brian",
+    "originalTitle": "Life of Brian",
+    "director": [
+      "Terry Jones"
+    ],
+    "imdbID": "tt0079470",
+    "releaseYear": 1979,
+    "releaseDate": "1979-08-17",
+    "runtime": 94,
+    "ageCertification": "R",
+    "genres": [
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Alien",
+    "originalTitle": "Alien",
+    "director": [
+      "Ridley Scott"
+    ],
+    "imdbID": "tt0078748",
+    "releaseYear": 1979,
+    "releaseDate": "1979-05-25",
+    "runtime": 117,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Stalker",
+    "originalTitle": "Сталкер",
+    "director": [
+      "Andrei Tarkovsky"
+    ],
+    "imdbID": "tt0079944",
+    "releaseYear": 1979,
+    "releaseDate": "1979-05-25",
+    "runtime": 162,
+    "ageCertification": "",
+    "genres": [
+      "science-fiction",
+      "drama",
+      "made-in-europe"
+    ]
+  },
+  {
+    "englishTitle": "Star Wars",
+    "originalTitle": "Star Wars",
+    "director": [
+      "George Lucas"
+    ],
+    "imdbID": "tt0076759",
+    "releaseYear": 1977,
+    "releaseDate": "1977-05-25",
+    "runtime": 125,
+    "ageCertification": "PG",
+    "genres": [
+      "action-and-adventure",
+      "science-fiction",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Monty Python and the Holy Grail",
+    "originalTitle": "Monty Python and the Holy Grail",
+    "director": [
+      "Terry Jones",
+      "Terry Gilliam"
+    ],
+    "imdbID": "tt0071853",
+    "releaseYear": 1975,
+    "releaseDate": "1975-05-25",
+    "runtime": 91,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Solaris",
+    "originalTitle": "Солярис",
+    "director": [
+      "Andrei Tarkovsky"
+    ],
+    "imdbID": "tt0069293",
+    "releaseYear": 1972,
+    "releaseDate": "1972-03-20",
+    "runtime": 167,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "2001: A Space Odyssey",
+    "originalTitle": "2001: A Space Odyssey",
+    "director": [
+      "Stanley Kubrick"
+    ],
+    "imdbID": "tt0062622",
+    "releaseYear": 1968,
+    "releaseDate": "1968-04-02",
+    "runtime": 160,
+    "ageCertification": "G",
+    "genres": [
+      "science-fiction",
+      "mystery-and-thriller"
+    ]
+  }
+]
