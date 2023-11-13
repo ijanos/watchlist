@@ -3,23 +3,23 @@ import watchlist from "../data/watchlist.json";
 const imdbURI = "https://imdb.com/title/";
 ---
 
-<table class="w-full text-sm text-left text-gray-500">
-    <thead  class="h-6 text-gray-700 uppercase text-s bg-gray-50">
+<table class="w-full text-sm text-left text-gray-500 bg-slate-50 bg-opacity-50">
+    <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
         <tr>
           <th>Director</th>
           <th>Title</th>
-          <th>Runtime</th>
+          <th class="hidden sm:table-cell">Runtime</th>
           <th>Release year</th>
           <th>imdb</th>
         </tr>
     </thead>
 {watchlist.map((movie) =>
-    <tr class="border-t h-7 hover:bg-gray-100">
-        <td>{movie.director.join(", ")}</td>
-        <td class="font-semibold">{movie.englishTitle}</td>
-        <td class="font-mono text-right" >{movie.runtime}</td>
+    <tr class="border-t h-7 hover:bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500">
+        <td class="sm:pl-1">{movie.director.join(", ")}</td>
+        <td class="font-semibold text-slate-900">{movie.englishTitle}</td>
+        <td class="font-mono text-right text-xs hidden sm:table-cell" >{movie.runtime}</td>
         <td class="font-mono text-center">{movie.releaseYear}</td>
-        <td><a class="hover:bg-[#F5C518] text-black hover:font-black text-sm rounded-lg" href={imdbURI + movie.imdbID} target="_blank">IMDb</a></td>
+        <td><a class="hover:bg-[#F5C518] hover:text-black text-xs rounded-lg" href={imdbURI + movie.imdbID} target="_blank">IMDb</a></td>
     </tr>
 )}
 </table>

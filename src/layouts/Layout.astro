@@ -13,12 +13,12 @@ import Footer from "../components/Footer.astro";
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Janos' watchlist, the movies I saw" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="max-w-6xl mx-auto">
+	<body class="max-w-6xl mx-auto px-2 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
 		<Nav />
 		<slot />
 		<Footer />
