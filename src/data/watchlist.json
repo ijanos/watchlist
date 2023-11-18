@@ -88,6 +88,21 @@
     ]
   },
   {
+    "englishTitle": "Own Forest",
+    "originalTitle": "Saját erdő",
+    "director": [
+      "György Mór Kárpáti"
+    ],
+    "imdbID": "tt23849788",
+    "releaseYear": 2023,
+    "releaseDate": "2023-03-30",
+    "runtime": 65,
+    "ageCertification": "N/A",
+    "genres": [
+      "documentary"
+    ]
+  },
+  {
     "englishTitle": "Dungeons & Dragons: Honor Among Thieves",
     "originalTitle": "Dungeons & Dragons: Honor Among Thieves",
     "director": [
@@ -369,6 +384,21 @@
     ]
   },
   {
+    "englishTitle": "Death to 2021",
+    "director": [
+      "Jack Clough",
+      "Josh Ruben"
+    ],
+    "imdbID": "tt16301388",
+    "releaseYear": 2021,
+    "releaseDate": "2021-12-27",
+    "runtime": 60,
+    "ageCertification": "TV-MA",
+    "genres": [
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "The Matrix Resurrections",
     "originalTitle": "The Matrix Resurrections",
     "director": [
@@ -572,6 +602,21 @@
     ]
   },
   {
+    "englishTitle": "Death to 2020",
+    "director": [
+      "Al Campbell",
+      "Alice Mathias"
+    ],
+    "imdbID": "tt13567480",
+    "releaseYear": 2020,
+    "releaseDate": "2020-12-27",
+    "runtime": 70,
+    "ageCertification": "TV-MA",
+    "genres": [
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "Wolfwalkers",
     "originalTitle": "Wolfwalkers",
     "director": [
@@ -590,6 +635,21 @@
       "fantasy",
       "kids-and-family",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Feels Good Man",
+    "director": [
+      "Arthur Jones"
+    ],
+    "imdbID": "tt11394182",
+    "releaseYear": 2020,
+    "releaseDate": "2020-08-28",
+    "runtime": 92,
+    "ageCertification": "N/A",
+    "genres": [
+      "documentary",
+      "comedy"
     ]
   },
   {
@@ -833,6 +893,22 @@
     ]
   },
   {
+    "englishTitle": "Miles Davis: Birth of the Cool",
+    "director": [
+      "Stanley Nelson"
+    ],
+    "imdbID": "tt9358200",
+    "releaseYear": 2019,
+    "releaseDate": "2019-08-23",
+    "runtime": 115,
+    "ageCertification": "Not Rated",
+    "genres": [
+      "documentary",
+      "biography",
+      "music"
+    ]
+  },
+  {
     "englishTitle": "American Factory",
     "originalTitle": "American Factory",
     "director": [
@@ -1004,6 +1080,22 @@
     ]
   },
   {
+    "englishTitle": "Penguin Highway",
+    "director": [
+      "Hiroyasu Ishida"
+    ],
+    "imdbID": "tt8076344",
+    "releaseYear": 2018,
+    "releaseDate": "2019-04-12",
+    "runtime": "117",
+    "ageCertification": "Not Rated",
+    "genres": [
+      "animation",
+      "adventure",
+      "family"
+    ]
+  },
+  {
     "englishTitle": "Us",
     "originalTitle": "Us",
     "director": [
@@ -1164,6 +1256,20 @@
     ]
   },
   {
+    "englishTitle": "Behind the Curve",
+    "director": [
+      "Daniel J. Clark"
+    ],
+    "imdbID": "tt8132700",
+    "releaseYear": 2018,
+    "releaseDate": "2018-11-15",
+    "runtime": 96,
+    "ageCertification": "TV-14",
+    "genres": [
+      "documentary"
+    ]
+  },
+  {
     "englishTitle": "Fantastic Beasts: The Crimes of Grindelwald",
     "originalTitle": "Fantastic Beasts: The Crimes of Grindelwald",
     "director": [
@@ -1246,6 +1352,23 @@
     ]
   },
   {
+    "englishTitle": "Mirai",
+    "originalTitle": "Mirai no Mirai",
+    "director": [
+      "Mamoru Hosoda"
+    ],
+    "imdbID": "tt6900448",
+    "releaseYear": 2018,
+    "releaseDate": "2018-07-20",
+    "runtime": 98,
+    "ageCertification": "PG",
+    "genres": [
+      "animation",
+      "adventure",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Ant-Man and the Wasp",
     "originalTitle": "Ant-Man and the Wasp",
     "director": [
@@ -1312,6 +1435,22 @@
       "drama",
       "horror",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Solo: A Star Wars Story",
+    "director": [
+      "Ron Howard"
+    ],
+    "imdbID": "tt3778644",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-25",
+    "runtime": 135,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
     ]
   },
   {
@@ -1577,6 +1716,38 @@
     ]
   },
   {
+    "englishTitle": "The Breadwinner",
+    "director": [
+      "Nora Twomey"
+    ],
+    "imdbID": "tt3901826",
+    "releaseYear": 2017,
+    "releaseDate": "2017-11-17",
+    "runtime": 94,
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "drama",
+      "family"
+    ]
+  },
+  {
+    "englishTitle": "Thor: Ragnarok",
+    "director": [
+      "Taika Waititi"
+    ],
+    "imdbID": "tt3501632",
+    "releaseYear": 2017,
+    "releaseDate": "2017-11-03",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "The Killing of a Sacred Deer",
     "originalTitle": "The Killing of a Sacred Deer",
     "director": [
@@ -1698,6 +1869,22 @@
       "history",
       "mystery-and-thriller",
       "war-and-military"
+    ]
+  },
+  {
+    "englishTitle": "The Big Sick",
+    "director": [
+      "Michael Showalter"
+    ],
+    "imdbID": "tt5462602",
+    "releaseYear": 2017,
+    "releaseDate": "2017-07-14",
+    "runtime": 120,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
     ]
   },
   {
@@ -1975,6 +2162,23 @@
     ]
   },
   {
+    "englishTitle": "Rogue One: A Star Wars Story",
+    "originalTitle": "Rouge One",
+    "director": [
+      "Gareth Edwards"
+    ],
+    "imdbID": "tt3748528",
+    "releaseYear": 2016,
+    "releaseDate": "2016-12-16",
+    "runtime": 133,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Hidden Figures",
     "originalTitle": "Hidden Figures",
     "director": [
@@ -2040,6 +2244,22 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Doctor Strange",
+    "director": [
+      "Scott Derrickson"
+    ],
+    "imdbID": "tt1211837",
+    "releaseYear": 2016,
+    "releaseDate": "2016-11-04",
+    "runtime": 115,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
     ]
   },
   {
@@ -2323,6 +2543,22 @@
       "drama",
       "mystery-and-thriller",
       "western"
+    ]
+  },
+  {
+    "englishTitle": "Remember",
+    "director": [
+      "Atom Egoyan"
+    ],
+    "imdbID": "tt3704050",
+    "releaseYear": 2015,
+    "releaseDate": "2015-12-17",
+    "runtime": 94,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery",
+      "thriller"
     ]
   },
   {
