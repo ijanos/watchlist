@@ -1352,23 +1352,6 @@
     ]
   },
   {
-    "englishTitle": "Mirai",
-    "originalTitle": "Mirai no Mirai",
-    "director": [
-      "Mamoru Hosoda"
-    ],
-    "imdbID": "tt6900448",
-    "releaseYear": 2018,
-    "releaseDate": "2018-07-20",
-    "runtime": 98,
-    "ageCertification": "PG",
-    "genres": [
-      "animation",
-      "adventure",
-      "drama"
-    ]
-  },
-  {
     "englishTitle": "Ant-Man and the Wasp",
     "originalTitle": "Ant-Man and the Wasp",
     "director": [
@@ -2735,6 +2718,22 @@
     ]
   },
   {
+    "englishTitle": "Avengers: Age of Ultron",
+    "director": [
+      "Joss Whedon"
+    ],
+    "imdbID": "tt2395427",
+    "releaseYear": 2015,
+    "releaseDate": "2015-05-01",
+    "runtime": 141,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Jupiter Ascending",
     "originalTitle": "Jupiter Ascending",
     "director": [
@@ -2988,6 +2987,23 @@
     ]
   },
   {
+    "englishTitle": "Captain America: The Winter Soldier",
+    "director": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "imdbID": "tt1843866",
+    "releaseYear": 2014,
+    "releaseDate": "2014-04-04",
+    "runtime": 136,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "The Grand Budapest Hotel",
     "originalTitle": "The Grand Budapest Hotel",
     "director": [
@@ -3233,6 +3249,22 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Man of Steel",
+    "director": [
+      "Zack Snyder"
+    ],
+    "imdbID": "tt0770828",
+    "releaseYear": 2013,
+    "releaseDate": "2013-06-14",
+    "runtime": 143,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
     ]
   },
   {
