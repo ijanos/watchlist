@@ -24,7 +24,7 @@
     "imdbID": "tt14230388",
     "releaseYear": 2023,
     "releaseDate": "2023-06-08",
-    "runtime": 139,
+    "runtime": 105,
     "ageCertification": "PG-13",
     "genres": [
       "comedy",
@@ -64,6 +64,7 @@
     "genres": [
       "comedy",
       "drama",
+      "fantasy",
       "horror"
     ]
   },
@@ -80,7 +81,6 @@
     "runtime": 93,
     "ageCertification": "PG",
     "genres": [
-      "action-and-adventure",
       "animation",
       "comedy",
       "fantasy",
@@ -165,7 +165,7 @@
     "imdbID": "tt9764362",
     "releaseYear": 2022,
     "releaseDate": "2022-11-17",
-    "runtime": 107,
+    "runtime": 108,
     "ageCertification": "R",
     "genres": [
       "comedy",
@@ -343,7 +343,7 @@
     "imdbID": "tt1877830",
     "releaseYear": 2022,
     "releaseDate": "2022-03-01",
-    "runtime": 176,
+    "runtime": 177,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -377,7 +377,7 @@
     "imdbID": "tt10838180",
     "releaseYear": 2021,
     "releaseDate": "2021-12-16",
-    "runtime": 147,
+    "runtime": 148,
     "ageCertification": "R",
     "genres": [
       "action-and-adventure",
@@ -410,7 +410,7 @@
     "imdbID": "tt11286314",
     "releaseYear": 2021,
     "releaseDate": "2021-12-07",
-    "runtime": 145,
+    "runtime": 138,
     "ageCertification": "R",
     "genres": [
       "comedy",
@@ -683,7 +683,7 @@
     "imdbID": "tt2527338",
     "releaseYear": 2019,
     "releaseDate": "2019-12-18",
-    "runtime": 141,
+    "runtime": 142,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -702,7 +702,7 @@
     "imdbID": "tt8946378",
     "releaseYear": 2019,
     "releaseDate": "2019-11-27",
-    "runtime": 130,
+    "runtime": 131,
     "ageCertification": "PG-13",
     "genres": [
       "comedy",
@@ -960,7 +960,7 @@
     "imdbID": "tt5884052",
     "releaseYear": 2019,
     "releaseDate": "2019-05-03",
-    "runtime": 104,
+    "runtime": 105,
     "ageCertification": "PG",
     "genres": [
       "action-and-adventure",
@@ -1029,7 +1029,7 @@
     "imdbID": "tt4154664",
     "releaseYear": 2019,
     "releaseDate": "2019-03-06",
-    "runtime": 123,
+    "runtime": 124,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -1067,6 +1067,23 @@
     "genres": [
       "crime",
       "documentary"
+    ]
+  },
+  {
+    "englishTitle": "Fyre",
+    "originalTitle": "Fyre",
+    "director": [
+      "Chris Smith"
+    ],
+    "imdbID": "tt9412098",
+    "releaseYear": 2019,
+    "releaseDate": "2019-01-18",
+    "runtime": 97,
+    "ageCertification": "",
+    "genres": [
+      "crime",
+      "documentary",
+      "music-and-musical"
     ]
   },
   {
@@ -1324,7 +1341,7 @@
     "imdbID": "tt4154756",
     "releaseYear": 2018,
     "releaseDate": "2018-04-25",
-    "runtime": 149,
+    "runtime": 150,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -1568,7 +1585,7 @@
     "imdbID": "tt5715874",
     "releaseYear": 2017,
     "releaseDate": "2017-10-20",
-    "runtime": 109,
+    "runtime": 121,
     "ageCertification": "R",
     "genres": [
       "drama",
@@ -1622,7 +1639,7 @@
     "imdbID": "tt5109784",
     "releaseYear": 2017,
     "releaseDate": "2017-09-13",
-    "runtime": 115,
+    "runtime": 121,
     "ageCertification": "R",
     "genres": [
       "drama",
@@ -1696,7 +1713,6 @@
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
-      "drama",
       "science-fiction"
     ]
   },
@@ -1709,7 +1725,7 @@
     "imdbID": "tt3890160",
     "releaseYear": 2017,
     "releaseDate": "2017-06-28",
-    "runtime": 113,
+    "runtime": 115,
     "ageCertification": "R",
     "genres": [
       "action-and-adventure",
@@ -1811,7 +1827,7 @@
     "imdbID": "tt4680182",
     "releaseYear": 2017,
     "releaseDate": "2017-04-06",
-    "runtime": 110,
+    "runtime": 109,
     "ageCertification": "R",
     "genres": [
       "comedy",
@@ -1848,10 +1864,9 @@
     "imdbID": "tt4964310",
     "releaseYear": 2017,
     "releaseDate": "2017-03-16",
-    "runtime": 121,
+    "runtime": 122,
     "ageCertification": "",
     "genres": [
-      "action-and-adventure",
       "drama",
       "history",
       "made-in-europe",
@@ -1984,7 +1999,7 @@
     "imdbID": "tt3783958",
     "releaseYear": 2016,
     "releaseDate": "2016-11-29",
-    "runtime": 126,
+    "runtime": 129,
     "ageCertification": "PG-13",
     "genres": [
       "comedy",
@@ -2002,7 +2017,7 @@
     "imdbID": "tt3183660",
     "releaseYear": 2016,
     "releaseDate": "2016-11-16",
-    "runtime": 140,
+    "runtime": 133,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -2041,6 +2056,25 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "The Girl with All the Gifts",
+    "originalTitle": "The Girl with All the Gifts",
+    "director": [
+      "Colm McCarthy"
+    ],
+    "imdbID": "tt4547056",
+    "releaseYear": 2016,
+    "releaseDate": "2016-09-23",
+    "runtime": 111,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "drama",
+      "horror",
+      "mystery-and-thriller",
+      "science-fiction"
     ]
   },
   {
@@ -2227,7 +2261,7 @@
     "imdbID": "tt1179933",
     "releaseYear": 2016,
     "releaseDate": "2016-03-10",
-    "runtime": 104,
+    "runtime": 105,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -2282,7 +2316,7 @@
     "imdbID": "tt3460252",
     "releaseYear": 2015,
     "releaseDate": "2015-12-25",
-    "runtime": 187,
+    "runtime": 167,
     "ageCertification": "R",
     "genres": [
       "crime",
@@ -2333,7 +2367,7 @@
     "imdbID": "tt3464902",
     "releaseYear": 2015,
     "releaseDate": "2015-10-15",
-    "runtime": 119,
+    "runtime": 118,
     "ageCertification": "R",
     "genres": [
       "comedy",
@@ -2422,6 +2456,7 @@
     "runtime": 95,
     "ageCertification": "PG",
     "genres": [
+      "action-and-adventure",
       "animation",
       "comedy",
       "drama",
@@ -2606,7 +2641,7 @@
     "imdbID": "tt2582802",
     "releaseYear": 2014,
     "releaseDate": "2014-10-10",
-    "runtime": 106,
+    "runtime": 105,
     "ageCertification": "R",
     "genres": [
       "drama",
@@ -2725,7 +2760,7 @@
     "imdbID": "tt2278388",
     "releaseYear": 2014,
     "releaseDate": "2014-02-26",
-    "runtime": 100,
+    "runtime": 99,
     "ageCertification": "R",
     "genres": [
       "comedy",
@@ -2973,7 +3008,7 @@
     "imdbID": "tt1602613",
     "releaseYear": 2013,
     "releaseDate": "2013-05-30",
-    "runtime": 90,
+    "runtime": 89,
     "ageCertification": "R",
     "genres": [
       "action-and-adventure",
@@ -3371,7 +3406,6 @@
     "runtime": 130,
     "ageCertification": "PG-13",
     "genres": [
-      "action-and-adventure",
       "fantasy",
       "kids-and-family"
     ]
@@ -3418,7 +3452,7 @@
     "imdbID": "tt0945513",
     "releaseYear": 2011,
     "releaseDate": "2011-03-30",
-    "runtime": 93,
+    "runtime": 94,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -3526,7 +3560,7 @@
     "imdbID": "tt1285016",
     "releaseYear": 2010,
     "releaseDate": "2010-10-01",
-    "runtime": 121,
+    "runtime": 120,
     "ageCertification": "PG-13",
     "genres": [
       "drama"
@@ -3591,11 +3625,13 @@
   {
     "englishTitle": "Predators",
     "originalTitle": "Predators",
-    "director": [],
+    "director": [
+      "Nimród Antal"
+    ],
     "imdbID": "tt1424381",
     "releaseYear": 2010,
     "releaseDate": "2010-07-03",
-    "runtime": 106,
+    "runtime": 107,
     "ageCertification": "R",
     "genres": [
       "action-and-adventure",
@@ -3703,6 +3739,42 @@
     "runtime": 112,
     "ageCertification": "",
     "genres": [
+      "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Cargo",
+    "originalTitle": "Cargo",
+    "director": [
+      "Ivan Engler",
+      "Ralph Etter"
+    ],
+    "imdbID": "tt0381940",
+    "releaseYear": 2009,
+    "releaseDate": "2009-09-24",
+    "runtime": 120,
+    "ageCertification": "",
+    "genres": [
+      "made-in-europe",
+      "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Pandorum",
+    "originalTitle": "Pandorum",
+    "director": [
+      "Christian Alvart"
+    ],
+    "imdbID": "tt1188729",
+    "releaseYear": 2009,
+    "releaseDate": "2009-09-08",
+    "runtime": 108,
+    "ageCertification": "R",
+    "genres": [
+      "action-and-adventure",
+      "horror",
+      "made-in-europe",
+      "mystery-and-thriller",
       "science-fiction"
     ]
   },
@@ -4039,7 +4111,7 @@
     "imdbID": "tt0408236",
     "releaseYear": 2007,
     "releaseDate": "2007-12-20",
-    "runtime": 116,
+    "runtime": 117,
     "ageCertification": "R",
     "genres": [
       "drama",
@@ -4245,7 +4317,7 @@
     "imdbID": "tt0851578",
     "releaseYear": 2006,
     "releaseDate": "2006-10-21",
-    "runtime": 91,
+    "runtime": 90,
     "ageCertification": "R",
     "genres": [
       "animation",
@@ -4317,7 +4389,7 @@
     "imdbID": "tt0396171",
     "releaseYear": 2006,
     "releaseDate": "2006-09-13",
-    "runtime": 147,
+    "runtime": 142,
     "ageCertification": "R",
     "genres": [
       "crime",
@@ -4373,7 +4445,7 @@
     "imdbID": "tt0479884",
     "releaseYear": 2006,
     "releaseDate": "2006-08-31",
-    "runtime": 87,
+    "runtime": 88,
     "ageCertification": "R",
     "genres": [
       "action-and-adventure",
@@ -4692,7 +4764,7 @@
       "mystery-and-thriller"
     ]
   },
-  {
+{
     "englishTitle": "Argo",
     "originalTitle": "Argo",
     "director": [
@@ -5150,6 +5222,7 @@
     "runtime": 161,
     "ageCertification": "PG",
     "genres": [
+      "action-and-adventure",
       "fantasy",
       "kids-and-family"
     ]
@@ -5160,7 +5233,7 @@
     "director": [
       "Julie Taymor"
     ],
-    "imdbID": "tt0248814",
+    "imdbID": "tt0120679",
     "releaseYear": 2002,
     "releaseDate": "2002-08-29",
     "runtime": 123,
@@ -5286,10 +5359,11 @@
     "imdbID": "tt0187738",
     "releaseYear": 2002,
     "releaseDate": "2002-03-22",
-    "runtime": 120,
+    "runtime": 116,
     "ageCertification": "R",
     "genres": [
       "action-and-adventure",
+      "fantasy",
       "horror",
       "mystery-and-thriller",
       "science-fiction"
@@ -5322,7 +5396,7 @@
     "imdbID": "tt0120737",
     "releaseYear": 2001,
     "releaseDate": "2001-12-18",
-    "runtime": 179,
+    "runtime": 178,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -5441,7 +5515,7 @@
     "imdbID": "tt0247638",
     "releaseYear": 2001,
     "releaseDate": "2001-08-03",
-    "runtime": 115,
+    "runtime": 114,
     "ageCertification": "G",
     "genres": [
       "comedy",
@@ -5475,7 +5549,7 @@
     "imdbID": "tt0146316",
     "releaseYear": 2001,
     "releaseDate": "2001-06-11",
-    "runtime": 97,
+    "runtime": 100,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -5612,6 +5686,7 @@
     "runtime": 102,
     "ageCertification": "R",
     "genres": [
+      "crime",
       "drama"
     ]
   },
@@ -5624,7 +5699,7 @@
     "imdbID": "tt0212338",
     "releaseYear": 2000,
     "releaseDate": "2000-10-06",
-    "runtime": 107,
+    "runtime": 108,
     "ageCertification": "PG-13",
     "genres": [
       "comedy",
@@ -5657,7 +5732,7 @@
     "imdbID": "tt0208092",
     "releaseYear": 2000,
     "releaseDate": "2000-09-01",
-    "runtime": 103,
+    "runtime": 104,
     "ageCertification": "R",
     "genres": [
       "comedy",
@@ -5781,7 +5856,7 @@
     "imdbID": "tt0169547",
     "releaseYear": 1999,
     "releaseDate": "1999-09-15",
-    "runtime": 122,
+    "runtime": 117,
     "ageCertification": "R",
     "genres": [
       "drama"
@@ -5796,7 +5871,7 @@
     "imdbID": "tt0120616",
     "releaseYear": 1999,
     "releaseDate": "1999-04-16",
-    "runtime": 125,
+    "runtime": 124,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -5913,7 +5988,7 @@
     "imdbID": "tt0120685",
     "releaseYear": 1998,
     "releaseDate": "1998-05-20",
-    "runtime": 130,
+    "runtime": 139,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -6194,7 +6269,6 @@
     "ageCertification": "PG-13",
     "genres": [
       "comedy",
-      "fantasy",
       "science-fiction"
     ]
   },
@@ -6223,7 +6297,7 @@
     "imdbID": "tt0116282",
     "releaseYear": 1996,
     "releaseDate": "1996-03-08",
-    "runtime": 98,
+    "runtime": 99,
     "ageCertification": "R",
     "genres": [
       "crime",
@@ -6311,7 +6385,7 @@
     "imdbID": "tt0112281",
     "releaseYear": 1995,
     "releaseDate": "1995-11-10",
-    "runtime": 90,
+    "runtime": 91,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
@@ -6466,15 +6540,14 @@
     "imdbID": "tt0110475",
     "releaseYear": 1994,
     "releaseDate": "1994-07-29",
-    "runtime": 101,
+    "runtime": 97,
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
       "comedy",
       "crime",
       "fantasy",
-      "made-in-europe",
-      "romance"
+      "made-in-europe"
     ]
   },
   {
@@ -6604,7 +6677,7 @@
     "imdbID": "tt0105323",
     "releaseYear": 1992,
     "releaseDate": "1992-12-23",
-    "runtime": 156,
+    "runtime": 157,
     "ageCertification": "R",
     "genres": [
       "drama"
@@ -6640,10 +6713,9 @@
     "imdbID": "tt0104431",
     "releaseYear": 1992,
     "releaseDate": "1992-11-19",
-    "runtime": 120,
+    "runtime": 112,
     "ageCertification": "PG",
     "genres": [
-      "action-and-adventure",
       "comedy",
       "crime",
       "kids-and-family"
@@ -6742,7 +6814,7 @@
     "imdbID": "tt0102926",
     "releaseYear": 1991,
     "releaseDate": "1991-02-14",
-    "runtime": 118,
+    "runtime": 119,
     "ageCertification": "R",
     "genres": [
       "crime",
@@ -6792,7 +6864,7 @@
     "imdbID": "tt0099685",
     "releaseYear": 1990,
     "releaseDate": "1990-09-12",
-    "runtime": 145,
+    "runtime": 146,
     "ageCertification": "R",
     "genres": [
       "crime",
@@ -6862,7 +6934,6 @@
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure",
-      "crime",
       "fantasy"
     ]
   },
@@ -6931,7 +7002,7 @@
     "imdbID": "tt0093058",
     "releaseYear": 1987,
     "releaseDate": "1987-06-26",
-    "runtime": 116,
+    "runtime": 117,
     "ageCertification": "R",
     "genres": [
       "drama",
@@ -7137,7 +7208,6 @@
     "runtime": 117,
     "ageCertification": "PG",
     "genres": [
-      "action-and-adventure",
       "animation",
       "fantasy",
       "science-fiction"
@@ -7173,6 +7243,7 @@
     "runtime": 115,
     "ageCertification": "PG",
     "genres": [
+      "action-and-adventure",
       "fantasy",
       "kids-and-family",
       "science-fiction"
@@ -7250,7 +7321,7 @@
     "imdbID": "tt0079944",
     "releaseYear": 1979,
     "releaseDate": "1979-05-25",
-    "runtime": 154,
+    "runtime": 162,
     "ageCertification": "",
     "genres": [
       "drama",
@@ -7267,7 +7338,7 @@
     "imdbID": "tt0076759",
     "releaseYear": 1977,
     "releaseDate": "1977-05-25",
-    "runtime": 121,
+    "runtime": 118,
     "ageCertification": "PG",
     "genres": [
       "action-and-adventure",
@@ -7305,7 +7376,6 @@
     "ageCertification": "PG",
     "genres": [
       "drama",
-      "mystery-and-thriller",
       "science-fiction"
     ]
   },
@@ -7348,7 +7418,7 @@
     "director": [
       "David Hand"
     ],
-    "imdbID": "tt6208148",
+    "imdbID": "tt0029583",
     "releaseYear": 1937,
     "releaseDate": "1937-12-21",
     "runtime": 83,
