@@ -1,5 +1,21 @@
 [
   {
+    "englishTitle": "The Killer",
+    "director": [
+      "David Fincher"
+    ],
+    "imdbID": "tt1136617",
+    "releaseYear": 2023,
+    "releaseDate": "2023-11-10",
+    "runtime": 118,
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "adventure",
+      "crime"
+    ]
+  },
+  {
     "englishTitle": "Oppenheimer",
     "originalTitle": "Oppenheimer",
     "director": [
