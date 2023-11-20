@@ -1975,7 +1975,9 @@
   {
     "englishTitle": "Alien: Covenant",
     "originalTitle": "Alien: Covenant",
-    "director": [],
+    "director": [
+      "Ridley Scott"
+    ],
     "imdbID": "tt2316204",
     "releaseYear": 2017,
     "releaseDate": "2017-05-09",
