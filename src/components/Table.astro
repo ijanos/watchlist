@@ -3,6 +3,18 @@ import watchlist from "../data/watchlist.json";
 const imdbURI = "https://imdb.com/title/";
 ---
 
+<div x-data={`{ search: '',
+                   visible: $refs.tbody.querySelectorAll('tr').length,
+                   update() { this.visible = Array.from($refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
+                  }
+                 }`}>
+    <input type="text"
+           x-model="search"
+           x-on:input.debounce.50ms="update()"
+           class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-gray-50 bg-transparent backdrop-blur-sm"
+          placeholder="search">
+
+
 <table class="w-full text-sm text-left text-gray-700 bg-slate-50 bg-opacity-50 backdrop-blur-md">
     <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
         <tr>
@@ -13,8 +25,9 @@ const imdbURI = "https://imdb.com/title/";
           <th>imdb</th>
         </tr>
     </thead>
+    <tbody x-ref="tbody">
 {watchlist.map((movie) =>
-    <tr class="border-t h-7 hover:bg-yellow-200">
+    <tr class="border-t h-7 hover:bg-yellow-200" x-show="$el.textContent.toLowerCase().includes(search.toLowerCase())">
         <td class="sm:pl-1">{movie.director.join(", ")}</td>
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>
         <td class="font-mono text-right text-xs hidden sm:table-cell" >{movie.runtime}</td>
@@ -22,4 +35,14 @@ const imdbURI = "https://imdb.com/title/";
         <td class="hover:bg-[#F5C518] text-center"><a class="hover:text-black text-xs rounded-lg" href={imdbURI + movie.imdbID} target="_blank">IMDb</a></td>
     </tr>
 )}
+</tbody>
+<tfoot class="h-6 text-gray-500 text-s bg-gray-50">
+    <tr>
+      <th colspan="5">
+      <span class="text-gray-900"> <span x-text="visible"></span> movies</span> out of <span x-text="$refs.tbody.querySelectorAll('tr').length"></span>
+      </th>
+    </tr>
+    </tfoot>
 </table>
+
+</div>
