@@ -1,5 +1,7 @@
 omdbkey.js
 
+.wrangler
+
 # build output
 dist/
 
