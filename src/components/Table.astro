@@ -27,7 +27,9 @@ const imdbURI = "https://imdb.com/title/";
     </thead>
     <tbody x-ref="tbody">
 {watchlist.map((movie) =>
-    <tr class="border-t h-7 hover:bg-yellow-200" x-show="$el.textContent.toLowerCase().includes(search.toLowerCase())">
+    <tr class="border-t border-dotted h-7 hover:bg-yellow-200"
+        x-show="$el.textContent.toLowerCase().includes(search.toLowerCase())"
+    >
         <td class="sm:pl-1">{movie.director.join(", ")}</td>
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>
         <td class="font-mono text-right text-xs hidden sm:table-cell" >{movie.runtime}</td>
