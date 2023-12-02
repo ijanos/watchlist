@@ -9,8 +9,8 @@ const imdbURI = "https://imdb.com/title/";
                   }
                  }`}>
     <input type="text"
-           x-model="search"
-           x-on:input.debounce.50ms="update()"
+           x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
+           x-on:input.debounce.100ms="update()"
            class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-gray-50 bg-transparent backdrop-blur-sm"
           placeholder="search">
 
@@ -28,7 +28,7 @@ const imdbURI = "https://imdb.com/title/";
     <tbody x-ref="tbody">
 {watchlist.map((movie) =>
     <tr class="border-t border-dotted h-7 hover:bg-yellow-200"
-        x-show="$el.textContent.toLowerCase().includes(search.toLowerCase())"
+        x-show="$el.textContent.toLowerCase().includes(search)"
     >
         <td class="sm:pl-1">{movie.director.join(", ")}</td>
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>
