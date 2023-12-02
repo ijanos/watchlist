@@ -1,5 +1,6 @@
 omdbkey.js
 
+.poster-cache
 .wrangler
 
 # build output

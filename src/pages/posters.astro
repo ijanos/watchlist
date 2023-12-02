@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import watchlist from "../data/watchlist.json";
+---
+
+<Layout title="posters">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 backdrop-blur-lg p-2">
+        {
+            watchlist.map((movie) => (
+                <img
+                    class="w-72 h-auto rounded-lg"
+                    title={movie.englishTitle}
+                    src={`/poster/${movie.imdbID}.jpg`}
+                    alt={`Poster for ${movie.englishTitle}`}
+                    loading="lazy"
+                />
+            ))
+        }
+    </div>
+</Layout>
