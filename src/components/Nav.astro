@@ -1,11 +1,42 @@
+---
+const activeClass =
+    "font-medium hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md bg-gray-900 text-white";
+const inactiveClass =
+    "font-medium hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-gray-900";
+
+const links = [
+    { href: "/", text: "list" },
+    { href: "/posters", text: "posters" },
+];
+// {Astro.url.pathname == "/posters" ?  "text-white bg-gray-900" : "aa"}
+---
+
 <nav>
     <div class="px-2 lg:px-8 max-w-7xl mx-auto sm:px-6">
         <div class="flex h-16 items-center justify-between">
-            <div class="whitespace-nowrap text-2xl"><a href="/"><span class="font-light">my</span><span
-                        class="font-semibold">watchlist</span></a></div>
-            <div class="flex lg:space-x-4 lg:text-base text-xs"><a href="/"
-                    class="font-medium hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md bg-gray-900 text-white" aria-current="page">movies</a>
-                <!-- <a href="/about/" class="font-medium hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-gray-800">about</a> -->
+            <div class="whitespace-nowrap text-2xl">
+                <a href="/"
+                    ><span class="font-light">my</span><span
+                        class="font-semibold">watchlist</span
+                    ></a
+                >
+            </div>
+            <div class="flex lg:space-x-4 lg:text-base text-xs">
+                {
+                    links.map((link) => (
+                        <a
+                            href={link.href}
+                            class={
+                                Astro.url.pathname == link.href
+                                    ? activeClass
+                                    : inactiveClass
+                            }
+                            aria-current="page"
+                        >
+                            {link.text}
+                        </a>
+                    ))
+                }
             </div>
         </div>
     </div>
