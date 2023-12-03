@@ -1,7 +1,6 @@
 import { writeFile, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { Buffer } from 'node:buffer';
-import assert from 'node:assert/strict';
 
 import type { APIRoute } from 'astro';
 
@@ -10,11 +9,10 @@ import omdbkey from "../../../res/omdbkey.js";
 
 const CACHE_DIR = ".poster-cache";
 
-async function downloadPoster(imdbid: string, path) {
+async function downloadPoster(imdbid: string, path: string) {
   const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkey}`);
   const movie = await response.json();
   const posterURL = movie["Poster"];
-  // assert.fail(posterURL);
 
   if (!posterURL || posterURL == "N/A") { return false; }
 
