@@ -3867,6 +3867,22 @@
     ]
   },
   {
+    "englishTitle": "Harry Potter and the Deathly Hallows: Part 1",
+    "director": [
+      "David Yates"
+    ],
+    "imdbID": "tt0926084",
+    "releaseYear": 2010,
+    "releaseDate": "2010-11-19",
+    "runtime": 146,
+    "ageCertification": "PG-13",
+    "genres": [
+      "adventure",
+      "family",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "Megamind",
     "originalTitle": "Megamind",
     "director": [
@@ -4198,6 +4214,22 @@
       "comedy",
       "drama",
       "romance"
+    ]
+  },
+  {
+    "englishTitle": "Harry Potter and the Half-Blood Prince",
+    "director": [
+      "David Yates"
+    ],
+    "imdbID": "tt0417741",
+    "releaseYear": 2009,
+    "releaseDate": "2009-07-15",
+    "runtime": 153,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "family"
     ]
   },
   {
@@ -7304,6 +7336,22 @@
       "comedy",
       "fantasy",
       "horror"
+    ]
+  },
+  {
+    "englishTitle": "Back to the Future Part III",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0099088",
+    "releaseYear": 1990,
+    "releaseDate": "1990-05-25",
+    "runtime": 118,
+    "ageCertification": "PG",
+    "genres": [
+      "adventure",
+      "comedy",
+      "sci-fi"
     ]
   },
   {
