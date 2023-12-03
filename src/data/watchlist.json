@@ -5668,6 +5668,22 @@
     ]
   },
   {
+    "englishTitle": "Star Wars: Episode II - Attack of the Clones",
+    "director": [
+      "George Lucas"
+    ],
+    "imdbID": "tt0121765",
+    "releaseYear": 2002,
+    "releaseDate": "2002-05-16",
+    "runtime": 142,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "Spider-Man",
     "originalTitle": "Spider-Man",
     "director": [
@@ -5923,6 +5939,22 @@
       "action-and-adventure",
       "drama",
       "romance"
+    ]
+  },
+  {
+    "englishTitle": "The Mummy Returns",
+    "director": [
+      "Stephen Sommers"
+    ],
+    "imdbID": "tt0209163",
+    "releaseYear": 2001,
+    "releaseDate": "2001-05-04",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
     ]
   },
   {
@@ -6211,6 +6243,22 @@
     "ageCertification": "R",
     "genres": [
       "drama"
+    ]
+  },
+  {
+    "englishTitle": "Star Wars: Episode I - The Phantom Menace",
+    "director": [
+      "George Lucas"
+    ],
+    "imdbID": "tt0120915",
+    "releaseYear": 1999,
+    "releaseDate": "1999-05-19",
+    "runtime": 136,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
     ]
   },
   {
@@ -6815,6 +6863,25 @@
       "kids-and-family",
       "made-in-europe",
       "romance"
+    ]
+  },
+  {
+    "englishTitle": "The Langoliers",
+    "originalTitle": "Stephen King's The Langoliers",
+    "director": [
+      "Tom Holland"
+    ],
+    "imdbID": "tt0112040",
+    "releaseYear": 1995,
+    "releaseDate": "1995-05-14",
+    "runtime": 180,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "fantasy",
+      "horror",
+      "mystery-and-thriller",
+      "science-fiction"
     ]
   },
   {
@@ -7565,6 +7632,22 @@
     ]
   },
   {
+    "englishTitle": "Star Wars: Episode VI - Return of the Jedi",
+    "director": [
+      "Richard Marquand"
+    ],
+    "imdbID": "tt0086190",
+    "releaseYear": 1983,
+    "releaseDate": "1983-05-25",
+    "runtime": 131,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "Blade Runner",
     "originalTitle": "Blade Runner",
     "director": [
@@ -7630,6 +7713,22 @@
     "ageCertification": "PG",
     "genres": [
       "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Star Wars: Episode V - The Empire Strikes Back",
+    "director": [
+      "Irvin Kershner"
+    ],
+    "imdbID": "tt0080684",
+    "releaseYear": 1980,
+    "releaseDate": "1980-06-18",
+    "runtime": 124,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
     ]
   },
   {
@@ -7781,25 +7880,6 @@
       "kids-and-family",
       "mystery-and-thriller",
       "romance"
-    ]
-  },
-  {
-    "englishTitle": "The Langoliers",
-    "originalTitle": "Stephen King's The Langoliers",
-    "director": [
-      "Tom Holland"
-    ],
-    "imdbID": "tt0112040",
-    "releaseYear": 1995,
-    "releaseDate": "1995-05-14",
-    "runtime": 180,
-    "ageCertification": "PG-13",
-    "genres": [
-      "drama",
-      "fantasy",
-      "horror",
-      "mystery-and-thriller",
-      "science-fiction"
     ]
   }
 ]
