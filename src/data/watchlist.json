@@ -4692,6 +4692,22 @@
     ]
   },
   {
+    "englishTitle": "Tenacious D in the Pick of Destiny",
+    "director": [
+      "Liam Lynch"
+    ],
+    "imdbID": "tt0365830",
+    "releaseYear": 2006,
+    "releaseDate": "2006-11-22",
+    "runtime": 94,
+    "ageCertification": "R",
+    "genres": [
+      "adventure",
+      "comedy",
+      "music"
+    ]
+  },
+  {
     "englishTitle": "Paprika",
     "originalTitle": "パプリカ",
     "director": [
@@ -5940,6 +5956,23 @@
     ]
   },
   {
+    "englishTitle": "Final Fantasy: The Spirits Within",
+    "director": [
+      "Hironobu Sakaguchi",
+      "Motonori Sakakibara"
+    ],
+    "imdbID": "tt0173840",
+    "releaseYear": 2001,
+    "releaseDate": "2001-07-11",
+    "runtime": 106,
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "action",
+      "adventure"
+    ]
+  },
+  {
     "englishTitle": "Lara Croft: Tomb Raider",
     "originalTitle": "Lara Croft: Tomb Raider",
     "director": [
@@ -6038,6 +6071,22 @@
       "comedy",
       "drama",
       "romance"
+    ]
+  },
+  {
+    "englishTitle": "Battle Royale",
+    "director": [
+      "Kinji Fukasaku"
+    ],
+    "imdbID": "tt0266308",
+    "releaseYear": 2000,
+    "releaseDate": "2000-12-16",
+    "runtime": 114,
+    "ageCertification": "Not Rated",
+    "genres": [
+      "action",
+      "adventure",
+      "drama"
     ]
   },
   {
