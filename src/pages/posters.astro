@@ -4,11 +4,11 @@ import watchlist from "../data/watchlist.json";
 ---
 
 <Layout title="posters">
-    <div class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 p-2">
+    <div class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 p-2 items-center justify-items-center">
         {
             watchlist.map((movie) => (
                 <img
-                    class="w-72 h-auto rounded-lg shadow-xl"
+                    class="w-60 h-auto rounded-lg shadow-xl"
                     title={movie.englishTitle}
                     src={`/poster/${movie.imdbID}.jpg`}
                     alt={`Poster for ${movie.englishTitle}`}
