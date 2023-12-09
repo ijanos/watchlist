@@ -1,0 +1,65 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="not an admin page">
+    <div class="flex flex-col space-y-1 bg-amber-200 rounded-lg p-2">
+        <div>
+            <label for="omdb-search">imdb id</label>
+            <input type="search" id="omdb-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2"/>
+
+            <label for="omdb-key">OMDB API Key</label>
+            <input type="password" id="omdb-key" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2"/>
+        </div>
+
+        <textarea id="textarea" name="" rows="24" readonly class="font-mono font-semibold text-lg text-gray-800 rounded-b-md border border-gray-300 bg-gray-50">
+            This is not an admin page, that is just a joke, sorry to dissapoint.
+        </textarea>
+    </div>
+</Layout>
+
+
+<script>
+    const output = document.getElementById("textarea") as HTMLTextAreaElement;
+    const localStorageKeyOmdb = "omdb-key";
+
+    const omdbkeyinput = document.getElementById("omdb-key") as HTMLInputElement;
+    omdbkeyinput.addEventListener("change", updateOMDBKey);
+
+    if (localStorage.getItem(localStorageKeyOmdb)) {
+        omdbkeyinput.value = localStorage.getItem(localStorageKeyOmdb);
+    }
+
+    const input = document.getElementById("omdb-search") as HTMLInputElement;
+    input.addEventListener("change", updateValue);
+
+    function updateOMDBKey(e) {
+        localStorage.setItem(localStorageKeyOmdb, e.target.value.trim());
+    }
+
+    const imdbidregex = "^tt[0-9]+$";
+    async function updateValue(e: Event) {
+        const imdbid =  e.target.value.trim();
+        if (!imdbid.match(imdbidregex)) {
+            output.textContent = "not an imdb id";
+            return;
+        }
+        const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkeyinput.value}`);
+        const movie = await response.json();
+        const releaseDate = new Date(movie["Released"] + " UTC").toISOString().split("T")[0];
+        const ret = {
+            "englishTitle": movie["Title"],
+            "director": movie["Director"].split(",").map((g) => g.trim()),
+            "imdbID": movie["imdbID"],
+            "releaseYear": parseInt(movie["Year"]),
+            "releaseDate": releaseDate,
+            "runtime": parseInt(movie["Runtime"]),
+            "ageCertification": movie["Rated"],
+            "genres": movie["Genre"].split(",").map((g) => g.trim().toLowerCase())
+        };
+
+        output.textContent = JSON.stringify(ret, null, 2)
+    }
+
+
+</script>
