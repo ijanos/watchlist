@@ -8,19 +8,19 @@ import Layout from "../layouts/Layout.astro";
             <div>
                 <label for="omdb-search">imdb id</label>
                 <input
-                type="search"
-                size="25"
-                id="omdb-search"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2"
+                    type="search"
+                    size="25"
+                    id="omdb-search"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2"
                 />
             </div>
             <div>
                 <label for="omdb-key">OMDb API Key</label>
                 <input
-                type="password"
-                size="8"
-                id="omdb-key"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2"
+                    type="password"
+                    size="4"
+                    id="omdb-key"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2"
                 />
             </div>
         </div>
@@ -31,9 +31,8 @@ import Layout from "../layouts/Layout.astro";
             rows="24"
             readonly
             class="font-mono font-semibold text-lg text-gray-800 rounded-b-md border border-gray-300 bg-gray-50"
+            >This is not an admin page, that is just a joke, sorry to dissapoint. Use this page to generate JSON objects for the watchlist.</textarea
         >
-            This is not an admin page, that is just a joke, sorry to dissapoint.
-        </textarea>
     </div>
 </Layout>
 
@@ -44,33 +43,44 @@ import Layout from "../layouts/Layout.astro";
     const omdbkeyinput = document.getElementById(
         "omdb-key",
     ) as HTMLInputElement;
-    omdbkeyinput.addEventListener("change", updateOMDBKey);
+    omdbkeyinput.addEventListener("change", (event) => {
+        localStorage.setItem(
+            localStorageKeyOmdb,
+            (event.target as HTMLInputElement).value.trim(),
+        );
+    });
     omdbkeyinput.value = localStorage.getItem(localStorageKeyOmdb) || "";
 
     const input = document.getElementById("omdb-search") as HTMLInputElement;
-    input.addEventListener("change", updateValue);
-
-    function updateOMDBKey(e: Event) {
-        localStorage.setItem(localStorageKeyOmdb, e.target.value.trim());
-    }
-
     const imdbidregex = "^tt[0-9]+$";
-    async function updateValue(e: Event) {
-        const imdbid = e.target.value.trim();
+
+    input.addEventListener("change", async (event) => {
+        const imdbid = (event.target as HTMLInputElement).value.trim();
         if (!imdbid.match(imdbidregex)) {
             output.textContent = "not an imdb id";
             return;
         }
+        output.textContent = "loading...";
+
         const response = await fetch(
             `https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkeyinput.value}`,
         );
+        if (response.status != 200) {
+            output.textContent = "API error, did you input a valid API key?";
+            return;
+        }
         const movie = await response.json();
+        if (movie["Response"] == "False") {
+            output.textContent = "API error: " + movie["Error"];
+            return;
+        }
         const releaseDate = new Date(movie["Released"] + " UTC")
             .toISOString()
             .split("T")[0];
+
         const ret = {
             englishTitle: movie["Title"],
-            director: movie["Director"].split(",").map((g) => g.trim()),
+            director: movie["Director"].split(",").map((g: string) => g.trim()),
             imdbID: movie["imdbID"],
             releaseYear: parseInt(movie["Year"]),
             releaseDate: releaseDate,
@@ -82,5 +92,5 @@ import Layout from "../layouts/Layout.astro";
         };
 
         output.textContent = JSON.stringify(ret, null, 2);
-    }
+    });
 </script>
