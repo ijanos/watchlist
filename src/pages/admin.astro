@@ -51,9 +51,9 @@ import Layout from "../layouts/Layout.astro";
     });
     omdbkeyinput.value = localStorage.getItem(localStorageKeyOmdb) || "";
 
-    const input = document.getElementById("omdb-search") as HTMLInputElement;
-    const imdbidregex = "^tt[0-9]+$";
+    const imdbidregex = new RegExp("^tt[0-9]+$");
 
+    const input = document.getElementById("omdb-search") as HTMLInputElement;
     input.addEventListener("change", async (event) => {
         const imdbid = (event.target as HTMLInputElement).value.trim();
         if (!imdbid.match(imdbidregex)) {
@@ -66,12 +66,15 @@ import Layout from "../layouts/Layout.astro";
             `https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkeyinput.value}`,
         );
         if (response.status != 200) {
-            output.textContent = "API error, did you input a valid API key?";
+            output.textContent = `API error, did you input a valid API key?\nHTTP status: ${response.status}`;
             return;
         }
+
         const movie = await response.json();
-        if (movie["Response"] == "False") {
-            output.textContent = "API error: " + movie["Error"];
+        const apiresponse = movie["Response"] || "False";
+        if (apiresponse == "False") {
+            const error = movie["Error"] || "unkown error";
+            output.textContent = "API error: " + error;
             return;
         }
         const releaseDate = new Date(movie["Released"] + " UTC")
