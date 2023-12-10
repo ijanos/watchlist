@@ -23,7 +23,7 @@ async function downloadPoster(imdbid: string, path: string) {
 }
 
 export const GET: APIRoute = async ({ params, request }) => {
-  const imdbid = params.imdbid;
+  const imdbid = params.imdbid as string;
   const path = `${CACHE_DIR}/${imdbid}.jpg`
   let data;
   if (!existsSync(path)) {
