@@ -91,6 +91,6 @@ import Layout from "../layouts/Layout.astro";
                 .map((g: string) => g.trim().toLowerCase()),
         };
 
-        output.textContent = JSON.stringify(ret, null, 2);
+        output.textContent = JSON.stringify(ret, null, 2) + ",";
     });
 </script>
