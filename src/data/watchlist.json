@@ -71,7 +71,7 @@
   },
   {
     "englishTitle": "Guardians of the Galaxy Vol. 3",
-    "originalTitle": "Guardians of the Galaxy Vol. 3",
+    "watched": "2023-05-06",
     "director": [
       "James Gunn"
     ],
@@ -88,7 +88,7 @@
   },
   {
     "englishTitle": "Beau Is Afraid",
-    "originalTitle": "Beau Is Afraid",
+    "watched": "2023-04-25",
     "director": [
       "Ari Aster"
     ],
@@ -176,7 +176,7 @@
   },
   {
     "englishTitle": "Babylon",
-    "originalTitle": "Babylon",
+    "watched": "2023-01-22",
     "director": [
       "Damien Chazelle"
     ],
@@ -246,6 +246,7 @@
   {
     "englishTitle": "Suzume",
     "originalTitle": "すずめの戸締まり",
+    "watched": "2023-04-17",
     "director": [
       "Makoto Shinkai"
     ],
@@ -313,7 +314,7 @@
   },
   {
     "englishTitle": "Thor: Love and Thunder",
-    "originalTitle": "Thor: Love and Thunder",
+    "watched": "2022-07-11",
     "director": [
       "Taika Waititi"
     ],
@@ -332,7 +333,7 @@
   },
   {
     "englishTitle": "Doctor Strange in the Multiverse of Madness",
-    "originalTitle": "Doctor Strange in the Multiverse of Madness",
+    "watched": "2022-05-28",
     "director": [
       "Sam Raimi"
     ],
@@ -350,7 +351,7 @@
   },
   {
     "englishTitle": "The Northman",
-    "originalTitle": "The Northman",
+    "watched": "2022-05-21",
     "director": [
       "Robert Eggers"
     ],
@@ -369,7 +370,7 @@
   },
   {
     "englishTitle": "Everything Everywhere All at Once",
-    "originalTitle": "Everything Everywhere All at Once",
+    "watched": "2022-04-22",
     "director": [
       "Daniel Kwan",
       "Daniel Scheinert"
@@ -453,7 +454,7 @@
   },
   {
     "englishTitle": "Spider-Man: No Way Home",
-    "originalTitle": "Spider-Man: No Way Home",
+    "watched": "2021-12-18",
     "director": [
       "Jon Watts"
     ],
