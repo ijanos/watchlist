@@ -16,6 +16,23 @@
     ]
   },
   {
+    "englishTitle": "Barbie",
+    "watched": "2023-12-10",
+    "director": [
+      "Greta Gerwig"
+    ],
+    "imdbID": "tt1517268",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-21",
+    "runtime": 114,
+    "ageCertification": "PG-13",
+    "genres": [
+      "adventure",
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "Oppenheimer",
     "originalTitle": "Oppenheimer",
     "director": [
@@ -2352,6 +2369,7 @@
   {
     "englishTitle": "Kubo and the Two Strings",
     "originalTitle": "Kubo and the Two Strings",
+    "watched": "2016-10-22",
     "director": [
       "Travis Knight"
     ],
@@ -5990,6 +6008,21 @@
     ]
   },
   {
+    "englishTitle": "Evolution",
+    "director": [
+      "Ivan Reitman"
+    ],
+    "imdbID": "tt0251075",
+    "releaseYear": 2001,
+    "releaseDate": "2001-06-08",
+    "runtime": 101,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "A Knight's Tale",
     "originalTitle": "A Knight's Tale",
     "director": [
@@ -7605,6 +7638,22 @@
     "genres": [
       "comedy",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Cocoon",
+    "director": [
+      "Ron Howard"
+    ],
+    "imdbID": "tt0088933",
+    "releaseYear": 1985,
+    "releaseDate": "1985-06-21",
+    "runtime": 117,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama",
+      "sci-fi"
     ]
   },
   {
