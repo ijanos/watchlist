@@ -1,6 +1,26 @@
 ---
 import watchlist from "../data/watchlist.json";
 const imdbURI = "https://imdb.com/title/";
+
+interface Movie {
+   englishTitle: string;
+   originalTitle?: string;
+   watched?: string;
+   director: string[];
+   imdbID: string;
+   releaseYear: number;
+   releaseDate: string;
+   runtime: number;
+   ageCertification: string;
+   genres:string[];
+}
+
+const compareWatchdate = function (movieA: Movie, movieB: Movie) {
+  const movieAdate = movieA["watched"] || movieA["releaseDate"];
+  const movieBdate = movieB["watched"] || movieB["releaseDate"];
+ return movieAdate.localeCompare(movieBdate);
+}
+
 ---
 
 <div x-data={`{ search: '',
@@ -26,7 +46,7 @@ const imdbURI = "https://imdb.com/title/";
         </tr>
     </thead>
     <tbody x-ref="tbody">
-{watchlist.map((movie) =>
+{(watchlist as Movie[]).sort(compareWatchdate).reverse().map((movie) =>
     <tr class="border-t border-dotted h-7 hover:bg-yellow-200"
         x-show="$el.textContent.toLowerCase().includes(search)"
     >
