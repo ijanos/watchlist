@@ -3,29 +3,88 @@ import Layout from "../layouts/Layout.astro";
 import watchlist from "../data/watchlist.json";
 ---
 
-<Layout title="posters">
-    <div x-data="{ movie: {title: ''} }">
-
-        <dialog x-ref="dialog" class="p-5 border-4 rounded-md  border-amber-300 min-w-[20em]">
-            <p x-text="movie['title']" class="py-2 text-xl"></p>
+<Layout title="posters | Janos' watchlist">
+    <div x-data="data()">
+        <dialog
+            x-ref="dialog"
+            class="p-5 border-4 rounded-md border-amber-300 min-w-[20em]"
+        >
+            <p x-text="selectedMovie['title']" class="py-2 text-xl"></p>
+            <p x-text="selectedMovie['release']" class="py-2 text-xl"></p>
             <form method="dialog">
                 <button>OK</button>
             </form>
         </dialog>
 
-        <div class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 p-2 items-center justify-items-center">
-        {
-            watchlist.map((movie) => (
-                <img
-                class="w-60 h-auto rounded-lg shadow-xl transition ease-in-out hover:scale-105"
-                title={movie.englishTitle}
-                src={`/poster/${movie.imdbID}.jpg`}
-                alt={`Poster for ${movie.englishTitle}`}
-                loading="lazy"
-                @click={`movie.title = '${movie.englishTitle.replace("'", "\\'")}'; $refs.dialog.showModal()`}
-                />
-            ))
-        }
+        <div class="flex justify-end">
+            <div class="inline-flex">
+                <button class="bg-amber-50  text-gray-800 font-bold py-2 px-4 rounded-l cursor-default">
+                    sort:
+                </button>
+                <button class="bg-amber-300 hover:bg-amber-500 text-gray-800 font-bold py-2 px-4" @click="resort('release')">
+                    release date
+                </button>
+                <button class="bg-amber-300 hover:bg-amber-500 text-gray-800 font-bold py-2 px-4 rounded-r" @click="resort('alphabetical')">
+                    alphabetical
+                </button>
+                <!-- <button class="bg-amber-300 hover:bg-amber-500 text-gray-800 font-bold py-2 px-4 rounded-r">
+                    watch date
+                </button> -->
+            </div>
+        </div>
+
+        <div x-ref="grid" class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 p-2 items-center justify-items-center">
+            {
+                watchlist
+                    // .slice(10, 15)
+                    .map((movie) => (
+                        <img
+                            class="w-60 h-auto rounded-lg shadow-xl transition ease-in-out hover:scale-105"
+                            title={movie.englishTitle}
+                            src={`/poster/${movie.imdbID}.jpg`}
+                            alt={`Poster for ${movie.englishTitle}`}
+                            data-releasedate={movie.releaseDate}
+                            loading="lazy"
+                            @click="showModal"
+                        />
+                    ))
+            }
         </div>
     </div>
 </Layout>
+
+<script is:inline>
+    function data() {
+        return {
+            selectedMovie: { title: "", release: "" },
+            resort(sorter) {
+                this.getPosters()
+                    .sort(this.sorter[sorter])
+                    .forEach((img) => {
+                        this.$refs.grid.appendChild(img);
+                    });
+            },
+            getPosters() {
+                return Array.from(this.$refs.grid.querySelectorAll("img"));
+            },
+            showModal($event) {
+                this.selectedMovie = {
+                    title: $event.target.title,
+                    release: $event.target.dataset.releasedate
+                }
+                this.$refs.dialog.showModal();
+            },
+            sorter: {
+                alphabetical: (a, b) => {
+                        return a.title.localeCompare(
+                            b.title,
+                        )},
+                release: (a, b) => {
+                        return a.dataset.releasedate.localeCompare(
+                            b.dataset.releasedate,
+                        )
+                    }
+            }
+        };
+    }
+</script>
