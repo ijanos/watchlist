@@ -34,8 +34,8 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
         <tr>
           <th @click="reorder(0)">Director</th>
           <th @click="reorder(1)">Title</th>
-          <th @click="reorder(2)" class="hidden sm:table-cell">Runtime</th>
-          <th @click="reorder(3)">Release year</th>
+          <th @click="reorder(3)" class="hidden sm:table-cell">Runtime</th>
+          <th @click="reorder(5)">Release</th>
           <th>imdb</th>
         </tr>
     </thead>
@@ -48,7 +48,9 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
         <td class="sm:pl-1">{movie.director.join(", ")}</td>
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>
         <td class="font-mono text-right text-xs hidden sm:table-cell" >{movie.runtime}</td>
+        <td class="hidden">{ String(movie.runtime).padStart(5, '0') }</td>
         <td class="font-mono text-center">{movie.releaseYear}</td>
+        <td class="hidden">{ movie.releaseDate }</td>
         <td class="hover:bg-[#F5C518] text-center"><a class="hover:text-black text-xs rounded-lg" href={imdbURI + movie.imdbID} target="_blank">IMDb</a></td>
     </tr>
 )}
