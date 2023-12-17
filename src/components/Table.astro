@@ -42,7 +42,8 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
     <tbody x-ref="tbody">
 {(watchlist as Movie[]).sort(compareWatchdate).reverse().map((movie) =>
     <tr class="border-t border-dotted h-7 hover:bg-yellow-200"
-        x-show="$el.textContent.toLowerCase().includes(search)"
+        x-show="$el.dataset.search.includes(search)"
+        data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
     >
         <td class="sm:pl-1">{movie.director.join(", ")}</td>
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>
