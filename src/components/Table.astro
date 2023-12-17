@@ -32,10 +32,10 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
 <table class="w-full text-sm text-left text-gray-700 bg-slate-50 bg-opacity-50 backdrop-blur-md">
     <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
         <tr>
-          <th>Director</th>
-          <th>Title</th>
-          <th class="hidden sm:table-cell">Runtime</th>
-          <th>Release year</th>
+          <th @click="reorder(0)">Director</th>
+          <th @click="reorder(1)">Title</th>
+          <th @click="reorder(2)" class="hidden sm:table-cell">Runtime</th>
+          <th @click="reorder(3)">Release year</th>
           <th>imdb</th>
         </tr>
     </thead>
@@ -72,9 +72,29 @@ document.addEventListener('alpine:init', () => {
             this.visible = this.$refs.tbody.querySelectorAll('tr').length
         },
         search: "",
+        sortOrder: -1,
         visible: 0,
         update() {
             this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
+        },
+        reorder(index: number) {
+                this.sortOrder = this.sortOrder * -1;
+                this.getRows()
+                    .sort((a: HTMLElement, b: HTMLElement) => { return this.sortOrder * (a.querySelectorAll("td")[index].textContent as string).localeCompare((b.querySelectorAll("td")[index].textContent as string)); })
+                    .forEach((tr) => {
+                        this.$refs.tbody.appendChild(tr);
+                    });
+        },
+        getRows() { return Array.from(this.$refs.tbody.querySelectorAll("tr")); },
+        getSortFn(name: string) {
+                switch (name) {
+                    case "alphabetical":
+                        this.sortOrder = this.sortOrder * -1;
+                        return (a: HTMLImageElement, b: HTMLImageElement) => { return this.sortOrder * a.title.localeCompare(b.title); }
+                    case "release":
+                        this.sortOrder = this.sortOrder * -1;
+                        return  (a: HTMLImageElement, b: HTMLImageElement) => { return this.sortOrder * (a.dataset.releasedate as string).localeCompare(b.dataset.releasedate as string); }
+                }
         }
     }))
 })
