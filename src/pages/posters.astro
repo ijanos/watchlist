@@ -16,10 +16,10 @@ import watchlist from "../data/watchlist.json";
             </form>
         </dialog>
 
-        <div class="flex justify-between flex-wrap">
+        <div class="flex justify-between flex-wrap drop-shadow-md">
             <input
                 type="text"
-                x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
+                x-on:input="search = $el.value.toLowerCase()"
                 class="grow p-1 my-1 text-gray-900 border border-black rounded-l-lg bg-amber-300"
                 placeholder="search"
             />
@@ -27,13 +27,13 @@ import watchlist from "../data/watchlist.json";
             <div class="inline-flex">
                 <button
                     class="border border-1 border-black border-l-0 bg-amber-300 text-sm hover:bg-amber-500 text-gray-800 my-1 px-1"
-                    @click="resort('release')"
+                    @click="reorder('release')"
                 >
                     release date
                 </button>
                 <button
                     class="border border-1 border-black border-l-0 bg-amber-300 text-sm hover:bg-amber-500 text-gray-800 my-1 px-1 rounded-r-lg"
-                    @click="resort('alphabetical')"
+                    @click="reorder('alphabetical')"
                 >
                     alphabetical
                 </button>
@@ -49,13 +49,13 @@ import watchlist from "../data/watchlist.json";
                     // .slice(0, 15)
                     .map((movie) => (
                         <img
-                            x-show="$el.dataset.search.toLowerCase().includes(search)"
+                            x-show="$el.dataset.search.includes(search)"
                             class="w-60 h-auto rounded-lg shadow-xl transition ease-in-out hover:scale-105"
                             title={movie.englishTitle}
                             src={`/poster/${movie.imdbID}.jpg`}
                             alt={`Poster for ${movie.englishTitle}`}
                             data-releasedate={movie.releaseDate}
-                            data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle }`}
+                            data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
                             loading="lazy"
                             @click="showModal"
                         />
@@ -70,9 +70,10 @@ import watchlist from "../data/watchlist.json";
         return {
             search: "",
             selectedMovie: { title: "", release: "" },
-            resort(sorter) {
+            sortOrder: -1,
+            reorder(sorter) {
                 this.getPosters()
-                    .sort(this.sorter[sorter])
+                    .sort(this.getSortFn(sorter))
                     .forEach((img) => {
                         this.$refs.grid.appendChild(img);
                     });
@@ -87,15 +88,15 @@ import watchlist from "../data/watchlist.json";
                 };
                 this.$refs.dialog.showModal();
             },
-            sorter: {
-                alphabetical: (a, b) => {
-                    return a.title.localeCompare(b.title);
-                },
-                release: (a, b) => {
-                    return a.dataset.releasedate.localeCompare(
-                        b.dataset.releasedate,
-                    );
-                },
+            getSortFn (name) {
+                switch (name) {
+                    case "alphabetical":
+                        this.sortOrder = this.sortOrder * -1;
+                        return (a, b) => { return this.sortOrder * a.title.localeCompare(b.title); }
+                    case "release":
+                        this.sortOrder = this.sortOrder * -1;
+                        return  (a, b) => { return this.sortOrder * a.dataset.releasedate.localeCompare( b.dataset.releasedate); }
+                }
             },
         };
     }
