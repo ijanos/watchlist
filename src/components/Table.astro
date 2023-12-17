@@ -88,17 +88,7 @@ document.addEventListener('alpine:init', () => {
                         this.$refs.tbody.appendChild(tr);
                     });
         },
-        getRows() { return Array.from(this.$refs.tbody.querySelectorAll("tr")); },
-        getSortFn(name: string) {
-                switch (name) {
-                    case "alphabetical":
-                        this.sortOrder = this.sortOrder * -1;
-                        return (a: HTMLImageElement, b: HTMLImageElement) => { return this.sortOrder * a.title.localeCompare(b.title); }
-                    case "release":
-                        this.sortOrder = this.sortOrder * -1;
-                        return  (a: HTMLImageElement, b: HTMLImageElement) => { return this.sortOrder * (a.dataset.releasedate as string).localeCompare(b.dataset.releasedate as string); }
-                }
-        }
+        getRows() { return Array.from(this.$refs.tbody.querySelectorAll("tr")); }
     }))
 })
 
