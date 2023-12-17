@@ -34,9 +34,9 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
         <tr>
           <th @click="reorder(0)">Director</th>
           <th @click="reorder(1)">Title</th>
-          <th @click="reorder(3)" class="hidden sm:table-cell">Runtime</th>
-          <th @click="reorder(5)">Release</th>
-          <th>imdb</th>
+          <th @click="reorder(3)" class="hidden sm:table-cell text-right">Runtime</th>
+          <th @click="reorder(5)" class="text-center">Release</th>
+          <th class="text-center">imdb</th>
         </tr>
     </thead>
     <tbody x-ref="tbody">
