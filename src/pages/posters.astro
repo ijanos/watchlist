@@ -4,7 +4,7 @@ import watchlist from "../data/watchlist.json";
 ---
 
 <Layout title="posters | Janos' watchlist">
-    <div x-data="data()">
+    <div x-data="posters">
         <dialog
             x-ref="dialog"
             class="p-5 border-4 rounded-md border-amber-300 min-w-[20em]"
@@ -64,13 +64,15 @@ import watchlist from "../data/watchlist.json";
     </div>
 </Layout>
 
-<script is:inline>
-    function data() {
-        return {
+<script>
+import Alpine from 'alpinejs';
+
+document.addEventListener('alpine:init', () => {
+    Alpine.data('posters', () => ( {
             search: "",
             selectedMovie: { title: "", release: "" },
             sortOrder: -1,
-            reorder(sorter) {
+            reorder(sorter: string) {
                 this.getPosters()
                     .sort(this.getSortFn(sorter))
                     .forEach((img) => {
@@ -80,23 +82,26 @@ import watchlist from "../data/watchlist.json";
             getPosters() {
                 return Array.from(this.$refs.grid.querySelectorAll("img"));
             },
-            showModal($event) {
+            showModal($event: Event) {
                 this.selectedMovie = {
-                    title: $event.target.title,
-                    release: $event.target.dataset.releasedate,
+                    title: ($event?.target as HTMLImageElement).title,
+                    release: ($event?.target as HTMLImageElement).dataset.releasedate as string,
                 };
-                this.$refs.dialog.showModal();
+                (this.$refs.dialog as HTMLDialogElement).showModal();
             },
-            getSortFn(name) {
+            getSortFn(name: string) {
                 switch (name) {
                     case "alphabetical":
                         this.sortOrder = this.sortOrder * -1;
-                        return (a, b) => { return this.sortOrder * a.title.localeCompare(b.title); }
+                        return (a: HTMLImageElement, b: HTMLImageElement) => { return this.sortOrder * a.title.localeCompare(b.title); }
                     case "release":
                         this.sortOrder = this.sortOrder * -1;
-                        return  (a, b) => { return this.sortOrder * a.dataset.releasedate.localeCompare( b.dataset.releasedate); }
+                        return  (a: HTMLImageElement, b: HTMLImageElement) => { return this.sortOrder * (a.dataset.releasedate as string).localeCompare(b.dataset.releasedate as string); }
                 }
             },
-        };
-    }
+        }
+    ))
+})
+
+Alpine.start();
 </script>

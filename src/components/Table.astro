@@ -20,14 +20,8 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
   const movieBdate = movieB["watched"] || movieB["releaseDate"];
  return movieAdate.localeCompare(movieBdate);
 }
-
 ---
-
-<div x-data={`{ search: '',
-                   visible: $refs.tbody.querySelectorAll('tr').length,
-                   update() { this.visible = Array.from($refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
-                  }
-                 }`}>
+<div x-data="table">
     <input type="text"
            x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
            x-on:input.debounce.100ms="update()"
@@ -68,3 +62,22 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
 </table>
 
 </div>
+
+<script>
+import Alpine from 'alpinejs';
+
+document.addEventListener('alpine:init', () => {
+    Alpine.data('table', () => ({
+        init() {
+            this.visible = this.$refs.tbody.querySelectorAll('tr').length
+        },
+        search: "",
+        visible: 0,
+        update() {
+            this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
+        }
+    }))
+})
+
+Alpine.start();
+</script>
