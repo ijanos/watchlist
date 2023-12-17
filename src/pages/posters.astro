@@ -16,34 +16,46 @@ import watchlist from "../data/watchlist.json";
             </form>
         </dialog>
 
-        <div class="flex justify-end">
+        <div class="flex justify-between flex-wrap">
+            <input
+                type="text"
+                x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
+                class="grow p-1 my-1 text-gray-900 border border-black rounded-l-lg bg-amber-300"
+                placeholder="search"
+            />
+
             <div class="inline-flex">
-                <button class="bg-amber-50  text-gray-800 font-bold py-2 px-4 rounded-l cursor-default">
-                    sort:
-                </button>
-                <button class="bg-amber-300 hover:bg-amber-500 text-gray-800 font-bold py-2 px-4" @click="resort('release')">
+                <button
+                    class="border border-1 border-black border-l-0 bg-amber-300 text-sm hover:bg-amber-500 text-gray-800 my-1 px-1"
+                    @click="resort('release')"
+                >
                     release date
                 </button>
-                <button class="bg-amber-300 hover:bg-amber-500 text-gray-800 font-bold py-2 px-4 rounded-r" @click="resort('alphabetical')">
+                <button
+                    class="border border-1 border-black border-l-0 bg-amber-300 text-sm hover:bg-amber-500 text-gray-800 my-1 px-1 rounded-r-lg"
+                    @click="resort('alphabetical')"
+                >
                     alphabetical
                 </button>
-                <!-- <button class="bg-amber-300 hover:bg-amber-500 text-gray-800 font-bold py-2 px-4 rounded-r">
-                    watch date
-                </button> -->
             </div>
         </div>
 
-        <div x-ref="grid" class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 p-2 items-center justify-items-center">
+        <div
+            x-ref="grid"
+            class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 p-2 items-center justify-items-center"
+        >
             {
                 watchlist
-                    // .slice(10, 15)
+                    // .slice(0, 15)
                     .map((movie) => (
                         <img
+                            x-show="$el.dataset.search.toLowerCase().includes(search)"
                             class="w-60 h-auto rounded-lg shadow-xl transition ease-in-out hover:scale-105"
                             title={movie.englishTitle}
                             src={`/poster/${movie.imdbID}.jpg`}
                             alt={`Poster for ${movie.englishTitle}`}
                             data-releasedate={movie.releaseDate}
+                            data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle }`}
                             loading="lazy"
                             @click="showModal"
                         />
@@ -56,6 +68,7 @@ import watchlist from "../data/watchlist.json";
 <script is:inline>
     function data() {
         return {
+            search: "",
             selectedMovie: { title: "", release: "" },
             resort(sorter) {
                 this.getPosters()
@@ -70,21 +83,20 @@ import watchlist from "../data/watchlist.json";
             showModal($event) {
                 this.selectedMovie = {
                     title: $event.target.title,
-                    release: $event.target.dataset.releasedate
-                }
+                    release: $event.target.dataset.releasedate,
+                };
                 this.$refs.dialog.showModal();
             },
             sorter: {
                 alphabetical: (a, b) => {
-                        return a.title.localeCompare(
-                            b.title,
-                        )},
+                    return a.title.localeCompare(b.title);
+                },
                 release: (a, b) => {
-                        return a.dataset.releasedate.localeCompare(
-                            b.dataset.releasedate,
-                        )
-                    }
-            }
+                    return a.dataset.releasedate.localeCompare(
+                        b.dataset.releasedate,
+                    );
+                },
+            },
         };
     }
 </script>
