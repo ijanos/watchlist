@@ -52,7 +52,6 @@
   },
   {
     "englishTitle": "Asteroid City",
-    "originalTitle": "Asteroid City",
     "director": [
       "Wes Anderson"
     ],
@@ -106,7 +105,7 @@
   },
   {
     "englishTitle": "The Super Mario Bros. Movie",
-    "originalTitle": "The Super Mario Bros. Movie",
+    "watched": "2023-11-18",
     "director": [
       "Aaron Horvath",
       "Michael Jelenic"
@@ -126,6 +125,7 @@
   {
     "englishTitle": "Own Forest",
     "originalTitle": "Saját erdő",
+    "watched": "2023-04-04",
     "director": [
       "György Mór Kárpáti"
     ],
@@ -140,7 +140,6 @@
   },
   {
     "englishTitle": "Dungeons & Dragons: Honor Among Thieves",
-    "originalTitle": "Dungeons & Dragons: Honor Among Thieves",
     "director": [
       "John Francis Daley",
       "Jonathan Goldstein"
@@ -159,7 +158,7 @@
   },
   {
     "englishTitle": "Ant-Man and the Wasp: Quantumania",
-    "originalTitle": "Ant-Man and the Wasp: Quantumania",
+    "watched": "2023-07-30",
     "director": [
       "Peyton Reed"
     ],
@@ -210,7 +209,7 @@
   },
   {
     "englishTitle": "The Menu",
-    "originalTitle": "The Menu",
+    "watched": "2023-04-09",
     "director": [
       "Mark Mylod"
     ],
@@ -264,7 +263,7 @@
   },
   {
     "englishTitle": "The Banshees of Inisherin",
-    "originalTitle": "The Banshees of Inisherin",
+    "watched": "2023-02-01",
     "director": [
       "Martin McDonagh"
     ],
@@ -758,6 +757,7 @@
   {
     "englishTitle": "Swallow",
     "originalTitle": "Swallow",
+    "watched": "2023-11-10",
     "director": [
       "Carlo Mirabella-Davis"
     ],
@@ -981,7 +981,7 @@
   },
   {
     "englishTitle": "Ready or Not",
-    "originalTitle": "Ready or Not",
+    "watched": "2023-01-29",
     "director": [
       "Matt Bettinelli-Olpin",
       "Tyler Gillett"
@@ -2153,7 +2153,7 @@
   },
   {
     "englishTitle": "Split",
-    "originalTitle": "Split",
+    "watched": "2017-01-24",
     "director": [
       "M. Night Shyamalan"
     ],
@@ -2236,7 +2236,7 @@
   },
   {
     "englishTitle": "La La Land",
-    "originalTitle": "La La Land",
+    "watched": "2017-01-01",
     "director": [
       "Damien Chazelle"
     ],
@@ -2254,7 +2254,7 @@
   },
   {
     "englishTitle": "Fantastic Beasts and Where to Find Them",
-    "originalTitle": "Fantastic Beasts and Where to Find Them",
+    "watched": "2016-11-23",
     "director": [
       "David Yates"
     ],
@@ -2271,7 +2271,7 @@
   },
   {
     "englishTitle": "Arrival",
-    "originalTitle": "Arrival",
+    "watched": "2016-11-10",
     "director": [
       "Denis Villeneuve"
     ],
@@ -2288,6 +2288,7 @@
   },
   {
     "englishTitle": "Doctor Strange",
+    "watched": "2016-11-03",
     "director": [
       "Scott Derrickson"
     ],
@@ -2304,7 +2305,7 @@
   },
   {
     "englishTitle": "Nocturnal Animals",
-    "originalTitle": "Nocturnal Animals",
+    "watched": "2016-11-18",
     "director": [
       "Tom Ford"
     ],
@@ -2320,7 +2321,7 @@
   },
   {
     "englishTitle": "The Girl with All the Gifts",
-    "originalTitle": "The Girl with All the Gifts",
+    "watched": "2016-10-11",
     "director": [
       "Colm McCarthy"
     ],
@@ -2373,7 +2374,6 @@
   },
   {
     "englishTitle": "Kubo and the Two Strings",
-    "originalTitle": "Kubo and the Two Strings",
     "watched": "2016-10-22",
     "director": [
       "Travis Knight"
@@ -2392,7 +2392,7 @@
   },
   {
     "englishTitle": "Star Trek Beyond",
-    "originalTitle": "Star Trek Beyond",
+    "watched": "2016-07-25",
     "director": [
       "Justin Lin"
     ],
@@ -2429,7 +2429,7 @@
   },
   {
     "englishTitle": "The Neon Demon",
-    "originalTitle": "The Neon Demon",
+    "watched": "2016-06-29",
     "director": [
       "Nicolas Winding Refn"
     ],
@@ -2479,7 +2479,7 @@
   },
   {
     "englishTitle": "The Nice Guys",
-    "originalTitle": "The Nice Guys",
+    "watched": "2016-07-13",
     "director": [
       "Shane Black"
     ],
@@ -2588,6 +2588,7 @@
   },
   {
     "englishTitle": "Remember",
+    "watched": "2016-07-17",
     "director": [
       "Atom Egoyan"
     ],
