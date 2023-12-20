@@ -707,7 +707,7 @@
   },
   {
     "englishTitle": "Tenet",
-    "originalTitle": "Tenet",
+    "watched": "2020-09-05",
     "director": [
       "Christopher Nolan"
     ],
@@ -774,7 +774,7 @@
   },
   {
     "englishTitle": "Star Wars: The Rise of Skywalker",
-    "originalTitle": "Star Wars: The Rise of Skywalker",
+    "watched": "2019-12-19",
     "director": [
       "J.J. Abrams"
     ],
@@ -793,7 +793,7 @@
   },
   {
     "englishTitle": "Knives Out",
-    "originalTitle": "Knives Out",
+    "watched": "2020-05-01",
     "director": [
       "Rian Johnson"
     ],
@@ -862,7 +862,7 @@
   },
   {
     "englishTitle": "The Irishman",
-    "originalTitle": "The Irishman",
+    "watched": "2020-01-05",
     "director": [
       "Martin Scorsese"
     ],
@@ -878,7 +878,7 @@
   },
   {
     "englishTitle": "Jojo Rabbit",
-    "originalTitle": "Jojo Rabbit",
+    "watched": "2020-01-23",
     "director": [
       "Taika Waititi"
     ],
@@ -896,7 +896,7 @@
   },
   {
     "englishTitle": "The Lighthouse",
-    "originalTitle": "The Lighthouse",
+    "watched": "2020-04-21",
     "director": [
       "Robert Eggers"
     ],
@@ -932,7 +932,7 @@
   },
   {
     "englishTitle": "Joker",
-    "originalTitle": "Joker",
+    "watched": "2020-02-29",
     "director": [
       "Todd Phillips"
     ],
@@ -949,6 +949,7 @@
   },
   {
     "englishTitle": "Miles Davis: Birth of the Cool",
+    "watched": "2019-09-18",
     "director": [
       "Stanley Nelson"
     ],
@@ -1000,7 +1001,7 @@
   },
   {
     "englishTitle": "Once Upon a Time… in Hollywood",
-    "originalTitle": "Once Upon a Time… in Hollywood",
+    "watched": "2019-08-17",
     "director": [
       "Quentin Tarantino"
     ],
@@ -1017,7 +1018,7 @@
   },
   {
     "englishTitle": "Midsommar",
-    "originalTitle": "Midsommar",
+    "watched": "2019-07-23",
     "director": [
       "Ari Aster"
     ],
@@ -1035,7 +1036,7 @@
   },
   {
     "englishTitle": "Spider-Man: Far From Home",
-    "originalTitle": "Spider-Man: Far From Home",
+    "watched": "2019-07-06",
     "director": [
       "Jon Watts"
     ],
@@ -1053,6 +1054,7 @@
   {
     "englishTitle": "Parasite",
     "originalTitle": "기생충",
+    "watched": "2019-12-07",
     "director": [
       "Bong Joon-ho"
     ],
@@ -1068,7 +1070,7 @@
   },
   {
     "englishTitle": "The Climb",
-    "originalTitle": "The Climb",
+    "watched": "2021-01-23",
     "director": [
       "Michael Angelo Covino"
     ],
@@ -1103,7 +1105,7 @@
   },
   {
     "englishTitle": "Avengers: Endgame",
-    "originalTitle": "Avengers: Endgame",
+    "watched": "2019-04-27",
     "director": [
       "Anthony Russo",
       "Joe Russo"
@@ -1153,6 +1155,7 @@
   },
   {
     "englishTitle": "Us",
+    "watched": "2019-03-26",
     "director": [
       "Jordan Peele"
     ],
@@ -1168,7 +1171,7 @@
   },
   {
     "englishTitle": "Captain Marvel",
-    "originalTitle": "Captain Marvel",
+    "watched": "2019-03-07",
     "director": [
       "Anna Boden",
       "Ryan Fleck"
@@ -1185,7 +1188,7 @@
   },
   {
     "englishTitle": "Alita: Battle Angel",
-    "originalTitle": "Alita: Battle Angel",
+    "watched": "2019-02-14",
     "director": [
       "Robert Rodriguez"
     ],
@@ -1218,7 +1221,7 @@
   },
   {
     "englishTitle": "Fyre",
-    "originalTitle": "Fyre",
+    "watched": "2019-03-16",
     "director": [
       "Chris Smith"
     ],
@@ -1253,7 +1256,7 @@
   },
   {
     "englishTitle": "Spider-Man: Into the Spider-Verse",
-    "originalTitle": "Spider-Man: Into the Spider-Verse",
+    "watched": "2019-10-20",
     "director": [
       "Bob Persichetti",
       "Peter Ramsey",
@@ -1275,7 +1278,7 @@
   },
   {
     "englishTitle": "The Favourite",
-    "originalTitle": "The Favourite",
+    "watched": "2019-02-11",
     "director": [
       "Yorgos Lanthimos"
     ],
@@ -1312,6 +1315,7 @@
   },
   {
     "englishTitle": "Behind the Curve",
+    "watched": "2019-04-13",
     "director": [
       "Daniel J. Clark"
     ],
@@ -1342,7 +1346,7 @@
   },
   {
     "englishTitle": "First Man",
-    "originalTitle": "First Man",
+    "watched": "2018-11-13",
     "director": [
       "Damien Chazelle"
     ],
@@ -1358,7 +1362,7 @@
   },
   {
     "englishTitle": "Venom",
-    "originalTitle": "Venom",
+    "watched": "2018-08-23",
     "director": [
       "Ruben Fleischer"
     ],
@@ -1374,7 +1378,7 @@
   },
   {
     "englishTitle": "Free Solo",
-    "originalTitle": "Free Solo",
+    "watched": "2019-03-23",
     "director": [
       "Elizabeth Chai Vasarhelyi",
       "Jimmy Chin"
@@ -1392,7 +1396,7 @@
   },
   {
     "englishTitle": "Roma",
-    "originalTitle": "Roma",
+    "watched": "2018-11-30",
     "director": [
       "Alfonso Cuarón"
     ],
@@ -1408,7 +1412,7 @@
   },
   {
     "englishTitle": "Ant-Man and the Wasp",
-    "originalTitle": "Ant-Man and the Wasp",
+    "watched": "2018-07-20",
     "director": [
       "Peyton Reed"
     ],
@@ -1425,7 +1429,7 @@
   },
   {
     "englishTitle": "Under the Silver Lake",
-    "originalTitle": "Under the Silver Lake",
+    "watched": "2018-08-25",
     "director": [
       "David Robert Mitchell"
     ],
@@ -1443,6 +1447,7 @@
   {
     "englishTitle": "Mirai",
     "originalTitle": "未来のミライ",
+    "watched": "2018-12-01",
     "director": [
       "Mamoru Hosoda"
     ],
@@ -1460,7 +1465,7 @@
   },
   {
     "englishTitle": "Hereditary",
-    "originalTitle": "Hereditary",
+    "watched": "2018-06-26",
     "director": [
       "Ari Aster"
     ],
@@ -1477,6 +1482,7 @@
   },
   {
     "englishTitle": "Solo: A Star Wars Story",
+    "watched": "2018-06-09",
     "director": [
       "Ron Howard"
     ],
@@ -1493,7 +1499,7 @@
   },
   {
     "englishTitle": "Deadpool 2",
-    "originalTitle": "Deadpool 2",
+    "watched": "2018-05-15",
     "director": [
       "David Leitch"
     ],
@@ -1510,7 +1516,7 @@
   },
   {
     "englishTitle": "Avengers: Infinity War",
-    "originalTitle": "Avengers: Infinity War",
+    "watched": "2018-04-25",
     "director": [
       "Anthony Russo",
       "Joe Russo"
@@ -1527,7 +1533,7 @@
   },
   {
     "englishTitle": "A Quiet Place",
-    "originalTitle": "A Quiet Place",
+    "watched": "2018-05-03",
     "director": [
       "John Krasinski"
     ],
@@ -1544,7 +1550,7 @@
   },
   {
     "englishTitle": "Ready Player One",
-    "originalTitle": "Ready Player One",
+    "watched": "2018-03-30",
     "director": [
       "Steven Spielberg"
     ],
@@ -1561,7 +1567,7 @@
   },
   {
     "englishTitle": "Isle of Dogs",
-    "originalTitle": "Isle of Dogs",
+    "watched": "2018-05-05",
     "director": [
       "Wes Anderson"
     ],
@@ -1599,7 +1605,7 @@
   },
   {
     "englishTitle": "Annihilation",
-    "originalTitle": "Annihilation",
+    "watched": "2018-03-17",
     "director": [
       "Alex Garland"
     ],
@@ -1636,7 +1642,7 @@
   },
   {
     "englishTitle": "Black Panther",
-    "originalTitle": "Black Panther",
+    "watched": "2018-02-18",
     "director": [
       "Ryan Coogler"
     ],
@@ -1670,7 +1676,7 @@
   },
   {
     "englishTitle": "Star Wars: The Last Jedi",
-    "originalTitle": "Star Wars: The Last Jedi",
+    "watched": "2017-12-13",
     "director": [
       "Rian Johnson"
     ],
@@ -1687,7 +1693,7 @@
   },
   {
     "englishTitle": "I, Tonya",
-    "originalTitle": "I, Tonya",
+    "watched": "2018-02-21",
     "director": [
       "Craig Gillespie"
     ],
@@ -1704,7 +1710,7 @@
   },
   {
     "englishTitle": "Molly's Game",
-    "originalTitle": "Molly's Game",
+    "watched": "2018-04-04",
     "director": [
       "Aaron Sorkin"
     ],
@@ -1738,7 +1744,7 @@
   },
   {
     "englishTitle": "Three Billboards Outside Ebbing, Missouri",
-    "originalTitle": "Three Billboards Outside Ebbing, Missouri",
+    "watched": "2018-01-31",
     "director": [
       "Martin McDonagh"
     ],
@@ -1755,6 +1761,7 @@
   },
   {
     "englishTitle": "The Breadwinner",
+    "watched": "2017-12-03",
     "director": [
       "Nora Twomey"
     ],
@@ -1771,6 +1778,7 @@
   },
   {
     "englishTitle": "Thor: Ragnarok",
+    "watched": "2017-11-01",
     "director": [
       "Taika Waititi"
     ],
@@ -1823,7 +1831,7 @@
   },
   {
     "englishTitle": "Blade Runner 2049",
-    "originalTitle": "Blade Runner 2049",
+    "watched": "2017-10-07",
     "director": [
       "Denis Villeneuve"
     ],
@@ -1841,7 +1849,7 @@
   },
   {
     "englishTitle": "mother!",
-    "originalTitle": "mother!",
+    "watched": "2017-10-25",
     "director": [
       "Darren Aronofsky"
     ],
@@ -1874,7 +1882,7 @@
   },
   {
     "englishTitle": "Valerian and the City of a Thousand Planets",
-    "originalTitle": "Valerian and the City of a Thousand Planets",
+    "watched": "2017-07-21",
     "director": [
       "Luc Besson"
     ],
@@ -1892,7 +1900,7 @@
   },
   {
     "englishTitle": "Dunkirk",
-    "originalTitle": "Dunkirk",
+    "watched": "2017-07-23",
     "director": [
       "Christopher Nolan"
     ],
@@ -1911,6 +1919,7 @@
   },
   {
     "englishTitle": "The Big Sick",
+    "watched": "2017-11-26",
     "director": [
       "Michael Showalter"
     ],
@@ -1927,7 +1936,7 @@
   },
   {
     "englishTitle": "Spider-Man: Homecoming",
-    "originalTitle": "Spider-Man: Homecoming",
+    "watched": "2017-07-08",
     "director": [
       "Jon Watts"
     ],
@@ -1943,7 +1952,7 @@
   },
   {
     "englishTitle": "Baby Driver",
-    "originalTitle": "Baby Driver",
+    "watched": "2017-07-01",
     "director": [
       "Edgar Wright"
     ],
@@ -2013,7 +2022,7 @@
   },
   {
     "englishTitle": "Alien: Covenant",
-    "originalTitle": "Alien: Covenant",
+    "watched": "2017-05-20",
     "director": [
       "Ridley Scott"
     ],
@@ -2030,7 +2039,7 @@
   },
   {
     "englishTitle": "Guardians of the Galaxy Vol. 2",
-    "originalTitle": "Guardians of the Galaxy Vol. 2",
+    "watched": "2017-05-05",
     "director": [
       "James Gunn"
     ],
@@ -2065,7 +2074,7 @@
   },
   {
     "englishTitle": "Ghost in the Shell",
-    "originalTitle": "Ghost in the Shell",
+    "watched": "2017-03-30",
     "director": [
       "Rupert Sanders"
     ],
@@ -2085,6 +2094,7 @@
   {
     "englishTitle": "Bet on Revenge",
     "originalTitle": "Kincsem",
+    "watched": "2018-03-21",
     "director": [
       "Gábor Herendi"
     ],
@@ -2103,6 +2113,7 @@
   {
     "englishTitle": "On Body and Soul",
     "originalTitle": "Testről és lélekről",
+    "watched": "2018-03-02",
     "director": [
       "Ildikó Enyedi"
     ],
@@ -2119,7 +2130,7 @@
   },
   {
     "englishTitle": "Logan",
-    "originalTitle": "Logan",
+    "watched": "2017-03-05",
     "director": [
       "James Mangold"
     ],
@@ -2137,7 +2148,7 @@
   },
   {
     "englishTitle": "Get Out",
-    "originalTitle": "Get Out",
+    "watched": "2017-04-28",
     "director": [
       "Jordan Peele"
     ],
@@ -2169,7 +2180,7 @@
   },
   {
     "englishTitle": "Silence",
-    "originalTitle": "Silence",
+    "watched": "2017-03-22",
     "director": [
       "Martin Scorsese"
     ],
@@ -2185,7 +2196,7 @@
   },
   {
     "englishTitle": "Passengers",
-    "originalTitle": "Passengers",
+    "watched": "2017-01-13",
     "director": [
       "Morten Tyldum"
     ],
@@ -2204,6 +2215,7 @@
   {
     "englishTitle": "Rogue One: A Star Wars Story",
     "originalTitle": "Rouge One",
+    "watched": "2016-12-16",
     "director": [
       "Gareth Edwards"
     ],
@@ -2220,7 +2232,7 @@
   },
   {
     "englishTitle": "Hidden Figures",
-    "originalTitle": "Hidden Figures",
+    "watched": "2017-02-27",
     "director": [
       "Theodore Melfi"
     ],
@@ -2357,6 +2369,7 @@
   {
     "englishTitle": "Your Name.",
     "originalTitle": "君の名は。",
+    "watched": "2017-12-02",
     "director": [
       "Makoto Shinkai"
     ],
@@ -2499,7 +2512,7 @@
   },
   {
     "englishTitle": "Hunt for the Wilderpeople",
-    "originalTitle": "Hunt for the Wilderpeople",
+    "watched": "2017-05-14",
     "director": [
       "Taika Waititi"
     ],
@@ -2554,7 +2567,7 @@
   },
   {
     "englishTitle": "Deadpool",
-    "originalTitle": "Deadpool",
+    "watched": "2016-02-16",
     "director": [
       "Tim Miller"
     ],
@@ -2570,7 +2583,7 @@
   },
   {
     "englishTitle": "The Hateful Eight",
-    "originalTitle": "The Hateful Eight",
+    "watched": "2016-01-15",
     "director": [
       "Quentin Tarantino"
     ],
@@ -2658,7 +2671,7 @@
   },
   {
     "englishTitle": "Steve Jobs",
-    "originalTitle": "Steve Jobs",
+    "watched": "2018-04-07",
     "director": [
       "Danny Boyle"
     ],
@@ -2707,7 +2720,7 @@
   },
   {
     "englishTitle": "Ant-Man",
-    "originalTitle": "Ant-Man",
+    "watched": "2015-08-05",
     "director": [
       "Peyton Reed"
     ],
@@ -2911,7 +2924,7 @@
   },
   {
     "englishTitle": "John Wick",
-    "originalTitle": "John Wick",
+    "watched": "2019-02-13",
     "director": [
       "Chad Stahelski"
     ],
