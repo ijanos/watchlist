@@ -3788,8 +3788,21 @@
     ]
   },
   {
+    "englishTitle": "The Hangover Part II",
+    "director": [
+      "Todd Phillips"
+    ],
+    "imdbID": "tt1411697",
+    "releaseYear": 2011,
+    "releaseDate": "2011-05-26",
+    "runtime": 102,
+    "ageCertification": "R",
+    "genres": [
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "Thor",
-    "originalTitle": "Thor",
     "director": [
       "Kenneth Branagh"
     ],
@@ -4286,6 +4299,20 @@
     "genres": [
       "drama",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "The Hangover",
+    "director": [
+      "Todd Phillips"
+    ],
+    "imdbID": "tt1119646",
+    "releaseYear": 2009,
+    "releaseDate": "2009-06-05",
+    "runtime": 100,
+    "ageCertification": "R",
+    "genres": [
+      "comedy"
     ]
   },
   {
@@ -6093,6 +6120,22 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Avalon",
+    "director": [
+      "Mamoru Oshii"
+    ],
+    "imdbID": "tt0267287",
+    "releaseYear": 2001,
+    "releaseDate": "2001-01-20",
+    "runtime": 107,
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "drama",
+      "fantasy"
     ]
   },
   {
