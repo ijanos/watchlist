@@ -1,0 +1,53 @@
+---
+import Layout from "../layouts/Layout.astro";
+import watchlist from "../data/watchlist.json";
+
+const sumRuntimeMinutes = watchlist.reduce((acc, m) => acc + m.runtime, 0);
+const hours = Math.floor(sumRuntimeMinutes / 60);
+const days = Math.floor(hours / 24);
+
+let directorCounter = new Map<string, number>();
+watchlist
+    .map((m) => m.director)
+    .flat()
+    .forEach((d) => {
+        const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
+        directorCounter.set(d, n + 1);
+    });
+
+const directorsArray = Array.from(directorCounter).sort(
+    ([_d1, c1], [_d2, c2]) => c2 - c1,
+);
+---
+
+<Layout title="statistics | Janos' watchlist">
+    <div class="bg-amber-50 rounded-lg bg-opacity-50 backdrop-blur-md p-1 py-2">
+        <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
+        <h2 class="py-2 font-semibold text-lg">Watch time</h2>
+        <p>
+            Assuming I saw every movie exactly once, I spent <span
+                class="font-mono font-extrabold">{ sumRuntimeMinutes }</span
+            > minutes watching movies.
+        </p>
+        <p>
+            That is {days} days, {hours % 24} hours and {sumRuntimeMinutes % 60} minutes.
+        </p>
+
+        <h2 class="py-2 font-semibold text-lg">Directors</h2>
+        <table>
+            <thead class="text-left">
+                <tr><th>Director</th> <th class="text-center">movie count</th></tr>
+            </thead>
+            <tbody>
+                {
+                    directorsArray.map(([director, count]) => (
+                        <tr>
+                            <td>{ director }</td>
+                            <td class="text-center">{ count }</td>
+                        </tr>
+                    ))
+                }
+            </tbody>
+        </table>
+    </div>
+</Layout>

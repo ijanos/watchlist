@@ -1,12 +1,13 @@
 ---
 const activeClass =
-    "font-medium hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md bg-gray-900 text-white";
+    "font-medium hover:bg-gray-700 hover:text-white px-1 py-1 rounded-md bg-gray-900 text-white";
 const inactiveClass =
-    "font-medium hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-gray-900";
+    "font-medium hover:bg-gray-700 hover:text-white px-1 py-1 rounded-md text-gray-900";
 
 const links = [
     { href: "/", text: "list" },
     { href: "/posters/", text: "posters" },
+    { href: "/stats/", text: "stats" },
 ];
 ---
 
@@ -20,7 +21,7 @@ const links = [
                     ></a
                 >
             </div>
-            <div class="flex space-x-1 lg:space-x-4 lg:text-base text-xs drop-shadow-lg">
+            <div class="flex space-x-1 lg:text-base text-xs drop-shadow-lg">
                 {
                     links.map((link) => (
                         <a
