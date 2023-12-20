@@ -35,7 +35,6 @@
   },
   {
     "englishTitle": "Oppenheimer",
-    "originalTitle": "Oppenheimer",
     "watched": "2023-08-06",
     "director": [
       "Christopher Nolan"
@@ -226,7 +225,7 @@
   },
   {
     "englishTitle": "Glass Onion: A Knives Out Mystery",
-    "originalTitle": "Glass Onion: A Knives Out Mystery",
+    "watched": "2022-12-03",
     "director": [
       "Rian Johnson"
     ],
@@ -296,7 +295,7 @@
   },
   {
     "englishTitle": "Nope",
-    "originalTitle": "Nope",
+    "watched": "2022-10-23",
     "director": [
       "Jordan Peele"
     ],
@@ -422,6 +421,7 @@
   },
   {
     "englishTitle": "Death to 2021",
+    "watched": "2021-12-30",
     "director": [
       "Jack Clough",
       "Josh Ruben"
@@ -437,7 +437,7 @@
   },
   {
     "englishTitle": "The Matrix Resurrections",
-    "originalTitle": "The Matrix Resurrections",
+    "watched": "2021-12-29",
     "director": [
       "Lana Wachowski"
     ],
@@ -487,7 +487,7 @@
   },
   {
     "englishTitle": "House of Gucci",
-    "originalTitle": "House of Gucci",
+    "watched": "2021-12-03",
     "director": [
       "Ridley Scott"
     ],
@@ -537,7 +537,7 @@
   },
   {
     "englishTitle": "Dune",
-    "originalTitle": "Dune",
+    "watched": "2021-10-21",
     "director": [
       "Denis Villeneuve"
     ],
@@ -554,7 +554,7 @@
   },
   {
     "englishTitle": "Shang-Chi and the Legend of the Ten Rings",
-    "originalTitle": "Shang-Chi and the Legend of the Ten Rings",
+    "watched": "2021-11-18",
     "director": [
       "Destin Daniel Cretton"
     ],
@@ -571,7 +571,7 @@
   },
   {
     "englishTitle": "Free Guy",
-    "originalTitle": "Free Guy",
+    "watched": "2022-12-17",
     "director": [
       "Shawn Levy"
     ],
@@ -589,7 +589,7 @@
   },
   {
     "englishTitle": "The Suicide Squad",
-    "originalTitle": "The Suicide Squad",
+    "watched": "2021-08-09",
     "director": [
       "James Gunn"
     ],
@@ -640,6 +640,7 @@
   },
   {
     "englishTitle": "Death to 2020",
+    "watched": "2021-01-01",
     "director": [
       "Al Campbell",
       "Alice Mathias"
@@ -676,6 +677,7 @@
   },
   {
     "englishTitle": "Feels Good Man",
+    "watched": "2021-04-21",
     "director": [
       "Arthur Jones"
     ],
@@ -1086,7 +1088,7 @@
   },
   {
     "englishTitle": "Pokémon Detective Pikachu",
-    "originalTitle": "Pokémon Detective Pikachu",
+    "watched": "2020-05-01",
     "director": [
       "Rob Letterman"
     ],
@@ -1951,6 +1953,22 @@
     ]
   },
   {
+    "englishTitle": "The Beguiled",
+    "director": [
+      "Sofia Coppola"
+    ],
+    "imdbID": "tt5592248",
+    "releaseYear": 2017,
+    "releaseDate": "2017-06-30",
+    "runtime": 93,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "history",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Baby Driver",
     "watched": "2017-07-01",
     "director": [
@@ -2423,6 +2441,7 @@
   {
     "englishTitle": "The Red Turtle",
     "originalTitle": "La tortue rouge",
+    "watched": "2017-08-27",
     "director": [
       "Michael Dudok de Wit"
     ],
@@ -2459,7 +2478,7 @@
   },
   {
     "englishTitle": "Tickled",
-    "originalTitle": "Tickled",
+    "watched": "2021-08-19",
     "director": [
       "David Farrier",
       "Dylan Reeve"
@@ -2511,6 +2530,23 @@
     ]
   },
   {
+    "englishTitle": "Captain America: Civil War",
+    "watched": "2016-05-06",
+    "director": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "imdbID": "tt3498820",
+    "releaseYear": 2016,
+    "releaseDate": "2016-05-06",
+    "runtime": 147,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Hunt for the Wilderpeople",
     "watched": "2017-05-14",
     "director": [
@@ -2528,7 +2564,7 @@
   },
   {
     "englishTitle": "10 Cloverfield Lane",
-    "originalTitle": "10 Cloverfield Lane",
+    "watched": "2016-04-15",
     "director": [
       "Dan Trachtenberg"
     ],
@@ -2633,8 +2669,25 @@
     ]
   },
   {
+    "englishTitle": "Macbeth",
+    "watched": "2015-11-03",
+    "director": [
+      "Justin Kurzel"
+    ],
+    "imdbID": "tt2884018",
+    "releaseYear": 2015,
+    "releaseDate": "2015-12-11",
+    "runtime": 113,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "history",
+      "war"
+    ]
+  },
+  {
     "englishTitle": "The Big Short",
-    "originalTitle": "The Big Short",
+    "watched": "2016-02-28",
     "director": [
       "Adam McKay"
     ],
@@ -2686,7 +2739,7 @@
   },
   {
     "englishTitle": "The Martian",
-    "originalTitle": "The Martian",
+    "watched": "2015-10-11",
     "director": [
       "Ridley Scott"
     ],
@@ -2773,7 +2826,7 @@
   },
   {
     "englishTitle": "Jurassic World",
-    "originalTitle": "Jurassic World",
+    "watched": "2015-06-28",
     "director": [
       "Colin Trevorrow"
     ],
@@ -2790,7 +2843,7 @@
   },
   {
     "englishTitle": "Mad Max: Fury Road",
-    "originalTitle": "Mad Max: Fury Road",
+    "watched": "2015-05-31",
     "director": [
       "George Miller"
     ],
@@ -2807,6 +2860,7 @@
   },
   {
     "englishTitle": "Avengers: Age of Ultron",
+    "watched": "2015-05-17",
     "director": [
       "Joss Whedon"
     ],
@@ -2875,7 +2929,7 @@
   },
   {
     "englishTitle": "The Hobbit: The Battle of the Five Armies",
-    "originalTitle": "The Hobbit: The Battle of the Five Armies",
+    "watched": "2014-12-19",
     "director": [
       "Peter Jackson"
     ],
@@ -2908,7 +2962,7 @@
   },
   {
     "englishTitle": "Interstellar",
-    "originalTitle": "Interstellar",
+    "watched": "2014-11-09",
     "director": [
       "Christopher Nolan"
     ],
@@ -2941,7 +2995,7 @@
   },
   {
     "englishTitle": "Birdman or (The Unexpected Virtue of Ignorance)",
-    "originalTitle": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "watched": "2015-01-20",
     "director": [
       "Alejandro González Iñárritu"
     ],
@@ -2957,7 +3011,7 @@
   },
   {
     "englishTitle": "Whiplash",
-    "originalTitle": "Whiplash",
+    "watched": "2015-02-10",
     "director": [
       "Damien Chazelle"
     ],
@@ -2973,7 +3027,7 @@
   },
   {
     "englishTitle": "Gone Girl",
-    "originalTitle": "Gone Girl",
+    "watched": "2014-10-17",
     "director": [
       "David Fincher"
     ],
@@ -3008,7 +3062,7 @@
   },
   {
     "englishTitle": "Guardians of the Galaxy",
-    "originalTitle": "Guardians of the Galaxy",
+    "watched": "2014-09-07",
     "director": [
       "James Gunn"
     ],
@@ -3042,7 +3096,7 @@
   },
   {
     "englishTitle": "Edge of Tomorrow",
-    "originalTitle": "Edge of Tomorrow",
+    "watched": "2014-06-28",
     "director": [
       "Doug Liman"
     ],
@@ -3093,7 +3147,7 @@
   },
   {
     "englishTitle": "The Grand Budapest Hotel",
-    "originalTitle": "The Grand Budapest Hotel",
+    "watched": "2014-04-05",
     "director": [
       "Wes Anderson"
     ],
@@ -3150,7 +3204,7 @@
   },
   {
     "englishTitle": "The Hobbit: The Desolation of Smaug",
-    "originalTitle": "The Hobbit: The Desolation of Smaug",
+    "watched": "2013-12-16",
     "director": [
       "Peter Jackson"
     ],
@@ -3220,7 +3274,7 @@
   },
   {
     "englishTitle": "Gravity",
-    "originalTitle": "Gravity",
+    "watched": "2013-10-07",
     "director": [
       "Alfonso Cuarón"
     ],
@@ -3459,7 +3513,7 @@
   },
   {
     "englishTitle": "Django Unchained",
-    "originalTitle": "Django Unchained",
+    "watched": "2013-01-22",
     "director": [
       "Quentin Tarantino"
     ],
@@ -3475,7 +3529,7 @@
   },
   {
     "englishTitle": "The Hobbit: An Unexpected Journey",
-    "originalTitle": "The Hobbit: An Unexpected Journey",
+    "watched": "2012-12-19",
     "director": [
       "Peter Jackson"
     ],
@@ -3543,7 +3597,7 @@
   },
   {
     "englishTitle": "Cloud Atlas",
-    "originalTitle": "Cloud Atlas",
+    "watched": "2012-11-22",
     "director": [
       "Lana Wachowski",
       "Lilly Wachowski",
@@ -3682,6 +3736,23 @@
     ]
   },
   {
+    "englishTitle": "Iron Man 3",
+    "watched": "2013-05-01",
+    "director": [
+      "Shane Black"
+    ],
+    "imdbID": "tt1300854",
+    "releaseYear": 2013,
+    "releaseDate": "2013-05-03",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "The Avengers",
     "originalTitle": "The Avengers",
     "director": [
@@ -3699,7 +3770,7 @@
   },
   {
     "englishTitle": "John Carter",
-    "originalTitle": "John Carter",
+    "watched": "2012-03-08",
     "director": [
       "Andrew Stanton"
     ],
@@ -3900,7 +3971,7 @@
   },
   {
     "englishTitle": "TRON: Legacy",
-    "originalTitle": "TRON: Legacy",
+    "watched": "2011-01-20",
     "director": [
       "Joseph Kosinski"
     ],
@@ -4026,7 +4097,6 @@
   },
   {
     "englishTitle": "Predators",
-    "originalTitle": "Predators",
     "director": [
       "Nimród Antal"
     ],
@@ -4044,8 +4114,22 @@
     ]
   },
   {
+    "englishTitle": "Iron Man 2",
+    "director": [
+      "Jon Favreau"
+    ],
+    "imdbID": "tt1228705",
+    "releaseYear": 2010,
+    "releaseDate": "2010-05-07",
+    "runtime": 124,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Kick-Ass",
-    "originalTitle": "Kick-Ass",
     "director": [
       "Matthew Vaughn"
     ],
@@ -4483,7 +4567,6 @@
   },
   {
     "englishTitle": "Iron Man",
-    "originalTitle": "Iron Man",
     "director": [
       "Jon Favreau"
     ],
@@ -5178,7 +5261,7 @@
   },
   {
     "englishTitle": "The Polar Express",
-    "originalTitle": "The Polar Express",
+    "watched": "2021-12-24",
     "director": [
       "Robert Zemeckis"
     ],
