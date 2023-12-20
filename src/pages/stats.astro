@@ -18,6 +18,17 @@ watchlist
 const directorsArray = Array.from(directorCounter).sort(
     ([_d1, c1], [_d2, c2]) => c2 - c1,
 );
+
+let yearCounter = new Map<number, number>();
+watchlist
+    .map((m) => m.releaseYear)
+    .forEach((year) => {
+        const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
+        yearCounter.set(year, n + 1);
+    });
+const yearArray = Array.from(yearCounter).sort(
+    ([y1, _c1], [y2, _c2]) => y2 - y1
+);
 ---
 
 <Layout title="statistics | Janos' watchlist">
@@ -43,6 +54,23 @@ const directorsArray = Array.from(directorCounter).sort(
                     directorsArray.map(([director, count]) => (
                         <tr>
                             <td>{ director }</td>
+                            <td class="text-center">{ count }</td>
+                        </tr>
+                    ))
+                }
+            </tbody>
+        </table>
+
+        <h2 class="py-2 font-semibold text-lg">Years</h2>
+        <table>
+            <thead class="text-left">
+                <tr><th>Release year</th><th class="text-center">movie count</th></tr>
+            </thead>
+            <tbody>
+                {
+                    yearArray.map(([year, count]) => (
+                        <tr>
+                            <td>{ year }</td>
                             <td class="text-center">{ count }</td>
                         </tr>
                     ))
