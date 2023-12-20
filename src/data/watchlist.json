@@ -1136,13 +1136,14 @@
   },
   {
     "englishTitle": "Penguin Highway",
+    "watched": "2019-11-30",
     "director": [
       "Hiroyasu Ishida"
     ],
     "imdbID": "tt8076344",
     "releaseYear": 2018,
     "releaseDate": "2019-04-12",
-    "runtime": "117",
+    "runtime": 117,
     "ageCertification": "Not Rated",
     "genres": [
       "animation",
@@ -1152,7 +1153,6 @@
   },
   {
     "englishTitle": "Us",
-    "originalTitle": "Us",
     "director": [
       "Jordan Peele"
     ],
