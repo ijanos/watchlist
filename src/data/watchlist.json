@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "The Boy and the Heron",
+    "watched": "2024-01-01",
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "imdbID": "tt6587046",
+    "releaseYear": 2023,
+    "releaseDate": "2023-12-08",
+    "runtime": 124,
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "adventure",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "The Killer",
     "watched": "2023-11-25",
     "director": [
