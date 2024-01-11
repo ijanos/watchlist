@@ -2039,6 +2039,22 @@
     ]
   },
   {
+  "englishTitle": "Blame!",
+  "director": [
+    "Hiroyuki Seshita"
+  ],
+  "imdbID": "tt6574146",
+  "releaseYear": 2017,
+  "releaseDate": "2017-05-20",
+  "runtime": 106,
+  "ageCertification": "TV-14",
+  "genres": [
+    "animation",
+    "action",
+    "drama"
+  ]
+},
+  {
     "englishTitle": "Alien: Covenant",
     "watched": "2017-05-20",
     "director": [
@@ -3238,6 +3254,22 @@
       "kids-and-family"
     ]
   },
+  {
+  "englishTitle": "Thor: The Dark World",
+  "director": [
+    "Alan Taylor"
+  ],
+  "imdbID": "tt1981115",
+  "releaseYear": 2013,
+  "releaseDate": "2013-11-08",
+  "runtime": 112,
+  "ageCertification": "PG-13",
+  "genres": [
+    "action",
+    "adventure",
+    "fantasy"
+  ]
+},
   {
     "englishTitle": "Ender's Game",
     "originalTitle": "Ender's Game",
