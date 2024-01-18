@@ -1,25 +1,6 @@
 ---
-import watchlist from "../data/watchlist.json";
+import { movies } from "../data/movies.ts";
 const imdbURI = "https://imdb.com/title/";
-
-interface Movie {
-   englishTitle: string;
-   originalTitle?: string;
-   watched?: string;
-   director: string[];
-   imdbID: string;
-   releaseYear: number;
-   releaseDate: string;
-   runtime: number;
-   ageCertification: string;
-   genres:string[];
-}
-
-const compareWatchdate = function (movieA: Movie, movieB: Movie) {
-  const movieAdate = movieA["watched"] || movieA["releaseDate"];
-  const movieBdate = movieB["watched"] || movieB["releaseDate"];
- return movieAdate.localeCompare(movieBdate);
-}
 ---
 <div x-data="table">
     <input type="text"
@@ -40,7 +21,7 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
         </tr>
     </thead>
     <tbody x-ref="tbody">
-{(watchlist as Movie[]).sort(compareWatchdate).reverse().map((movie) =>
+{movies.map((movie) =>
     <tr class="border-t border-dotted h-7 hover:bg-yellow-200"
         x-show="$el.dataset.search.includes(search)"
         data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}

@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import watchlist from "../data/watchlist.json";
+import { movies } from "../data/movies.ts";
 ---
 
 <Layout title="posters | Janos' watchlist">
@@ -45,8 +45,7 @@ import watchlist from "../data/watchlist.json";
             class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center"
         >
             {
-                watchlist
-                    .map((movie) => (
+                movies.map((movie) => (
                         <img
                             x-show="$el.dataset.search.includes(search)"
                             class="w-60 h-auto rounded-lg shadow-xl transition ease-in-out hover:scale-105"
