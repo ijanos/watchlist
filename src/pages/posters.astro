@@ -5,15 +5,14 @@ import { movies } from "../data/movies.ts";
 
 <Layout title="posters | Janos' watchlist">
     <div x-data="posters">
-        <dialog
-            x-ref="dialog"
-            class="p-5 border-4 rounded-md border-amber-300 min-w-[20em]"
-        >
-            <p x-text="selectedMovie['title']" class="py-2 text-xl"></p>
-            <p x-text="selectedMovie['release']" class="py-2 text-xl"></p>
-            <form method="dialog">
-                <button>OK</button>
-            </form>
+        <dialog x-ref="dialog" class="p-2 border-4 rounded-md border-amber-300 min-w-[20em]">
+            <div class="flex gap-2 min-w-96">
+                <img :src="selectedMovie['posterURL']" />
+                <div class="flex flex-col">
+                    <p x-text="selectedMovie['title']" class="py-2 font-bold text-xl"></p>
+                    <p x-text="selectedMovie['release']" class="py-2 text-lg"></p>
+                </div>
+            </div>
         </dialog>
 
         <div class="flex justify-between flex-wrap drop-shadow-md">
@@ -69,7 +68,7 @@ import Alpine from 'alpinejs';
 document.addEventListener('alpine:init', () => {
     Alpine.data('posters', () => ( {
             search: "",
-            selectedMovie: { title: "", release: "" },
+            selectedMovie: { title: "", release: "", posterURL: "" },
             sortOrder: -1,
             reorder(sorter: string) {
                 this.getPosters()
@@ -85,6 +84,7 @@ document.addEventListener('alpine:init', () => {
                 this.selectedMovie = {
                     title: ($event?.target as HTMLImageElement).title,
                     release: ($event?.target as HTMLImageElement).dataset.releasedate as string,
+                    posterURL: ($event?.target as HTMLImageElement).src
                 };
                 (this.$refs.dialog as HTMLDialogElement).showModal();
             },
