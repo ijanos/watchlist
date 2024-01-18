@@ -34,6 +34,22 @@
     ]
   },
   {
+    "englishTitle": "Babylon 5: The Road Home",
+    "director": [
+      "Matt Peters"
+    ],
+    "imdbID": "tt27712788",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-22",
+    "watched": "2024-01-17",
+    "runtime": 79,
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Barbie",
     "watched": "2023-12-10",
     "director": [
@@ -4561,6 +4577,22 @@
     "genres": [
       "drama",
       "romance"
+    ]
+  },
+  {
+    "englishTitle": "Repo! The Genetic Opera",
+    "director": [
+      "Darren Lynn Bousman"
+    ],
+    "imdbID": "tt0963194",
+    "releaseYear": 2008,
+    "releaseDate": "2008-11-20",
+    "runtime": 98,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "musical",
+      "sci-fi"
     ]
   },
   {
