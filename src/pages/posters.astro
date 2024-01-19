@@ -6,11 +6,18 @@ import { movies } from "../data/movies.ts";
 <Layout title="posters | Janos' watchlist">
     <div x-data="posters">
         <dialog x-ref="dialog" class="p-2 border-4 rounded-md border-amber-300 min-w-[20em]">
-            <div class="flex gap-2 min-w-96">
+            <div class="flex gap-2 min-w-96 flex-col">
+                <p x-text="selectedMovie['title']" class="py-2 font-bold text-xl"></p>
+                <div class="flex">
                 <img x-bind:src="selectedMovie['posterURL']" />
-                <div class="flex flex-col">
-                    <p x-text="selectedMovie['title']" class="py-2 font-bold text-xl"></p>
-                    <p x-text="selectedMovie['release']" class="py-2 text-lg"></p>
+                <div class="flex flex-col gap-2">
+                    <p>Release:
+                        <span x-text="selectedMovie['release']"/>
+                    </p>
+                    <form method="dialog">
+                        <button>OK</button>
+                    </form>
+                </div>
                 </div>
             </div>
         </dialog>
