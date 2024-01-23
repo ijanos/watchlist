@@ -17,6 +17,22 @@
     ]
   },
   {
+    "englishTitle": "Dream Scenario",
+    "director": [
+      "Kristoffer Borgli"
+    ],
+    "imdbID": "tt21942866",
+    "releaseYear": 2023,
+    "releaseDate": "2023-11-22",
+    "runtime": 102,
+    "watched": "2024-01-22",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "horror"
+    ]
+  },
+  {
     "englishTitle": "The Killer",
     "watched": "2023-11-25",
     "director": [
@@ -307,6 +323,24 @@
     "genres": [
       "comedy",
       "drama"
+    ]
+  },
+  {
+    "englishTitle": "Luck",
+    "director": [
+      "Peggy Holmes",
+      "Javier Abad"
+    ],
+    "imdbID": "tt7214954",
+    "releaseYear": 2022,
+    "releaseDate": "2022-08-05",
+    "watched": "2024-01-19",
+    "runtime": 105,
+    "ageCertification": "G",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
     ]
   },
   {
@@ -6555,6 +6589,22 @@
     ]
   },
   {
+    "englishTitle": "Evolution's Child",
+    "director": [
+      "Jeffrey Reiner"
+    ],
+    "imdbID": "tt0214677",
+    "releaseYear": 1999,
+    "releaseDate": "1999-10-22",
+    "runtime": 80,
+    "ageCertification": "TV-14",
+    "genres": [
+      "drama",
+      "fantasy",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Fight Club",
     "originalTitle": "Fight Club",
     "director": [
@@ -7476,6 +7526,22 @@
       "comedy",
       "crime",
       "kids-and-family"
+    ]
+  },
+  {
+    "englishTitle": "Buffy the Vampire Slayer",
+    "director": [
+      "Fran Rubel Kuzui"
+    ],
+    "imdbID": "tt0103893",
+    "releaseYear": 1992,
+    "releaseDate": "1992-07-01",
+    "runtime": 86,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "comedy",
+      "fantasy"
     ]
   },
   {
