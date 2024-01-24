@@ -1,12 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { movies } from "../data/movies.ts";
-
 ---
 
 <Layout title="posters | Janos' watchlist">
     <div x-data="posters">
-        <dialog x-ref="dialog" class="p-2 border-4 rounded-md border-amber-300 min-w-[20em] backdrop:transition-all backdrop:duration-500 backdrop:backdrop-blur-sm">
+        <dialog x-ref="dialog" class="p-2 border-4 rounded-md border-amber-300 min-w-[20em] transition ease-in-out backdrop:backdrop-blur-sm">
             <div class="flex gap-2 min-w-96 flex-col">
                 <p x-text="selectedMovie['title']" class="py-2 font-bold text-xl"></p>
                 <div class="flex">
@@ -59,10 +58,9 @@ import { movies } from "../data/movies.ts";
                             title={movie.englishTitle}
                             src={`/poster/${movie.imdbID}.jpg`}
                             alt={`Poster for ${movie.englishTitle}`}
-                            data-releasedate={movie.releaseDate}
                             data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
                             loading={ index < 32 ? "eager" : "lazy" }
-                            @click="showModal"
+                            @click={ `showModal(${ index })` }
                         />
                     ))
             }
@@ -78,6 +76,7 @@ document.addEventListener('alpine:init', () => {
             search: "",
             selectedMovie: { title: "", release: "", posterURL: "" },
             sortOrder: -1,
+            watchlistData: [],
             reorder(sorter: string) {
                 this.getPosters()
                     .sort(this.getSortFn(sorter))
@@ -85,14 +84,23 @@ document.addEventListener('alpine:init', () => {
                         this.$refs.grid.appendChild(img);
                     });
             },
+            init() {
+                fetch('/watchlist.json')
+                  .then((response) => response.json())
+                  .then((data) => {
+                      this.watchlistData = data
+                  });
+            },
             getPosters() {
                 return Array.from(this.$refs.grid.querySelectorAll("img"));
             },
-            showModal($event: Event) {
+            showModal(i: number) {
+                console.log(this.watchlistData[i]);
+                const movie: any = this.watchlistData[i];
                 this.selectedMovie = {
-                    title: ($event?.target as HTMLImageElement).title,
-                    release: ($event?.target as HTMLImageElement).dataset.releasedate as string,
-                    posterURL: ($event?.target as HTMLImageElement).src
+                    title: movie.englishTitle,
+                    release: movie.releaseDate,
+                    posterURL: `/poster/${movie.imdbID}.jpg`
                 };
                 (this.$refs.dialog as HTMLDialogElement).showModal();
             },
