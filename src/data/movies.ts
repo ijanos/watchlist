@@ -6,6 +6,7 @@ interface Movie {
    watched?: string;
    director: string[];
    imdbID: string;
+   index: number;
    releaseYear: number;
    releaseDate: string;
    runtime: number;
@@ -20,4 +21,6 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
  return movieAdate.localeCompare(movieBdate);
 }
 
-export const movies: Movie[] = watchlist.sort(compareWatchdate).reverse();
+const indexedWatchlist = watchlist.map((movie, index) =>  ({...movie, index: index}));
+
+export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();

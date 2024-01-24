@@ -9,10 +9,13 @@ import { movies } from "../data/movies.ts";
             <div class="flex gap-2 min-w-96 flex-col">
                 <p x-text="selectedMovie['title']" class="py-2 font-bold text-xl"></p>
                 <div class="flex">
-                <img class="w-64 h-auto rounded-lg" x-bind:src="selectedMovie['posterURL']" />
+                <img class="w-64 h-auto rounded-lg" x-bind:src="selectedMovie.posterURL" />
                 <div class="flex flex-col gap-2">
                     <p>Release:
-                        <span x-text="selectedMovie['release']"/>
+                        <span x-text="selectedMovie.release"/>
+                    </p>
+                    <p>Director:
+                        <span x-text="selectedMovie.director"/>
                     </p>
                     <form method="dialog">
                         <button>OK</button>
@@ -60,7 +63,7 @@ import { movies } from "../data/movies.ts";
                             alt={`Poster for ${movie.englishTitle}`}
                             data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
                             loading={ index < 32 ? "eager" : "lazy" }
-                            @click={ `showModal(${ index })` }
+                            @click={ `showModal(${ movie.index })` }
                         />
                     ))
             }
@@ -74,7 +77,7 @@ import Alpine from 'alpinejs';
 document.addEventListener('alpine:init', () => {
     Alpine.data('posters', () => ( {
             search: "",
-            selectedMovie: { title: "", release: "", posterURL: "" },
+            selectedMovie: { title: "", release: "", posterURL: "", director: "" },
             sortOrder: -1,
             watchlistData: [],
             reorder(sorter: string) {
@@ -100,6 +103,7 @@ document.addEventListener('alpine:init', () => {
                 this.selectedMovie = {
                     title: movie.englishTitle,
                     release: movie.releaseDate,
+                    director: movie.director,
                     posterURL: `/poster/${movie.imdbID}.jpg`
                 };
                 (this.$refs.dialog as HTMLDialogElement).showModal();
