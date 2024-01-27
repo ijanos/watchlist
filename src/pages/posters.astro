@@ -61,6 +61,7 @@ import { movies } from "../data/movies.ts";
                             title={movie.englishTitle}
                             src={`/poster/${movie.imdbID}.jpg`}
                             alt={`Poster for ${movie.englishTitle}`}
+                            data-releasedate={movie.releaseDate}
                             data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
                             loading={ index < 32 ? "eager" : "lazy" }
                             @click={ `showModal(${ movie.index })` }
