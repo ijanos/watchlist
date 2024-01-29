@@ -4546,6 +4546,22 @@
     ]
   },
   {
+    "englishTitle": "Terminator Salvation",
+    "director": [
+      "McG"
+    ],
+    "imdbID": "tt0438488",
+    "releaseYear": 2009,
+    "releaseDate": "2009-05-21",
+    "runtime": 115,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Star Trek",
     "originalTitle": "Star Trek",
     "director": [
@@ -5129,6 +5145,22 @@
       "crime",
       "made-in-europe",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Pirates of the Caribbean: Dead Man's Chest",
+    "director": [
+      "Gore Verbinski"
+    ],
+    "imdbID": "tt0383574",
+    "releaseYear": 2006,
+    "releaseDate": "2006-07-07",
+    "runtime": 151,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
     ]
   },
   {
@@ -5767,6 +5799,21 @@
     "genres": [
       "action-and-adventure",
       "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Terminator 3: Rise of the Machines",
+    "director": [
+      "Jonathan Mostow"
+    ],
+    "imdbID": "tt0181852",
+    "releaseYear": 2003,
+    "releaseDate": "2003-07-02",
+    "runtime": 109,
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "sci-fi"
     ]
   },
   {
@@ -7546,6 +7593,22 @@
     ]
   },
   {
+    "englishTitle": "Death Becomes Her",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0104070",
+    "releaseYear": 1992,
+    "releaseDate": "1992-07-31",
+    "runtime": 104,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "fantasy",
+      "horror"
+    ]
+  },
+  {
     "englishTitle": "Buffy the Vampire Slayer",
     "director": [
       "Fran Rubel Kuzui"
@@ -7948,6 +8011,22 @@
     ]
   },
   {
+    "englishTitle": "Enemy Mine",
+    "director": [
+      "Wolfgang Petersen"
+    ],
+    "imdbID": "tt0089092",
+    "releaseYear": 1985,
+    "releaseDate": "1985-12-20",
+    "runtime": 108,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Back to the Future",
     "originalTitle": "Back to the Future",
     "director": [
@@ -7977,6 +8056,22 @@
       "comedy",
       "drama",
       "sci-fi"
+    ]
+  },
+  {
+    "englishTitle": "Double Trouble",
+    "originalTitle": "Non c'è due senza quattro",
+    "director": [
+      "Enzo Barboni"
+    ],
+    "imdbID": "tt0087481",
+    "releaseYear": 1984,
+    "releaseDate": "1984-11-16",
+    "runtime": 99,
+    "ageCertification": "TV-PG",
+    "genres": [
+      "action",
+      "comedy"
     ]
   },
   {
