@@ -4229,6 +4229,22 @@
     ]
   },
   {
+    "englishTitle": "Exit Through the Gift Shop",
+    "director": [
+      "Banksy"
+    ],
+    "imdbID": "tt1587707",
+    "releaseYear": 2010,
+    "releaseDate": "2010-05-14",
+    "runtime": 87,
+    "ageCertification": "R",
+    "genres": [
+      "documentary",
+      "comedy",
+      "crime"
+    ]
+  },
+  {
     "englishTitle": "Iron Man 2",
     "director": [
       "Jon Favreau"
@@ -4677,6 +4693,22 @@
       "drama",
       "fantasy",
       "romance"
+    ]
+  },
+  {
+    "englishTitle": "The Dark Knight",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "imdbID": "tt0468569",
+    "releaseYear": 2008,
+    "releaseDate": "2008-07-18",
+    "runtime": 152,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "crime",
+      "drama"
     ]
   },
   {
@@ -5730,6 +5762,22 @@
       "action-and-adventure",
       "drama",
       "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Control",
+    "director": [
+      "Nimród Antal"
+    ],
+    "imdbID": "tt0373981",
+    "releaseYear": 2003,
+    "releaseDate": "2003-11-20",
+    "runtime": 111,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime",
+      "drama"
     ]
   },
   {
@@ -7075,6 +7123,21 @@
     ]
   },
   {
+    "englishTitle": "Batman & Robin",
+    "director": [
+      "Joel Schumacher"
+    ],
+    "imdbID": "tt0118688",
+    "releaseYear": 1997,
+    "releaseDate": "1997-06-20",
+    "runtime": 125,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "The Lost World: Jurassic Park",
     "originalTitle": "The Lost World: Jurassic Park",
     "director": [
@@ -7296,6 +7359,21 @@
       "crime",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Batman Forever",
+    "director": [
+      "Joel Schumacher"
+    ],
+    "imdbID": "tt0112462",
+    "releaseYear": 1995,
+    "releaseDate": "1995-06-16",
+    "runtime": 121,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure"
     ]
   },
   {
@@ -7706,6 +7784,21 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Oscar",
+    "director": [
+      "John Landis"
+    ],
+    "imdbID": "tt0102603",
+    "releaseYear": 1991,
+    "releaseDate": "1991-04-26",
+    "runtime": 109,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "crime"
     ]
   },
   {
@@ -8424,6 +8517,22 @@
     "genres": [
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "The Jungle Book",
+    "director": [
+      "Wolfgang Reitherman"
+    ],
+    "imdbID": "tt0061852",
+    "releaseYear": 1967,
+    "releaseDate": "1967-10-18",
+    "runtime": 78,
+    "ageCertification": "G",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
     ]
   },
   {
