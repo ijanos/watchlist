@@ -17,6 +17,9 @@ import { movies } from "../data/movies.ts";
                     <p>Director:
                         <span x-text="selectedMovie.director"/>
                     </p>
+                    <p>Runtime:
+                        <span x-text="selectedMovie.runtime"/> minutes
+                    </p>
                     <form method="dialog">
                         <button>OK</button>
                     </form>
@@ -78,7 +81,7 @@ import Alpine from 'alpinejs';
 document.addEventListener('alpine:init', () => {
     Alpine.data('posters', () => ( {
             search: "",
-            selectedMovie: { title: "", release: "", posterURL: "", director: "" },
+            selectedMovie: { title: "", release: "", posterURL: "", director: "", runtime: -1 },
             sortOrder: -1,
             watchlistData: [],
             reorder(sorter: string) {
@@ -105,7 +108,8 @@ document.addEventListener('alpine:init', () => {
                     title: movie.englishTitle,
                     release: movie.releaseDate,
                     director: movie.director,
-                    posterURL: `/poster/${movie.imdbID}.jpg`
+                    posterURL: `/poster/${movie.imdbID}.jpg`,
+                    runtime: movie.runtime
                 };
                 (this.$refs.dialog as HTMLDialogElement).showModal();
             },
