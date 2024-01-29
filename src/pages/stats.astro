@@ -48,9 +48,9 @@ const watchYearArray = Array.from(watchYearCounter).sort(
         <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
         <h2 class="py-2 font-semibold text-lg">Watch time</h2>
         <p>
-            Assuming I saw every movie exactly once, I spent <span
-                class="font-mono font-extrabold">{ sumRuntimeMinutes }</span
-            > minutes watching movies.
+            I saw { watchlist.length } movies. I spent at least
+            <span class="font-mono font-extrabold">{ sumRuntimeMinutes }</span>
+            minutes watching them.
         </p>
         <p>
             That is {days} days, {hours % 24} hours and {sumRuntimeMinutes % 60} minutes.
