@@ -5834,6 +5834,22 @@
     ]
   },
   {
+    "englishTitle": "The League of Extraordinary Gentlemen",
+    "director": [
+      "Stephen Norrington"
+    ],
+    "imdbID": "tt0311429",
+    "releaseYear": 2003,
+    "releaseDate": "2003-07-11",
+    "runtime": 110,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "originalTitle": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "director": [
@@ -6176,6 +6192,22 @@
     ]
   },
   {
+    "englishTitle": "Impostor",
+    "director": [
+      "Gary Fleder"
+    ],
+    "imdbID": "tt0160399",
+    "releaseYear": 2001,
+    "releaseDate": "2002-01-04",
+    "runtime": 95,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "mystery",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "The Lord of the Rings: The Fellowship of the Ring",
     "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
     "director": [
@@ -6240,6 +6272,22 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "K-PAX",
+    "director": [
+      "Iain Softley"
+    ],
+    "imdbID": "tt0272152",
+    "releaseYear": 2001,
+    "releaseDate": "2001-10-26",
+    "runtime": 120,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "mystery",
+      "sci-fi"
     ]
   },
   {
@@ -6679,6 +6727,22 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Bicentennial Man",
+    "director": [
+      "Chris Columbus"
+    ],
+    "imdbID": "tt0182789",
+    "releaseYear": 1999,
+    "releaseDate": "1999-12-17",
+    "runtime": 132,
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "romance",
+      "sci-fi"
     ]
   },
   {
@@ -7618,6 +7682,22 @@
     ]
   },
   {
+    "englishTitle": "Groundhog Day",
+    "director": [
+      "Harold Ramis"
+    ],
+    "imdbID": "tt0107048",
+    "releaseYear": 1993,
+    "releaseDate": "1993-02-12",
+    "runtime": 101,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "drama",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "Scent of a Woman",
     "originalTitle": "Scent of a Woman",
     "director": [
@@ -8451,6 +8531,22 @@
       "drama",
       "made-in-europe",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Superman",
+    "director": [
+      "Richard Donner"
+    ],
+    "imdbID": "tt0078346",
+    "releaseYear": 1978,
+    "releaseDate": "1978-12-15",
+    "runtime": 143,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
     ]
   },
   {
