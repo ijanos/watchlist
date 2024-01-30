@@ -8083,6 +8083,23 @@
     ]
   },
   {
+    "englishTitle": "Cat City",
+    "originalTitle": "Macskafogó",
+    "director": [
+      "Béla Ternovszky"
+    ],
+    "imdbID": "tt0179955",
+    "releaseYear": 1986,
+    "releaseDate": "1987-09-18",
+    "runtime": 96,
+    "ageCertification": "Unrated",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "RoboCop",
     "originalTitle": "RoboCop",
     "director": [
@@ -8229,6 +8246,40 @@
       "comedy",
       "drama",
       "sci-fi"
+    ]
+  },
+  {
+    "englishTitle": "The Little Fox",
+    "originalTitle": "Vuk",
+    "director": [
+      "Attila Dargay"
+    ],
+    "imdbID": "tt0131636",
+    "releaseYear": 1981,
+    "releaseDate": "1985-05-15",
+    "runtime": 79,
+    "ageCertification": "Not Rated",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
+    ]
+  },
+  {
+    "englishTitle": "Snow White",
+    "originalTitle": "Hófehér",
+    "director": [
+      "József Nepp"
+    ],
+    "imdbID": "tt0121387",
+    "releaseYear": 1984,
+    "releaseDate": "1984-11-16",
+    "runtime": 90,
+    "ageCertification": "N/A",
+    "genres": [
+      "animation",
+      "comedy",
+      "fantasy"
     ]
   },
   {
@@ -8421,6 +8472,23 @@
     ]
   },
   {
+    "englishTitle": "Star Trek II: The Wrath of Khan",
+    "director": [
+      "Nicholas Meyer"
+    ],
+    "imdbID": "tt0084726",
+    "releaseYear": 1982,
+    "releaseDate": "1982-06-04",
+    "watched": "",
+    "runtime": 113,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Who Finds a Friend Finds a Treasure",
     "originalTitle": "Chi trova un amico trova un tesoro",
     "director": [
@@ -8547,6 +8615,23 @@
       "action",
       "adventure",
       "sci-fi"
+    ]
+  },
+  {
+    "englishTitle": "Mattie the Goose-Boy",
+    "originalTitle": "Lúdas Matyi",
+    "director": [
+      "Attila Dargay"
+    ],
+    "imdbID": "tt0142632",
+    "releaseYear": 1977,
+    "releaseDate": "1978-09-22",
+    "runtime": 70,
+    "ageCertification": "N/A",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
     ]
   },
   {
