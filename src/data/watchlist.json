@@ -4848,6 +4848,20 @@
     ]
   },
   {
+    "englishTitle": "Helvetica",
+    "director": [
+      "Gary Hustwit"
+    ],
+    "imdbID": "tt0847817",
+    "releaseYear": 2007,
+    "releaseDate": "2007-09-12",
+    "runtime": 80,
+    "ageCertification": "Not Rated",
+    "genres": [
+      "documentary"
+    ]
+  },
+  {
     "englishTitle": "The Darjeeling Limited",
     "originalTitle": "The Darjeeling Limited",
     "director": [
@@ -7252,6 +7266,22 @@
     ]
   },
   {
+    "englishTitle": "Space Jam",
+    "director": [
+      "Joe Pytka"
+    ],
+    "imdbID": "tt0117705",
+    "releaseYear": 1996,
+    "releaseDate": "1996-11-15",
+    "runtime": 88,
+    "ageCertification": "PG",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "Independence Day",
     "originalTitle": "Independence Day",
     "director": [
@@ -8062,6 +8092,22 @@
       "fantasy",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Who Framed Roger Rabbit",
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "imdbID": "tt0096438",
+    "releaseYear": 1988,
+    "releaseDate": "1988-06-22",
+    "runtime": 104,
+    "ageCertification": "PG",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
     ]
   },
   {
