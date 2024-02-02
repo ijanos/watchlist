@@ -841,6 +841,22 @@
     ]
   },
   {
+    "englishTitle": "Made in Abyss: Dawn of the Deep Soul",
+    "director": [
+      "Masayuki Kojima"
+    ],
+    "imdbID": "tt10068916",
+    "releaseYear": 2020,
+    "releaseDate": "2020-01-17",
+    "runtime": 113,
+    "ageCertification": "TV-MA",
+    "genres": [
+      "animation",
+      "adventure",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Swallow",
     "watched": "2023-11-10",
     "director": [
@@ -4896,6 +4912,22 @@
     ]
   },
   {
+    "englishTitle": "The Simpsons Movie",
+    "director": [
+      "David Silverman"
+    ],
+    "imdbID": "tt0462538",
+    "releaseYear": 2007,
+    "releaseDate": "2007-07-27",
+    "runtime": 87,
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "Harry Potter and the Order of the Phoenix",
     "originalTitle": "Harry Potter and the Order of the Phoenix",
     "director": [
@@ -5845,6 +5877,22 @@
       "fantasy",
       "made-in-europe",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Johnny English",
+    "director": [
+      "Peter Howitt"
+    ],
+    "imdbID": "tt0274166",
+    "releaseYear": 2003,
+    "releaseDate": "2003-07-18",
+    "runtime": 87,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy"
     ]
   },
   {
@@ -7008,6 +7056,21 @@
     ]
   },
   {
+    "englishTitle": "Titanic",
+    "director": [
+      "James Cameron"
+    ],
+    "imdbID": "tt0120338",
+    "releaseYear": 1997,
+    "releaseDate": "1997-12-19",
+    "runtime": 194,
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "Alien Resurrection",
     "originalTitle": "Alien Resurrection",
     "director": [
@@ -8024,6 +8087,22 @@
     "genres": [
       "comedy",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Weekend at Bernie's",
+    "director": [
+      "Ted Kotcheff"
+    ],
+    "imdbID": "tt0098627",
+    "releaseYear": 1989,
+    "releaseDate": "1989-07-05",
+    "runtime": 97,
+    "ageCertification": "PG-13",
+    "genres": [
+      "adventure",
+      "comedy",
+      "crime"
     ]
   },
   {
