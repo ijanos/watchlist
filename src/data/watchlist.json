@@ -7345,6 +7345,22 @@
     ]
   },
   {
+    "englishTitle": "101 Dalmatians",
+    "director": [
+      "Stephen Herek"
+    ],
+    "imdbID": "tt0115433",
+    "releaseYear": 1996,
+    "releaseDate": "1996-11-27",
+    "runtime": 103,
+    "ageCertification": "G",
+    "genres": [
+      "adventure",
+      "comedy",
+      "crime"
+    ]
+  },
+  {
     "englishTitle": "Space Jam",
     "director": [
       "Joe Pytka"
@@ -8620,7 +8636,6 @@
     "imdbID": "tt0084726",
     "releaseYear": 1982,
     "releaseDate": "1982-06-04",
-    "watched": "",
     "runtime": 113,
     "ageCertification": "PG",
     "genres": [
