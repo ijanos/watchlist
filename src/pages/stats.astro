@@ -56,6 +56,9 @@ const watchYearArray = Array.from(watchYearCounter).sort(
             That is {days} days, {hours % 24} hours and {sumRuntimeMinutes % 60} minutes.
         </p>
 
+        <div class="grid md:grid-cols-3 gap-2">
+        <div class="border-2 rounded-lg">
+
         <h2 class="py-2 font-semibold text-lg">Directors</h2>
         <table>
             <thead class="text-left">
@@ -72,6 +75,8 @@ const watchYearArray = Array.from(watchYearCounter).sort(
                 }
             </tbody>
         </table>
+    </div>
+    <div class="border-2 rounded-lg">
 
         <h2 class="py-2 font-semibold text-lg">Years</h2>
         <table>
@@ -89,6 +94,9 @@ const watchYearArray = Array.from(watchYearCounter).sort(
                 }
             </tbody>
         </table>
+</div>
+<div class="border-2 rounded-lg">
+
         <h2 class="py-2 font-semibold text-lg">Watch years</h2>
         <p>I don't have a reliable backlog with dates. This statistic is mostly accurate since 2016. </p>
         <table>
@@ -106,5 +114,8 @@ const watchYearArray = Array.from(watchYearCounter).sort(
                 }
             </tbody>
         </table>
+    </div>
+
+    </div>
     </div>
 </Layout>
