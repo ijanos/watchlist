@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Dune: Part Two",
+    "director": [
+      "Denis Villeneuve"
+    ],
+    "imdbID": "tt15239678",
+    "releaseYear": 2024,
+    "releaseDate": "2024-03-01",
+    "watched": "2024-02-28",
+    "runtime": 166,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Poor Things",
     "director": [
       "Yorgos Lanthimos"
@@ -4080,6 +4097,22 @@
       "made-in-europe",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Sucker Punch",
+    "director": [
+      "Zack Snyder"
+    ],
+    "imdbID": "tt0978764",
+    "releaseYear": 2011,
+    "releaseDate": "2011-03-25",
+    "runtime": 110,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
     ]
   },
   {
