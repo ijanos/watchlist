@@ -21,6 +21,12 @@ const compareWatchdate = function (movieA: Movie, movieB: Movie) {
  return movieAdate.localeCompare(movieBdate);
 }
 
+const imdbIDs = watchlist.map(m => m.imdbID);
+const imdbIDSet = new Set(imdbIDs);
+if (imdbIDs.length != imdbIDSet.size) {
+   throw Error("Duplicate imdb ids are found in the watchlist");
+}
+
 const indexedWatchlist = watchlist.map((movie, index) =>  ({...movie, index: index}));
 
 export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();
