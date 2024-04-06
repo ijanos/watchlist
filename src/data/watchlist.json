@@ -1,21 +1,5 @@
 [
   {
-    "englishTitle": "Suitable Flesh",
-    "director": [
-      "Joe Lynch"
-    ],
-    "imdbID": "tt21397580",
-    "releaseYear": 2023,
-    "releaseDate": "2023-10-27",
-    "watched": "2024-03-31",
-    "runtime": 100,
-    "ageCertification": "N/A",
-    "genres": [
-      "horror",
-      "thriller"
-    ]
-  },
-  {
     "englishTitle": "Dune: Part Two",
     "director": [
       "Denis Villeneuve"
@@ -115,6 +99,23 @@
       "sci-fi"
     ]
   },
+  {
+    "englishTitle": "Suitable Flesh",
+    "director": [
+      "Joe Lynch"
+    ],
+    "imdbID": "tt21397580",
+    "releaseYear": 2023,
+    "releaseDate": "2023-10-27",
+    "watched": "2024-03-31",
+    "runtime": 100,
+    "ageCertification": "N/A",
+    "genres": [
+      "horror",
+      "thriller"
+    ]
+  },
+
   {
     "englishTitle": "Barbie",
     "watched": "2023-12-10",
@@ -7199,6 +7200,23 @@
     "genres": [
       "comedy",
       "crime"
+    ]
+  },
+  {
+    "englishTitle": "Perfect Blue",
+    "director": [
+      "Satoshi Kon"
+    ],
+    "imdbID": "tt0156887",
+    "releaseYear": 1997,
+    "releaseDate": "1998-02-28",
+    "watched": "2024-04-05",
+    "runtime": 81,
+    "ageCertification": "Not Rated",
+    "genres": [
+      "animation",
+      "crime",
+      "drama"
     ]
   },
   {
