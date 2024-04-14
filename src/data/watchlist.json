@@ -2531,6 +2531,22 @@
     ]
   },
   {
+    "englishTitle": "It's Not the Time of My Life",
+    "originalTitle": "Ernelláék Farkaséknál",
+    "director": [
+      "Szabolcs Hajdu"
+    ],
+    "imdbID": "tt5537614",
+    "releaseYear": 2016,
+    "releaseDate": "2016-09-29",
+    "watched": "2024-04-13",
+    "runtime": 81,
+    "ageCertification": "N/A",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "The Girl with All the Gifts",
     "watched": "2016-10-11",
     "director": [
@@ -4014,6 +4030,22 @@
       "documentary",
       "drama",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Carnage",
+    "director": [
+      "Roman Polanski"
+    ],
+    "imdbID": "tt1692486",
+    "releaseYear": 2011,
+    "releaseDate": "2011-11-18",
+    "watched": "",
+    "runtime": 80,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama"
     ]
   },
   {
