@@ -3520,6 +3520,22 @@
     ]
   },
   {
+    "englishTitle": "Don Jon",
+    "director": [
+      "Joseph Gordon-Levitt"
+    ],
+    "imdbID": "tt2229499",
+    "releaseYear": 2013,
+    "releaseDate": "2013-09-27",
+    "runtime": 90,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "Coherence",
     "originalTitle": "Coherence",
     "director": [
@@ -4040,7 +4056,6 @@
     "imdbID": "tt1692486",
     "releaseYear": 2011,
     "releaseDate": "2011-11-18",
-    "watched": "",
     "runtime": 80,
     "ageCertification": "R",
     "genres": [
