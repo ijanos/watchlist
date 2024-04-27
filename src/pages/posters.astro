@@ -64,6 +64,7 @@ import Poster from "../components/Poster.astro";
 
 <script>
 import Alpine from 'alpinejs';
+import { type Movie } from "../data/movies.ts";
 
 document.addEventListener('alpine:init', () => {
     Alpine.data('posters', () => ( {
@@ -90,11 +91,11 @@ document.addEventListener('alpine:init', () => {
             },
             showModal(i: number) {
                 console.log(this.watchlistData[i]);
-                const movie: any = this.watchlistData[i];
+                const movie: Movie = this.watchlistData[i];
                 this.selectedMovie = {
                     title: movie.englishTitle,
                     release: movie.releaseDate,
-                    director: movie.director,
+                    director: movie.director.join(", "),
                     runtime: movie.runtime
                 };
                 (this.$refs.dialog as HTMLDialogElement).showModal();
