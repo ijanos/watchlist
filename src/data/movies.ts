@@ -30,3 +30,4 @@ if (imdbIDs.length != imdbIDSet.size) {
 const indexedWatchlist = watchlist.map((movie, index) =>  ({...movie, index: index}));
 
 export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();
+export type { Movie };

@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { movies } from "../data/movies.ts";
+import Poster from "../components/Poster.astro";
 ---
 
 <Layout title="posters | Janos' watchlist">
@@ -9,7 +10,7 @@ import { movies } from "../data/movies.ts";
             <div class="flex gap-2 min-w-96 flex-col">
                 <p x-text="selectedMovie['title']" class="py-2 font-bold text-xl"></p>
                 <div class="flex">
-                <img class="w-64 h-auto rounded-lg" x-bind:src="selectedMovie.posterURL" />
+                <!-- <img class="w-64 h-auto rounded-lg" x-bind:src="selectedMovie.posterURL" /> -->
                 <div class="flex flex-col gap-2">
                     <p>Release:
                         <span x-text="selectedMovie.release"/>
@@ -56,21 +57,7 @@ import { movies } from "../data/movies.ts";
             x-ref="grid"
             class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center"
         >
-            {
-                movies.map((movie, index) => (
-                        <img
-                            x-show="$el.dataset.search.includes(search)"
-                            class="w-60 h-auto rounded-lg shadow-xl transition ease-in-out hover:scale-105"
-                            title={movie.englishTitle}
-                            src={`/poster/${movie.imdbID}.jpg`}
-                            alt={`Poster for ${movie.englishTitle}`}
-                            data-releasedate={movie.releaseDate}
-                            data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
-                            loading={ index < 32 ? "eager" : "lazy" }
-                            @click={ `showModal(${ movie.index })` }
-                        />
-                    ))
-            }
+            { movies.map((movie) => ( <Poster movie={movie}/> )) }
         </div>
     </div>
 </Layout>
@@ -81,7 +68,7 @@ import Alpine from 'alpinejs';
 document.addEventListener('alpine:init', () => {
     Alpine.data('posters', () => ( {
             search: "",
-            selectedMovie: { title: "", release: "", posterURL: "", director: "", runtime: -1 },
+            selectedMovie: { title: "", release: "", director: "", runtime: -1 },
             sortOrder: -1,
             watchlistData: [],
             reorder(sorter: string) {
@@ -108,7 +95,6 @@ document.addEventListener('alpine:init', () => {
                     title: movie.englishTitle,
                     release: movie.releaseDate,
                     director: movie.director,
-                    posterURL: `/poster/${movie.imdbID}.jpg`,
                     runtime: movie.runtime
                 };
                 (this.$refs.dialog as HTMLDialogElement).showModal();

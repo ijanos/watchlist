@@ -1,0 +1,3 @@
+# ignore posters in git to avoid copyright questions
+*
+!.gitignore
