@@ -377,6 +377,23 @@
     ]
   },
   {
+    "englishTitle": "Don't Worry Darling",
+    "director": [
+      "Olivia Wilde"
+    ],
+    "imdbID": "tt10731256",
+    "releaseYear": 2022,
+    "releaseDate": "2022-09-23",
+    "watched": "2023-05-17",
+    "runtime": 123,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "mystery",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Luck",
     "director": [
       "Peggy Holmes",
@@ -2006,7 +2023,6 @@
     "imdbID": "tt6700846",
     "releaseYear": 2017,
     "releaseDate": "2017-09-29",
-    "watched": "",
     "runtime": 90,
     "ageCertification": "N/A",
     "genres": [
@@ -8569,7 +8585,6 @@
   },
   {
     "englishTitle": "Aliens",
-    "originalTitle": "Aliens",
     "director": [
       "James Cameron"
     ],
@@ -8987,7 +9002,7 @@
   },
   {
     "englishTitle": "Alien",
-    "originalTitle": "Alien",
+    "watched": "2024-05-11",
     "director": [
       "Ridley Scott"
     ],
