@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Furiosa: A Mad Max Saga",
+    "director": [
+      "George Miller"
+    ],
+    "imdbID": "tt12037194",
+    "releaseYear": 2024,
+    "releaseDate": "2024-05-24",
+    "watched": "2024-05-22",
+    "runtime": 148,
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Dune: Part Two",
     "director": [
       "Denis Villeneuve"
