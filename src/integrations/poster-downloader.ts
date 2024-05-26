@@ -7,6 +7,8 @@ import omdbkey from "../../res/omdbkey.js";
 import watchlist from "../../src/data/watchlist.json";
 import { type Movie } from "../data/movies.ts";
 
+// I'd prefer to have this functionality part of the Poster component
+// but Vite/Astro couldn't import the newly created files.
 
 async function downloadPoster(imdbid: string, path: string) {
   const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkey}`);
@@ -15,7 +17,7 @@ async function downloadPoster(imdbid: string, path: string) {
 
   if (!posterURL || posterURL == "N/A") { return false; }
 
-  console.log("Downloading poster for ", imdbid);
+  console.log(`Downloading poster for ${imdbid}`);
   const posterResposne = await fetch(posterURL);
   const buffer = Buffer.from(await posterResposne.arrayBuffer());
   await writeFile(path, buffer, { flush: true });
