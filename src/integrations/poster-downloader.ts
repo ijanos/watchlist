@@ -22,15 +22,15 @@ async function downloadPoster(imdbid: string, path: string) {
   return true;
 }
 
-function checkPosters(watchlist: Array<Movie>) {
-  watchlist.forEach(async movie =>  {
+async function checkPosters(watchlist: Array<Movie>) {
+  await Promise.all(watchlist.map(async movie =>  {
     const posterImagePath = `posters/${movie.imdbID}.jpg`;
     if (!existsSync(posterImagePath)) {
       if(!await downloadPoster(movie.imdbID, posterImagePath)) {
           throw new Error(`Couldn't download poster for ${movie.imdbID}`);
       }
     }
-  });
+  }));
 }
 
 
