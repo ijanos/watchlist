@@ -25,7 +25,7 @@ async function downloadPoster(imdbid: string, path: string) {
 }
 
 async function checkPosters(watchlist: Array<Movie>) {
-  await Promise.all(watchlist.map(async movie =>  {
+  Promise.all(watchlist.map(async movie => {
     const posterImagePath = `posters/${movie.imdbID}.jpg`;
     if (!existsSync(posterImagePath)) {
       if(!await downloadPoster(movie.imdbID, posterImagePath)) {
