@@ -51,7 +51,24 @@
     ]
   },
   {
+    "englishTitle": "Saltburn",
+    "director": [
+      "Emerald Fennell"
+    ],
+    "imdbID": "tt17351924",
+    "releaseYear": 2023,
+    "releaseDate": "2023-12-22",
+    "watched": "2024-06-07",
+    "runtime": 131,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "The Boy and the Heron",
+    "originalTitle": "Kimitachi wa dô ikiru ka",
     "watched": "2024-01-01",
     "director": [
       "Hayao Miyazaki"
