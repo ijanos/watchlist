@@ -3215,6 +3215,7 @@
     ],
     "imdbID": "tt2084970",
     "releaseYear": 2014,
+    "watched": "2015-02-15",
     "releaseDate": "2014-11-14",
     "runtime": 114,
     "ageCertification": "PG-13",
@@ -3680,6 +3681,7 @@
     "imdbID": "tt2013293",
     "releaseYear": 2013,
     "releaseDate": "2013-07-20",
+    "watched": "2014-06-24",
     "runtime": 126,
     "ageCertification": "PG-13",
     "genres": [
