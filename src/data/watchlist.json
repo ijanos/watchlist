@@ -9086,6 +9086,22 @@
     ]
   },
   {
+  "englishTitle": "The Witness",
+  "originalTitle": "A tanú",
+  "director": [
+    "Péter Bacsó"
+  ],
+  "imdbID": "tt0065067",
+  "releaseYear": 1969,
+  "releaseDate": "1979-06-06",
+  "runtime": 105,
+  "ageCertification": "N/A",
+  "genres": [
+    "drama",
+    "comedy"
+  ]
+},
+  {
     "englishTitle": "Alien",
     "watched": "2024-05-11",
     "director": [
@@ -9245,6 +9261,22 @@
       "animation",
       "adventure",
       "comedy"
+    ]
+  },
+  {
+    "englishTitle": "The Corporal and Others",
+    "originalTitle": "A tizedes meg a többiek",
+    "director": [
+      "Márton Keleti"
+    ],
+    "imdbID": "tt0059812",
+    "releaseYear": 1965,
+    "releaseDate": "1965-04-15",
+    "runtime": 111,
+    "ageCertification": "N/A",
+    "genres": [
+      "comedy",
+      "war"
     ]
   },
   {
