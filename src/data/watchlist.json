@@ -5782,7 +5782,23 @@
       "mystery-and-thriller"
     ]
   },
-{
+  {
+    "englishTitle": "Shaun of the Dead",
+    "director": [
+      "Edgar Wright"
+    ],
+    "imdbID": "tt0365748",
+    "releaseYear": 2004,
+    "releaseDate": "2004-09-24",
+    "watched": "2024-06-29",
+    "runtime": 99,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "horror"
+    ]
+  },
+  {
     "englishTitle": "Argo",
     "originalTitle": "Argo",
     "director": [
