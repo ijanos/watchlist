@@ -8580,6 +8580,22 @@
     ]
   },
   {
+    "englishTitle": "The Land Before Time",
+    "director": [
+      "Don Bluth"
+    ],
+    "imdbID": "tt0095489",
+    "releaseYear": 1988,
+    "releaseDate": "1988-11-18",
+    "runtime": 69,
+    "ageCertification": "G",
+    "genres": [
+      "animation",
+      "adventure",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Akira",
     "originalTitle": "AKIRA",
     "director": [
@@ -9104,6 +9120,22 @@
     ]
   },
   {
+    "englishTitle": "Superman II",
+    "director": [
+      "Richard Lester"
+    ],
+    "imdbID": "tt0081573",
+    "releaseYear": 1980,
+    "releaseDate": "1981-06-19",
+    "runtime": 127,
+    "ageCertification": "PG",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Raiders of the Lost Ark",
     "originalTitle": "Raiders of the Lost Ark",
     "director": [
@@ -9294,6 +9326,23 @@
     "genres": [
       "comedy",
       "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "Himiko",
+    "director": [
+      "Masahiro Shinoda"
+    ],
+    "imdbID": "tt0071609",
+    "releaseYear": 1974,
+    "releaseDate": "1979-02-23",
+    "watched": "2024-07-26",
+    "runtime": 100,
+    "ageCertification": "N/A",
+    "genres": [
+      "drama",
+      "fantasy",
+      "history"
     ]
   },
   {
