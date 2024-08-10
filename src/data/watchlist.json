@@ -1646,6 +1646,23 @@
     ]
   },
   {
+    "englishTitle": "Mamma Mia! Here We Go Again",
+    "director": [
+      "Ol Parker"
+    ],
+    "imdbID": "tt6911608",
+    "releaseYear": 2018,
+    "releaseDate": "2018-07-20",
+    "watched": "2024-08-08",
+    "runtime": 114,
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "musical",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "Ant-Man and the Wasp",
     "watched": "2018-07-20",
     "director": [
@@ -8351,6 +8368,23 @@
       "action-and-adventure",
       "horror",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "My Girl",
+    "director": [
+      "Howard Zieff"
+    ],
+    "imdbID": "tt0102492",
+    "releaseYear": 1991,
+    "releaseDate": "1991-11-27",
+    "watched": "2024-08-09",
+    "runtime": 102,
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "drama",
+      "family"
     ]
   },
   {
