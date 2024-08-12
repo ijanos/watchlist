@@ -34,6 +34,23 @@
     ]
   },
   {
+    "englishTitle": "Challengers",
+    "director": [
+      "Luca Guadagnino"
+    ],
+    "imdbID": "tt16426418",
+    "releaseYear": 2024,
+    "releaseDate": "2024-04-26",
+    "watched": "2024-08-11",
+    "runtime": 131,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "Dune: Part Two",
     "director": [
       "Denis Villeneuve"
@@ -9149,6 +9166,22 @@
       "action",
       "adventure",
       "fantasy"
+    ]
+  },
+  {
+    "englishTitle": "The Prefab People",
+    "originalTitle": "Panelkapcsolat",
+    "director": [
+      "Béla Tarr"
+    ],
+    "imdbID": "tt0084465",
+    "releaseYear": 1982,
+    "releaseDate": "1982-12-09",
+    "watched": "2024-08-12",
+    "runtime": 102,
+    "ageCertification": "N/A",
+    "genres": [
+      "drama"
     ]
   },
   {
