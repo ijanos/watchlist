@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Alien: Romulus",
+    "director": [
+      "Fede Alvarez"
+    ],
+    "imdbID": "tt18412256",
+    "releaseYear": 2024,
+    "releaseDate": "2024-08-16",
+    "watched": "2024-08-15",
+    "runtime": 119,
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "sci-fi",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Deadpool & Wolverine",
     "director": [
       "Shawn Levy"
