@@ -48,7 +48,8 @@ const watchYearArray = Array.from(watchYearCounter).sort(
         <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
         <p class="p-2">Welcome to my watchlist. I started tracking every movie I watched around 2016.
             I try to include every movie I ever watched here so some dates, especially before
-            2016 maybe inaccurate.
+            2016 maybe inaccurate. Movie lengths are sourced from the free OMDb database and may also
+            be somewhat inaccurate.
         </p>
         <div class="flex flex-row gap-5 p-4 justify-around">
             <div class="flex flex-col items-center">
@@ -61,6 +62,8 @@ const watchYearArray = Array.from(watchYearCounter).sort(
                 <div class="text-sm italic">{days} days, {Math.floor(hours) % 24} hours and {sumRuntimeMinutes % 60} minutes.</div>
             </div>
         </div>
+
+        <div><canvas id="lengthscatterplot"></canvas></div>
 
         <div class="grid md:grid-cols-3 gap-2">
             <div class="border-2 rounded-lg">
@@ -131,3 +134,45 @@ const watchYearArray = Array.from(watchYearCounter).sort(
         </div>
     </div>
 </Layout>
+
+<script>
+import Chart from 'chart.js/auto';
+import watchlist from "../data/watchlist.json";
+
+const runtimeData = watchlist.map(m => {return { x: m.releaseYear.toString(), y: m.runtime, title: m.englishTitle }}).reverse();
+
+const data = {
+  datasets: [{
+    label: 'Movie length over the years',
+    data: runtimeData,
+    backgroundColor: 'rgb(1, 99, 132)'
+  }],
+};
+
+new Chart(
+    document.getElementById('lengthscatterplot') as HTMLCanvasElement,
+    {
+        type: 'scatter',
+        data: data,
+        options: {
+            scales: {
+                x: { type: 'category' },
+                y: {
+                 ticks: {
+                    callback: value => `${value} min`
+                 }
+                }
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(tooltipItem) {
+                            return `${ tooltipItem.raw.title } (${ tooltipItem.parsed.y} min)`;
+                        }
+                    }
+                }
+            }
+        }
+    }
+);
+</script>
