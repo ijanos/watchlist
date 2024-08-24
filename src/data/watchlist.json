@@ -7318,6 +7318,23 @@
     ]
   },
   {
+    "englishTitle": "Eyes Wide Shut",
+    "director": [
+      "Stanley Kubrick"
+    ],
+    "imdbID": "tt0120663",
+    "releaseYear": 1999,
+    "releaseDate": "1999-07-16",
+    "watched": "2024-08-23",
+    "runtime": 159,
+    "ageCertification": "TV-MA",
+    "genres": [
+      "drama",
+      "mystery",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Star Wars: Episode I - The Phantom Menace",
     "director": [
       "George Lucas"
