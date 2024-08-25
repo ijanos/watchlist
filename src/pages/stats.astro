@@ -44,26 +44,39 @@ const watchYearArray = Array.from(watchYearCounter).sort(
 ---
 
 <Layout title="statistics | Janos' watchlist">
-    <div class="bg-amber-50 rounded-lg bg-opacity-50 backdrop-blur-md p-1 py-2">
+    <div class="bg-amber-50 rounded-lg bg-opacity-50 backdrop-blur-md p-1 py-2 flex flex-col gap-2">
         <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
         <p class="p-2">Welcome to my watchlist. I started tracking every movie I watched around 2016.
             I try to include every movie I ever watched here so some dates, especially before
             2016 maybe inaccurate. Movie lengths are sourced from the free OMDb database and may also
             be somewhat inaccurate.
         </p>
-        <div class="flex flex-row gap-5 p-4 justify-around">
+        <div class="flex flex-row flex-wrap gap-5 p-4 justify-around">
             <div class="flex flex-col items-center">
                 <div class="text-4xl font-bold">{ watchlist.length } films</div>
                 <div>total watched</div>
             </div>
             <div class="flex flex-col items-center">
-                <div class="text-4xl font-bold">{hours.toFixed(1)} hours</div>
+                <div class="text-4xl font-bold">{ hours.toFixed(1) } hours</div>
                 <div>of films watched</div>
                 <div class="text-sm italic">{days} days, {Math.floor(hours) % 24} hours and {sumRuntimeMinutes % 60} minutes.</div>
             </div>
         </div>
 
-        <div><canvas id="lengthscatterplot"></canvas></div>
+        <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Movie length</h1>
+
+        <div class="flex-grow"><canvas id="lengthscatterplot"></canvas></div>
+
+        <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Age ratings</h1>
+
+        <div class="flex flex-row flex-wrap">
+            <div class="basis-1/3"><canvas id="age"></canvas></div>
+            <p class="basis-2/3">
+                Age ratings are not something I particularly care about but I have access to it
+                in my dataset so why not plot it. R and PG-13 ratings are dominating my viewing
+                habits.
+            </p>
+        </div>
 
         <div class="grid md:grid-cols-3 gap-2">
             <div class="border-2 rounded-lg">
@@ -139,7 +152,7 @@ const watchYearArray = Array.from(watchYearCounter).sort(
 import Chart from 'chart.js/auto';
 import watchlist from "../data/watchlist.json";
 
-const runtimeData = watchlist.map(m => {return { x: m.releaseYear.toString(), y: m.runtime, title: m.englishTitle }}).reverse();
+const runtimeData = watchlist.map(m => {return { x: m.releaseYear, y: m.runtime, title: m.englishTitle }});
 
 const data = {
   datasets: [{
@@ -155,8 +168,15 @@ new Chart(
         type: 'scatter',
         data: data,
         options: {
+            responsive: true,
             scales: {
-                x: { type: 'category' },
+                x: {
+                    type: 'linear',
+                    bounds: "data",
+                    ticks: {
+                        callback: value => value
+                    }
+                },
                 y: {
                  ticks: {
                     callback: value => `${value} min`
@@ -167,12 +187,49 @@ new Chart(
                 tooltip: {
                     callbacks: {
                         label: function(tooltipItem) {
-                            return `${ tooltipItem.raw.title } (${ tooltipItem.parsed.y} min)`;
+                            return `${ (tooltipItem.raw as any).title } (${ tooltipItem.parsed.y } min)`;
                         }
                     }
+                },
+                legend: {
+                    display: false
                 }
             }
         }
     }
 );
+
+const ageRCounter = new Map<string, number>();
+watchlist
+    .map((m) => m.ageCertification)
+    .forEach((rating) => {
+        if (rating == "" || rating == "N/A") {
+            rating = "Not Rated"
+        }
+        const n = ageRCounter.has(rating) ? ageRCounter.get(rating)! : 0;
+        ageRCounter.set(rating, n + 1);
+    });
+
+const ageData = {
+    datasets: [{
+        data: Array.from(ageRCounter.values())
+    }],
+    labels: Array.from(ageRCounter.keys())
+};
+
+new Chart(
+    document.getElementById("age") as HTMLCanvasElement,
+    {
+        type: "doughnut",
+        data: ageData,
+        options: {
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    }
+);
+
 </script>

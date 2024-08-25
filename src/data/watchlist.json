@@ -8811,7 +8811,7 @@
     "releaseYear": 1986,
     "releaseDate": "1987-09-18",
     "runtime": 96,
-    "ageCertification": "Unrated",
+    "ageCertification": "",
     "genres": [
       "animation",
       "adventure",
@@ -9559,6 +9559,23 @@
     "ageCertification": "N/A",
     "genres": [
       "drama",
+      "romance"
+    ]
+  },
+  {
+    "englishTitle": "Stars of Eger",
+    "originalTitle": "Egri csillagok",
+    "director": [
+      "Zoltán Várkonyi"
+    ],
+    "imdbID": "tt0062925",
+    "releaseYear": 1968,
+    "releaseDate": "1968-12-19",
+    "runtime": 157,
+    "ageCertification": "N/A",
+    "genres": [
+      "adventure",
+      "history",
       "romance"
     ]
   },
