@@ -150,7 +150,18 @@ const watchYearArray = Array.from(watchYearCounter).sort(
 </Layout>
 
 <script>
-  import Chart from "chart.js/auto";
+  import { ArcElement, Chart, Colors, DoughnutController, LinearScale, PointElement, ScatterController, Tooltip } from "chart.js"
+
+  Chart.register(
+    ScatterController,
+    PointElement,
+    DoughnutController,
+    ArcElement,
+    Tooltip,
+    Colors,
+    LinearScale
+  )
+
   import watchlist from "../data/watchlist.json";
 
   const runtimeData = watchlist.map((m) => {
