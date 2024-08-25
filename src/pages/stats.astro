@@ -8,229 +8,229 @@ const days = Math.floor(hours / 24);
 
 let directorCounter = new Map<string, number>();
 watchlist
-    .map((m) => m.director)
-    .flat()
-    .forEach((d) => {
-        const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
-        directorCounter.set(d, n + 1);
-    });
+  .map((m) => m.director)
+  .flat()
+  .forEach((d) => {
+    const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
+    directorCounter.set(d, n + 1);
+  });
 
 const directorsArray = Array.from(directorCounter).sort(
-    ([_d1, c1], [_d2, c2]) => c2 - c1,
+  ([_d1, c1], [_d2, c2]) => c2 - c1
 );
 
 let yearCounter = new Map<number, number>();
 watchlist
-    .map((m) => m.releaseYear)
-    .forEach((year) => {
-        const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
-        yearCounter.set(year, n + 1);
-    });
+  .map((m) => m.releaseYear)
+  .forEach((year) => {
+    const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
+    yearCounter.set(year, n + 1);
+  });
 const yearArray = Array.from(yearCounter).sort(
-    ([y1, _c1], [y2, _c2]) => y2 - y1,
+  ([y1, _c1], [y2, _c2]) => y2 - y1
 );
 
 let watchYearCounter = new Map<string, number>();
 watchlist
-    .filter((m) => m.watched)
-    .map((m) => m.watched!.substring(0, 4))
-    .forEach((year) => {
-        const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
-        watchYearCounter.set(year, n + 1);
-    });
+  .filter((m) => m.watched)
+  .map((m) => m.watched!.substring(0, 4))
+  .forEach((year) => {
+    const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
+    watchYearCounter.set(year, n + 1);
+  });
 const watchYearArray = Array.from(watchYearCounter).sort(
-    ([y1, _c1], [y2, _c2]) => y2.localeCompare(y1),
+  ([y1, _c1], [y2, _c2]) => y2.localeCompare(y1)
 );
 ---
 
 <Layout title="statistics | Janos' watchlist">
-    <div class="bg-amber-50 rounded-lg bg-opacity-50 backdrop-blur-md p-1 py-2 flex flex-col gap-2">
-        <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
-        <p class="p-2">Welcome to my watchlist. I started tracking every movie I watched around 2016.
-            I try to include every movie I ever watched here so some dates, especially before
-            2016 maybe inaccurate. Movie lengths are sourced from the free OMDb database and may also
-            be somewhat inaccurate.
-        </p>
-        <div class="flex flex-row flex-wrap gap-5 p-4 justify-around">
-            <div class="flex flex-col items-center">
-                <div class="text-4xl font-bold">{ watchlist.length } films</div>
-                <div>total watched</div>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="text-4xl font-bold">{ hours.toFixed(1) } hours</div>
-                <div>of films watched</div>
-                <div class="text-sm italic">{days} days, {Math.floor(hours) % 24} hours and {sumRuntimeMinutes % 60} minutes.</div>
-            </div>
+  <div
+    class="bg-amber-50 rounded-lg bg-opacity-50 backdrop-blur-md p-1 py-2 flex flex-col gap-2"
+  >
+    <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
+    <p class="p-2">
+      Welcome to my watchlist. I started tracking every movie I watched around
+      2016. I try to include every movie I ever watched here so some dates,
+      especially before 2016 maybe inaccurate. Movie lengths are sourced from
+      the free OMDb database and may also be somewhat inaccurate.
+    </p>
+    <div class="flex flex-row flex-wrap gap-5 p-4 justify-around">
+      <div class="flex flex-col items-center">
+        <div class="text-4xl font-bold">{watchlist.length} films</div>
+        <div>total watched</div>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="text-4xl font-bold">{hours.toFixed(1)} hours</div>
+        <div>of films watched</div>
+        <div class="text-sm italic">
+          {days} days, {Math.floor(hours) % 24} hours and {
+            sumRuntimeMinutes % 60
+          } minutes.
         </div>
-
-        <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Movie length</h1>
-
-        <div class="flex-grow"><canvas id="lengthscatterplot"></canvas></div>
-
-        <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Age ratings</h1>
-
-        <div class="flex flex-row flex-wrap">
-            <div class="basis-1/3"><canvas id="age"></canvas></div>
-            <p class="basis-2/3">
-                Age ratings are not something I particularly care about but I have access to it
-                in my dataset so why not plot it. R and PG-13 ratings are dominating my viewing
-                habits.
-            </p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-2">
-            <div class="border-2 rounded-lg">
-                <h2 class="py-2 font-semibold text-lg">Directors</h2>
-                <table>
-                    <thead class="text-left">
-                        <tr
-                            ><th>Director</th>
-                            <th class="text-center">movie count</th></tr
-                        >
-                    </thead>
-                    <tbody>
-                        {
-                            directorsArray.map(([director, count]) => (
-                                <tr>
-                                    <td>{director}</td>
-                                    <td class="text-center">{count}</td>
-                                </tr>
-                            ))
-                        }
-                    </tbody>
-                </table>
-            </div>
-            <div class="border-2 rounded-lg">
-                <h2 class="py-2 font-semibold text-lg">Years</h2>
-                <table>
-                    <thead class="text-left">
-                        <tr
-                            ><th>Release year</th><th class="text-center"
-                                >movie count</th
-                            ></tr
-                        >
-                    </thead>
-                    <tbody>
-                        {
-                            yearArray.map(([year, count]) => (
-                                <tr>
-                                    <td>{year}</td>
-                                    <td class="text-center">{count}</td>
-                                </tr>
-                            ))
-                        }
-                    </tbody>
-                </table>
-            </div>
-            <div class="border-2 rounded-lg">
-                <h2 class="py-2 font-semibold text-lg">Watch years</h2>
-                <table>
-                    <thead class="text-left">
-                        <tr
-                            ><th>Watch year</th><th class="text-center"
-                                >movie count</th
-                            ></tr
-                        >
-                    </thead>
-                    <tbody>
-                        {
-                            watchYearArray.map(([year, count]) => (
-                                <tr>
-                                    <td>{year}</td>
-                                    <td class="text-center">{count}</td>
-                                </tr>
-                            ))
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Movie length</h2>
+
+    <div class="flex-grow"><canvas id="lengthscatterplot"></canvas></div>
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Age ratings</h2>
+
+    <div class="flex flex-row flex-wrap">
+      <div class="basis-1/3"><canvas id="age"></canvas></div>
+      <p class="basis-2/3">
+        Age ratings are not something I particularly care about but I have
+        access to it in my dataset so why not plot it. R and PG-13 ratings are
+        dominating my viewing habits.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-2">
+      <div class="border-2 rounded-lg">
+        <h2 class="py-2 font-semibold text-lg">Directors</h2>
+        <table>
+          <thead class="text-left">
+            <tr
+              ><th>Director</th>
+              <th class="text-center">movie count</th></tr
+            >
+          </thead>
+          <tbody>
+            {
+              directorsArray.map(([director, count]) => (
+                <tr>
+                  <td>{director}</td>
+                  <td class="text-center">{count}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+      <div class="border-2 rounded-lg">
+        <h2 class="py-2 font-semibold text-lg">Years</h2>
+        <table>
+          <thead class="text-left">
+            <tr
+              ><th>Release year</th><th class="text-center">movie count</th></tr
+            >
+          </thead>
+          <tbody>
+            {
+              yearArray.map(([year, count]) => (
+                <tr>
+                  <td>{year}</td>
+                  <td class="text-center">{count}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+      <div class="border-2 rounded-lg">
+        <h2 class="py-2 font-semibold text-lg">Watch years</h2>
+        <table>
+          <thead class="text-left">
+            <tr><th>Watch year</th><th class="text-center">movie count</th></tr>
+          </thead>
+          <tbody>
+            {
+              watchYearArray.map(([year, count]) => (
+                <tr>
+                  <td>{year}</td>
+                  <td class="text-center">{count}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </Layout>
 
 <script>
-import Chart from 'chart.js/auto';
-import watchlist from "../data/watchlist.json";
+  import Chart from "chart.js/auto";
+  import watchlist from "../data/watchlist.json";
 
-const runtimeData = watchlist.map(m => {return { x: m.releaseYear, y: m.runtime, title: m.englishTitle }});
+  const runtimeData = watchlist.map((m) => {
+    return { x: m.releaseYear, y: m.runtime, title: m.englishTitle };
+  });
 
-const data = {
-  datasets: [{
-    label: 'Movie length over the years',
-    data: runtimeData,
-    backgroundColor: 'rgb(1, 99, 132)',
-    pointHoverRadius: 10
-  }],
-};
+  const data = {
+    datasets: [
+      {
+        label: "Movie length over the years",
+        data: runtimeData,
+        backgroundColor: "rgb(1, 99, 132)",
+        pointHoverRadius: 10,
+      },
+    ],
+  };
 
-new Chart(
-    document.getElementById('lengthscatterplot') as HTMLCanvasElement,
-    {
-        type: 'scatter',
-        data: data,
-        options: {
-            responsive: true,
-            scales: {
-                x: {
-                    type: 'linear',
-                    bounds: "data",
-                    ticks: {
-                        callback: value => value
-                    }
-                },
-                y: {
-                 ticks: {
-                    callback: value => `${value} min`
-                 }
-                }
+  new Chart(document.getElementById("lengthscatterplot") as HTMLCanvasElement, {
+    type: "scatter",
+    data: data,
+    options: {
+      responsive: true,
+      scales: {
+        x: {
+          type: "linear",
+          bounds: "data",
+          ticks: {
+            callback: (value) => value,
+          },
+        },
+        y: {
+          ticks: {
+            callback: (value) => `${value} min`,
+          },
+        },
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function (tooltipItem) {
+              return `${(tooltipItem.raw as any).title} (${tooltipItem.parsed.y} min)`;
             },
-            plugins: {
-                tooltip: {
-                    callbacks: {
-                        label: function(tooltipItem) {
-                            return `${ (tooltipItem.raw as any).title } (${ tooltipItem.parsed.y } min)`;
-                        }
-                    }
-                },
-                legend: {
-                    display: false
-                }
-            }
-        }
-    }
-);
+          },
+        },
+        legend: {
+          display: false,
+        },
+      },
+    },
+  });
 
-const ageRCounter = new Map<string, number>();
-watchlist
+  const ageRCounter = new Map<string, number>();
+  watchlist
     .map((m) => m.ageCertification)
     .forEach((rating) => {
-        if (rating == "" || rating == "N/A") {
-            rating = "Not Rated"
-        }
-        const n = ageRCounter.has(rating) ? ageRCounter.get(rating)! : 0;
-        ageRCounter.set(rating, n + 1);
+      if (rating == "" || rating == "N/A") {
+        rating = "Not Rated";
+      }
+      const n = ageRCounter.has(rating) ? ageRCounter.get(rating)! : 0;
+      ageRCounter.set(rating, n + 1);
     });
 
-const ageData = {
-    datasets: [{
-        data: Array.from(ageRCounter.values())
-    }],
-    labels: Array.from(ageRCounter.keys())
-};
+  const ageData = {
+    datasets: [
+      {
+        data: Array.from(ageRCounter.values()),
+      },
+    ],
+    labels: Array.from(ageRCounter.keys()),
+  };
 
-new Chart(
-    document.getElementById("age") as HTMLCanvasElement,
-    {
-        type: "doughnut",
-        data: ageData,
-        options: {
-            plugins: {
-                legend: {
-                    display: false
-                }
-            }
-        }
-    }
-);
-
+  new Chart(document.getElementById("age") as HTMLCanvasElement, {
+    type: "doughnut",
+    data: ageData,
+    options: {
+      plugins: {
+        legend: {
+          display: false,
+        },
+      },
+    },
+  });
 </script>
