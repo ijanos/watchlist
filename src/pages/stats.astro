@@ -150,7 +150,16 @@ const watchYearArray = Array.from(watchYearCounter).sort(
 </Layout>
 
 <script>
-  import { ArcElement, Chart, Colors, DoughnutController, LinearScale, PointElement, ScatterController, Tooltip } from "chart.js"
+  import {
+    ArcElement,
+    Chart,
+    Colors,
+    DoughnutController,
+    LinearScale,
+    PointElement,
+    ScatterController,
+    Tooltip,
+  } from "chart.js";
 
   Chart.register(
     ScatterController,
@@ -160,7 +169,7 @@ const watchYearArray = Array.from(watchYearCounter).sort(
     Tooltip,
     Colors,
     LinearScale
-  )
+  );
 
   import watchlist from "../data/watchlist.json";
 
@@ -204,6 +213,9 @@ const watchYearArray = Array.from(watchYearCounter).sort(
             label: function (tooltipItem) {
               return `${(tooltipItem.raw as any).title} (${tooltipItem.parsed.y} min)`;
             },
+            title: function (tooltipItem) {
+              return `${ tooltipItem[0].parsed.x }`;
+            }
           },
         },
         legend: {
