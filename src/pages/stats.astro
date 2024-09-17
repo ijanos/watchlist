@@ -85,6 +85,14 @@ const watchYearArray = Array.from(watchYearCounter).sort(
       </p>
     </div>
 
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Release years</h2>
+
+    <p>
+      This is chart of the release years of movies I watched.
+    </p>
+
+    <div class="basis-1/3"><canvas id="years"></canvas></div>
+
     <div class="grid md:grid-cols-3 gap-2">
       <div class="border-2 rounded-lg">
         <h2 class="py-2 font-semibold text-lg">Directors</h2>
@@ -150,8 +158,14 @@ const watchYearArray = Array.from(watchYearCounter).sort(
 </Layout>
 
 <script>
+
+//  import Chart from 'chart.js/auto';
+
   import {
     ArcElement,
+    BarController,
+    BarElement,
+    CategoryScale,
     Chart,
     Colors,
     DoughnutController,
@@ -162,6 +176,9 @@ const watchYearArray = Array.from(watchYearCounter).sort(
   } from "chart.js";
 
   Chart.register(
+    BarController,
+    BarElement,
+    CategoryScale,
     ScatterController,
     PointElement,
     DoughnutController,
@@ -256,4 +273,48 @@ const watchYearArray = Array.from(watchYearCounter).sort(
       },
     },
   });
+
+  const yearCounter = new Map<number, number>();
+  watchlist
+    .map((m) => m.releaseYear)
+    .forEach((year) => {
+      const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
+      yearCounter.set(year, n + 1);
+    });
+
+  const maxyear = Math.max(...yearCounter.keys());
+  const minyear = Math.min(...yearCounter.keys());
+  const yearArray = [];
+    for (let y = minyear; y <= maxyear; y++) {
+      let count = 0;
+      if (yearCounter.has(y)) {
+        count = yearCounter.get(y)!
+      }
+        yearArray.push({
+          "year": y,
+          "count": count
+        })
+    }
+
+  new Chart(
+    document.getElementById('years') as HTMLCanvasElement,
+    {
+      type: 'bar',
+      data: {
+        labels: yearArray.map(x => x.year),
+        datasets: [
+          {
+            data:  yearArray.map(x => x.count)
+          }
+        ]
+      },
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    }
+  );
 </script>
