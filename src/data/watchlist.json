@@ -34,6 +34,22 @@
     ]
   },
   {
+    "englishTitle": "Kinds of Kindness",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "imdbID": "tt22408160",
+    "releaseYear": 2024,
+    "releaseDate": "2024-06-28",
+    "watched": "2024-09-22",
+    "runtime": 164,
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Furiosa: A Mad Max Saga",
     "director": [
       "George Miller"
@@ -600,6 +616,22 @@
       "fantasy",
       "history",
       "mystery-and-thriller"
+    ]
+  },
+  {
+    "englishTitle": "Intet",
+    "director": [
+      "Trine Piil Christensen",
+      "Seamus McNally"
+    ],
+    "imdbID": "tt17121902",
+    "releaseYear": 2022,
+    "releaseDate": "2022-05-19",
+    "watched": "2024-09-28",
+    "runtime": 87,
+    "ageCertification": "N/A",
+    "genres": [
+      "thriller"
     ]
   },
   {
@@ -2098,13 +2130,13 @@
   },
   {
     "englishTitle": "The Killing of a Sacred Deer",
-    "originalTitle": "The Killing of a Sacred Deer",
     "director": [
       "Yorgos Lanthimos"
     ],
     "imdbID": "tt5715874",
     "releaseYear": 2017,
     "releaseDate": "2017-10-20",
+    "watched": "2017-12-31",
     "runtime": 121,
     "ageCertification": "R",
     "genres": [
@@ -2116,7 +2148,6 @@
   },
   {
     "englishTitle": "The Death of Stalin",
-    "originalTitle": "The Death of Stalin",
     "director": [
       "Armando Iannucci"
     ],
@@ -4285,6 +4316,23 @@
     ]
   },
   {
+    "englishTitle": "Transformers: Dark of the Moon",
+    "director": [
+      "Michael Bay"
+    ],
+    "imdbID": "tt1399103",
+    "releaseYear": 2011,
+    "releaseDate": "2011-06-29",
+    "watched": "2011-07-05",
+    "runtime": 154,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Super 8",
     "originalTitle": "Super 8",
     "director": [
@@ -4846,7 +4894,6 @@
   },
   {
     "englishTitle": "Transformers: Revenge of the Fallen",
-    "originalTitle": "Transformers: Revenge of the Fallen",
     "director": [
       "Michael Bay"
     ],
