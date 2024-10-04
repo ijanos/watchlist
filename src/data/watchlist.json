@@ -1,5 +1,21 @@
 [
   {
+    "englishTitle": "Megalopolis",
+    "director": [
+      "Francis Ford Coppola"
+    ],
+    "imdbID": "tt10128846",
+    "releaseYear": 2024,
+    "releaseDate": "2024-09-27",
+    "watched": "2024-09-29",
+    "runtime": 138,
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Alien: Romulus",
     "director": [
       "Fede Alvarez"
@@ -98,6 +114,24 @@
       "action",
       "adventure",
       "drama"
+    ]
+  },
+  {
+    "englishTitle": "Humanist Vampire Seeking Consenting Suicidal Person",
+    "originalTitle": "Vampire humaniste cherche suicidaire consentant",
+    "director": [
+      "Ariane Louis-Seize"
+    ],
+    "imdbID": "tt24216998",
+    "releaseYear": 2023,
+    "releaseDate": "2024-02-15",
+    "watched": "2024-10-04",
+    "runtime": 90,
+    "ageCertification": "N/A",
+    "genres": [
+      "comedy",
+      "drama",
+      "fantasy"
     ]
   },
   {
@@ -2874,7 +2908,6 @@
   },
   {
     "englishTitle": "Warcraft",
-    "originalTitle": "Warcraft",
     "director": [
       "Duncan Jones"
     ],
