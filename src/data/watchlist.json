@@ -1,5 +1,23 @@
 [
   {
+    "englishTitle": "The Platform 2",
+    "originalTitle": "El hoyo 2",
+    "director": [
+      "Galder Gaztelu-Urrutia"
+    ],
+    "imdbID": "tt27729779",
+    "releaseYear": 2024,
+    "releaseDate": "2024-10-04",
+    "watched": "2024-10-05",
+    "runtime": 99,
+    "ageCertification": "N/A",
+    "genres": [
+      "horror",
+      "sci-fi",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Megalopolis",
     "director": [
       "Francis Ford Coppola"
@@ -1059,8 +1077,25 @@
     ]
   },
   {
+    "englishTitle": "The Platform",
+    "originalTitle": "El hoyo",
+    "director": [
+      "Galder Gaztelu-Urrutia"
+    ],
+    "imdbID": "tt8228288",
+    "releaseYear": 2019,
+    "releaseDate": "2020-03-20",
+    "watched": "2024-10-04",
+    "runtime": 94,
+    "ageCertification": "TV-MA",
+    "genres": [
+      "horror",
+      "sci-fi",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "The Social Dilemma",
-    "originalTitle": "The Social Dilemma",
     "director": [
       "Jeff Orlowski"
     ],
