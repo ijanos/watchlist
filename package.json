@@ -11,11 +11,11 @@
     "deploy": "npm run build && wrangler pages deploy dist/"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.3",
-    "@astrojs/tailwind": "^5.1.1",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.2",
     "@types/node": "^20.12.8",
     "alpinejs": "^3.13.3",
-    "astro": "^4.15.8",
+    "astro": "^4.16.1",
     "chart.js": "^4.4.4",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2"
