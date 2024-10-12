@@ -1,9 +1,7 @@
 import omdbkey from "./omdbkey.js";
 import { writeFile, readFile } from 'node:fs/promises';
-import { type Movie } from "../src/data/movies.ts";
 
-
-async function getData(imdbid: string): Movie {
+async function getData(imdbid: string) {
     const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkey}`);
     const movie = await response.json();
     const releaseDate = new Date(movie["Released"] + " UTC").toISOString().split("T")[0];
@@ -24,11 +22,11 @@ const wlistpath = process.argv[2];
 const newMovie = getData(process.argv[3]);
 const watchlist = readFile(wlistpath, { encoding: "utf-8"});
 
-const w: [Movie] = JSON.parse(await watchlist);
+const w = JSON.parse(await watchlist);
 
 w.push(await newMovie);
 
-w.sort((m1: Movie, m2: Movie) => {
+w.sort((m1: any, m2: any) => {
     return m2.releaseDate.localeCompare(m1.releaseDate)
 });
 
