@@ -26,21 +26,14 @@ watchlist
     const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
     yearCounter.set(year, n + 1);
   });
-const yearArray = Array.from(yearCounter).sort(
-  ([y1, _c1], [y2, _c2]) => y2 - y1
-);
 
 let watchYearCounter = new Map<string, number>();
 watchlist
   .filter((m) => m.watched)
-  .map((m) => m.watched!.substring(0, 4))
-  .forEach((year) => {
+  .map((m) => m.watched!.substring(0, 4)).forEach((year) => {
     const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
     watchYearCounter.set(year, n + 1);
   });
-const watchYearArray = Array.from(watchYearCounter).sort(
-  ([y1, _c1], [y2, _c2]) => y2.localeCompare(y1)
-);
 ---
 
 <Layout title="statistics | Janos' watchlist">
@@ -117,25 +110,6 @@ const watchYearArray = Array.from(watchYearCounter).sort(
               directorsArray.map(([director, count]) => (
                 <tr class="text-sm">
                   <td>{director}</td>
-                  <td class="text-center">{count}</td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>
-      </div>
-
-      <div class="border-2 rounded-lg">
-        <h2 class="py-2 font-semibold text-lg">Watch years</h2>
-        <table>
-          <thead class="text-left">
-            <tr><th>Watch year</th><th class="text-center">movie count</th></tr>
-          </thead>
-          <tbody>
-            {
-              watchYearArray.map(([year, count]) => (
-                <tr>
-                  <td>{year}</td>
                   <td class="text-center">{count}</td>
                 </tr>
               ))
