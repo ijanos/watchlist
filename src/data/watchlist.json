@@ -253,22 +253,6 @@
     ]
   },
   {
-    "englishTitle": "Babylon 5: The Road Home",
-    "director": [
-      "Matt Peters"
-    ],
-    "imdbID": "tt27712788",
-    "releaseYear": 2023,
-    "releaseDate": "2023-07-22",
-    "watched": "2024-01-17",
-    "runtime": 79,
-    "ageCertification": "PG-13",
-    "genres": [
-      "animation",
-      "sci-fi"
-    ]
-  },
-  {
     "englishTitle": "Suitable Flesh",
     "director": [
       "Joe Lynch"
@@ -284,7 +268,22 @@
       "thriller"
     ]
   },
-
+  {
+    "englishTitle": "Babylon 5: The Road Home",
+    "director": [
+      "Matt Peters"
+    ],
+    "imdbID": "tt27712788",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-22",
+    "watched": "2024-01-17",
+    "runtime": 79,
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "sci-fi"
+    ]
+  },
   {
     "englishTitle": "Barbie",
     "watched": "2023-12-10",
@@ -634,6 +633,22 @@
     ]
   },
   {
+    "englishTitle": "Intet",
+    "director": [
+      "Trine Piil Christensen",
+      "Seamus McNally"
+    ],
+    "imdbID": "tt17121902",
+    "releaseYear": 2022,
+    "releaseDate": "2022-05-19",
+    "watched": "2024-09-28",
+    "runtime": 87,
+    "ageCertification": "N/A",
+    "genres": [
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Doctor Strange in the Multiverse of Madness",
     "watched": "2022-05-28",
     "director": [
@@ -668,22 +683,6 @@
       "fantasy",
       "history",
       "mystery-and-thriller"
-    ]
-  },
-  {
-    "englishTitle": "Intet",
-    "director": [
-      "Trine Piil Christensen",
-      "Seamus McNally"
-    ],
-    "imdbID": "tt17121902",
-    "releaseYear": 2022,
-    "releaseDate": "2022-05-19",
-    "watched": "2024-09-28",
-    "runtime": 87,
-    "ageCertification": "N/A",
-    "genres": [
-      "thriller"
     ]
   },
   {
@@ -2474,21 +2473,21 @@
     ]
   },
   {
-  "englishTitle": "Blame!",
-  "director": [
-    "Hiroyuki Seshita"
-  ],
-  "imdbID": "tt6574146",
-  "releaseYear": 2017,
-  "releaseDate": "2017-05-20",
-  "runtime": 106,
-  "ageCertification": "TV-14",
-  "genres": [
-    "animation",
-    "action",
-    "drama"
-  ]
-},
+    "englishTitle": "Blame!",
+    "director": [
+      "Hiroyuki Seshita"
+    ],
+    "imdbID": "tt6574146",
+    "releaseYear": 2017,
+    "releaseDate": "2017-05-20",
+    "runtime": 106,
+    "ageCertification": "TV-14",
+    "genres": [
+      "animation",
+      "action",
+      "drama"
+    ]
+  },
   {
     "englishTitle": "Alien: Covenant",
     "watched": "2017-05-20",
@@ -3739,21 +3738,21 @@
     ]
   },
   {
-  "englishTitle": "Thor: The Dark World",
-  "director": [
-    "Alan Taylor"
-  ],
-  "imdbID": "tt1981115",
-  "releaseYear": 2013,
-  "releaseDate": "2013-11-08",
-  "runtime": 112,
-  "ageCertification": "PG-13",
-  "genres": [
-    "action",
-    "adventure",
-    "fantasy"
-  ]
-},
+    "englishTitle": "Thor: The Dark World",
+    "director": [
+      "Alan Taylor"
+    ],
+    "imdbID": "tt1981115",
+    "releaseYear": 2013,
+    "releaseDate": "2013-11-08",
+    "runtime": 112,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ]
+  },
   {
     "englishTitle": "Ender's Game",
     "originalTitle": "Ender's Game",
@@ -3837,23 +3836,6 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
-    ]
-  },
-  {
-    "englishTitle": "Crank: High Voltage",
-    "director": [
-      "Mark Neveldine",
-      "Brian Taylor"
-    ],
-    "imdbID": "tt1121931",
-    "releaseYear": 2009,
-    "releaseDate": "2009-04-17",
-    "runtime": 96,
-    "ageCertification": "R",
-    "genres": [
-      "action",
-      "crime",
-      "thriller"
     ]
   },
   {
@@ -4008,6 +3990,23 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Iron Man 3",
+    "watched": "2013-05-01",
+    "director": [
+      "Shane Black"
+    ],
+    "imdbID": "tt1300854",
+    "releaseYear": 2013,
+    "releaseDate": "2013-05-03",
+    "runtime": 130,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
     ]
   },
   {
@@ -4266,23 +4265,6 @@
       "drama",
       "kids-and-family",
       "romance"
-    ]
-  },
-  {
-    "englishTitle": "Iron Man 3",
-    "watched": "2013-05-01",
-    "director": [
-      "Shane Black"
-    ],
-    "imdbID": "tt1300854",
-    "releaseYear": 2013,
-    "releaseDate": "2013-05-03",
-    "runtime": 130,
-    "ageCertification": "PG-13",
-    "genres": [
-      "action",
-      "adventure",
-      "sci-fi"
     ]
   },
   {
@@ -5072,6 +5054,23 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Crank: High Voltage",
+    "director": [
+      "Mark Neveldine",
+      "Brian Taylor"
+    ],
+    "imdbID": "tt1121931",
+    "releaseYear": 2009,
+    "releaseDate": "2009-04-17",
+    "runtime": 96,
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "crime",
+      "thriller"
     ]
   },
   {
@@ -9548,21 +9547,21 @@
     ]
   },
   {
-  "englishTitle": "The Witness",
-  "originalTitle": "A tanú",
-  "director": [
-    "Péter Bacsó"
-  ],
-  "imdbID": "tt0065067",
-  "releaseYear": 1969,
-  "releaseDate": "1979-06-06",
-  "runtime": 105,
-  "ageCertification": "N/A",
-  "genres": [
-    "drama",
-    "comedy"
-  ]
-},
+    "englishTitle": "The Witness",
+    "originalTitle": "A tanú",
+    "director": [
+      "Péter Bacsó"
+    ],
+    "imdbID": "tt0065067",
+    "releaseYear": 1969,
+    "releaseDate": "1979-06-06",
+    "runtime": 105,
+    "ageCertification": "N/A",
+    "genres": [
+      "drama",
+      "comedy"
+    ]
+  },
   {
     "englishTitle": "Alien",
     "watched": "2024-05-11",
@@ -9594,6 +9593,23 @@
       "drama",
       "made-in-europe",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "Himiko",
+    "director": [
+      "Masahiro Shinoda"
+    ],
+    "imdbID": "tt0071609",
+    "releaseYear": 1974,
+    "releaseDate": "1979-02-23",
+    "watched": "2024-07-26",
+    "runtime": 100,
+    "ageCertification": "N/A",
+    "genres": [
+      "drama",
+      "fantasy",
+      "history"
     ]
   },
   {
@@ -9675,23 +9691,6 @@
     "genres": [
       "comedy",
       "fantasy"
-    ]
-  },
-  {
-    "englishTitle": "Himiko",
-    "director": [
-      "Masahiro Shinoda"
-    ],
-    "imdbID": "tt0071609",
-    "releaseYear": 1974,
-    "releaseDate": "1979-02-23",
-    "watched": "2024-07-26",
-    "runtime": 100,
-    "ageCertification": "N/A",
-    "genres": [
-      "drama",
-      "fantasy",
-      "history"
     ]
   },
   {
