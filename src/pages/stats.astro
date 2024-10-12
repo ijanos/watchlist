@@ -93,20 +93,29 @@ const watchYearArray = Array.from(watchYearCounter).sort(
 
     <div class="basis-1/3"><canvas id="years"></canvas></div>
 
-    <div class="grid md:grid-cols-3 gap-2">
-      <div class="border-2 rounded-lg">
-        <h2 class="py-2 font-semibold text-lg">Directors</h2>
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Release years</h2>
+
+    <p>
+    This chart shows how many movies I watched each year. I only started
+    tracking what I watch around 2017, data before that is inaccurate.
+    </p>
+
+    <div class="basis-1/3"><canvas id="watchyears"></canvas></div>
+
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Directors</h2>
+
+    <p>
+      The list of directors and the number of their movies I watched.
+    </p>
+
+    <div class="gap-2">
+      <div class="border-2 rounded-lg columns-2 lg:columns-5">
         <table>
-          <thead class="text-left">
-            <tr
-              ><th>Director</th>
-              <th class="text-center">movie count</th></tr
-            >
-          </thead>
           <tbody>
             {
               directorsArray.map(([director, count]) => (
-                <tr>
+                <tr class="text-sm">
                   <td>{director}</td>
                   <td class="text-center">{count}</td>
                 </tr>
@@ -115,26 +124,7 @@ const watchYearArray = Array.from(watchYearCounter).sort(
           </tbody>
         </table>
       </div>
-      <div class="border-2 rounded-lg">
-        <h2 class="py-2 font-semibold text-lg">Years</h2>
-        <table>
-          <thead class="text-left">
-            <tr
-              ><th>Release year</th><th class="text-center">movie count</th></tr
-            >
-          </thead>
-          <tbody>
-            {
-              yearArray.map(([year, count]) => (
-                <tr>
-                  <td>{year}</td>
-                  <td class="text-center">{count}</td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>
-      </div>
+
       <div class="border-2 rounded-lg">
         <h2 class="py-2 font-semibold text-lg">Watch years</h2>
         <table>
@@ -296,7 +286,7 @@ const watchYearArray = Array.from(watchYearCounter).sort(
         })
     }
 
-  new Chart(
+    new Chart(
     document.getElementById('years') as HTMLCanvasElement,
     {
       type: 'bar',
@@ -305,6 +295,53 @@ const watchYearArray = Array.from(watchYearCounter).sort(
         datasets: [
           {
             data:  yearArray.map(x => x.count)
+          }
+        ]
+      },
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    }
+  );
+
+  const watchYearCounter = new Map<number, number>();
+  watchlist
+    .filter((m) => m.watched)
+    .map((m) => parseInt(m.watched?.substring(0,4)!))
+    .forEach((year) => {
+      console.log(year);
+      const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
+      watchYearCounter.set(year, n + 1);
+    });
+
+  const maxwatchyear = Math.max(...watchYearCounter.keys());
+  const minwatchyear = Math.min(...watchYearCounter.keys());
+
+  const watchYearArray = [];
+    for (let y = minwatchyear; y <= maxwatchyear; y++) {
+      let count = 0;
+      if (watchYearCounter.has(y)) {
+        count = watchYearCounter.get(y)!
+      }
+      watchYearArray.push({
+          "year": y,
+          "count": count
+        })
+    }
+  console.log(watchYearArray);
+  new Chart(
+    document.getElementById('watchyears') as HTMLCanvasElement,
+    {
+      type: 'bar',
+      data: {
+        labels: watchYearArray.map(x => x.year),
+        datasets: [
+          {
+            data:  watchYearArray.map(x => x.count)
           }
         ]
       },
