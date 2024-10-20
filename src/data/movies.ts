@@ -29,5 +29,16 @@ if (imdbIDs.length != imdbIDSet.size) {
 
 const indexedWatchlist = watchlist.map((movie, index) =>  ({...movie, index: index}));
 
+const dateRegexp = new RegExp(/^\d{4}-\d{2}-\d{2}$/);
+
+watchlist.forEach((movie) => {
+   if (!dateRegexp.test(movie.releaseDate)) {
+      throw Error(`Maleformed release date string:\n ${JSON.stringify(movie)}`);
+   };
+   if (movie.watched && !dateRegexp.test(movie.watched)) {
+      throw Error(`Maleformed watched date string:\n ${JSON.stringify(movie)}`);
+   }
+});
+
 export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();
 export type { Movie };
