@@ -34,6 +34,22 @@
     ]
   },
   {
+    "englishTitle": "The Substance",
+    "director": [
+      "Coralie Fargeat"
+    ],
+    "imdbID": "tt17526714",
+    "releaseYear": 2024,
+    "releaseDate": "2024-09-20",
+    "runtime": 141,
+    "watched": "2024-10-23",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "horror"
+    ]
+  },
+  {
     "englishTitle": "Alien: Romulus",
     "director": [
       "Fede Alvarez"
@@ -803,6 +819,23 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "West Side Story",
+    "director": [
+      "Steven Spielberg"
+    ],
+    "imdbID": "tt3581652",
+    "releaseYear": 2021,
+    "releaseDate": "2021-12-10",
+    "runtime": 156,
+    "watched": "2024-11-01",
+    "ageCertification": "PG-13",
+    "genres": [
+      "crime",
+      "drama",
+      "musical"
     ]
   },
   {
