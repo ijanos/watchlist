@@ -1,5 +1,20 @@
 [
   {
+    "englishTitle": "Half-Life 2: 20th Anniversary Documentary",
+    "director": [
+      "Danny O'Dwyer"
+    ],
+    "imdbID": "tt34622349",
+    "releaseYear": 2024,
+    "releaseDate": "2024-11-15",
+    "runtime": 121,
+    "watched": "2024-11-18",
+    "ageCertification": "N/A",
+    "genres": [
+      "documentary"
+    ]
+  },
+  {
     "englishTitle": "Woman of the Hour",
     "director": [
       "Anna Kendrick"
@@ -622,6 +637,23 @@
     "ageCertification": "R",
     "genres": [
       "drama",
+      "mystery",
+      "thriller"
+    ]
+  },
+  {
+    "englishTitle": "Barbarian",
+    "director": [
+      "Zach Cregger"
+    ],
+    "imdbID": "tt15791034",
+    "releaseYear": 2022,
+    "releaseDate": "2022-09-09",
+    "runtime": 102,
+    "watched": "2024-11-18",
+    "ageCertification": "R",
+    "genres": [
+      "horror",
       "mystery",
       "thriller"
     ]
