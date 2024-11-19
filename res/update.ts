@@ -4,6 +4,12 @@ import { writeFile, readFile } from 'node:fs/promises';
 async function getData(imdbid: string) {
     const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkey}`);
     const movie = await response.json();
+
+    if (movie["Response"] != "True") {
+        console.log(movie);
+        throw new Error("API error");
+    }
+
     const releaseDate = new Date(movie["Released"] + " UTC").toISOString().split("T")[0];
     return {
         "englishTitle": movie["Title"],
