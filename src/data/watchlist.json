@@ -499,6 +499,23 @@
     ]
   },
   {
+    "englishTitle": "Renfield",
+    "director": [
+      "Chris McKay"
+    ],
+    "imdbID": "tt11358390",
+    "releaseYear": 2023,
+    "releaseDate": "2023-04-14",
+    "runtime": 93,
+    "watched": "2025-01-01",
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "The Super Mario Bros. Movie",
     "watched": "2023-11-18",
     "director": [
@@ -5288,6 +5305,22 @@
     ]
   },
   {
+    "englishTitle": "Frequently Asked Questions About Time Travel",
+    "director": [
+      "Gareth Carrivick"
+    ],
+    "imdbID": "tt0910554",
+    "releaseYear": 2009,
+    "releaseDate": "2009-04-24",
+    "runtime": 83,
+    "watched": "",
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Crank: High Voltage",
     "director": [
       "Mark Neveldine",
@@ -7731,6 +7764,23 @@
       "drama",
       "mystery",
       "thriller"
+    ]
+  },
+  {
+    "englishTitle": "Notting Hill",
+    "director": [
+      "Roger Michell"
+    ],
+    "imdbID": "tt0125439",
+    "releaseYear": 1999,
+    "releaseDate": "1999-05-28",
+    "runtime": 124,
+    "watched": "2024-12-31",
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
     ]
   },
   {
