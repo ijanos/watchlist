@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Nosferatu",
+    "director": [
+      "Robert Eggers"
+    ],
+    "imdbID": "tt5040012",
+    "releaseYear": 2024,
+    "releaseDate": "2024-12-25",
+    "runtime": 133,
+    "watched": "2025-01-02",
+    "ageCertification": "R",
+    "genres": [
+      "fantasy",
+      "horror",
+      "mystery"
+    ]
+  },
+  {
     "englishTitle": "Half-Life 2: 20th Anniversary Documentary",
     "director": [
       "Danny O'Dwyer"
