@@ -6,11 +6,11 @@ const imdbURI = "https://imdb.com/title/";
     <input type="text"
            x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
            x-on:input.debounce.100ms="update()"
-           class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-gray-50 bg-transparent backdrop-blur-sm"
+           class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-transparent backdrop-blur-sm"
           placeholder="search">
 
 
-<table class="w-full text-sm text-left text-gray-700 bg-slate-50 bg-opacity-50 backdrop-blur-md">
+<table class="w-full text-sm text-left text-gray-700 bg-slate-50/50 backdrop-blur-md">
     <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
         <tr>
           <th @click="reorder(0)">Director</th>
@@ -22,7 +22,7 @@ const imdbURI = "https://imdb.com/title/";
     </thead>
     <tbody x-ref="tbody">
 {movies.map((movie) =>
-    <tr class="border-t border-dotted h-7 hover:bg-yellow-200"
+    <tr class="border-t border-t-gray-400/20 border-dotted h-7 hover:bg-yellow-200"
         x-show="$el.dataset.search.includes(search)"
         data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
     >
@@ -32,14 +32,14 @@ const imdbURI = "https://imdb.com/title/";
         <td class="hidden">{ String(movie.runtime).padStart(5, '0') }</td>
         <td class="font-mono text-center" title={`Released: ${movie.releaseDate}` + (movie.watched ?  `\nWatched: ${movie.watched}` : "")}>{movie.releaseYear}</td>
         <td class="hidden">{ movie.releaseDate }</td>
-        <td class="hover:bg-[#F5C518] text-center"><a class="hover:text-black text-xs rounded-lg" href={imdbURI + movie.imdbID} target="_blank">IMDb</a></td>
+        <td class="hover:bg-[#F5C518] text-center"><a class="hover:text-black text-xs" href={imdbURI + movie.imdbID} target="_blank">IMDb</a></td>
     </tr>
 )}
 </tbody>
 <tfoot class="h-6 text-gray-500 text-s bg-gray-50">
     <tr>
       <th colspan="5">
-      <span class="text-gray-900"> <span x-text="visible"></span> movies</span> out of <span x-text="$refs.tbody.querySelectorAll('tr').length"></span>
+      <span class="text-gray-900"><span x-text="visible"></span> movies</span> out of <span x-text="$refs.tbody.querySelectorAll('tr').length"></span>
       </th>
     </tr>
     </tfoot>
