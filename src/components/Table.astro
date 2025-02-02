@@ -6,12 +6,12 @@ const imdbURI = "https://imdb.com/title/";
     <input type="text"
            x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
            x-on:input.debounce.100ms="update()"
-           class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-transparent backdrop-blur-sm"
+           class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-gray-300/40 backdrop-blur-sm"
           placeholder="search">
 
 
 <table class="w-full text-sm text-left text-gray-700 bg-slate-50/50 backdrop-blur-md">
-    <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
+    <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50/40">
         <tr>
           <th @click="reorder(0)">Director</th>
           <th @click="reorder(1)">Title</th>
@@ -36,7 +36,7 @@ const imdbURI = "https://imdb.com/title/";
     </tr>
 )}
 </tbody>
-<tfoot class="h-6 text-gray-500 text-s bg-gray-50">
+<tfoot class="h-6 text-gray-500 text-s bg-gray-50/40">
     <tr>
       <th colspan="5">
       <span class="text-gray-900"><span x-text="visible"></span> movies</span> out of <span x-text="$refs.tbody.querySelectorAll('tr').length"></span>
