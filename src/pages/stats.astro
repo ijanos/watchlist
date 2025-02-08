@@ -192,7 +192,7 @@ watchlist
         tooltip: {
           callbacks: {
             label: function (tooltipItem) {
-              return `${(tooltipItem.raw as any).title} (${tooltipItem.parsed.y} min)`;
+              return `${(tooltipItem.raw as typeof runtimeData[0]).title} (${tooltipItem.parsed.y} min)`;
             },
             title: function (tooltipItem) {
               return `${ tooltipItem[0].parsed.x }`;
@@ -285,9 +285,8 @@ watchlist
   const watchYearCounter = new Map<number, number>();
   watchlist
     .filter((m) => m.watched)
-    .map((m) => parseInt(m.watched?.substring(0,4)!))
+    .map((m) => parseInt(m.watched?.substring(0,4) || ""))
     .forEach((year) => {
-      console.log(year);
       const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
       watchYearCounter.set(year, n + 1);
     });
@@ -306,7 +305,6 @@ watchlist
           "count": count
         })
     }
-  console.log(watchYearArray);
   new Chart(
     document.getElementById('watchyears') as HTMLCanvasElement,
     {

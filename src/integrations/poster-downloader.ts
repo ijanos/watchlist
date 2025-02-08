@@ -40,7 +40,7 @@ export default function posterIntegration(): AstroIntegration {
   return {
     name: "poster-downloader",
     hooks: {
-      "astro:config:setup": (_options) => {
+      "astro:config:setup": () => {
         checkPosters(watchlist as Array<Movie>);
       },
     },
