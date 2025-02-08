@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "eslint && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "deploy": "npm run build && wrangler pages deploy dist/",
@@ -23,6 +23,10 @@
   },
   "devDependencies": {
     "@types/alpinejs": "^3.13.5",
+    "@typescript-eslint/parser": "^8.23.0",
+    "eslint": "^9.20.0",
+    "eslint-plugin-astro": "^1.3.1",
+    "typescript-eslint": "^8.23.0",
     "wrangler": "^3.60.0"
   }
 }

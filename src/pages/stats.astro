@@ -16,7 +16,7 @@ watchlist
   });
 
 const directorsArray = Array.from(directorCounter).sort(
-  ([_d1, c1], [_d2, c2]) => c2 - c1
+  ([, c1], [, c2]) => c2 - c1
 );
 
 let yearCounter = new Map<number, number>();
