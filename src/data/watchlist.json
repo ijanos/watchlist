@@ -7981,8 +7981,24 @@
     ]
   },
   {
+    "englishTitle": "There's Something About Mary",
+    "director": [
+      "Bobby Farrelly",
+      "Peter Farrelly"
+    ],
+    "imdbID": "tt0129387",
+    "releaseYear": 1998,
+    "releaseDate": "1998-07-15",
+    "runtime": 119,
+    "watched": "2025-02-21",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "Armageddon",
-    "originalTitle": "Armageddon",
     "director": [
       "Michael Bay"
     ],
@@ -7999,7 +8015,6 @@
   },
   {
     "englishTitle": "American History X",
-    "originalTitle": "American History X",
     "director": [
       "Tony Kaye"
     ],
@@ -8015,7 +8030,6 @@
   },
   {
     "englishTitle": "Godzilla",
-    "originalTitle": "Godzilla",
     "director": [
       "Roland Emmerich"
     ],
