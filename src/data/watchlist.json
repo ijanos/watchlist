@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Mickey 17",
+    "director": [
+      "Bong Joon Ho"
+    ],
+    "imdbID": "tt12299608",
+    "releaseYear": 2025,
+    "releaseDate": "2025-03-07",
+    "runtime": 139,
+    "watched": "2025-03-09",
+    "ageCertification": "R",
+    "genres": [
+      "adventure",
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "The Gorge",
     "director": [
       "Scott Derrickson"
