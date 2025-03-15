@@ -2,7 +2,7 @@
   {
     "englishTitle": "Mickey 17",
     "director": [
-      "Bong Joon Ho"
+      "Bong Joon-ho"
     ],
     "imdbID": "tt12299608",
     "releaseYear": 2025,
@@ -5240,7 +5240,6 @@
   },
   {
     "englishTitle": "Battlestar Galactica: The Plan",
-    "originalTitle": "Battlestar Galactica: The Plan",
     "director": [
       "Edward James Olmos"
     ],
@@ -5254,8 +5253,21 @@
     ]
   },
   {
+    "englishTitle": "Utolsó idök",
+    "director": [
+      "Áron Mátyássy"
+    ],
+    "imdbID": "tt1254792",
+    "releaseYear": 2009,
+    "releaseDate": "2009-10-22",
+    "runtime": 90,
+    "ageCertification": "Not Rated",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Cargo",
-    "originalTitle": "Cargo",
     "director": [
       "Ivan Engler",
       "Ralph Etter"
