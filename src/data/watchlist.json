@@ -3971,6 +3971,23 @@
     ]
   },
   {
+    "englishTitle": "Print the Legend",
+    "director": [
+      "Luis Lopez",
+      "Clay Tweel"
+    ],
+    "imdbID": "tt3557464",
+    "releaseYear": 2014,
+    "releaseDate": "2014-09-26",
+    "runtime": 100,
+    "ageCertification": "N/A",
+    "genres": [
+      "documentary",
+      "biography",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Predestination",
     "originalTitle": "Predestination",
     "director": [
@@ -10171,6 +10188,23 @@
     ]
   },
   {
+    "englishTitle": "Hair",
+    "director": [
+      "Milos Forman"
+    ],
+    "imdbID": "tt0079261",
+    "releaseYear": 1979,
+    "releaseDate": "1979-03-15",
+    "runtime": 121,
+    "watched": "2025-03-28",
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "drama",
+      "musical"
+    ]
+  },
+  {
     "englishTitle": "Himiko",
     "director": [
       "Masahiro Shinoda"
@@ -10235,6 +10269,22 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "The Eagle Has Landed",
+    "director": [
+      "John Sturges"
+    ],
+    "imdbID": "tt0074452",
+    "releaseYear": 1976,
+    "releaseDate": "1976-12-25",
+    "runtime": 123,
+    "ageCertification": "PG",
+    "genres": [
+      "adventure",
+      "drama",
+      "thriller"
     ]
   },
   {
