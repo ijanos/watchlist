@@ -8945,6 +8945,22 @@
     ]
   },
   {
+    "englishTitle": "The Princess and the Goblin",
+    "director": [
+      "József Gémes"
+    ],
+    "imdbID": "tt0107875",
+    "releaseYear": 1991,
+    "releaseDate": "1994-06-03",
+    "runtime": 82,
+    "ageCertification": "G",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
+    ]
+  },
+  {
     "englishTitle": "Ace Ventura: Pet Detective",
     "originalTitle": "Ace Ventura: Pet Detective",
     "director": [
@@ -9213,6 +9229,23 @@
     ]
   },
   {
+    "englishTitle": "Beauty and the Beast",
+    "director": [
+      "Gary Trousdale",
+      "Kirk Wise"
+    ],
+    "imdbID": "tt0101414",
+    "releaseYear": 1991,
+    "releaseDate": "1991-11-22",
+    "runtime": 84,
+    "ageCertification": "G",
+    "genres": [
+      "animation",
+      "family",
+      "fantasy"
+    ]
+  },
+  {
     "englishTitle": "Terminator 2: Judgment Day",
     "originalTitle": "Terminator 2: Judgment Day",
     "director": [
@@ -9422,6 +9455,24 @@
       "animation",
       "adventure",
       "family"
+    ]
+  },
+  {
+    "englishTitle": "All Dogs Go to Heaven",
+    "director": [
+      "Don Bluth",
+      "Gary Goldman",
+      "Dan Kuenster"
+    ],
+    "imdbID": "tt0096787",
+    "releaseYear": 1989,
+    "releaseDate": "1989-11-17",
+    "runtime": 84,
+    "ageCertification": "G",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
     ]
   },
   {
