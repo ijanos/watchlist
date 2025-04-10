@@ -232,6 +232,23 @@
     ]
   },
   {
+    "englishTitle": "Beetlejuice Beetlejuice",
+    "director": [
+      "Tim Burton"
+    ],
+    "imdbID": "tt2049403",
+    "releaseYear": 2024,
+    "releaseDate": "2024-09-06",
+    "runtime": 105,
+    "watched": "2025-04-09",
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "fantasy",
+      "horror"
+    ]
+  },
+  {
     "englishTitle": "Alien: Romulus",
     "director": [
       "Fede Alvarez"
@@ -8059,6 +8076,22 @@
       "drama",
       "mystery",
       "thriller"
+    ]
+  },
+  {
+    "englishTitle": "South Park: Bigger, Longer & Uncut",
+    "director": [
+      "Trey Parker"
+    ],
+    "imdbID": "tt0158983",
+    "releaseYear": 1999,
+    "releaseDate": "1999-06-30",
+    "runtime": 81,
+    "ageCertification": "R",
+    "genres": [
+      "animation",
+      "comedy",
+      "fantasy"
     ]
   },
   {
