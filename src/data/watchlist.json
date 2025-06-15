@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "The Phoenician Scheme",
+    "director": [
+      "Wes Anderson"
+    ],
+    "imdbID": "tt30840798",
+    "releaseYear": 2025,
+    "releaseDate": "2025-06-06",
+    "runtime": 101,
+    "watched": "2025-06-11",
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "comedy",
+      "crime"
+    ]
+  },
+  {
     "englishTitle": "Death of a Unicorn",
     "director": [
       "Alex Scharfman"
@@ -6069,6 +6086,24 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "No Country for Old Men",
+    "director": [
+      "Ethan Coen",
+      "Joel Coen"
+    ],
+    "imdbID": "tt0477348",
+    "releaseYear": 2007,
+    "releaseDate": "2007-11-21",
+    "runtime": 122,
+    "watched": "2025-06-14",
+    "ageCertification": "R",
+    "genres": [
+      "crime",
+      "drama",
+      "thriller"
     ]
   },
   {
