@@ -10677,6 +10677,23 @@
     ]
   },
   {
+    "englishTitle": "Bullet Train",
+    "director": [
+      "Jun'ya Satô"
+    ],
+    "imdbID": "tt0080479",
+    "releaseYear": 1975,
+    "releaseDate": "1976-01-01",
+    "runtime": 152,
+    "watched": "2025-06-29",
+    "ageCertification": "Not Rated",
+    "genres": [
+      "action",
+      "crime",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "One Flew Over the Cuckoo's Nest",
     "director": [
       "Milos Forman"
@@ -10721,6 +10738,21 @@
     "genres": [
       "biography",
       "drama"
+    ]
+  },
+  {
+    "englishTitle": "Beautiful People",
+    "director": [
+      "Jamie Uys"
+    ],
+    "imdbID": "tt0071143",
+    "releaseYear": 1974,
+    "releaseDate": "1974-11-11",
+    "runtime": 92,
+    "ageCertification": "G",
+    "genres": [
+      "comedy",
+      "documentary"
     ]
   },
   {
