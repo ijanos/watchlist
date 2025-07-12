@@ -35,6 +35,21 @@
     ]
   },
   {
+    "englishTitle": "Mountainhead",
+    "director": [
+      "Jesse Armstrong"
+    ],
+    "imdbID": "tt35396529",
+    "releaseYear": 2025,
+    "releaseDate": "2025-05-31",
+    "runtime": 108,
+    "watched": "2025-07-12",
+    "ageCertification": "TV-MA",
+    "genres": [
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Death of a Unicorn",
     "director": [
       "Alex Scharfman"
@@ -49,6 +64,23 @@
       "comedy",
       "fantasy",
       "horror"
+    ]
+  },
+  {
+    "englishTitle": "Snow White",
+    "director": [
+      "Marc Webb"
+    ],
+    "imdbID": "tt6208148",
+    "releaseYear": 2025,
+    "releaseDate": "2025-03-21",
+    "runtime": 109,
+    "watched": "2025-07-11",
+    "ageCertification": "PG",
+    "genres": [
+      "adventure",
+      "family",
+      "fantasy"
     ]
   },
   {
