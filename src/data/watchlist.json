@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Superman",
+    "director": [
+      "James Gunn"
+    ],
+    "imdbID": "tt5950044",
+    "releaseYear": 2025,
+    "releaseDate": "2025-07-11",
+    "runtime": 129,
+    "watched": "2025-08-19",
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "KPop Demon Hunters",
     "director": [
       "Chris Appelhans",
@@ -9847,6 +9864,23 @@
       "animation",
       "drama",
       "war"
+    ]
+  },
+  {
+    "englishTitle": "When Harry Met Sally...",
+    "director": [
+      "Rob Reiner"
+    ],
+    "imdbID": "tt0098635",
+    "releaseYear": 1989,
+    "releaseDate": "1989-07-21",
+    "runtime": 95,
+    "watched": "2025-08-23",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
     ]
   },
   {
