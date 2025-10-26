@@ -12,11 +12,11 @@
     "addMovie": "npx tsx res/update.ts src/data/watchlist.json"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "^0.9.5",
     "@tailwindcss/vite": "^4.0.2",
     "@types/node": "^20.12.8",
     "alpinejs": "^3.13.3",
-    "astro": "^5.14.1",
+    "astro": "^5.15.1",
     "chart.js": "^4.4.4",
     "tailwindcss": "^4.0.2",
     "typescript": "^5.2.2"
