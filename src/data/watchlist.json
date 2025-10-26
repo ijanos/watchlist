@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Chainsaw Man - The Movie: Reze Arc",
+    "director": [
+      "Tatsuya Yoshihara"
+    ],
+    "imdbID": "tt30472557",
+    "releaseYear": 2025,
+    "releaseDate": "2025-10-24",
+    "runtime": 100,
+    "watched": "2025-10-26",
+    "ageCertification": "R",
+    "genres": [
+      "animation",
+      "action",
+      "adventure"
+    ]
+  },
+  {
     "englishTitle": "The Naked Gun",
     "director": [
       "Akiva Schaffer"
@@ -3880,6 +3897,23 @@
       "drama",
       "fantasy",
       "horror"
+    ]
+  },
+  {
+    "englishTitle": "Bone Tomahawk",
+    "director": [
+      "S. Craig Zahler"
+    ],
+    "imdbID": "tt2494362",
+    "releaseYear": 2015,
+    "releaseDate": "2016-02-19",
+    "runtime": 132,
+    "watched": "2025-10-25",
+    "ageCertification": "Not Rated",
+    "genres": [
+      "drama",
+      "horror",
+      "western"
     ]
   },
   {
