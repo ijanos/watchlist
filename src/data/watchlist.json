@@ -1,5 +1,22 @@
 [
   {
+    "englishTitle": "Bugonia",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "imdbID": "tt12300742",
+    "releaseYear": 2025,
+    "releaseDate": "2025-10-31",
+    "runtime": 120,
+    "watched": "2025-11-09",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime",
+      "sci-fi"
+    ]
+  },
+  {
     "englishTitle": "Chainsaw Man - The Movie: Reze Arc",
     "director": [
       "Tatsuya Yoshihara"
@@ -1381,6 +1398,23 @@
       "fantasy",
       "horror",
       "science-fiction"
+    ]
+  },
+  {
+    "englishTitle": "The Unbearable Weight of Massive Talent",
+    "director": [
+      "Tom Gormican"
+    ],
+    "imdbID": "tt11291274",
+    "releaseYear": 2022,
+    "releaseDate": "2022-04-22",
+    "runtime": 107,
+    "watched": "2025-11-14",
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "comedy",
+      "crime"
     ]
   },
   {
