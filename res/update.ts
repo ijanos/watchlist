@@ -18,6 +18,8 @@ async function getData(imdbid: string) {
         "imdbID": movie["imdbID"],
         "releaseYear": parseInt(movie["Year"]),
         "releaseDate": releaseDate,
+        "country": movie["Country"],
+        'language': movie["Language"].split(",").map((d: string) => d.trim()),
         "runtime": parseInt(movie["Runtime"]),
         "watched": `${new Date().toISOString().slice(0, 10)} CHECKME`,
         "ageCertification": movie["Rated"],
