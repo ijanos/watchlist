@@ -252,7 +252,7 @@ watchlist
   watchlist
     .filter(m => m.language).map((m) => m.language)
     .forEach((languages) => {
-      languages.forEach((l) => {
+      languages!.forEach((l) => {
         const n = languageCounter.has(l) ? languageCounter.get(l)! : 0;
         languageCounter.set(l, n + 1);
       })

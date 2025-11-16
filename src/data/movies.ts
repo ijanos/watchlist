@@ -29,7 +29,7 @@ if (imdbIDs.length != imdbIDSet.size) {
    throw Error("Duplicate imdb ids are found in the watchlist");
 }
 
-const indexedWatchlist = watchlist.map((movie, index) =>  ({...movie, index: index}));
+const indexedWatchlist = watchlist.map((movie, index) =>  ({...movie, index: index})) as Movie[];
 
 const dateRegexp = new RegExp(/^\d{4}-\d{2}-\d{2}$/);
 
@@ -40,6 +40,10 @@ watchlist.forEach((movie) => {
    if (movie.watched && !dateRegexp.test(movie.watched)) {
       throw Error(`Maleformed watched date string:\n ${JSON.stringify(movie)}`);
    }
+  // Turns out I wateched some movies before the US release date
+  // if (movie.watched && movie.watched < movie.releaseDate) {
+  //     throw Error(`Watched  before release:\n ${JSON.stringify(movie)}`);
+  // }
 });
 
 export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();
