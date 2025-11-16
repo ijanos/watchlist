@@ -14,6 +14,16 @@
       "comedy",
       "crime",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Ireland",
+      "United Kingdom",
+      "Canada",
+      "South Korea",
+      "United States"
     ]
   },
   {
@@ -31,6 +41,12 @@
       "animation",
       "action",
       "adventure"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -47,6 +63,12 @@
     "genres": [
       "horror",
       "mystery"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -64,6 +86,13 @@
       "action",
       "comedy",
       "crime"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -81,6 +110,15 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States",
+      "Canada",
+      "New Zealand"
     ]
   },
   {
@@ -98,6 +136,15 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "Australia",
+      "New Zealand"
     ]
   },
   {
@@ -115,6 +162,12 @@
       "drama",
       "music",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -133,6 +186,14 @@
       "animation",
       "action",
       "adventure"
+    ],
+    "language": [
+      "English",
+      "Korean"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -150,6 +211,14 @@
       "action",
       "comedy",
       "crime"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "Germany",
+      "United States"
     ]
   },
   {
@@ -165,6 +234,12 @@
     "ageCertification": "TV-MA",
     "genres": [
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -182,6 +257,12 @@
       "comedy",
       "crime",
       "mystery"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -199,6 +280,12 @@
       "action",
       "crime",
       "drama"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -216,6 +303,13 @@
       "comedy",
       "fantasy",
       "horror"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Hungary"
     ]
   },
   {
@@ -233,6 +327,14 @@
       "adventure",
       "family",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Turkish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -251,6 +353,14 @@
       "action",
       "comedy",
       "crime"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Canada",
+      "South Africa",
+      "United States"
     ]
   },
   {
@@ -268,6 +378,13 @@
       "adventure",
       "comedy",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "South Korea"
     ]
   },
   {
@@ -284,6 +401,14 @@
     "genres": [
       "action",
       "romance"
+    ],
+    "language": [
+      "English",
+      "Lithuanian"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -301,6 +426,14 @@
       "animation",
       "adventure",
       "family"
+    ],
+    "language": [
+      "None"
+    ],
+    "country": [
+      "Latvia",
+      "Belgium",
+      "France"
     ]
   },
   {
@@ -316,6 +449,12 @@
     "ageCertification": "R",
     "genres": [
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -333,6 +472,17 @@
       "fantasy",
       "horror",
       "mystery"
+    ],
+    "language": [
+      "English",
+      "Romanian",
+      "Romany",
+      "Russian",
+      "Latin",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -350,6 +500,13 @@
       "drama",
       "romance",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Netherlands",
+      "United States"
     ]
   },
   {
@@ -366,6 +523,12 @@
     "genres": [
       "comedy",
       "horror"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -383,6 +546,14 @@
       "fantasy",
       "musical",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -398,6 +569,12 @@
     "ageCertification": "N/A",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "N/A"
     ]
   },
   {
@@ -415,6 +592,13 @@
       "comedy",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -432,6 +616,13 @@
     "genres": [
       "horror",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -449,6 +640,12 @@
       "crime",
       "drama",
       "mystery"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -467,6 +664,12 @@
       "horror",
       "sci-fi",
       "thriller"
+    ],
+    "language": [
+      "Spanish"
+    ],
+    "country": [
+      "Spain"
     ]
   },
   {
@@ -483,6 +686,15 @@
     "genres": [
       "drama",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "Latin",
+      "Spanish",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -499,6 +711,13 @@
     "genres": [
       "drama",
       "horror"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "France"
     ]
   },
   {
@@ -516,6 +735,18 @@
       "comedy",
       "fantasy",
       "horror"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "French",
+      "Spanish",
+      "Latin",
+      "Yiddish"
+    ],
+    "country": [
+      "United States",
+      "France"
     ]
   },
   {
@@ -533,6 +764,17 @@
       "horror",
       "sci-fi",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States",
+      "Hungary",
+      "Australia",
+      "New Zealand",
+      "Canada"
     ]
   },
   {
@@ -549,6 +791,12 @@
     "genres": [
       "drama",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -566,6 +814,17 @@
       "action",
       "comedy",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "New Zealand",
+      "Canada"
     ]
   },
   {
@@ -582,6 +841,15 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Ireland",
+      "United Kingdom",
+      "United States",
+      "Greece"
     ]
   },
   {
@@ -599,6 +867,15 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "Romanian",
+      "Italian"
+    ],
+    "country": [
+      "Australia",
+      "United States"
     ]
   },
   {
@@ -616,6 +893,14 @@
       "comedy",
       "drama",
       "romance"
+    ],
+    "language": [
+      "English",
+      "Romanian"
+    ],
+    "country": [
+      "Italy",
+      "United States"
     ]
   },
   {
@@ -633,6 +918,14 @@
     "genres": [
       "horror",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Ireland",
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -650,6 +943,14 @@
       "action",
       "adventure",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Finland"
     ]
   },
   {
@@ -667,6 +968,19 @@
       "action",
       "adventure",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "United Arab Emirates",
+      "Hungary",
+      "Italy",
+      "New Zealand",
+      "Jordan",
+      "Gambia"
     ]
   },
   {
@@ -685,6 +999,12 @@
       "comedy",
       "drama",
       "fantasy"
+    ],
+    "language": [
+      "French"
+    ],
+    "country": [
+      "Canada"
     ]
   },
   {
@@ -701,6 +1021,12 @@
     "genres": [
       "comedy",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -718,6 +1044,17 @@
       "comedy",
       "drama",
       "romance"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Portuguese"
+    ],
+    "country": [
+      "Ireland",
+      "United Kingdom",
+      "United States",
+      "Hungary"
     ]
   },
   {
@@ -734,6 +1071,13 @@
     "genres": [
       "drama",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -749,6 +1093,14 @@
     "ageCertification": "PG",
     "genres": [
       "drama"
+    ],
+    "language": [
+      "Japanese",
+      "English"
+    ],
+    "country": [
+      "Japan",
+      "Germany"
     ]
   },
   {
@@ -767,6 +1119,12 @@
       "animation",
       "adventure",
       "drama"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -783,6 +1141,14 @@
     "genres": [
       "comedy",
       "horror"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -797,6 +1163,12 @@
     "ageCertification": "N/A",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -814,6 +1186,12 @@
       "action",
       "adventure",
       "crime"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -830,6 +1208,12 @@
     "genres": [
       "horror",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -847,6 +1231,15 @@
       "crime",
       "drama",
       "history"
+    ],
+    "language": [
+      "English",
+      "Osage",
+      "Latin",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -863,6 +1256,12 @@
     "genres": [
       "animation",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -880,6 +1279,14 @@
       "adventure",
       "comedy",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -896,6 +1303,16 @@
     "genres": [
       "drama",
       "history"
+    ],
+    "language": [
+      "English",
+      "German",
+      "Italian",
+      "Dutch"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -914,6 +1331,12 @@
       "drama",
       "romance",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -930,6 +1353,14 @@
     "genres": [
       "drama",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "France",
+      "Russia"
     ]
   },
   {
@@ -947,6 +1378,16 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "United States",
+      "New Zealand",
+      "France",
+      "Canada"
     ]
   },
   {
@@ -965,6 +1406,15 @@
       "drama",
       "fantasy",
       "horror"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Finland",
+      "Canada"
     ]
   },
   {
@@ -982,6 +1432,15 @@
       "action",
       "comedy",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Canada"
     ]
   },
   {
@@ -1001,6 +1460,12 @@
       "comedy",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "N/A"
+    ],
+    "country": [
+      "N/A"
     ]
   },
   {
@@ -1018,6 +1483,16 @@
       "biography",
       "drama",
       "history"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "Japanese",
+      "Hungarian"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -1034,6 +1509,12 @@
     "ageCertification": "N/A",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -1052,6 +1533,17 @@
       "action-and-adventure",
       "comedy",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Iceland",
+      "Ireland",
+      "Australia"
     ]
   },
   {
@@ -1069,6 +1561,14 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Australia",
+      "Canada"
     ]
   },
   {
@@ -1086,6 +1586,18 @@
       "comedy",
       "drama",
       "history"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Italian",
+      "Cantonese",
+      "French",
+      "Hungarian",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1104,6 +1616,15 @@
       "animation",
       "adventure",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Italian"
+    ],
+    "country": [
+      "United States",
+      "Mexico",
+      "France"
     ]
   },
   {
@@ -1121,6 +1642,14 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Canada"
     ]
   },
   {
@@ -1138,6 +1667,14 @@
       "drama",
       "horror",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Italy",
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -1155,6 +1692,13 @@
       "comedy",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1173,6 +1717,13 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1192,6 +1743,13 @@
       "animation",
       "drama",
       "fantasy"
+    ],
+    "language": [
+      "Japanese",
+      "English"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -1208,6 +1766,15 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Latin"
+    ],
+    "country": [
+      "Ireland",
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -1225,6 +1792,12 @@
       "drama",
       "mystery",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1242,6 +1815,13 @@
       "horror",
       "mystery",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Bulgaria",
+      "United States"
     ]
   },
   {
@@ -1258,6 +1838,13 @@
     "genres": [
       "comedy",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Italy"
     ]
   },
   {
@@ -1276,6 +1863,12 @@
       "animation",
       "drama",
       "fantasy"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -1294,6 +1887,13 @@
       "animation",
       "adventure",
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Spain"
     ]
   },
   {
@@ -1311,6 +1911,16 @@
       "action",
       "comedy",
       "thriller"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "Spanish",
+      "Russian"
+    ],
+    "country": [
+      "United States",
+      "Japan"
     ]
   },
   {
@@ -1328,6 +1938,13 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1345,6 +1962,15 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "Canada",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -1364,6 +1990,13 @@
       "fantasy",
       "romance",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Australia",
+      "United States"
     ]
   },
   {
@@ -1380,6 +2013,13 @@
     "ageCertification": "N/A",
     "genres": [
       "thriller"
+    ],
+    "language": [
+      "Danish"
+    ],
+    "country": [
+      "Denmark",
+      "Germany"
     ]
   },
   {
@@ -1398,6 +2038,14 @@
       "fantasy",
       "horror",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Chinese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1415,6 +2063,15 @@
       "action",
       "comedy",
       "crime"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "Croatia",
+      "United States",
+      "Hungary"
     ]
   },
   {
@@ -1434,6 +2091,17 @@
       "fantasy",
       "history",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Norse",
+      "Old",
+      "Ukrainian"
+    ],
+    "country": [
+      "United Kingdom",
+      "China",
+      "United States"
     ]
   },
   {
@@ -1453,6 +2121,14 @@
       "comedy",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin",
+      "Cantonese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1471,6 +2147,15 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Latin",
+      "Italian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1487,6 +2172,12 @@
     "genres": [
       "crime",
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom"
     ]
   },
   {
@@ -1503,6 +2194,13 @@
     "ageCertification": "TV-MA",
     "genres": [
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -1520,6 +2218,12 @@
       "drama",
       "sci-fi",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1536,6 +2240,16 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Spanish",
+      "Japanese"
+    ],
+    "country": [
+      "United States",
+      "Australia"
     ]
   },
   {
@@ -1553,6 +2267,13 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Tagalog"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1570,6 +2291,15 @@
       "crime",
       "drama",
       "musical"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "United Kingdom"
     ]
   },
   {
@@ -1587,6 +2317,13 @@
       "comedy",
       "drama",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -1606,6 +2343,13 @@
       "animation",
       "comedy",
       "family"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1622,6 +2366,19 @@
     "genres": [
       "crime",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Arabic",
+      "Spanish",
+      "Japanese",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "United Kingdom"
     ]
   },
   {
@@ -1639,6 +2396,22 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "American Sign",
+      "Marathi",
+      "Assyrian Neo-Aramaic",
+      "Spanish",
+      "Sumerian",
+      "Latin",
+      "Sanskrit",
+      "Greek",
+      "Ancient (to 1453)",
+      "Arabic"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1656,6 +2429,17 @@
       "comedy",
       "drama",
       "romance"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Germany",
+      "Sweden",
+      "France",
+      "United Kingdom"
     ]
   },
   {
@@ -1673,6 +2457,14 @@
       "action-and-adventure",
       "drama",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -1690,6 +2482,13 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1706,6 +2505,16 @@
       "animation",
       "action",
       "adventure"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "South Korea",
+      "United States",
+      "Japan",
+      "Poland",
+      "China"
     ]
   },
   {
@@ -1724,6 +2533,15 @@
       "comedy",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "German"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -1741,6 +2559,15 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Japanese",
+      "Cantonese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1757,6 +2584,17 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "Norwegian",
+      "Hungarian",
+      "Macedonian",
+      "Finnish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1775,6 +2613,13 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -1791,6 +2636,14 @@
     "ageCertification": "TV-MA",
     "genres": [
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Germany",
+      "United Kingdom"
     ]
   },
   {
@@ -1812,6 +2665,17 @@
       "fantasy",
       "kids-and-family",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Irish Gaelic"
+    ],
+    "country": [
+      "Ireland",
+      "Luxembourg",
+      "France",
+      "China",
+      "United States"
     ]
   },
   {
@@ -1828,6 +2692,12 @@
     "genres": [
       "documentary",
       "comedy"
+    ],
+    "language": [
+      "N/A"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1844,6 +2714,13 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1861,6 +2738,13 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -1877,6 +2761,17 @@
     "genres": [
       "comedy",
       "music-and-musical"
+    ],
+    "language": [
+      "English",
+      "Icelandic",
+      "Portuguese",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Iceland",
+      "Canada"
     ]
   },
   {
@@ -1895,6 +2790,14 @@
       "horror",
       "sci-fi",
       "thriller"
+    ],
+    "language": [
+      "Spanish",
+      "Italian",
+      "Russian"
+    ],
+    "country": [
+      "Spain"
     ]
   },
   {
@@ -1910,6 +2813,12 @@
     "genres": [
       "documentary",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1926,6 +2835,12 @@
       "animation",
       "adventure",
       "drama"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -1943,6 +2858,14 @@
       "drama",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Arabic"
+    ],
+    "country": [
+      "United States",
+      "France"
     ]
   },
   {
@@ -1962,6 +2885,13 @@
       "fantasy",
       "made-in-europe",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -1980,6 +2910,12 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -1997,6 +2933,15 @@
       "action-and-adventure",
       "drama",
       "sport"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "French",
+      "Japanese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2016,6 +2961,18 @@
       "fantasy",
       "kids-and-family",
       "made-in-europe"
+    ],
+    "language": [
+      "English",
+      "Saami"
+    ],
+    "country": [
+      "Spain",
+      "United Kingdom",
+      "United States",
+      "Austria",
+      "Canada",
+      "France"
     ]
   },
   {
@@ -2031,6 +2988,12 @@
     "ageCertification": "",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2047,6 +3010,16 @@
     "genres": [
       "crime",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Latin",
+      "Spanish",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2065,6 +3038,16 @@
       "drama",
       "made-in-europe",
       "war-and-military"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "Czech Republic",
+      "New Zealand",
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -2084,6 +3067,13 @@
       "fantasy",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -2101,6 +3091,14 @@
       "animation",
       "adventure",
       "family"
+    ],
+    "language": [
+      "French"
+    ],
+    "country": [
+      "France",
+      "Belgium",
+      "Germany"
     ]
   },
   {
@@ -2118,6 +3116,15 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "Australia"
     ]
   },
   {
@@ -2135,6 +3142,12 @@
       "documentary",
       "biography",
       "music"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "USA"
     ]
   },
   {
@@ -2151,6 +3164,13 @@
     "ageCertification": "",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2170,6 +3190,14 @@
       "comedy",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Latin"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -2187,6 +3215,17 @@
       "comedy",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Spanish",
+      "German"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "China"
     ]
   },
   {
@@ -2205,6 +3244,14 @@
       "horror",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Swedish"
+    ],
+    "country": [
+      "United States",
+      "Sweden"
     ]
   },
   {
@@ -2222,6 +3269,18 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Czech"
+    ],
+    "country": [
+      "United States",
+      "Czech Republic",
+      "Australia",
+      "Canada",
+      "Italy"
     ]
   },
   {
@@ -2239,6 +3298,13 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "Korean",
+      "English"
+    ],
+    "country": [
+      "South Korea"
     ]
   },
   {
@@ -2255,6 +3321,13 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2274,6 +3347,16 @@
       "fantasy",
       "kids-and-family",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese"
+    ],
+    "country": [
+      "United States",
+      "Japan",
+      "United Kingdom",
+      "Canada"
     ]
   },
   {
@@ -2292,6 +3375,15 @@
       "action-and-adventure",
       "drama",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "Xhosa",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2307,6 +3399,12 @@
     "ageCertification": "",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2324,6 +3422,13 @@
       "animation",
       "adventure",
       "family"
+    ],
+    "language": [
+      "Japanese",
+      "English"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -2340,6 +3445,14 @@
     "genres": [
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "China",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -2357,6 +3470,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Australia"
     ]
   },
   {
@@ -2373,6 +3493,13 @@
     "genres": [
       "mystery",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Malta",
+      "United Kingdom"
     ]
   },
   {
@@ -2390,6 +3517,15 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "Japan",
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -2406,6 +3542,12 @@
     "genres": [
       "crime",
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2423,6 +3565,12 @@
       "crime",
       "documentary",
       "music-and-musical"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2441,6 +3589,13 @@
       "fantasy",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -2463,6 +3618,14 @@
       "fantasy",
       "kids-and-family",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -2482,6 +3645,14 @@
       "history",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Ireland",
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -2500,6 +3671,17 @@
       "drama",
       "kids-and-family",
       "music-and-musical"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Russian",
+      "German"
+    ],
+    "country": [
+      "China",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -2515,6 +3697,12 @@
     "ageCertification": "TV-14",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2531,6 +3719,14 @@
     "genres": [
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -2547,6 +3743,14 @@
     "genres": [
       "drama",
       "history"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "China",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -2563,6 +3767,15 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin",
+      "Malay"
+    ],
+    "country": [
+      "United States",
+      "China"
     ]
   },
   {
@@ -2581,6 +3794,12 @@
       "action-and-adventure",
       "documentary",
       "sport"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2598,6 +3817,13 @@
       "comedy",
       "crime",
       "mystery"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -2614,6 +3840,19 @@
     "genres": [
       "drama",
       "made-in-europe"
+    ],
+    "language": [
+      "Spanish",
+      "Mixtec",
+      "English",
+      "Japanese",
+      "German",
+      "French",
+      "Norwegian"
+    ],
+    "country": [
+      "Mexico",
+      "United States"
     ]
   },
   {
@@ -2631,6 +3870,18 @@
       "comedy",
       "musical",
       "romance"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Greek"
+    ],
+    "country": [
+      "United Kingdom",
+      "China",
+      "Croatia",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -2648,6 +3899,15 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -2665,6 +3925,12 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2684,6 +3950,13 @@
       "drama",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "Japanese",
+      "English"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -2701,6 +3974,13 @@
       "drama",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2718,6 +3998,14 @@
       "action",
       "sci-fi",
       "thriller"
+    ],
+    "language": [
+      "English",
+      "Dutch"
+    ],
+    "country": [
+      "United States",
+      "Australia"
     ]
   },
   {
@@ -2735,6 +4023,12 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2752,6 +4046,16 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Cantonese",
+      "Spanish",
+      "Russian"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -2769,6 +4073,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Norway"
     ]
   },
   {
@@ -2786,6 +4097,13 @@
       "drama",
       "horror",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "American Sign"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2803,6 +4121,19 @@
       "action-and-adventure",
       "animation",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese"
+    ],
+    "country": [
+      "United States",
+      "India",
+      "Singapore",
+      "Canada",
+      "United Kingdom",
+      "Japan",
+      "Australia"
     ]
   },
   {
@@ -2823,6 +4154,16 @@
       "drama",
       "made-in-europe",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese"
+    ],
+    "country": [
+      "United Kingdom",
+      "Germany",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -2841,6 +4182,12 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2859,6 +4206,13 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -2878,6 +4232,12 @@
       "comedy",
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2894,6 +4254,16 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Swahili",
+      "Nama",
+      "Xhosa",
+      "Korean"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2912,6 +4282,14 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2929,6 +4307,12 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2946,6 +4330,12 @@
       "biography",
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -2963,6 +4353,14 @@
       "comedy",
       "drama",
       "sport"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Qatar"
     ]
   },
   {
@@ -2980,6 +4378,15 @@
       "crime",
       "drama",
       "sport"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "China"
     ]
   },
   {
@@ -2997,6 +4404,16 @@
       "drama",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "English",
+      "American Sign",
+      "Russian",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Mexico"
     ]
   },
   {
@@ -3014,6 +4431,13 @@
       "comedy",
       "crime",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -3031,6 +4455,16 @@
       "animation",
       "drama",
       "family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Ireland",
+      "Canada",
+      "Luxembourg",
+      "United States",
+      "France"
     ]
   },
   {
@@ -3048,6 +4482,12 @@
       "action",
       "adventure",
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3066,6 +4506,15 @@
       "horror",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "Ireland",
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -3083,6 +4532,15 @@
       "drama",
       "history",
       "made-in-europe"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "France",
+      "United Kingdom",
+      "Belgium",
+      "Canada"
     ]
   },
   {
@@ -3101,6 +4559,14 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "Spain"
     ]
   },
   {
@@ -3116,6 +4582,15 @@
     "genres": [
       "documentary",
       "sport"
+    ],
+    "language": [
+      "English",
+      "Korean",
+      "French",
+      "Mandarin"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3133,6 +4608,12 @@
       "drama",
       "horror",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3150,6 +4631,13 @@
       "drama",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -3167,6 +4655,13 @@
       "drama",
       "romance",
       "thriller"
+    ],
+    "language": [
+      "Korean",
+      "Japanese"
+    ],
+    "country": [
+      "South Korea"
     ]
   },
   {
@@ -3183,6 +4678,13 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3201,6 +4703,19 @@
       "fantasy",
       "made-in-europe",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "France",
+      "China",
+      "Belgium",
+      "Germany",
+      "United Arab Emirates",
+      "United States",
+      "Canada",
+      "Qatar"
     ]
   },
   {
@@ -3220,6 +4735,17 @@
       "history",
       "mystery-and-thriller",
       "war-and-military"
+    ],
+    "language": [
+      "English",
+      "French",
+      "German"
+    ],
+    "country": [
+      "United Kingdom",
+      "Netherlands",
+      "France",
+      "United States"
     ]
   },
   {
@@ -3237,6 +4763,13 @@
       "comedy",
       "drama",
       "romance"
+    ],
+    "language": [
+      "English",
+      "Urdu"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3253,6 +4786,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3269,6 +4809,13 @@
       "drama",
       "history",
       "thriller"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3287,6 +4834,14 @@
       "crime",
       "drama",
       "music-and-musical"
+    ],
+    "language": [
+      "English",
+      "American Sign"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -3305,6 +4860,12 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3321,6 +4882,14 @@
     "genres": [
       "documentary",
       "sport"
+    ],
+    "language": [
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -3339,6 +4908,23 @@
       "fantasy",
       "science-fiction",
       "war-and-military"
+    ],
+    "language": [
+      "English",
+      "German",
+      "Dutch",
+      "Flemish",
+      "French",
+      "Spanish",
+      "Chinese",
+      "Greek",
+      "Ancient (to 1453)",
+      "North American Indian"
+    ],
+    "country": [
+      "United States",
+      "China",
+      "Hong Kong"
     ]
   },
   {
@@ -3355,6 +4941,12 @@
       "animation",
       "action",
       "drama"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -3372,6 +4964,14 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -3389,6 +4989,12 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3407,6 +5013,16 @@
       "drama",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Korean"
+    ],
+    "country": [
+      "United States",
+      "Spain",
+      "Canada",
+      "South Korea"
     ]
   },
   {
@@ -3426,6 +5042,17 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese"
+    ],
+    "country": [
+      "India",
+      "China",
+      "Hong Kong",
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -3445,6 +5072,13 @@
       "history",
       "made-in-europe",
       "romance"
+    ],
+    "language": [
+      "Hungarian",
+      "English"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -3463,6 +5097,12 @@
       "drama",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -3481,6 +5121,13 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3497,6 +5144,14 @@
     "genres": [
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Swahili"
+    ],
+    "country": [
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -3513,6 +5168,13 @@
     "genres": [
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Japan"
     ]
   },
   {
@@ -3529,6 +5191,17 @@
     "genres": [
       "drama",
       "history"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "Latin"
+    ],
+    "country": [
+      "United Kingdom",
+      "Italy",
+      "Mexico",
+      "United States"
     ]
   },
   {
@@ -3547,6 +5220,17 @@
       "mystery-and-thriller",
       "romance",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Japanese",
+      "French"
+    ],
+    "country": [
+      "Hong Kong",
+      "Australia",
+      "United States"
     ]
   },
   {
@@ -3565,6 +5249,12 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3581,6 +5271,12 @@
     "genres": [
       "drama",
       "history"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3599,6 +5295,14 @@
       "drama",
       "music-and-musical",
       "romance"
+    ],
+    "language": [
+      "English",
+      "Cantonese"
+    ],
+    "country": [
+      "United States",
+      "Hong Kong"
     ]
   },
   {
@@ -3616,6 +5320,15 @@
       "action-and-adventure",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "Central Khmer"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -3633,6 +5346,15 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin",
+      "Russian"
+    ],
+    "country": [
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -3650,6 +5372,14 @@
       "action",
       "adventure",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Hong Kong",
+      "Nepal"
     ]
   },
   {
@@ -3666,6 +5396,13 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "China"
     ]
   },
   {
@@ -3682,6 +5419,12 @@
     "ageCertification": "N/A",
     "genres": [
       "drama"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -3701,6 +5444,12 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom"
     ]
   },
   {
@@ -3717,6 +5466,13 @@
     "genres": [
       "drama",
       "history"
+    ],
+    "language": [
+      "English",
+      "Yiddish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3736,6 +5492,12 @@
       "drama",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -3754,6 +5516,13 @@
       "animation",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -3771,6 +5540,14 @@
       "action",
       "horror",
       "thriller"
+    ],
+    "language": [
+      "Korean",
+      "English",
+      "Hawaiian"
+    ],
+    "country": [
+      "South Korea"
     ]
   },
   {
@@ -3788,6 +5565,13 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "China",
+      "United States"
     ]
   },
   {
@@ -3809,6 +5593,15 @@
       "kids-and-family",
       "made-in-europe",
       "romance"
+    ],
+    "language": [
+      "None"
+    ],
+    "country": [
+      "France",
+      "Belgium",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -3826,6 +5619,15 @@
       "horror",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Belgium",
+      "Denmark",
+      "France"
     ]
   },
   {
@@ -3843,6 +5645,12 @@
     "genres": [
       "crime",
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "New Zealand"
     ]
   },
   {
@@ -3858,6 +5666,15 @@
     "genres": [
       "action-and-adventure",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "China",
+      "Canada",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -3878,6 +5695,14 @@
       "drama",
       "mystery-and-thriller",
       "romance"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -3895,6 +5720,19 @@
     "genres": [
       "action",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "German",
+      "Xhosa",
+      "Russian",
+      "Romanian"
+    ],
+    "country": [
+      "United States",
+      "Germany",
+      "Iceland",
+      "United Kingdom"
     ]
   },
   {
@@ -3911,6 +5749,12 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "New Zealand"
     ]
   },
   {
@@ -3930,6 +5774,12 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -3947,6 +5797,14 @@
       "drama",
       "fantasy",
       "horror"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -3964,6 +5822,13 @@
       "drama",
       "horror",
       "western"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -3984,6 +5849,12 @@
       "comedy",
       "crime",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4000,6 +5871,12 @@
     "genres": [
       "action-and-adventure",
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4018,6 +5895,15 @@
       "drama",
       "mystery-and-thriller",
       "western"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "Persian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4035,6 +5921,16 @@
       "drama",
       "mystery",
       "thriller"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "Canada",
+      "Mexico",
+      "Germany",
+      "South Africa"
     ]
   },
   {
@@ -4051,6 +5947,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -4068,6 +5971,13 @@
       "drama",
       "history",
       "war"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "France"
     ]
   },
   {
@@ -4085,6 +5995,12 @@
       "comedy",
       "drama",
       "history"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4105,6 +6021,20 @@
       "mystery-and-thriller",
       "romance",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Greek"
+    ],
+    "country": [
+      "Ireland",
+      "United Kingdom",
+      "Greece",
+      "France",
+      "Netherlands",
+      "Belgium",
+      "United States"
     ]
   },
   {
@@ -4120,6 +6050,15 @@
     "ageCertification": "R",
     "genres": [
       "drama"
+    ],
+    "language": [
+      "English",
+      "Ukrainian"
+    ],
+    "country": [
+      "United Kingdom",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -4136,6 +6075,16 @@
     "genres": [
       "drama",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Hungary",
+      "Jordan"
     ]
   },
   {
@@ -4154,6 +6103,16 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Ukrainian"
+    ],
+    "country": [
+      "United States",
+      "Mexico",
+      "Hong Kong"
     ]
   },
   {
@@ -4171,6 +6130,12 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4187,6 +6152,21 @@
     "genres": [
       "drama",
       "war"
+    ],
+    "language": [
+      "Hungarian",
+      "Yiddish",
+      "German",
+      "Russian",
+      "Polish",
+      "French",
+      "Greek",
+      "Slovak",
+      "Hebrew"
+    ],
+    "country": [
+      "Hungary",
+      "France"
     ]
   },
   {
@@ -4207,6 +6187,14 @@
       "drama",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "Portuguese",
+      "Latvian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4224,6 +6212,13 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -4241,6 +6236,14 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "Australia",
+      "United States"
     ]
   },
   {
@@ -4258,6 +6261,15 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "Korean"
+    ],
+    "country": [
+      "United States",
+      "South Korea",
+      "Cambodia"
     ]
   },
   {
@@ -4275,6 +6287,13 @@
       "comedy",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "Hungarian",
+      "Japanese"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -4293,6 +6312,14 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "United States",
+      "Australia"
     ]
   },
   {
@@ -4309,6 +6336,12 @@
     "genres": [
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4327,6 +6360,13 @@
       "made-in-europe",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -4343,6 +6383,13 @@
     "genres": [
       "action-and-adventure",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "New Zealand",
+      "United States"
     ]
   },
   {
@@ -4360,6 +6407,12 @@
       "adventure",
       "horror",
       "sci-fi"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -4378,6 +6431,13 @@
       "drama",
       "mystery-and-thriller",
       "war-and-military"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4394,6 +6454,14 @@
     "genres": [
       "drama",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Canada"
     ]
   },
   {
@@ -4411,6 +6479,14 @@
       "action-and-adventure",
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "Hungarian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4427,6 +6503,12 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4443,6 +6525,12 @@
     "genres": [
       "drama",
       "music-and-musical"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4459,6 +6547,12 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4476,6 +6570,12 @@
       "documentary",
       "biography",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4495,6 +6595,13 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Australia",
+      "United States"
     ]
   },
   {
@@ -4512,6 +6619,13 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -4529,6 +6643,18 @@
       "action",
       "drama",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "Korean",
+      "French",
+      "Japanese",
+      "Czech",
+      "German"
+    ],
+    "country": [
+      "South Korea",
+      "Czech Republic"
     ]
   },
   {
@@ -4546,6 +6672,16 @@
     "genres": [
       "comedy",
       "horror"
+    ],
+    "language": [
+      "English",
+      "German",
+      "Spanish",
+      "Latin"
+    ],
+    "country": [
+      "New Zealand",
+      "United States"
     ]
   },
   {
@@ -4562,6 +6698,13 @@
       "adventure",
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4578,6 +6721,14 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "India"
     ]
   },
   {
@@ -4596,6 +6747,17 @@
       "fantasy",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Vietnamese",
+      "French",
+      "Russian"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -4613,6 +6775,13 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4631,6 +6800,15 @@
       "crime",
       "drama",
       "made-in-europe"
+    ],
+    "language": [
+      "English",
+      "French",
+      "German"
+    ],
+    "country": [
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -4653,6 +6831,16 @@
       "kids-and-family",
       "made-in-europe",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Turkish"
+    ],
+    "country": [
+      "United States",
+      "Denmark",
+      "Australia",
+      "Norway"
     ]
   },
   {
@@ -4670,6 +6858,13 @@
       "comedy",
       "crime",
       "drama"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4687,6 +6882,13 @@
       "action-and-adventure",
       "drama",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "New Zealand",
+      "United States"
     ]
   },
   {
@@ -4706,6 +6908,12 @@
       "comedy",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4722,6 +6930,13 @@
       "action",
       "adventure",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Iceland"
     ]
   },
   {
@@ -4739,6 +6954,13 @@
       "biography",
       "drama",
       "history"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -4755,6 +6977,14 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Arabic",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4773,6 +7003,15 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Somali"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Malta"
     ]
   },
   {
@@ -4791,6 +7030,14 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Greenlandic"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -4807,6 +7054,12 @@
       "comedy",
       "drama",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4824,6 +7077,13 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -4841,6 +7101,13 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -4859,6 +7126,18 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "Afrikaans"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "South Africa",
+      "Mexico"
     ]
   },
   {
@@ -4878,6 +7157,15 @@
       "drama",
       "romance",
       "war-and-military"
+    ],
+    "language": [
+      "Japanese",
+      "German",
+      "Italian",
+      "French"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -4894,6 +7182,16 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "Cantonese",
+      "Mandarin"
+    ],
+    "country": [
+      "United States",
+      "Mexico"
     ]
   },
   {
@@ -4911,6 +7209,14 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "Chinese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4927,6 +7233,14 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Canada"
     ]
   },
   {
@@ -4946,6 +7260,18 @@
       "drama",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Thai"
+    ],
+    "country": [
+      "Denmark",
+      "France",
+      "United States",
+      "Sweden",
+      "Belgium",
+      "Thailand"
     ]
   },
   {
@@ -4962,6 +7288,13 @@
     "genres": [
       "drama",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Australia",
+      "United States"
     ]
   },
   {
@@ -4978,6 +7311,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Klingon"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -4995,6 +7335,12 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5013,6 +7359,15 @@
       "made-in-europe",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Iceland",
+      "Japan",
+      "United Kingdom"
     ]
   },
   {
@@ -5029,6 +7384,12 @@
     "genres": [
       "drama",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5045,6 +7406,15 @@
     "genres": [
       "drama",
       "western"
+    ],
+    "language": [
+      "English",
+      "German",
+      "French",
+      "Italian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5062,6 +7432,13 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "New Zealand",
+      "United States"
     ]
   },
   {
@@ -5078,6 +7455,12 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5094,6 +7477,20 @@
     "genres": [
       "drama",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "Hindi",
+      "Japanese",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Taiwan",
+      "United Kingdom",
+      "Canada",
+      "India",
+      "France"
     ]
   },
   {
@@ -5113,6 +7510,12 @@
       "fantasy",
       "kids-and-family",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5133,6 +7536,21 @@
       "made-in-europe",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Ukrainian",
+      "Korean"
+    ],
+    "country": [
+      "United States",
+      "Germany",
+      "Hong Kong",
+      "Singapore",
+      "China",
+      "United Kingdom",
+      "Spain"
     ]
   },
   {
@@ -5149,6 +7567,16 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Persian",
+      "German",
+      "Arabic"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -5167,6 +7595,14 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "China"
     ]
   },
   {
@@ -5184,6 +7620,15 @@
       "action",
       "crime",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "South Africa",
+      "United States",
+      "India"
     ]
   },
   {
@@ -5199,6 +7644,12 @@
     "ageCertification": "PG-13",
     "genres": [
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5218,6 +7669,13 @@
       "comedy",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -5235,6 +7693,14 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Gaelic"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -5252,6 +7718,14 @@
       "action-and-adventure",
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Ukrainian"
+    ],
+    "country": [
+      "United Arab Emirates",
+      "United States"
     ]
   },
   {
@@ -5270,6 +7744,12 @@
       "drama",
       "kids-and-family",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5286,6 +7766,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5303,6 +7790,12 @@
       "action-and-adventure",
       "made-in-europe",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5321,6 +7814,14 @@
       "documentary",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Swedish"
+    ],
+    "country": [
+      "Sweden",
+      "United States"
     ]
   },
   {
@@ -5336,6 +7837,15 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "France",
+      "Germany",
+      "Poland",
+      "Spain"
     ]
   },
   {
@@ -5353,6 +7863,12 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5371,6 +7887,13 @@
       "animation",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5387,6 +7910,14 @@
     "genres": [
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "Latin"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -5404,6 +7935,16 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "United States",
+      "Hong Kong",
+      "Cambodia",
+      "United Kingdom"
     ]
   },
   {
@@ -5421,6 +7962,12 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5435,6 +7982,13 @@
     "ageCertification": "R",
     "genres": [
       "comedy"
+    ],
+    "language": [
+      "English",
+      "Thai"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5451,6 +8005,13 @@
       "action",
       "adventure",
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "France"
     ]
   },
   {
@@ -5466,6 +8027,13 @@
     "genres": [
       "action-and-adventure",
       "fantasy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "France"
     ]
   },
   {
@@ -5485,6 +8053,15 @@
       "made-in-europe",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "France",
+      "Germany"
     ]
   },
   {
@@ -5501,6 +8078,14 @@
       "action",
       "adventure",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -5517,6 +8102,16 @@
     "genres": [
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "Italian",
+      "Mandarin",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5534,6 +8129,12 @@
     "genres": [
       "drama",
       "western"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5551,6 +8152,14 @@
       "drama",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Italian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5569,6 +8178,17 @@
       "made-in-europe",
       "music-and-musical",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "India",
+      "United Kingdom",
+      "Mexico",
+      "Japan",
+      "Canada"
     ]
   },
   {
@@ -5585,6 +8205,14 @@
       "adventure",
       "family",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "Latin"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -5606,6 +8234,13 @@
       "kids-and-family",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Australia"
     ]
   },
   {
@@ -5621,6 +8256,13 @@
     "ageCertification": "PG-13",
     "genres": [
       "drama"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5639,6 +8281,15 @@
       "comedy",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "Canada",
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -5657,6 +8308,15 @@
       "music-and-musical",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -5677,6 +8337,13 @@
       "crime",
       "kids-and-family",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "France"
     ]
   },
   {
@@ -5695,6 +8362,14 @@
       "fantasy",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Russian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5711,6 +8386,14 @@
       "documentary",
       "comedy",
       "crime"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United Kingdom",
+      "France"
     ]
   },
   {
@@ -5726,6 +8409,14 @@
     "genres": [
       "action",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Russian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5742,6 +8433,13 @@
       "action-and-adventure",
       "comedy",
       "crime"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -5758,6 +8456,14 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -5775,6 +8481,14 @@
       "action-and-adventure",
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -5792,6 +8506,14 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -5809,6 +8531,14 @@
       "animation",
       "adventure",
       "comedy"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -5828,6 +8558,19 @@
       "made-in-europe",
       "romance",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mohawk"
+    ],
+    "country": [
+      "Belgium",
+      "Germany",
+      "Canada",
+      "France",
+      "United Kingdom",
+      "Luxembourg",
+      "United States"
     ]
   },
   {
@@ -5842,6 +8585,12 @@
     "ageCertification": "",
     "genres": [
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "USA"
     ]
   },
   {
@@ -5856,6 +8605,12 @@
     "ageCertification": "Not Rated",
     "genres": [
       "drama"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -5872,6 +8627,12 @@
     "genres": [
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "German"
+    ],
+    "country": [
+      "Switzerland"
     ]
   },
   {
@@ -5891,6 +8652,15 @@
       "made-in-europe",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Vietnamese",
+      "German"
+    ],
+    "country": [
+      "United Kingdom",
+      "Germany"
     ]
   },
   {
@@ -5906,6 +8676,12 @@
     "genres": [
       "documentary",
       "music"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5923,6 +8699,16 @@
       "drama",
       "mystery-and-thriller",
       "war-and-military"
+    ],
+    "language": [
+      "English",
+      "German",
+      "French",
+      "Italian"
+    ],
+    "country": [
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -5943,6 +8729,16 @@
       "fantasy",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "Luxembourg",
+      "United Kingdom",
+      "Russia"
     ]
   },
   {
@@ -5960,6 +8756,20 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Nyanja",
+      "Afrikaans",
+      "Zulu",
+      "Xhosa",
+      "Sotho"
+    ],
+    "country": [
+      "South Africa",
+      "United States",
+      "New Zealand",
+      "Canada"
     ]
   },
   {
@@ -5977,6 +8787,14 @@
       "comedy",
       "drama",
       "romance"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Swedish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -5993,6 +8811,14 @@
       "action",
       "adventure",
       "family"
+    ],
+    "language": [
+      "English",
+      "Latin"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6008,6 +8834,16 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States",
+      "Jordan",
+      "United Kingdom",
+      "Egypt"
     ]
   },
   {
@@ -6024,6 +8860,14 @@
     "genres": [
       "drama",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6038,6 +8882,13 @@
     "ageCertification": "R",
     "genres": [
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -6056,6 +8907,12 @@
       "comedy",
       "drama",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6072,6 +8929,13 @@
       "action",
       "adventure",
       "sci-fi"
+    ],
+    "language": [
+      "English",
+      "Italian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6088,6 +8952,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Germany",
+      "United States"
     ]
   },
   {
@@ -6104,6 +8975,12 @@
     "genres": [
       "comedy",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom"
     ]
   },
   {
@@ -6121,6 +8998,12 @@
       "action",
       "crime",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6137,6 +9020,14 @@
       "action",
       "mystery",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Australia"
     ]
   },
   {
@@ -6155,6 +9046,12 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6173,6 +9070,13 @@
       "drama",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6190,6 +9094,14 @@
       "drama",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6206,6 +9118,13 @@
     "genres": [
       "drama",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6222,6 +9141,12 @@
       "horror",
       "musical",
       "sci-fi"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6239,6 +9164,13 @@
       "drama",
       "fantasy",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -6256,6 +9188,15 @@
       "action",
       "comedy",
       "war"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "country": [
+      "United Kingdom",
+      "Germany",
+      "United States"
     ]
   },
   {
@@ -6272,6 +9213,14 @@
       "action",
       "crime",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -6290,6 +9239,14 @@
       "comedy",
       "drama",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "Vietnamese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6305,6 +9262,14 @@
     "ageCertification": "PG-13",
     "genres": [
       "action-and-adventure"
+    ],
+    "language": [
+      "English",
+      "German",
+      "Russian"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6320,6 +9285,19 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Persian",
+      "Urdu",
+      "Arabic",
+      "Kurdish",
+      "Hindi",
+      "Hungarian"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -6336,6 +9314,13 @@
     "genres": [
       "action-and-adventure",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "USA",
+      "Canada"
     ]
   },
   {
@@ -6354,6 +9339,13 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6372,6 +9364,15 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "French",
+      "Japanese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6389,6 +9390,15 @@
       "drama",
       "mystery",
       "romance"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United Kingdom",
+      "France",
+      "United States"
     ]
   },
   {
@@ -6406,6 +9416,14 @@
       "drama",
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Italian"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6425,6 +9443,13 @@
       "horror",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -6443,6 +9468,13 @@
       "crime",
       "drama",
       "thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6457,6 +9489,12 @@
     "ageCertification": "Not Rated",
     "genres": [
       "documentary"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom"
     ]
   },
   {
@@ -6473,6 +9511,18 @@
     "genres": [
       "comedy",
       "drama"
+    ],
+    "language": [
+      "English",
+      "Hindi",
+      "German",
+      "Punjabi",
+      "Tibetan",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "India"
     ]
   },
   {
@@ -6491,6 +9541,14 @@
       "fantasy",
       "kids-and-family",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Iceland",
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6507,6 +9565,12 @@
       "animation",
       "adventure",
       "comedy"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6524,6 +9588,14 @@
       "action-and-adventure",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "Latin"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6542,6 +9614,13 @@
       "comedy",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6559,6 +9638,12 @@
       "drama",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6575,6 +9660,15 @@
     "genres": [
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Mandarin",
+      "Spanish",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6592,6 +9686,13 @@
       "crime",
       "drama",
       "thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Germany",
+      "United States"
     ]
   },
   {
@@ -6609,6 +9710,13 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6626,6 +9734,14 @@
       "action-and-adventure",
       "drama",
       "war-and-military"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada",
+      "Bulgaria"
     ]
   },
   {
@@ -6643,6 +9759,12 @@
       "crime",
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6660,6 +9782,13 @@
       "action",
       "adventure",
       "drama"
+    ],
+    "language": [
+      "Japanese",
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6677,6 +9806,14 @@
       "drama",
       "romance",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Maya"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -6693,6 +9830,13 @@
       "adventure",
       "comedy",
       "music"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -6712,6 +9856,13 @@
       "fantasy",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "Japanese",
+      "English"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -6729,6 +9880,13 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6747,6 +9905,13 @@
       "fantasy",
       "made-in-europe",
       "war-and-military"
+    ],
+    "language": [
+      "Spanish"
+    ],
+    "country": [
+      "Mexico",
+      "Spain"
     ]
   },
   {
@@ -6765,6 +9930,24 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "German",
+      "Italian",
+      "Romanian",
+      "Spanish",
+      "Arabic",
+      "Georgian",
+      "Hebrew",
+      "Sanskrit",
+      "Russian",
+      "Serbian"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Japan"
     ]
   },
   {
@@ -6784,6 +9967,16 @@
       "fantasy",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Germany",
+      "France",
+      "Spain",
+      "Belgium",
+      "United States"
     ]
   },
   {
@@ -6801,6 +9994,12 @@
       "comedy",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6820,6 +10019,14 @@
       "fantasy",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "Japanese",
+      "English",
+      "Russian"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -6839,6 +10046,14 @@
       "crime",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "Korean"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6855,6 +10070,16 @@
       "action",
       "adventure",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "Turkish",
+      "Greek",
+      "Mandarin",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6875,6 +10100,12 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6890,6 +10121,18 @@
     "ageCertification": "PG-13",
     "genres": [
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Latin",
+      "Spanish"
+    ],
+    "country": [
+      "United States",
+      "Malta",
+      "France",
+      "United Kingdom"
     ]
   },
   {
@@ -6908,6 +10151,12 @@
       "animation",
       "comedy",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6926,6 +10175,17 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Latin",
+      "Spanish"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Germany"
     ]
   },
   {
@@ -6943,6 +10203,15 @@
       "action-and-adventure",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "French",
+      "Latin"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -6958,6 +10227,13 @@
     "ageCertification": "",
     "genres": [
       "horror"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "Canada",
+      "United States"
     ]
   },
   {
@@ -6975,6 +10251,13 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -6995,6 +10278,13 @@
       "fantasy",
       "kids-and-family",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom"
     ]
   },
   {
@@ -7012,6 +10302,13 @@
       "comedy",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -7029,6 +10326,16 @@
       "action-and-adventure",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Italy",
+      "Switzerland",
+      "Thailand",
+      "United Kingdom"
     ]
   },
   {
@@ -7045,6 +10352,13 @@
     "genres": [
       "comedy",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -7063,6 +10377,12 @@
     "genres": [
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7080,6 +10400,15 @@
       "action-and-adventure",
       "fantasy",
       "horror"
+    ],
+    "language": [
+      "English",
+      "Filipino",
+      "Tagalog"
+    ],
+    "country": [
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -7096,6 +10425,16 @@
     "genres": [
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Dutch",
+      "French",
+      "Italian",
+      "Mandarin"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7114,6 +10453,14 @@
       "kids-and-family",
       "mystery-and-thriller",
       "western"
+    ],
+    "language": [
+      "English",
+      "Spanish",
+      "German"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7132,6 +10479,13 @@
       "comedy",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Australia"
     ]
   },
   {
@@ -7149,6 +10503,13 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7165,6 +10526,12 @@
     "genres": [
       "horror",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7181,6 +10548,14 @@
     "genres": [
       "comedy",
       "horror"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United Kingdom",
+      "France",
+      "United States"
     ]
   },
   {
@@ -7198,6 +10573,13 @@
       "action-and-adventure",
       "comedy",
       "made-in-europe"
+    ],
+    "language": [
+      "Hungarian",
+      "Latin"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -7217,6 +10599,13 @@
       "fantasy",
       "kids-and-family",
       "music-and-musical"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "country": [
+      "Japan",
+      "United States"
     ]
   },
   {
@@ -7233,6 +10622,12 @@
     "genres": [
       "drama",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7250,6 +10645,13 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Germany"
     ]
   },
   {
@@ -7267,6 +10669,14 @@
       "drama",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "country": [
+      "Spain",
+      "United States"
     ]
   },
   {
@@ -7285,6 +10695,14 @@
       "drama",
       "fantasy",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "Chinese"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7301,6 +10719,12 @@
     "genres": [
       "drama",
       "romance"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7318,6 +10742,12 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7335,6 +10765,15 @@
       "action-and-adventure",
       "fantasy",
       "kids-and-family"
+    ],
+    "language": [
+      "English",
+      "Latin",
+      "Old English"
+    ],
+    "country": [
+      "United Kingdom",
+      "United States"
     ]
   },
   {
@@ -7350,6 +10789,13 @@
     "genres": [
       "drama",
       "romance"
+    ],
+    "language": [
+      "Korean"
+    ],
+    "country": [
+      "South Korea",
+      "Germany"
     ]
   },
   {
@@ -7367,6 +10813,15 @@
       "action-and-adventure",
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Cantonese",
+      "Mandarin",
+      "Spanish"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7385,6 +10840,15 @@
       "fantasy",
       "horror",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "German",
+      "Latin"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7403,6 +10867,14 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "Japanese",
+      "Cantonese",
+      "English"
+    ],
+    "country": [
+      "Japan"
     ]
   },
   {
@@ -7419,6 +10891,16 @@
     "genres": [
       "drama",
       "romance"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United Kingdom",
+      "France",
+      "Italy",
+      "United States"
     ]
   },
   {
@@ -7435,6 +10917,12 @@
     "genres": [
       "adventure",
       "comedy"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -7453,6 +10941,13 @@
       "drama",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "Canada"
     ]
   },
   {
@@ -7470,6 +10965,17 @@
       "action-and-adventure",
       "drama",
       "war-and-military"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "Spanish",
+      "Danish"
+    ],
+    "country": [
+      "United States",
+      "New Zealand",
+      "Japan"
     ]
   },
   {
@@ -7487,6 +10993,16 @@
       "action-and-adventure",
       "drama",
       "fantasy"
+    ],
+    "language": [
+      "English",
+      "Quenya",
+      "Old English",
+      "Sindarin"
+    ],
+    "country": [
+      "New Zealand",
+      "United States"
     ]
   },
   {
@@ -7503,6 +11019,12 @@
       "comedy",
       "crime",
       "drama"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "country": [
+      "Hungary"
     ]
   },
   {
@@ -7521,6 +11043,14 @@
       "action-and-adventure",
       "mystery-and-thriller",
       "science-fiction"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "country": [
+      "United States",
+      "Australia"
     ]
   },
   {
@@ -7538,6 +11068,14 @@
       "action-and-adventure",
       "crime",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "French"
+    ],
+    "country": [
+      "United States"
     ]
   },
   {
@@ -7556,6 +11094,15 @@
       "fantasy",
       "made-in-europe",
       "mystery-and-thriller"
+    ],
+    "language": [
+      "English"
+    ],
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Hungary"
     ]
   },
   {
@@ -10691,6 +14238,10 @@
     "originalTitle": "Panelkapcsolat",
     "director": [
       "Béla Tarr"
+    ],
+    "country": "Hungary",
+    "language": [
+      "Hungarian"
     ],
     "imdbID": "tt0084465",
     "releaseYear": 1982,

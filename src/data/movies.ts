@@ -12,6 +12,8 @@ interface Movie {
    runtime: number;
    ageCertification: string;
    genres:string[];
+   country?: string[];
+   language?: string[];
 }
 
 
