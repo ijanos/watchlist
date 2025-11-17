@@ -29,7 +29,7 @@ if (imdbIDs.length != imdbIDSet.size) {
    throw Error("Duplicate imdb ids are found in the watchlist");
 }
 
-const indexedWatchlist = watchlist.map((movie, index) =>  ({...movie, index: index})) as Movie[];
+const indexedWatchlist: Movie[]  = watchlist.map((movie, index) =>  ({...movie, index: index}));
 
 const dateRegexp = new RegExp(/^\d{4}-\d{2}-\d{2}$/);
 
