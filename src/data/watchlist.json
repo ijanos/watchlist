@@ -1,5 +1,28 @@
 [
   {
+    "englishTitle": "Frankenstein",
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "imdbID": "tt1312221",
+    "releaseYear": 2025,
+    "releaseDate": "2025-11-07",
+    "country": "Mexico, United States",
+    "language": [
+      "English",
+      "Danish",
+      "French"
+    ],
+    "runtime": 149,
+    "watched": "2025-11-23",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "fantasy",
+      "horror"
+    ]
+  },
+  {
     "englishTitle": "Bugonia",
     "director": [
       "Yorgos Lanthimos"
@@ -2798,6 +2821,30 @@
     ],
     "country": [
       "Spain"
+    ]
+  },
+  {
+    "englishTitle": "Downhill",
+    "director": [
+      "Nat Faxon",
+      "Jim Rash"
+    ],
+    "imdbID": "tt4558376",
+    "releaseYear": 2020,
+    "releaseDate": "2020-02-14",
+    "country": "United States",
+    "language": [
+      "English",
+      "German",
+      "Italian",
+      "Hindi"
+    ],
+    "runtime": 86,
+    "watched": "2025-11-24",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama"
     ]
   },
   {
