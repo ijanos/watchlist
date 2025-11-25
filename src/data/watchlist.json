@@ -7,7 +7,7 @@
     "imdbID": "tt1312221",
     "releaseYear": 2025,
     "releaseDate": "2025-11-07",
-    "country": "Mexico, United States",
+    "country": ["Mexico", "United States"],
     "language": [
       "English",
       "Danish",
@@ -2832,7 +2832,7 @@
     "imdbID": "tt4558376",
     "releaseYear": 2020,
     "releaseDate": "2020-02-14",
-    "country": "United States",
+    "country": ["United States"],
     "language": [
       "English",
       "German",
