@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import  "tabulator-tables/dist/css/tabulator.min.css";
+import  "tabulator-tables/dist/css/tabulator_bootstrap4.min.css";
 ---
 
 <Layout title="my watchlist" isFullWidth={ true }>
@@ -11,6 +11,7 @@ import  "tabulator-tables/dist/css/tabulator.min.css";
 
 <script>
     import {TabulatorFull as Tabulator} from 'tabulator-tables';
+    import { type Formatter } from 'tabulator-tables';
 
     new Tabulator("#tabulator-table", {
         height:'89vh',
@@ -18,10 +19,12 @@ import  "tabulator-tables/dist/css/tabulator.min.css";
         layout:"fitColumns",
         groupBy:"watchyear",
         columns: [
-          {title: "Poster", field: "poster", formatter: "image", width: 68},
-          {title: "Title", field: "title", headerFilter:"input", hozAlign:"left", vertAlign:"middle"},
-          {title: "Director", field: "director", headerFilter:"input", hozAlign:"center", vertAlign:"middle"},
+          {title: "", field: "poster", formatter: "image", width: 65, resizable: false, headerSort: false},
+          {title: "Title", field: "title", headerFilter:"input", hozAlign:"left", vertAlign:"middle", headerFilterPlaceholder: "Title"},
+          {title: "Director", field: "director", headerFilter:"input", hozAlign:"left", vertAlign:"middle", formatter: "array" as Formatter, formatterParams:{
+              delimiter: "<br>"
+          }},
           {title: "Release", field: "release", headerFilter:"input", hozAlign:"center", vertAlign:"middle", width: 90},
-        ],
+        ]
     });
 </script>

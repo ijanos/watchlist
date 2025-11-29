@@ -4,7 +4,7 @@ import { getImage } from "astro:assets";
 const movies = await Promise.all(watchlist.map(async (m) => {
   const optimizedImg = await getImage({
     src: import(`../../posters/${m.imdbID}.jpg`),
-    width: 65
+    width: 42
   });
 
   return {
