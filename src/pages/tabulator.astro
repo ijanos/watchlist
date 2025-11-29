@@ -4,7 +4,6 @@ import  "tabulator-tables/dist/css/tabulator.min.css";
 ---
 
 <Layout title="my watchlist">
-    <h1>tabulator</h1>
     <main class="bg-amber-100 p-1 w-full">
         <div id="tabulator-table"></div>
     </main>
@@ -14,21 +13,15 @@ import  "tabulator-tables/dist/css/tabulator.min.css";
     import {TabulatorFull as Tabulator} from 'tabulator-tables';
 
     new Tabulator("#tabulator-table", {
-         height:'70vh',
-        ajaxURL:"tabulator.json",
-         layout:"fitColumns", //fit columns to width of table (optional)
-        // autoColumns:true,
+        height:'70vh',
+        ajaxURL:"/tabulator.json",
+        layout:"fitColumns",
+        groupBy:"watchyear",
         columns: [
-          {title: "Poster", field: "poster", formatter: "image"},
-          {title: "Title", field: "title"},
-          {title: "Director", field: "director"},
-          {title: "Release", field: "release"}
+          {title: "Poster", field: "poster", formatter: "image", width: 68},
+          {title: "Title", field: "title", headerFilter:"input", hozAlign:"left", vertAlign:"middle"},
+          {title: "Director", field: "director", headerFilter:"input", hozAlign:"center", vertAlign:"middle"},
+          {title: "Release", field: "release", headerFilter:"input", hozAlign:"center", vertAlign:"middle", width: 90},
         ],
-   //       columns:[ //Define Table Columns
-         // {title:"Name", field:"name", width:150},
-         // {title:"Age", field:"age", hozAlign:"left", formatter:"progress"},
-         // {title:"Favourite Color", field:"col"},
-         // {title:"Date Of Birth", field:"dob", sorter:"date", hozAlign:"center"},
-         // ],
     });
 </script>
