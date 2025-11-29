@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import  "tabulator-tables/dist/css/tabulator.min.css";
 ---
 
-<Layout title="my watchlist">
+<Layout title="my watchlist" isFullWidth={ true }>
     <main class="bg-amber-100 p-1 w-full">
         <div id="tabulator-table"></div>
     </main>
@@ -13,7 +13,7 @@ import  "tabulator-tables/dist/css/tabulator.min.css";
     import {TabulatorFull as Tabulator} from 'tabulator-tables';
 
     new Tabulator("#tabulator-table", {
-        height:'70vh',
+        height:'89vh',
         ajaxURL:"/tabulator.json",
         layout:"fitColumns",
         groupBy:"watchyear",

@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.mainfullwidth {
+    @apply max-w-dvw mx-auto px-2 bg-[url('/bg.jpg')] bg-top lg:bg-cover lg:bg-fixed lg:bg-no-repeat lg:bg-center;
+}
+
+.notmainfullwidth {
+   @apply max-w-6xl mx-auto px-2 bg-[url('/bg.jpg')] bg-top lg:bg-cover lg:bg-fixed lg:bg-no-repeat lg:bg-center;
+}
