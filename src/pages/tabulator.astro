@@ -1,47 +1,34 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import  "tabulator-tables/dist/css/tabulator.min.css";
-import { movies } from "../data/movies.ts";
 ---
 
 <Layout title="my watchlist">
     <h1>tabulator</h1>
-    <main class="bg-amber-100 p-3">
-        <div id="example-table"></div>
+    <main class="bg-amber-100 p-1 w-full">
+        <div id="tabulator-table"></div>
     </main>
 </Layout>
-
-<!-- <script is:inline define:vars={{ movies }}>
-  console.log(movies);
-</script> -->
 
 <script>
     import {TabulatorFull as Tabulator} from 'tabulator-tables';
 
-    var tabledata = [
-        {id:1, name:"Oli Bob", age:"12", col:"red", dob:""},
-        {id:2, name:"Mary May", age:"1", col:"blue", dob:"14/05/1982"},
-        {id:3, name:"Christine Lobowski", age:"42", col:"green", dob:"22/05/1982"},
-        {id:4, name:"Brendon Philips", age:"125", col:"orange", dob:"01/08/1980"},
-        {id:5, name:"Margret Marmajuke", age:"16", col:"yellow", dob:"31/01/1999"},
-    ];
-    //create Tabulator on DOM element with id "example-table"
-    var table = new Tabulator("#example-table", {
-         height:'70vh', // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
-        ajaxURL:"watchlist.json",
-         // data:movies, //assign data to table
+    new Tabulator("#tabulator-table", {
+         height:'70vh',
+        ajaxURL:"tabulator.json",
          layout:"fitColumns", //fit columns to width of table (optional)
-        autoColumns:true,
+        // autoColumns:true,
+        columns: [
+          {title: "Poster", field: "poster", formatter: "image"},
+          {title: "Title", field: "title"},
+          {title: "Director", field: "director"},
+          {title: "Release", field: "release"}
+        ],
    //       columns:[ //Define Table Columns
          // {title:"Name", field:"name", width:150},
          // {title:"Age", field:"age", hozAlign:"left", formatter:"progress"},
          // {title:"Favourite Color", field:"col"},
          // {title:"Date Of Birth", field:"dob", sorter:"date", hozAlign:"center"},
          // ],
-    });
-
-    //trigger an alert message when the row is clicked
-    table.on("rowClick", function(e, row){
-      alert("Row " + row.getData().id + " Clicked!!!!");
     });
 </script>
