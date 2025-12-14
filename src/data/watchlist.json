@@ -7851,6 +7851,31 @@
     ]
   },
   {
+    "englishTitle": "The Cabin in the Woods",
+    "director": [
+      "Drew Goddard"
+    ],
+    "imdbID": "tt1259521",
+    "releaseYear": 2011,
+    "releaseDate": "2012-04-13",
+    "country": [
+      "Canada",
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Japanese"
+    ],
+    "runtime": 95,
+    "watched": "2025-12-13",
+    "ageCertification": "R",
+    "genres": [
+      "horror",
+      "mystery",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "John Carter",
     "watched": "2012-03-08",
     "director": [
