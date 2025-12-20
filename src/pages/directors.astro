@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import  "tabulator-tables/dist/css/tabulator_bootstrap4.min.css";
+---
+
+<Layout title="my watchlist" isFullWidth={ false }>
+    <main class="bg-amber-100 p-1 w-full">
+        <div id="tabulator-table"></div>
+    </main>
+</Layout>
+
+<script>
+    import {TabulatorFull as Tabulator} from 'tabulator-tables';
+    import { type Formatter } from 'tabulator-tables';
+
+    new Tabulator("#tabulator-table", {
+        height:'89vh',
+        ajaxURL:"/directors.json",
+        layout:"fitColumns",
+        columns: [
+          {title: "Director", field: "name"},
+          {title: "Movies", field: "n", hozAlign:"right"}
+        ]
+    });
+</script>
