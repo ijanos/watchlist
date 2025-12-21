@@ -561,6 +561,35 @@
     ]
   },
   {
+    "englishTitle": "Maria",
+    "director": [
+      "Pablo Larraín"
+    ],
+    "imdbID": "tt22893404",
+    "releaseYear": 2024,
+    "releaseDate": "2024-12-11",
+    "country": [
+      "Italy",
+      "Germany",
+      "Chile",
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Greek",
+      "French",
+      "Italian"
+    ],
+    "runtime": 124,
+    "watched": "2025-12-21",
+    "ageCertification": "R",
+    "genres": [
+      "biography",
+      "drama",
+      "music"
+    ]
+  },
+  {
     "englishTitle": "Nightbitch",
     "director": [
       "Marielle Heller"
