@@ -67,6 +67,10 @@ watchlist
 
     <div class="grow"><canvas id="lengthscatterplot"></canvas></div>
 
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Directors</h2>
+
+    <div class="grow"><canvas id="directorsscatterplot"></canvas></div>
+
     <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Age ratings</h2>
 
     <div class="flex flex-row flex-wrap">
@@ -215,6 +219,83 @@ watchlist
       },
     },
   });
+
+  const directorCounter = new Map<string, number>();
+
+  watchlist.map((m) => m.director)
+    .flat()
+    .forEach((d) => {
+      const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
+      directorCounter.set(d, n + 1);
+  });
+
+  function createBeeswarmData(rawData: [string, number][]) {
+      const counts: Record<number, number> = {};
+
+      return rawData.map(([director, val]) => {
+          const xValue: number = val;
+
+          if (counts[xValue] === undefined) {
+              counts[xValue] = 0;
+          } else {
+              counts[xValue]++;
+          }
+
+          const index = counts[xValue];
+
+          // symmetrical Y offset (0, 1, -1, 2, -2...)
+          const yOffset = index === 0 ? 0 : Math.ceil(index / 2) * (index % 2 === 0 ? 1 : -1);
+
+          return {
+              x: xValue,
+              y: yOffset,
+              title: director
+          };
+      });
+  };
+
+  const directorsdataset = {
+    datasets: [
+      {
+        label: "Number of movies watched by Director",
+        data: createBeeswarmData(Array.from(directorCounter)),
+        backgroundColor: "rgb(1, 99, 132)",
+        pointHoverRadius: 9,
+      },
+    ],
+  };
+
+  new Chart(document.getElementById("directorsscatterplot") as HTMLCanvasElement, {
+    type: "scatter",
+    data: directorsdataset,
+    options: {
+      responsive: true,
+      scales: {
+        x: {
+          beginAtZero: true
+        },
+        y: {
+          display: false
+        },
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function (tooltipItem) {
+              return `${(tooltipItem.raw as typeof runtimeData[0]).title}`;
+            },
+            title: function (tooltipItem) {
+              return `${ tooltipItem[0].parsed.x }`;
+            }
+          },
+        },
+        legend: {
+          display: false,
+        },
+      },
+    },
+  });
+
 
   const ageRCounter = new Map<string, number>();
   watchlist
