@@ -194,6 +194,31 @@
     ]
   },
   {
+    "englishTitle": "Eddington",
+    "director": [
+      "Ari Aster"
+    ],
+    "imdbID": "tt31176520",
+    "releaseYear": 2025,
+    "releaseDate": "2025-07-18",
+    "country": [
+      "United States",
+      "United Kingdom",
+      "Finland"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 148,
+    "watched": "2025-12-26",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "western"
+    ]
+  },
+  {
     "englishTitle": "Superman",
     "director": [
       "James Gunn"
@@ -240,6 +265,28 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Little Amélie or the Character of Rain",
+    "director": [
+      "Liane-Cho Han Jin Kuang",
+      "Mailys Vallade"
+    ],
+    "imdbID": "tt29313285",
+    "releaseYear": 2025,
+    "releaseDate": "2025-06-25",
+    "country": [
+      "France"
+    ],
+    "language": [
+      "French"
+    ],
+    "runtime": 75,
+    "watched": "2025-12-27",
+    "ageCertification": "N/A",
+    "genres": [
+      "animation"
     ]
   },
   {
