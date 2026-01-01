@@ -1,5 +1,28 @@
 [
   {
+    "englishTitle": "Wake Up Dead Man",
+    "director": [
+      "Rian Johnson"
+    ],
+    "imdbID": "tt14364480",
+    "releaseYear": 2025,
+    "releaseDate": "2025-12-12",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 144,
+    "watched": "2025-12-31",
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "crime",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "A Merry Little Ex-Mas",
     "director": [
       "Steve Carr"
@@ -12489,6 +12512,30 @@
     ]
   },
   {
+    "englishTitle": "Miss Congeniality",
+    "director": [
+      "Donald Petrie"
+    ],
+    "imdbID": "tt0212346",
+    "releaseYear": 2000,
+    "releaseDate": "2000-12-22",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Russian",
+      "Hawaiian"
+    ],
+    "runtime": 109,
+    "ageCertification": "PG-13",
+    "genres": [
+      "action",
+      "comedy",
+      "crime"
+    ]
+  },
+  {
     "englishTitle": "Battle Royale",
     "director": [
       "Kinji Fukasaku"
@@ -13051,6 +13098,30 @@
     ]
   },
   {
+    "englishTitle": "Never Been Kissed",
+    "director": [
+      "Raja Gosnell"
+    ],
+    "imdbID": "tt0151738",
+    "releaseYear": 1999,
+    "releaseDate": "1999-04-09",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "runtime": 107,
+    "watched": "2025-12-31",
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "The Matrix",
     "originalTitle": "The Matrix",
     "director": [
@@ -13072,6 +13143,27 @@
     "country": [
       "United States",
       "Australia"
+    ]
+  },
+  {
+    "englishTitle": "Office Space",
+    "director": [
+      "Mike Judge"
+    ],
+    "imdbID": "tt0151804",
+    "releaseYear": 1999,
+    "releaseDate": "1999-02-19",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 89,
+    "watched": "2025-12-31",
+    "ageCertification": "R",
+    "genres": [
+      "comedy"
     ]
   },
   {
@@ -15508,6 +15600,29 @@
     "country": [
       "United Kingdom",
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Pretty in Pink",
+    "director": [
+      "Howard Deutch"
+    ],
+    "imdbID": "tt0091790",
+    "releaseYear": 1986,
+    "releaseDate": "1986-02-28",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 97,
+    "watched": "2025-12-29",
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
     ]
   },
   {
