@@ -999,6 +999,30 @@
     ]
   },
   {
+    "englishTitle": "Longlegs",
+    "director": [
+      "Osgood Perkins"
+    ],
+    "imdbID": "tt23468450",
+    "releaseYear": 2024,
+    "releaseDate": "2024-07-12",
+    "country": [
+      "Canada",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 101,
+    "watched": "2026-01-02",
+    "ageCertification": "R",
+    "genres": [
+      "crime",
+      "horror",
+      "mystery"
+    ]
+  },
+  {
     "englishTitle": "Kinds of Kindness",
     "director": [
       "Yorgos Lanthimos"
@@ -6356,6 +6380,29 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Tag",
+    "director": [
+      "Sion Sono"
+    ],
+    "imdbID": "tt4439120",
+    "releaseYear": 2015,
+    "releaseDate": "2015-07-11",
+    "country": [
+      "Japan"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "runtime": 85,
+    "watched": "2026-01-01",
+    "ageCertification": "N/A",
+    "genres": [
+      "action",
+      "drama",
+      "fantasy"
     ]
   },
   {
