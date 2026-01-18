@@ -1,5 +1,27 @@
 [
   {
+    "englishTitle": "The Housemaid",
+    "director": [
+      "Paul Feig"
+    ],
+    "imdbID": "tt27543632",
+    "releaseYear": 2025,
+    "releaseDate": "2025-12-19",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 131,
+    "watched": "2026-01-18",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Wake Up Dead Man",
     "director": [
       "Rian Johnson"
@@ -15957,6 +15979,28 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Sixteen Candles",
+    "director": [
+      "John Hughes"
+    ],
+    "imdbID": "tt0088128",
+    "releaseYear": 1984,
+    "releaseDate": "1984-05-04",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 93,
+    "watched": "2026-01-04",
+    "ageCertification": "PG",
+    "genres": [
+      "comedy",
+      "romance"
     ]
   },
   {
