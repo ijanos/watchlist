@@ -1,5 +1,29 @@
 [
   {
+    "englishTitle": "No Other Choice",
+    "director": [
+      "Park Chan-wook"
+    ],
+    "imdbID": "tt1527793",
+    "releaseYear": 2025,
+    "releaseDate": "2025-09-23",
+    "country": [
+      "South Korea"
+    ],
+    "language": [
+      "Korean",
+      "English"
+    ],
+    "runtime": 139,
+    "watched": "2026-01-25",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "The Housemaid",
     "director": [
       "Paul Feig"
@@ -14696,6 +14720,30 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Wuthering Heights",
+    "director": [
+      "Peter Kosminsky"
+    ],
+    "imdbID": "tt0104181",
+    "releaseYear": 1992,
+    "releaseDate": "1992-10-16",
+    "country": [
+      "United Kingdom",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 105,
+    "watched": "2026-01-24",
+    "ageCertification": "PG",
+    "genres": [
+      "drama",
+      "history",
+      "romance"
     ]
   },
   {
