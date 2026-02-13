@@ -1,29 +1,5 @@
 [
   {
-    "englishTitle": "No Other Choice",
-    "director": [
-      "Park Chan-wook"
-    ],
-    "imdbID": "tt1527793",
-    "releaseYear": 2025,
-    "releaseDate": "2025-09-23",
-    "country": [
-      "South Korea"
-    ],
-    "language": [
-      "Korean",
-      "English"
-    ],
-    "runtime": 139,
-    "watched": "2026-01-25",
-    "ageCertification": "R",
-    "genres": [
-      "comedy",
-      "crime",
-      "drama"
-    ]
-  },
-  {
     "englishTitle": "The Housemaid",
     "director": [
       "Paul Feig"
@@ -212,6 +188,53 @@
       "action",
       "crime",
       "drama"
+    ]
+  },
+  {
+    "englishTitle": "No Other Choice",
+    "director": [
+      "Park Chan-wook"
+    ],
+    "imdbID": "tt1527793",
+    "releaseYear": 2025,
+    "releaseDate": "2025-09-23",
+    "country": [
+      "South Korea"
+    ],
+    "language": [
+      "Korean",
+      "English"
+    ],
+    "runtime": 139,
+    "watched": "2026-01-25",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "englishTitle": "The Roses",
+    "director": [
+      "Jay Roach"
+    ],
+    "imdbID": "tt31973693",
+    "releaseYear": 2025,
+    "releaseDate": "2025-08-29",
+    "country": [
+      "United Kingdom",
+      "Australia",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 105,
+    "watched": "2026-01-31",
+    "ageCertification": "R",
+    "genres": [
+      "comedy"
     ]
   },
   {
@@ -501,6 +524,32 @@
     ]
   },
   {
+    "englishTitle": "Sinners",
+    "director": [
+      "Ryan Coogler"
+    ],
+    "imdbID": "tt31193180",
+    "releaseYear": 2025,
+    "releaseDate": "2025-04-18",
+    "country": [
+      "United States",
+      "Australia",
+      "Canada"
+    ],
+    "language": [
+      "English",
+      "Chinese"
+    ],
+    "runtime": 137,
+    "watched": "2026-02-06",
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "drama",
+      "horror"
+    ]
+  },
+  {
     "englishTitle": "Death of a Unicorn",
     "director": [
       "Alex Scharfman"
@@ -597,6 +646,35 @@
     "country": [
       "United States",
       "South Korea"
+    ]
+  },
+  {
+    "englishTitle": "The Ugly Stepsister",
+    "director": [
+      "Emilie Blichfeldt"
+    ],
+    "imdbID": "tt29344903",
+    "releaseYear": 2025,
+    "releaseDate": "2025-03-07",
+    "country": [
+      "Norway",
+      "Denmark",
+      "Romania",
+      "Poland",
+      "Sweden"
+    ],
+    "language": [
+      "Norwegian",
+      "Polish",
+      "Swedish"
+    ],
+    "runtime": 109,
+    "watched": "2026-02-13",
+    "ageCertification": "Not Rated",
+    "genres": [
+      "comedy",
+      "drama",
+      "horror"
     ]
   },
   {
@@ -15522,6 +15600,31 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "The Running Man",
+    "director": [
+      "Paul Michael Glaser"
+    ],
+    "imdbID": "tt0093894",
+    "releaseYear": 1987,
+    "releaseDate": "1987-11-13",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Japanese"
+    ],
+    "runtime": 101,
+    "watched": "2026-01-31",
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "sci-fi",
+      "thriller"
     ]
   },
   {
