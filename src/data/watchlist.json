@@ -1,5 +1,28 @@
 [
   {
+    "englishTitle": "Wuthering Heights",
+    "director": [
+      "Emerald Fennell"
+    ],
+    "imdbID": "tt32897959",
+    "releaseYear": 2026,
+    "releaseDate": "2026-02-13",
+    "country": [
+      "United Kingdom",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 136,
+    "watched": "2026-02-15",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "The Housemaid",
     "director": [
       "Paul Feig"
