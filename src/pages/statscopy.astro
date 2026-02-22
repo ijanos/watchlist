@@ -1,0 +1,92 @@
+---
+import Layout from "../layouts/Layout.astro";
+import watchlist from "../data/watchlist.json";
+import D3Chart from "../components/D3Chart.astro";
+import Rechart from "../components/Rechart.astro";
+import Weekdays from "../components/stats/Weekdays.astro";
+import HorizontalLine from "../components/HorizontalLine.astro";
+
+
+const sumRuntimeMinutes = watchlist.reduce((acc, m) => acc + m.runtime, 0);
+const hours = sumRuntimeMinutes / 60;
+const days = Math.floor(hours / 24);
+
+let directorCounter = new Map<string, number>();
+watchlist
+  .map((m) => m.director)
+  .flat()
+  .forEach((d) => {
+    const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
+    directorCounter.set(d, n + 1);
+  });
+
+
+let yearCounter = new Map<number, number>();
+watchlist
+  .map((m) => m.releaseYear)
+  .forEach((year) => {
+    const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
+    yearCounter.set(year, n + 1);
+  });
+
+let watchYearCounter = new Map<string, number>();
+watchlist
+  .filter((m) => m.watched)
+  .map((m) => m.watched!.substring(0, 4)).forEach((year) => {
+    const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
+    watchYearCounter.set(year, n + 1);
+  });
+---
+
+<Layout title="statistics | Janos' watchlist">
+
+
+  <div
+    class="bg-amber-50/75 rounded-lg backdrop-blur-md p-1 py-2 flex flex-col gap-2"
+  >
+    <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
+    <p class="p-2">
+      Welcome to my watchlist. I started tracking every movie I watched around
+      2016. I try to include every movie I ever watched here so some dates,
+      especially before 2016 maybe inaccurate. Movie lengths are sourced from
+      the free OMDb database and may also be somewhat inaccurate.
+    </p>
+    <div class="flex flex-row flex-wrap gap-5 p-4 justify-around">
+      <div class="flex flex-col items-center">
+        <div class="text-4xl font-bold">{watchlist.length} films</div>
+        <div>total watched</div>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="text-4xl font-bold">{hours.toFixed(1)} hours</div>
+        <div>of films watched</div>
+        <div class="text-sm italic">
+          {days} days, {Math.floor(hours) % 24} hours and {
+            sumRuntimeMinutes % 60
+          } minutes.
+        </div>
+      </div>
+    </div>
+
+
+    <HorizontalLine/>
+
+    <p>
+    This chart shows how many movies I watched each year. I only started tracking what I watch around 2017, data before that is inaccurate.
+    </p>
+
+
+
+    <D3Chart/>
+
+    <HorizontalLine text="Weekdays"/>
+    <p>
+        Preferred days of the week to watch movies.
+    </p>
+        <Weekdays/>
+    <HorizontalLine/>
+
+
+    <Rechart/>
+
+
+</Layout>

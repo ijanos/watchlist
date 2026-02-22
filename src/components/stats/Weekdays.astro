@@ -1,0 +1,38 @@
+---
+---
+
+<div id="myplot"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+import * as d3 from "d3";
+
+
+interface DayStat {
+  day: string;
+  count: number;
+}
+
+const div = document.querySelector("#myplot")!;
+const weekdays = await d3.json("/data/weekdays.json") as DayStat[];
+
+const plot = Plot.plot({
+  width: undefined,
+  y: {
+    grid: true,
+    percent: false
+  },
+  x: {
+    type: "band",
+    // keep the original array order; avoid default alphanumerical sorting
+    domain: weekdays.map(wd => wd.day)
+  },
+  marks: [
+    Plot.ruleY([0]),
+    Plot.barY(weekdays as Plot.Data, {x: "day", y: "count", fill: "steelblue"}),
+    Plot.tip(weekdays, Plot.pointerX({x: "day", y: "count"}))
+  ]
+})
+
+div.append(plot);
+</script>
