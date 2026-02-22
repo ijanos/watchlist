@@ -23,6 +23,31 @@
     ]
   },
   {
+    "englishTitle": "Marty Supreme",
+    "director": [
+      "Josh Safdie"
+    ],
+    "imdbID": "tt32916440",
+    "releaseYear": 2025,
+    "releaseDate": "2025-12-25",
+    "country": [
+      "Finland",
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "French"
+    ],
+    "runtime": 149,
+    "watched": "2026-02-20",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "sport"
+    ]
+  },
+  {
     "englishTitle": "The Housemaid",
     "director": [
       "Paul Feig"
@@ -15528,6 +15553,32 @@
     "country": [
       "United States",
       "Ireland"
+    ]
+  },
+  {
+    "englishTitle": "The Treasure of Swamp Castle",
+    "originalTitle": "Szaffi",
+    "director": [
+      "Attila Dargay"
+    ],
+    "imdbID": "tt0137226",
+    "releaseYear": 1985,
+    "releaseDate": "1988-09-14",
+    "country": [
+      "Hungary",
+      "Canada",
+      "West Germany"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "runtime": 76,
+    "watched": "2026-02-22",
+    "ageCertification": "PG-13",
+    "genres": [
+      "animation",
+      "adventure",
+      "comedy"
     ]
   },
   {
