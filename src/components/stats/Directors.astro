@@ -1,0 +1,33 @@
+---
+import watchlist from "../../data/watchlist.json";
+
+let directorCounter = new Map<string, number>();
+watchlist
+  .map((m) => m.director)
+  .flat()
+  .forEach((d) => {
+    const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
+    directorCounter.set(d, n + 1);
+  });
+
+const directorsArray = Array.from(directorCounter).sort(
+  ([, c1], [, c2]) => c2 - c1
+);
+---
+
+    <div class="gap-2">
+      <div class="columns-2 lg:columns-5">
+        <table>
+          <tbody>
+            {
+              directorsArray.map(([director, count]) => (
+                <tr class="text-sm">
+                  <td>{director}</td>
+                  <td class="text-center">{count}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>

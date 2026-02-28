@@ -1,0 +1,41 @@
+---
+---
+
+<div id="releaseyearsplot" class="m-auto"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+
+interface Stat {
+  years: string;
+  count: number;
+}
+
+const div = document.querySelector("#releaseyearsplot")!;
+
+const response = await fetch("/data/releaseyears.json");
+const years = await response.json() as Stat[];
+
+const plot = Plot.plot({
+  width:1000,
+  height: 250,
+  y: {
+    grid: true,
+    label: null,
+    percent: false
+  },
+  x: {
+    type: "band",
+    label: null,
+    tickRotate: -45,
+    // domain: ["1992", "1993", "1994"]
+  },
+  marks: [
+    Plot.barY(years as Plot.Data, {x: "year", y: "count", fill: "steelblue", ry1: 4, insetLeft: 1, insetRight: 1}),
+    // Plot.axisX({ticks: "year", tickRotate: 45}),
+    Plot.tip(years, Plot.pointerX({title: (y) => y.count, x: "year", y: "count"}))
+  ]
+})
+
+div.append(plot);
+</script>

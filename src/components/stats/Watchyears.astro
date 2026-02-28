@@ -1,0 +1,38 @@
+---
+---
+
+<div id="watchyearsplot" class="m-auto"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+
+interface Stat {
+  years: string;
+  count: number;
+}
+
+const div = document.querySelector("#watchyearsplot")!;
+
+const response = await fetch("/data/watchyears.json");
+const years = await response.json() as Stat[];
+
+const plot = Plot.plot({
+  width: 900,
+  height: 250,
+  y: {
+    grid: true,
+    label: null,
+    percent: false
+  },
+  x: {
+    type: "band",
+    label: null
+  },
+  marks: [
+    Plot.barY(years as Plot.Data, {x: "year", y: "count", fill: "steelblue", ry1: 4, insetLeft: 2, insetRight: 2}),
+    Plot.tip(years, Plot.pointerX({title: (y) => y.count, x: "year", y: "count"}))
+  ]
+})
+
+div.append(plot);
+</script>

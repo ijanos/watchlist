@@ -1,11 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import watchlist from "../data/watchlist.json";
-import D3Chart from "../components/D3Chart.astro";
-import Rechart from "../components/Rechart.astro";
-import Weekdays from "../components/stats/Weekdays.astro";
-import HorizontalLine from "../components/HorizontalLine.astro";
 
+import Weekdays from "../components/stats/Weekdays.astro";
+import Directors from "../components/stats/Directors.astro";
+import Watchyears from "../components/stats/Watchyears.astro";
+import Releaseyears from "../components/stats/Releaseyears.astro";
+import HorizontalLine from "../components/HorizontalLine.astro";
 
 const sumRuntimeMinutes = watchlist.reduce((acc, m) => acc + m.runtime, 0);
 const hours = sumRuntimeMinutes / 60;
@@ -36,6 +37,43 @@ watchlist
     const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
     watchYearCounter.set(year, n + 1);
   });
+
+// function getLongestWeeklyStreak(dateStrings) {
+//   if (dateStrings.length === 0) return 0;
+
+//   // 1. Convert to Start of Week (Sunday) timestamps
+//   const weekTimestamps = dateStrings.map(d => {
+//     const date = new Date(d);
+//     const day = date.getDay(); // 0 for Sunday, 1 for Monday, etc.
+//     const diff = date.getDate() - day;
+//     const startOfWeek = new Date(date.setDate(diff));
+//     startOfWeek.setHours(0, 0, 0, 0); // Reset time to midnight
+//     return startOfWeek.getTime();
+//   });
+
+//   // 2. Remove duplicates and sort
+//   const uniqueWeeks = [...new Set(weekTimestamps)].sort((a, b) => a - b);
+
+//   let longestStreak = 0;
+//   let currentStreak = 1;
+//   const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+//   // 3. Loop through and check for 7-day gaps
+//   for (let i = 1; i < uniqueWeeks.length; i++) {
+//     if (uniqueWeeks[i] - uniqueWeeks[i - 1] === ONE_WEEK_MS) {
+//       currentStreak++;
+//     } else {
+//       longestStreak = Math.max(longestStreak, currentStreak);
+//       currentStreak = 1;
+//     }
+//   }
+
+//   return Math.max(longestStreak, currentStreak);
+// }
+
+
+
+
 ---
 
 <Layout title="statistics | Janos' watchlist">
@@ -65,28 +103,34 @@ watchlist
           } minutes.
         </div>
       </div>
+      <div class="flex flex-col items-center">
+        <div class="text-4xl font-bold">{(directorCounter.size)}</div>
+        <div>Directors</div>
+      </div>
     </div>
 
 
-    <HorizontalLine/>
+    <HorizontalLine text="Years"/>
 
     <p>
     This chart shows how many movies I watched each year. I only started tracking what I watch around 2017, data before that is inaccurate.
     </p>
 
 
+    <Watchyears/>
 
-    <D3Chart/>
+    <HorizontalLine text="Release years"/>
+
+    <Releaseyears/>
 
     <HorizontalLine text="Weekdays"/>
+
     <p>
         Preferred days of the week to watch movies.
     </p>
         <Weekdays/>
-    <HorizontalLine/>
+    <HorizontalLine text="Directors"/>
 
-
-    <Rechart/>
-
+    <Directors/>
 
 </Layout>
