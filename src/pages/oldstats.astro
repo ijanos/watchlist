@@ -1,0 +1,451 @@
+---
+import Layout from "../layouts/Layout.astro";
+import watchlist from "../data/watchlist.json";
+
+const sumRuntimeMinutes = watchlist.reduce((acc, m) => acc + m.runtime, 0);
+const hours = sumRuntimeMinutes / 60;
+const days = Math.floor(hours / 24);
+
+let directorCounter = new Map<string, number>();
+watchlist
+  .map((m) => m.director)
+  .flat()
+  .forEach((d) => {
+    const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
+    directorCounter.set(d, n + 1);
+  });
+
+const directorsArray = Array.from(directorCounter).sort(
+  ([, c1], [, c2]) => c2 - c1
+);
+
+let yearCounter = new Map<number, number>();
+watchlist
+  .map((m) => m.releaseYear)
+  .forEach((year) => {
+    const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
+    yearCounter.set(year, n + 1);
+  });
+
+let watchYearCounter = new Map<string, number>();
+watchlist
+  .filter((m) => m.watched)
+  .map((m) => m.watched!.substring(0, 4)).forEach((year) => {
+    const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
+    watchYearCounter.set(year, n + 1);
+  });
+---
+
+<Layout title="statistics | Janos' watchlist">
+  <div
+    class="bg-amber-50/75 rounded-lg backdrop-blur-md p-1 py-2 flex flex-col gap-2"
+  >
+    <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
+    <p class="p-2">
+      Welcome to my watchlist. I started tracking every movie I watched around
+      2016. I try to include every movie I ever watched here so some dates,
+      especially before 2016 maybe inaccurate. Movie lengths are sourced from
+      the free OMDb database and may also be somewhat inaccurate.
+    </p>
+    <div class="flex flex-row flex-wrap gap-5 p-4 justify-around">
+      <div class="flex flex-col items-center">
+        <div class="text-4xl font-bold">{watchlist.length} films</div>
+        <div>total watched</div>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="text-4xl font-bold">{hours.toFixed(1)} hours</div>
+        <div>of films watched</div>
+        <div class="text-sm italic">
+          {days} days, {Math.floor(hours) % 24} hours and {
+            sumRuntimeMinutes % 60
+          } minutes.
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Movie length</h2>
+
+    <div class="grow"><canvas id="lengthscatterplot"></canvas></div>
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Directors</h2>
+
+    <div class="grow"><canvas id="directorsscatterplot"></canvas></div>
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Age ratings</h2>
+
+    <div class="flex flex-row flex-wrap">
+      <div class="basis-1/3"><canvas id="age"></canvas></div>
+      <p class="basis-2/3">
+        Age ratings are not something I particularly care about but I have
+        access to it in my dataset so why not plot it. R and PG-13 ratings are
+        dominating my viewing habits.
+      </p>
+    </div>
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Languages</h2>
+
+    <div class="flex flex-row flex-wrap">
+        <div class="basis-1/3"><canvas id="languages"></canvas></div>
+      <p class="basis-2/3">
+          Languages  spoken in movies. A single movie can contribue to multiple languages. I need to visalize this better somehow...
+      </p>
+    </div>
+
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Release years</h2>
+
+    <p>
+      This is chart of the release years of movies I watched.
+    </p>
+
+    <div class="basis-1/3"><canvas id="years"></canvas></div>
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Watch years</h2>
+
+    <p>
+    This chart shows how many movies I watched each year. I only started
+    tracking what I watch around 2017, data before that is inaccurate.
+    </p>
+
+    <div class="basis-1/3"><canvas id="watchyears"></canvas></div>
+
+
+    <h2 class="text-3xl font-extrabold drop-shadow-xl pb-5">Directors</h2>
+
+    <p>
+      The list of directors and the number of their movies I watched.
+    </p>
+
+    <div class="gap-2">
+      <div class="rounded-lg columns-2 lg:columns-5">
+        <table>
+          <tbody>
+            {
+              directorsArray.map(([director, count]) => (
+                <tr class="text-sm">
+                  <td>{director}</td>
+                  <td class="text-center">{count}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<script>
+
+//  import Chart from 'chart.js/auto';
+
+  import {
+    ArcElement,
+    BarController,
+    BarElement,
+    CategoryScale,
+    Chart,
+    Colors,
+    DoughnutController,
+    LinearScale,
+    PointElement,
+    ScatterController,
+    Tooltip,
+  } from "chart.js";
+
+  Chart.register(
+    BarController,
+    BarElement,
+    CategoryScale,
+    ScatterController,
+    PointElement,
+    DoughnutController,
+    ArcElement,
+    Tooltip,
+    Colors,
+    LinearScale
+  );
+
+  import watchlist from "../data/watchlist.json";
+
+  const runtimeData = watchlist.map((m) => {
+    return { x: m.releaseYear, y: m.runtime, title: m.englishTitle };
+  });
+
+  const data = {
+    datasets: [
+      {
+        label: "Movie length over the years",
+        data: runtimeData,
+        backgroundColor: "rgb(1, 99, 132)",
+        pointHoverRadius: 10,
+      },
+    ],
+  };
+
+  new Chart(document.getElementById("lengthscatterplot") as HTMLCanvasElement, {
+    type: "scatter",
+    data: data,
+    options: {
+      responsive: true,
+      scales: {
+        x: {
+          type: "linear",
+          bounds: "data",
+          ticks: {
+            callback: (value) => value,
+          },
+        },
+        y: {
+          ticks: {
+            callback: (value) => `${value} min`,
+          },
+        },
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function (tooltipItem) {
+              return `${(tooltipItem.raw as typeof runtimeData[0]).title} (${tooltipItem.parsed.y} min)`;
+            },
+            title: function (tooltipItem) {
+              return `${ tooltipItem[0].parsed.x }`;
+            }
+          },
+        },
+        legend: {
+          display: false,
+        },
+      },
+    },
+  });
+
+  const directorCounter = new Map<string, number>();
+
+  watchlist.map((m) => m.director)
+    .flat()
+    .forEach((d) => {
+      const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
+      directorCounter.set(d, n + 1);
+  });
+
+  function createBeeswarmData(rawData: [string, number][]) {
+      const counts: Record<number, number> = {};
+
+      return rawData.map(([director, val]) => {
+          const xValue: number = val;
+
+          if (counts[xValue] === undefined) {
+              counts[xValue] = 0;
+          } else {
+              counts[xValue]++;
+          }
+
+          const index = counts[xValue];
+
+          // symmetrical Y offset (0, 1, -1, 2, -2...)
+          const yOffset = index === 0 ? 0 : Math.ceil(index / 2) * (index % 2 === 0 ? 1 : -1);
+
+          return {
+              x: xValue,
+              y: yOffset,
+              title: director
+          };
+      });
+  };
+
+  const directorsdataset = {
+    datasets: [
+      {
+        label: "Number of movies watched by Director",
+        data: createBeeswarmData(Array.from(directorCounter)),
+        backgroundColor: "rgb(1, 99, 132)",
+        pointHoverRadius: 9,
+      },
+    ],
+  };
+
+  new Chart(document.getElementById("directorsscatterplot") as HTMLCanvasElement, {
+    type: "scatter",
+    data: directorsdataset,
+    options: {
+      responsive: true,
+      scales: {
+        x: {
+          beginAtZero: true
+        },
+        y: {
+          display: false
+        },
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function (tooltipItem) {
+              return `${(tooltipItem.raw as typeof runtimeData[0]).title}`;
+            },
+            title: function (tooltipItem) {
+              return `${ tooltipItem[0].parsed.x }`;
+            }
+          },
+        },
+        legend: {
+          display: false,
+        },
+      },
+    },
+  });
+
+
+  const ageRCounter = new Map<string, number>();
+  watchlist
+    .map((m) => m.ageCertification)
+    .forEach((rating) => {
+      if (rating == "" || rating == "N/A") {
+        rating = "Not Rated";
+      }
+      const n = ageRCounter.has(rating) ? ageRCounter.get(rating)! : 0;
+      ageRCounter.set(rating, n + 1);
+    });
+
+  const ageData = {
+    datasets: [
+      {
+        data: Array.from(ageRCounter.values()),
+      },
+    ],
+    labels: Array.from(ageRCounter.keys()),
+  };
+
+  new Chart(document.getElementById("age") as HTMLCanvasElement, {
+    type: "doughnut",
+    data: ageData,
+    options: {
+      plugins: {
+        legend: {
+          display: false,
+        },
+      },
+    },
+  });
+
+  const languageCounter = new Map<string, number>();
+  watchlist
+    .filter(m => m.language).map((m) => m.language)
+    .forEach((languages) => {
+      languages!.forEach((l) => {
+        const n = languageCounter.has(l) ? languageCounter.get(l)! : 0;
+        languageCounter.set(l, n + 1);
+      })
+    });
+  console.log(languageCounter);
+  const langData = {
+    datasets: [
+      {
+        data: Array.from(languageCounter.values()),
+      },
+    ],
+    labels: Array.from(languageCounter.keys()),
+  };
+
+  new Chart(document.getElementById("languages") as HTMLCanvasElement, {
+    type: "doughnut",
+    data: langData,
+    options: {
+      plugins: {
+        legend: {
+          display: false,
+        },
+      },
+    },
+  });
+
+  const yearCounter = new Map<number, number>();
+  watchlist
+    .map((m) => m.releaseYear)
+    .forEach((year) => {
+      const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
+      yearCounter.set(year, n + 1);
+    });
+
+  const maxyear = Math.max(...yearCounter.keys());
+  const minyear = Math.min(...yearCounter.keys());
+  const yearArray = [];
+    for (let y = minyear; y <= maxyear; y++) {
+      let count = 0;
+      if (yearCounter.has(y)) {
+        count = yearCounter.get(y)!
+      }
+        yearArray.push({
+          "year": y,
+          "count": count
+        })
+    }
+
+    new Chart(
+    document.getElementById('years') as HTMLCanvasElement,
+    {
+      type: 'bar',
+      data: {
+        labels: yearArray.map(x => x.year),
+        datasets: [
+          {
+            data:  yearArray.map(x => x.count)
+          }
+        ]
+      },
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    }
+  );
+
+  const watchYearCounter = new Map<number, number>();
+  watchlist
+    .filter((m) => m.watched)
+    .map((m) => parseInt(m.watched?.substring(0,4) || ""))
+    .forEach((year) => {
+      const n = watchYearCounter.has(year) ? watchYearCounter.get(year)! : 0;
+      watchYearCounter.set(year, n + 1);
+    });
+
+  const maxwatchyear = Math.max(...watchYearCounter.keys());
+  const minwatchyear = Math.min(...watchYearCounter.keys());
+
+  const watchYearArray = [];
+    for (let y = minwatchyear; y <= maxwatchyear; y++) {
+      let count = 0;
+      if (watchYearCounter.has(y)) {
+        count = watchYearCounter.get(y)!
+      }
+      watchYearArray.push({
+          "year": y,
+          "count": count
+        })
+    }
+  new Chart(
+    document.getElementById('watchyears') as HTMLCanvasElement,
+    {
+      type: 'bar',
+      data: {
+        labels: watchYearArray.map(x => x.year),
+        datasets: [
+          {
+            data:  watchYearArray.map(x => x.count)
+          }
+        ]
+      },
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    }
+  );
+</script>

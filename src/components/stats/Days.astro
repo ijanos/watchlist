@@ -14,19 +14,14 @@ interface DayData {
 const response = await fetch("/data/daysofyear.json");
 const data = await response.json() as DayData[];
 
-const getShortMonth = (monthNum: number) => {
-  // Create a date object (year and day don't matter)
-  // monthNum should be 0-11
-  const date = new Date(2000, monthNum, 1);
 
-  return new Intl.DateTimeFormat('en', { month: 'short' }).format(date);
-};
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const plot = Plot.plot({
   padding: 0,
   y: {
     label: null,
-    tickFormat: Plot.formatMonth("en", "short"),
+    tickFormat: (d) => months[d],
     domain: d3.range(12) // Ensures all months 0-11 are shown
   },
   x: {
@@ -43,7 +38,7 @@ const plot = Plot.plot({
       fill: "count",
       inset: 0.5,
     }),
-    Plot.tip(data, Plot.pointerX({title: (y) => `${getShortMonth(y.month)} ${y.day}\n${y.count}`, x: "day", y: "month", textAnchor: "middle"}))
+    Plot.tip(data, Plot.pointerX({title: (y) => `${months[y.month]} ${y.day}\n${y.count}`, x: "day", y: "month", textAnchor: "middle"}))
   ]
 });
 
