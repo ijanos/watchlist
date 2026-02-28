@@ -5,6 +5,7 @@
 
 <script>
 import * as Plot from "@observablehq/plot";
+import * as d3 from "d3";
 
 interface Stat {
   years: string;
@@ -27,7 +28,8 @@ const plot = Plot.plot({
   x: {
     type: "band",
     label: null,
-    tickRotate: -45,
+    ticks: d3.range(1900, 2100, 5),
+    tickFormat: ""
   },
   marks: [
     Plot.barY(years as Plot.Data, {x: "year", y: "count", fill: "steelblue", ry1: 2, insetLeft: 0, insetRight: 0}),
