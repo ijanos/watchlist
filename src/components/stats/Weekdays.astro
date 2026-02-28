@@ -11,10 +11,8 @@ interface DayStat {
   count: number;
 }
 
-const div = document.querySelector("#weekdayplot")!;
-
-const response = await fetch("/data/weekdays.json");
-const weekdays = await response.json() as DayStat[];
+const response = fetch("/data/weekdays.json");
+const weekdays = await (await response).json() as DayStat[];
 
 const plot = Plot.plot({
   width: undefined,
@@ -37,5 +35,5 @@ const plot = Plot.plot({
   ]
 })
 
-div.append(plot);
+document.querySelector("#weekdayplot")?.append(plot);
 </script>

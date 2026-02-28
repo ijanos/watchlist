@@ -3,12 +3,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 import posterIntegration from './src/integrations/poster-downloader';
 
-import react from '@astrojs/react';
-
 // https://astro.build/config
 export default defineConfig({
-  integrations: [posterIntegration(), react()],
-
+  integrations: [posterIntegration()],
   vite: {
     plugins: [tailwindcss()],
   },
