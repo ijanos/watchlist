@@ -1,0 +1,51 @@
+---
+---
+<div id="daysofyear" class="m-auto"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+import * as d3 from "d3";
+
+interface DayData {
+  day: string;
+  count: number;
+}
+
+const response = await fetch("/data/daysofyear.json");
+const data = await response.json() as DayData[];
+
+const getShortMonth = (monthNum: number) => {
+  // Create a date object (year and day don't matter)
+  // monthNum should be 0-11
+  const date = new Date(2000, monthNum, 1);
+
+  return new Intl.DateTimeFormat('en', { month: 'short' }).format(date);
+};
+
+const plot = Plot.plot({
+  padding: 0,
+  y: {
+    label: null,
+    tickFormat: Plot.formatMonth("en", "short"),
+    domain: d3.range(12) // Ensures all months 0-11 are shown
+  },
+  x: {
+    label: "Day of Month",
+    domain: d3.range(1, 32) // Ensures days 1-31 are shown
+  },
+  color: {
+    scheme: "blues",
+  },
+  marks: [
+    Plot.cell(data, {
+      x: "day",
+      y: "month",
+      fill: "count",
+      inset: 0.5,
+    }),
+    Plot.tip(data, Plot.pointerX({title: (y) => `${getShortMonth(y.month)} ${y.day}\n${y.count}`, x: "day", y: "month", textAnchor: "middle"}))
+  ]
+});
+
+document.querySelector("#daysofyear")?.append(plot);;
+</script>
