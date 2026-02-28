@@ -12136,6 +12136,30 @@
     ]
   },
   {
+    "englishTitle": "The Bridgeman",
+    "originalTitle": "A hídember",
+    "director": [
+      "Géza Bereményi"
+    ],
+    "imdbID": "tt0310567",
+    "releaseYear": 2002,
+    "releaseDate": "2002-04-11",
+    "country": [
+      "Hungary",
+      "Germany"
+    ],
+    "language": [
+      "German",
+      "Hungarian"
+    ],
+    "runtime": 140,
+    "ageCertification": "N/A",
+    "genres": [
+      "drama",
+      "history"
+    ]
+  },
+  {
     "englishTitle": "Blade II",
     "originalTitle": "Blade II",
     "director": [
@@ -14091,6 +14115,29 @@
       "United States",
       "Japan",
       "United Kingdom"
+    ]
+  },
+  {
+    "englishTitle": "The Conquest",
+    "originalTitle": "Honfoglalás",
+    "director": [
+      "Gábor Koltay"
+    ],
+    "imdbID": "tt0116557",
+    "releaseYear": 1996,
+    "releaseDate": "1996-12-12",
+    "country": [
+      "Hungary"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "runtime": 109,
+    "ageCertification": "N/A",
+    "genres": [
+      "action",
+      "drama",
+      "history"
     ]
   },
   {
