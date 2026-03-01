@@ -13068,8 +13068,29 @@
     ]
   },
   {
+    "englishTitle": "The Virgin Suicides",
+    "director": [
+      "Sofia Coppola"
+    ],
+    "imdbID": "tt0159097",
+    "releaseYear": 1999,
+    "releaseDate": "2000-05-19",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 97,
+    "watched": "2026-02-28",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "American Psycho",
-    "originalTitle": "American Psycho",
     "director": [
       "Mary Harron"
     ],
@@ -13095,7 +13116,6 @@
   },
   {
     "englishTitle": "Pitch Black",
-    "originalTitle": "Pitch Black",
     "director": [
       "David Twohy"
     ],
