@@ -1,0 +1,44 @@
+---
+---
+<div id="weeksofyearplot" class="m-auto"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+interface WeekCount {
+  year: number;
+  week: number;
+  count: number;
+}
+
+const response = fetch("/data/weeks.json");
+const data = (await response).json() as Promise<WeekCount[]>;
+
+const plot = Plot.plot({
+  width: 900,
+  padding: 0,
+  marginLeft: 50,
+  marginBottom: 35,
+  y: {
+    label: "Years",
+    tickFormat: "",
+    fontVariant: "tabular-nums",
+  },
+  x: {
+    label: "Week of the year",
+  },
+  color: {
+    scheme: "blues",
+  },
+  marks: [
+    Plot.cell(await data, {
+      x: "week",
+      y: "year",
+      fill: "count",
+      inset: 0.5,
+    }),
+    Plot.tip(await data, Plot.pointerX({title: (y) => `${y.year} W${y.week}\n${y.count}`, x: "week", y: "year", textAnchor: "middle"}))
+  ]
+});
+
+document.querySelector("#weeksofyearplot")?.append(plot);;
+</script>
