@@ -4,15 +4,14 @@
 
 <script>
 import * as Plot from "@observablehq/plot";
-import * as d3 from "d3";
 
 interface DayData {
   day: string;
   count: number;
 }
 
-const response = await fetch("/data/daysofyear.json");
-const data = await response.json() as DayData[];
+const response = fetch("/data/daysofyear.json");
+const data = (await response).json() as Promise<DayData[]>;
 
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -22,23 +21,23 @@ const plot = Plot.plot({
   y: {
     label: null,
     tickFormat: (d) => months[d],
-    domain: d3.range(12) // Ensures all months 0-11 are shown
+    domain: Array.from({length: 12}, (_, i) => i)
   },
   x: {
     label: "Day of Month",
-    domain: d3.range(1, 32) // Ensures days 1-31 are shown
+    domain: Array.from({length: 31}, (_, i) => i + 1)
   },
   color: {
     scheme: "blues",
   },
   marks: [
-    Plot.cell(data, {
+    Plot.cell(await data, {
       x: "day",
       y: "month",
       fill: "count",
       inset: 0.5,
     }),
-    Plot.tip(data, Plot.pointerX({title: (y) => `${months[y.month]} ${y.day}\n${y.count}`, x: "day", y: "month", textAnchor: "middle"}))
+    Plot.tip(await data, Plot.pointerX({title: (y) => `${months[y.month]} ${y.day}\n${y.count}`, x: "day", y: "month", textAnchor: "middle"}))
   ]
 });
 
