@@ -36,7 +36,7 @@ const plot = Plot.plot({
       fill: "count",
       inset: 0.5,
     }),
-    Plot.tip(await data, Plot.pointerX({title: (y) => `${y.year} W${y.week}\n${y.count}`, x: "week", y: "year", textAnchor: "middle"}))
+    Plot.tip(await data, Plot.pointer({title: (y) => `${y.year} W${y.week}\n${y.count}`, x: "week", y: "year", textAnchor: "middle", maxRadius: 10}))
   ]
 });
 
