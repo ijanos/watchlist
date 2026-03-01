@@ -15,39 +15,38 @@ const dayCounter = {
 
 watchlist
   .filter((m) => m.watched)
-  .map((m) => m.watched)
-  .forEach((watchdate) => {
-    const dayIndex = new Date(watchdate!).getDay();
+  .forEach((movie) => {
+    const dayIndex = new Date(movie.watched!).getDay();
     const day = dayNames[dayIndex];
     const n = dayCounter[day];
-    dayCounter[day] = n + 1;
+    dayCounter[day] = n + movie.runtime;
   });
 
-const formattedData = JSON.stringify(Object.entries(dayCounter).map(([day, count]) => ({
-    day,
-    count
+const formattedData = JSON.stringify(Object.entries(dayCounter).map(([day, minutes]) => ({
+    day: day,
+    hours: (minutes / 60)
 })));
 ---
 
-<div id="weekdayplot" class="m-auto" data-days={formattedData}></div>
+<div id="weekdayhoursplot" class="m-auto" data-days={formattedData}></div>
 
 <script>
 import * as Plot from "@observablehq/plot";
 
-interface DayStat {
+interface DayHoursStat {
   day: string;
-  count: number;
+  hours: number;
 }
 
-const div = document.querySelector<HTMLDivElement>("#weekdayplot");
-const weekdays = JSON.parse(div?.dataset.days as string) as DayStat[];
+const div = document.querySelector<HTMLDivElement>("#weekdayhoursplot");
+const weekdays = JSON.parse(div?.dataset.days as string) as DayHoursStat[];
 
 const plot = Plot.plot({
   width: undefined,
   height: 300,
   y: {
     grid: true,
-    label: "films",
+    label: "hours",
     percent: false
   },
   x: {
@@ -58,8 +57,8 @@ const plot = Plot.plot({
   },
   marks: [
     Plot.ruleY([0]),
-    Plot.barY(weekdays as Plot.Data, {x: "day", y: "count", fill: "steelblue", ry1: 8, insetLeft: 8, insetRight: 8}),
-    Plot.tip(weekdays, Plot.pointerX({title: (d) => d.count, x: "day", y: "count"}))
+    Plot.barY(weekdays as Plot.Data, {x: "day", y: "hours", fill: "steelblue", ry1: 8, insetLeft: 8, insetRight: 8}),
+    Plot.tip(weekdays, Plot.pointerX({title: (d) => `${d.hours.toFixed(1)} h`, x: "day", y: "hours"}))
   ]
 })
 
