@@ -1,7 +1,36 @@
 ---
+import { formDataToObject } from "astro:actions";
+import { movies as watchlist } from "../../data/movies.ts";
+
+const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] as const;
+const dayCounter = {
+  "Monday": 0,
+  "Tuesday": 0,
+  "Wednesday": 0,
+  "Thursday": 0,
+  "Friday": 0,
+  "Saturday": 0,
+  "Sunday": 0,
+};
+
+
+watchlist
+  .filter((m) => m.watched)
+  .map((m) => m.watched)
+  .forEach((watchdate) => {
+    const dayIndex = new Date(watchdate!).getDay();
+    const day = dayNames[dayIndex];
+    const n = dayCounter[day];
+    dayCounter[day] = n + 1;
+  });
+
+const formattedData = JSON.stringify(Object.entries(dayCounter).map(([day, count]) => ({
+    day,
+    count
+})));
 ---
 
-<div id="weekdayplot" class="m-auto"></div>
+<div id="weekdayplot" class="m-auto" data-days={formattedData}></div>
 
 <script>
 import * as Plot from "@observablehq/plot";
@@ -11,8 +40,8 @@ interface DayStat {
   count: number;
 }
 
-const response = fetch("/data/weekdays.json");
-const weekdays = await (await response).json() as DayStat[];
+const div = document.querySelector<HTMLDivElement>("#weekdayplot");
+const weekdays = JSON.parse(div?.dataset.days as string) as DayStat[];
 
 const plot = Plot.plot({
   width: undefined,

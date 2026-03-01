@@ -14,8 +14,8 @@ interface Stat {
 
 const div = document.querySelector("#releaseyearsplot")!;
 
-const response = await fetch("/data/releaseyears.json");
-const years = await response.json() as Stat[];
+const response =  fetch("/data/releaseyears.json");
+const years = (await response).json() as Promise<Stat[]>;
 
 const plot = Plot.plot({
   width: 1100,
@@ -32,8 +32,8 @@ const plot = Plot.plot({
     tickFormat: ""
   },
   marks: [
-    Plot.barY(years as Plot.Data, {x: "year", y: "count", fill: "steelblue", ry1: 2, insetLeft: 0, insetRight: 0}),
-    Plot.tip(years, Plot.pointerX({title: (y) => `${y.year}\n${y.count}`, x: "year", y: "count", fontSize: 14, textAnchor: "middle"}))
+    Plot.barY(await years, {x: "year", y: "count", fill: "steelblue", ry1: 2, insetLeft: 0, insetRight: 0}),
+    Plot.tip(await years, Plot.pointerX({title: (y) => `${y.year}\n${y.count}`, x: "year", y: "count", fontSize: 14, textAnchor: "middle"}))
   ]
 })
 

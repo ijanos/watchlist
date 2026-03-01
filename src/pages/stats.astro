@@ -37,7 +37,6 @@ function getLongestWeeklyStreak(dateStrings: string[]) {
 
   // 2. Remove duplicates and sort
   const uniqueWeeks = [...new Set(weekTimestamps)].sort((a, b) => a - b);
-
   let longestStreak = 0;
   let currentStreak = 1;
   const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
