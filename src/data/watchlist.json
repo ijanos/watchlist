@@ -5129,7 +5129,7 @@
   },
   {
     "englishTitle": "Lady Bird",
-    "originalTitle": "Lady Bird",
+    "watched": "2018-03-04",
     "director": [
       "Greta Gerwig"
     ],
@@ -5148,6 +5148,34 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "The Square",
+    "director": [
+      "Ruben Östlund"
+    ],
+    "imdbID": "tt4995790",
+    "releaseYear": 2017,
+    "releaseDate": "2017-08-25",
+    "country": [
+      "Sweden",
+      "Germany",
+      "France",
+      "Denmark",
+      "United States"
+    ],
+    "language": [
+      "Swedish",
+      "English",
+      "Danish"
+    ],
+    "runtime": 151,
+    "watched": "2018-03-20",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama"
     ]
   },
   {
@@ -5260,6 +5288,7 @@
   },
   {
     "englishTitle": "The Beguiled",
+    "watched": "2017-11-17",
     "director": [
       "Sofia Coppola"
     ],
@@ -5309,7 +5338,7 @@
   },
   {
     "englishTitle": "It Comes at Night",
-    "originalTitle": "It Comes at Night",
+    "watched": "2017-11-27",
     "director": [
       "Trey Edward Shults"
     ],
@@ -5462,7 +5491,7 @@
   },
   {
     "englishTitle": "Colossal",
-    "originalTitle": "Colossal",
+    "watched": "2017-11-14",
     "director": [
       "Nacho Vigalondo"
     ],
@@ -6118,6 +6147,7 @@
   },
   {
     "englishTitle": "Warcraft",
+    "watched": "2016-05-29",
     "director": [
       "Duncan Jones"
     ],
@@ -6627,6 +6657,7 @@
   {
     "englishTitle": "Son of Saul",
     "originalTitle": "Saul fia",
+    "watched": "2026-01-24",
     "director": [
       "László Nemes"
     ],
@@ -16392,6 +16423,7 @@
   {
     "englishTitle": "Nausicaä of the Valley of the Wind",
     "originalTitle": "風の谷のナウシカ",
+    "watched": "2017-12-09",
     "director": [
       "Hayao Miyazaki"
     ],
