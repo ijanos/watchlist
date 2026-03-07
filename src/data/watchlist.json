@@ -6657,7 +6657,7 @@
   {
     "englishTitle": "Son of Saul",
     "originalTitle": "Saul fia",
-    "watched": "2026-01-24",
+    "watched": "2016-01-24",
     "director": [
       "László Nemes"
     ],
@@ -8531,6 +8531,32 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Melancholia",
+    "director": [
+      "Lars von Trier"
+    ],
+    "imdbID": "tt1527186",
+    "releaseYear": 2011,
+    "releaseDate": "2011-05-26",
+    "country": [
+      "Denmark",
+      "Sweden",
+      "France",
+      "Germany",
+      "Italy"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 135,
+    "watched": "2026-03-06",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "sci-fi"
     ]
   },
   {
