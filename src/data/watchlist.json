@@ -93,6 +93,30 @@
     ]
   },
   {
+    "englishTitle": "Hamnet",
+    "director": [
+      "Chloé Zhao"
+    ],
+    "imdbID": "tt14905854",
+    "releaseYear": 2025,
+    "releaseDate": "2025-12-05",
+    "country": [
+      "United Kingdom",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 125,
+    "watched": "2026-03-07",
+    "ageCertification": "PG-13",
+    "genres": [
+      "biography",
+      "drama",
+      "history"
+    ]
+  },
+  {
     "englishTitle": "A Merry Little Ex-Mas",
     "director": [
       "Steve Carr"
