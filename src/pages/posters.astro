@@ -6,29 +6,6 @@ import Poster from "../components/Poster.astro";
 
 <Layout title="posters | Janos' watchlist">
     <div x-data="posters">
-        <dialog x-ref="dialog" class="p-2 border-4 rounded-md border-amber-300 min-w-[20em] transition ease-in-out backdrop:backdrop-blur-sm">
-            <div class="flex gap-2 min-w-96 flex-col">
-                <p x-text="selectedMovie['title']" class="py-2 font-bold text-xl"></p>
-                <div class="flex">
-                <!-- <img class="w-64 h-auto rounded-lg" x-bind:src="selectedMovie.posterURL" /> -->
-                <div class="flex flex-col gap-2">
-                    <p>Release:
-                        <span x-text="selectedMovie.release"/>
-                    </p>
-                    <p>Director:
-                        <span x-text="selectedMovie.director"/>
-                    </p>
-                    <p>Runtime:
-                        <span x-text="selectedMovie.runtime"/> minutes
-                    </p>
-                    <form method="dialog">
-                        <button>OK</button>
-                    </form>
-                </div>
-                </div>
-            </div>
-        </dialog>
-
         <div class="flex justify-between flex-wrap drop-shadow-md">
             <input
                 type="text"
@@ -88,17 +65,6 @@ document.addEventListener('alpine:init', () => {
             },
             getPosters() {
                 return Array.from(this.$refs.grid.querySelectorAll("img"));
-            },
-            showModal(i: number) {
-                console.log(this.watchlistData[i]);
-                const movie: Movie = this.watchlistData[i];
-                this.selectedMovie = {
-                    title: movie.englishTitle,
-                    release: movie.releaseDate,
-                    director: movie.director.join(", "),
-                    runtime: movie.runtime
-                };
-                (this.$refs.dialog as HTMLDialogElement).showModal();
             },
             getSortFn(name: string) {
                 switch (name) {

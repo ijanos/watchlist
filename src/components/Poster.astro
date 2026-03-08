@@ -21,5 +21,4 @@ const posterImage = posterImageModule.default;
   x-show="$el.dataset.search.includes(search)"
   data-releasedate={movie.releaseDate}
   data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
-  @click={ `showModal(${ movie.index })` }
 />
