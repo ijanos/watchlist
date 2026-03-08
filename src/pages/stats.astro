@@ -24,51 +24,51 @@ watchlist
     directorCounter.set(d, n + 1);
   });
 
-function getLongestWeeklyStreak(dateStrings: string[]) {
-  if (dateStrings.length === 0) return 0;
+type StreakResult = {
+  longestStreak: number;
+  streakStart: string | null;
+  streakEnd: string | null;
+};
 
-  // 1. Convert to Start of Week (Sunday) timestamps
-  const weekTimestamps = dateStrings.map(d => {
-    const date = new Date(d);
-    const day = date.getDay(); // 0 for Sunday, 1 for Monday, etc.
-    const diff = date.getDate() - day;
-    const startOfWeek = new Date(date.setDate(diff));
-    startOfWeek.setHours(0, 0, 0, 0); // Reset time to midnight
-    return startOfWeek.getTime();
-  });
+const MS_PER_WEEK = 7 * 24 * 60 * 60 * 1000;
+const toAbsWeek = (ds: string): number => Math.floor(new Date(ds).getTime() / MS_PER_WEEK);
+const toDateStr = (week: number): string => new Date(week * MS_PER_WEEK).toISOString().split("T")[0];
 
-  // 2. Remove duplicates and sort
-  const uniqueWeeks = [...new Set(weekTimestamps)].sort((a, b) => a - b);
-  let longestStreak = 0;
-  let currentStreak = 1;
-  const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+function getLongestWeeklyStreak(dateStrings: string[]): StreakResult {
+  if (!dateStrings.length) return { longestStreak: 0, streakStart: null, streakEnd: null };
 
-  // 3. Loop through and check for 7-day gaps
-  for (let i = 1; i < uniqueWeeks.length; i++) {
-    if (uniqueWeeks[i] - uniqueWeeks[i - 1] === ONE_WEEK_MS) {
-      currentStreak++;
+  const weeks = [...new Set(dateStrings.map(toAbsWeek))].sort((a, b) => a - b);
+
+  let best = { streak: 1, start: weeks[0], end: weeks[0] };
+  let curr = { streak: 1, start: weeks[0] };
+
+  for (let i = 1; i < weeks.length; i++) {
+    if (weeks[i] - weeks[i - 1] === 1) {
+      curr.streak++;
+      if (curr.streak > best.streak) best = { streak: curr.streak, start: curr.start, end: weeks[i] };
     } else {
-      longestStreak = Math.max(longestStreak, currentStreak);
-      currentStreak = 1;
+      curr = { streak: 1, start: weeks[i] };
     }
   }
 
-  return Math.max(longestStreak, currentStreak);
+  return { longestStreak: best.streak, streakStart: toDateStr(best.start), streakEnd: toDateStr(best.end) };
 }
 
-const watchdates = watchlist.filter((m) => m.watched).map((m) => m.watched) as string[];
-const streak = getLongestWeeklyStreak(watchdates);
-
+const streak = getLongestWeeklyStreak(
+  watchlist.filter((m) => m.watched).map((m) => m.watched as string)
+).longestStreak;
 ---
 
 <Layout title="statistics | Janos' watchlist">
  <div class="bg-amber-50/75 rounded-lg backdrop-blur-md p-1 py-2 flex flex-col gap-2">
     <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
     <p class="p-2">
-      Welcome to my watchlist. I started tracking every movie I watched around
-      2016. I try to include every movie I ever watched here so some dates,
-      especially before 2016 maybe inaccurate. Movie lengths are sourced from
-      the free OMDb database and may also be somewhat inaccurate.
+        Welcome to My Watchlist!
+        Here are a few quick things to know about the data:
+
+        I’ve been actively tracking movies since 2016, but I only started recording every single film in 2023. You might notice some gaps before then.
+
+        All durations come from the OMDb database; some runtimes might be slightly off.
     </p>
     <div class="flex flex-row flex-wrap gap-5 p-4 justify-around">
       <div class="flex flex-col items-center">
@@ -96,10 +96,6 @@ const streak = getLongestWeeklyStreak(watchdates);
 
     <HorizontalLine text="Years"/>
 
-    <p>
-    This chart shows how many movies I watched each year. I only started tracking what I watch around 2017, data before that is inaccurate.
-    </p>
-
     <Watchyears/>
 
     <HorizontalLine text="Release years"/>
@@ -109,7 +105,6 @@ const streak = getLongestWeeklyStreak(watchdates);
     <HorizontalLine text="Weekdays"/>
 
     <Weekdays/>
-    <WeekdaysHours/>
 
     <HorizontalLine text="Days"/>
 
