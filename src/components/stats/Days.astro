@@ -37,7 +37,14 @@ const plot = Plot.plot({
       fill: "count",
       inset: 0.5,
     }),
-    Plot.tip(await data, Plot.pointerX({title: (y) => `${months[y.month]} ${y.day}\n${y.count}`, x: "day", y: "month", textAnchor: "middle"}))
+    Plot.tip(await data,
+      Plot.pointer({
+        title: (y) => `${months[y.month]} ${y.day}\n${y.count}`,
+        x: "day",
+        y: "month",
+        textAnchor: "middle",
+        maxRadius: 15,
+      }))
   ]
 });
 
