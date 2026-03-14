@@ -1,0 +1,41 @@
+---
+---
+
+<div id="runtimesplot" class="m-auto"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+
+interface Stat {
+  runtime: number;
+}
+
+const div = document.querySelector("#runtimesplot")!;
+
+const response =  fetch("/data/movielength.json");
+const runtimes = (await response).json() as Promise<Stat[]>;
+
+const plot = Plot.plot({
+  width: 1100,
+  height: 250,
+  y: {
+    grid: true,
+    label: "movies",
+  },
+  x: {
+    type: "band",
+    label: "runtime (min)",
+    tickFormat: ""
+  },
+  marks: [
+     Plot.rectY(await runtimes, {
+       ...Plot.binX({y: "count"}, {x: "runtime", thresholds: 20}),
+       fill: "steelblue",
+       ry2: 6,
+     }),
+     Plot.tip(await runtimes, Plot.pointerX(Plot.binX( {y: "count" }, {x: "runtime", thresholds: 20 } ))),
+  ]
+})
+
+div.append(plot);
+</script>
