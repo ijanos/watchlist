@@ -16,7 +16,6 @@
     "@observablehq/plot": "^0.6.17",
     "@observablehq/stdlib": "^5.8.8",
     "@tailwindcss/vite": "^4.0.2",
-    "@types/node": "^20.19.25",
     "alpinejs": "^3.13.3",
     "astro": "^6.0.4",
     "chart.js": "^4.4.4",
@@ -26,11 +25,12 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
+    "@types/node": "^24",
     "@eslint/js": "^10.0.1",
     "@types/alpinejs": "^3.13.5",
     "@types/d": "^1.0.4",
     "@types/d3": "^7.4.3",
-    "@types/jsdom": "^27.0.0",
+    "@types/jsdom": "^28",
     "@types/tabulator-tables": "^6.3.0",
     "@typescript-eslint/parser": "^8.23.0",
     "eslint": "^10",
