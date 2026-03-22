@@ -768,6 +768,29 @@
     ]
   },
   {
+    "englishTitle": "Borderline",
+    "director": [
+      "Jimmy Warden"
+    ],
+    "imdbID": "tt13650814",
+    "releaseYear": 2025,
+    "releaseDate": "2025-03-14",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 94,
+    "watched": "2026-03-20",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "horror",
+      "thriller"
+    ]
+  },
+  {
     "englishTitle": "Mickey 17",
     "director": [
       "Bong Joon-ho"
@@ -1726,6 +1749,30 @@
     ],
     "country": [
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Cat Call",
+    "originalTitle": "Cicaverzum",
+    "director": [
+      "Rozália Szeleczki"
+    ],
+    "imdbID": "tt20672560",
+    "releaseYear": 2023,
+    "releaseDate": "2023-10-19",
+    "country": [
+      "Hungary"
+    ],
+    "language": [
+      "Hungarian"
+    ],
+    "runtime": 91,
+    "watched": "2026-03-22",
+    "ageCertification": "N/A",
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
     ]
   },
   {
