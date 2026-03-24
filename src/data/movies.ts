@@ -40,7 +40,7 @@ watchlist.forEach((movie) => {
    if (movie.watched && !dateRegexp.test(movie.watched)) {
       throw Error(`Maleformed watched date string:\n ${JSON.stringify(movie)}`);
    }
-  // Turns out I wateched some movies before the US release date
+  // Turns out I watched some movies before the US release date
   // if (movie.watched && movie.watched < movie.releaseDate) {
   //     throw Error(`Watched  before release:\n ${JSON.stringify(movie)}`);
   // }

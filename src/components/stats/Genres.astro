@@ -1,0 +1,38 @@
+---
+import { movies } from "../../data/movies";
+
+function getGenreStatistics(): [string, number][] {
+  const totalMovies = movies.length;
+  const genreCounts = new Map<string, number>();
+
+  for (const movie of movies) {
+    for (const genre of movie.genres) {
+      genreCounts.set(genre, (genreCounts.get(genre) ?? 0) + 1);
+    }
+  }
+
+  return Array.from(genreCounts.entries())
+    .map(([genre, count]): [string, number] => [
+      genre,
+      Math.round((count / totalMovies) * 1000) / 10,
+    ])
+    .sort((a, b) => b[1] - a[1]);
+}
+
+const genres = getGenreStatistics();
+---
+
+ <div class="columns-2 lg:columns-4 m-2">
+      <table>
+        <tbody>
+{
+genres.map(([genre, percentage]) => (
+<tr class="text-sm">
+  <td>{genre}</td>
+  <td class="text-right">{percentage}%</td>
+</tr>
+))
+}
+        </tbody>
+      </table>
+</div>

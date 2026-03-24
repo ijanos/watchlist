@@ -10,6 +10,7 @@ import HorizontalLine from "../components/HorizontalLine.astro";
 import Days from "../components/stats/Days.astro";
 import Weeks from "../components/stats/Weeks.astro";
 import Runtimes from "../components/stats/Runtimes.astro";
+import Genres from "../components/stats/Genres.astro";
 
 const sumRuntimeMinutes = watchlist.reduce((acc, m) => acc + m.runtime, 0);
 const hours = sumRuntimeMinutes / 60;
@@ -117,6 +118,10 @@ const streak = getLongestWeeklyStreak(
     <HorizontalLine text="Runtimes"/>
 
     <Runtimes/>
+
+    <HorizontalLine text="Genres"/>
+
+    <Genres/>
 
     <HorizontalLine text="Directors"/>
 

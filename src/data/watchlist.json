@@ -203,7 +203,7 @@
     "genres": [
       "comedy",
       "crime",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -261,7 +261,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ]
   },
   {
@@ -440,7 +440,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -491,7 +491,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -1147,7 +1147,7 @@
     "ageCertification": "N/A",
     "genres": [
       "horror",
-      "sci-fi",
+      "science-fiction",
       "thriller"
     ],
     "language": [
@@ -1170,7 +1170,7 @@
     "ageCertification": "R",
     "genres": [
       "drama",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -1247,7 +1247,7 @@
     "ageCertification": "R",
     "genres": [
       "horror",
-      "sci-fi",
+      "science-fiction",
       "thriller"
     ],
     "language": [
@@ -1298,7 +1298,7 @@
     "genres": [
       "action",
       "comedy",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -1375,7 +1375,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -1788,7 +1788,7 @@
     "ageCertification": "PG-13",
     "genres": [
       "animation",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -2749,7 +2749,7 @@
     "ageCertification": "R",
     "genres": [
       "drama",
-      "sci-fi",
+      "science-fiction",
       "thriller"
     ],
     "language": [
@@ -3344,7 +3344,7 @@
     "ageCertification": "TV-MA",
     "genres": [
       "horror",
-      "sci-fi",
+      "science-fiction",
       "thriller"
     ],
     "language": [
@@ -4240,7 +4240,6 @@
   },
   {
     "englishTitle": "Green Book",
-    "originalTitle": "Green Book",
     "director": [
       "Peter Farrelly"
     ],
@@ -4579,7 +4578,7 @@
     "ageCertification": "R",
     "genres": [
       "action",
-      "sci-fi",
+      "science-fiction",
       "thriller"
     ],
     "language": [
@@ -4605,7 +4604,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -5860,7 +5859,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -6332,7 +6331,7 @@
     "ageCertification": "PG-13",
     "genres": [
       "action",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -6897,7 +6896,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -7043,7 +7042,7 @@
     "genres": [
       "adventure",
       "horror",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "Japanese"
@@ -7279,7 +7278,7 @@
     "genres": [
       "action",
       "drama",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -7411,7 +7410,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -7869,7 +7868,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -7971,7 +7970,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -8256,7 +8255,7 @@
     "genres": [
       "action",
       "crime",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -8596,7 +8595,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -8676,7 +8675,7 @@
     "ageCertification": "R",
     "genres": [
       "drama",
-      "sci-fi"
+      "science-fiction"
     ]
   },
   {
@@ -9096,7 +9095,7 @@
     "ageCertification": "PG-13",
     "genres": [
       "action",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -9616,7 +9615,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -9662,7 +9661,7 @@
     "ageCertification": "PG-13",
     "genres": [
       "comedy",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -9707,7 +9706,7 @@
     "genres": [
       "action",
       "mystery",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -9828,7 +9827,7 @@
     "genres": [
       "horror",
       "musical",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -11881,7 +11880,7 @@
     "ageCertification": "R",
     "genres": [
       "action",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -12413,7 +12412,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ]
   },
   {
@@ -12451,7 +12450,7 @@
     "genres": [
       "drama",
       "mystery",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -12571,7 +12570,7 @@
     "genres": [
       "drama",
       "mystery",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -12698,7 +12697,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ]
   },
   {
@@ -12791,7 +12790,7 @@
     "ageCertification": "PG-13",
     "genres": [
       "comedy",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -13329,7 +13328,7 @@
     "genres": [
       "drama",
       "romance",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -13380,7 +13379,7 @@
     "genres": [
       "drama",
       "fantasy",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -14228,7 +14227,7 @@
     "ageCertification": "PG-13",
     "genres": [
       "action",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -15571,7 +15570,7 @@
     "genres": [
       "adventure",
       "comedy",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -15964,7 +15963,7 @@
     "ageCertification": "R",
     "genres": [
       "action",
-      "sci-fi",
+      "science-fiction",
       "thriller"
     ]
   },
@@ -16126,7 +16125,7 @@
     "genres": [
       "comedy",
       "drama",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "Georgian",
@@ -16269,7 +16268,7 @@
     "genres": [
       "comedy",
       "drama",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -16315,7 +16314,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -16411,7 +16410,7 @@
     "genres": [
       "animation",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "French"
@@ -16653,7 +16652,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -16711,7 +16710,7 @@
     "genres": [
       "horror",
       "mystery",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -16758,7 +16757,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
@@ -16804,7 +16803,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English",
@@ -17082,7 +17081,7 @@
     "genres": [
       "action",
       "adventure",
-      "sci-fi"
+      "science-fiction"
     ],
     "language": [
       "English"
