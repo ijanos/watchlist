@@ -2,6 +2,14 @@ import omdbkey from "./omdbkey.js";
 import { writeFile, readFile } from 'node:fs/promises';
 import { type Movie } from "../src/data/movies.ts";
 
+const genreSubstitues = new Map<string, string>([
+    ["sci-fi", "science-fiction"]
+]);
+
+function replaceGenre(genre: string[]): string[] {
+    return genre.map((g) => genreSubstitues.get(g) ?? g);
+}
+
 async function getData(imdbid: string) {
     const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkey}`);
     const movie = await response.json();
@@ -23,7 +31,7 @@ async function getData(imdbid: string) {
         "runtime": parseInt(movie["Runtime"]),
         "watched": `${new Date().toISOString().slice(0, 10)} CHECKME`,
         "ageCertification": movie["Rated"],
-        "genres": movie["Genre"].split(",").map((g: string) => g.trim().toLowerCase())
+        "genres": replaceGenre(movie["Genre"].split(",").map((g: string) => g.trim().toLowerCase()))
       };
 }
 
