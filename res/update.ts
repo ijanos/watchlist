@@ -2,12 +2,14 @@ import omdbkey from "./omdbkey.js";
 import { writeFile, readFile } from 'node:fs/promises';
 import { type Movie } from "../src/data/movies.ts";
 
+const skipGenres = new Set<string>(["made-in-europe"]);
+
 const genreSubstitues = new Map<string, string>([
     ["sci-fi", "science-fiction"]
 ]);
 
 function replaceGenre(genre: string[]): string[] {
-    return genre.map((g) => genreSubstitues.get(g) ?? g);
+    return genre.filter((g) => !skipGenres.has(g)).map((g) => genreSubstitues.get(g) ?? g);
 }
 
 async function getData(imdbid: string) {
