@@ -166,6 +166,30 @@
     ]
   },
   {
+    "englishTitle": "The Running Man",
+    "director": [
+      "Edgar Wright"
+    ],
+    "imdbID": "tt14107334",
+    "releaseYear": 2025,
+    "releaseDate": "2025-11-14",
+    "country": [
+      "United Kingdom",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 133,
+    "watched": "2026-04-04",
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "adventure",
+      "science-fiction"
+    ]
+  },
+  {
     "englishTitle": "A Merry Little Ex-Mas",
     "director": [
       "Steve Carr"
