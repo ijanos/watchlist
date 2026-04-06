@@ -140,6 +140,30 @@
     ]
   },
   {
+    "englishTitle": "Rental Family",
+    "director": [
+      "Hikari"
+    ],
+    "imdbID": "tt14142060",
+    "releaseYear": 2025,
+    "releaseDate": "2025-11-21",
+    "country": [
+      "Japan",
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Japanese"
+    ],
+    "runtime": 109,
+    "watched": "2026-04-05",
+    "ageCertification": "PG-13",
+    "genres": [
+      "comedy",
+      "drama"
+    ]
+  },
+  {
     "englishTitle": "Arco",
     "director": [
       "Ugo Bienvenu"
