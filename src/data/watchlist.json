@@ -15683,6 +15683,31 @@
     ]
   },
   {
+    "englishTitle": "Total Recall",
+    "director": [
+      "Paul Verhoeven"
+    ],
+    "imdbID": "tt0100802",
+    "releaseYear": 1990,
+    "releaseDate": "1990-06-01",
+    "country": [
+      "United States",
+      "Mexico",
+      "Netherlands"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 113,
+    "watched": "2026-04-10",
+    "ageCertification": "R",
+    "genres": [
+      "action",
+      "adventure",
+      "science-fiction"
+    ]
+  },
+  {
     "englishTitle": "Back to the Future Part III",
     "director": [
       "Robert Zemeckis"
