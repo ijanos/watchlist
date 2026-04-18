@@ -1460,6 +1460,30 @@
     ]
   },
   {
+    "englishTitle": "A Quiet Place: Day One",
+    "director": [
+      "Michael Sarnoski"
+    ],
+    "imdbID": "tt13433802",
+    "releaseYear": 2024,
+    "releaseDate": "2024-06-28",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English",
+      "American Sign"
+    ],
+    "runtime": 99,
+    "watched": "2026-04-17",
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "horror",
+      "science-fiction"
+    ]
+  },
+  {
     "englishTitle": "Furiosa: A Mad Max Saga",
     "director": [
       "George Miller"
@@ -3098,6 +3122,32 @@
       "Sweden",
       "France",
       "United Kingdom"
+    ]
+  },
+  {
+    "englishTitle": "Lamb",
+    "director": [
+      "Valdimar Jóhannsson"
+    ],
+    "imdbID": "tt9812474",
+    "releaseYear": 2021,
+    "releaseDate": "2021-10-08",
+    "country": [
+      "Iceland",
+      "Sweden",
+      "Poland",
+      "United States"
+    ],
+    "language": [
+      "Icelandic"
+    ],
+    "runtime": 106,
+    "watched": "2026-04-12",
+    "ageCertification": "R",
+    "genres": [
+      "drama",
+      "fantasy",
+      "horror"
     ]
   },
   {
