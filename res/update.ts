@@ -23,9 +23,15 @@ async function getData(imdbid: string) {
 
     const released = movie["Released"];
     const parsedReleaseDate = new Date(released + " UTC");
-    const releaseDate = Number.isNaN(parsedReleaseDate.getTime())
-        ? released
-        : parsedReleaseDate.toISOString().split("T")[0];
+    const hasValidReleaseDate = !Number.isNaN(parsedReleaseDate.getTime());
+
+    if (!hasValidReleaseDate) {
+        console.warn(`Could not parse release date: ${released}`);
+    }
+
+    const releaseDate = hasValidReleaseDate
+        ? parsedReleaseDate.toISOString().split("T")[0]
+        : released;
 
   return {
         "englishTitle": movie["Title"],
