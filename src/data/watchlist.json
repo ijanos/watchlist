@@ -1,5 +1,28 @@
 [
   {
+    "englishTitle": "All You Need Is Kill",
+    "director": [
+      "Ken'ichirô Akimoto"
+    ],
+    "imdbID": "tt36148135",
+    "releaseYear": 2025,
+    "releaseDate": "2025-06-09",
+    "country": [
+      "Japan"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "runtime": 82,
+    "watched": "2026-05-08",
+    "ageCertification": "N/A",
+    "genres": [
+      "animation",
+      "action",
+      "science-fiction"
+    ]
+  },
+  {
     "englishTitle": "Wuthering Heights",
     "director": [
       "Emerald Fennell"
@@ -2702,6 +2725,29 @@
     "country": [
       "Denmark",
       "Germany"
+    ]
+  },
+  {
+    "englishTitle": "The Quiet Girl",
+    "director": [
+      "Colm Bairéad"
+    ],
+    "imdbID": "tt15109082",
+    "releaseYear": 2022,
+    "releaseDate": "2022-05-13",
+    "country": [
+      "Ireland"
+    ],
+    "language": [
+      "Irish Gaelic",
+      "English",
+      "Gaelic"
+    ],
+    "runtime": 95,
+    "watched": "2026-05-02",
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama"
     ]
   },
   {
