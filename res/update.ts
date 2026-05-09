@@ -21,8 +21,13 @@ async function getData(imdbid: string) {
         throw new Error("API error");
     }
 
-    const releaseDate = new Date(movie["Released"] + " UTC").toISOString().split("T")[0];
-    return {
+    const released = movie["Released"];
+    const parsedReleaseDate = new Date(released + " UTC");
+    const releaseDate = Number.isNaN(parsedReleaseDate.getTime())
+        ? released
+        : parsedReleaseDate.toISOString().split("T")[0];
+
+  return {
         "englishTitle": movie["Title"],
         "director": movie["Director"].split(",").map((d: string) => d.trim()),
         "imdbID": movie["imdbID"],
