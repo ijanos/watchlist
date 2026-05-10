@@ -1,28 +1,5 @@
 [
   {
-    "englishTitle": "All You Need Is Kill",
-    "director": [
-      "Kenichiro Akimoto"
-    ],
-    "imdbID": "tt36148135",
-    "releaseYear": 2025,
-    "releaseDate": "2025-06-09",
-    "country": [
-      "Japan"
-    ],
-    "language": [
-      "Japanese"
-    ],
-    "runtime": 82,
-    "watched": "2026-05-08",
-    "ageCertification": "R",
-    "genres": [
-      "animation",
-      "action",
-      "science-fiction"
-    ]
-  },
-  {
     "englishTitle": "Wuthering Heights",
     "director": [
       "Emerald Fennell"
@@ -693,6 +670,29 @@
     "country": [
       "United States",
       "Canada"
+    ]
+  },
+  {
+    "englishTitle": "All You Need Is Kill",
+    "director": [
+      "Kenichiro Akimoto"
+    ],
+    "imdbID": "tt36148135",
+    "releaseYear": 2025,
+    "releaseDate": "2025-06-09",
+    "country": [
+      "Japan"
+    ],
+    "language": [
+      "Japanese"
+    ],
+    "runtime": 82,
+    "watched": "2026-05-08",
+    "ageCertification": "R",
+    "genres": [
+      "animation",
+      "action",
+      "science-fiction"
     ]
   },
   {
@@ -1686,6 +1686,29 @@
     ],
     "country": [
       "Canada"
+    ]
+  },
+  {
+    "englishTitle": "Miller's Girl",
+    "director": [
+      "Jade Halley Bartlett"
+    ],
+    "imdbID": "tt8310486",
+    "releaseYear": 2024,
+    "releaseDate": "2024-01-26",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 93,
+    "watched": "2026-05-10",
+    "ageCertification": "R",
+    "genres": [
+      "comedy",
+      "drama",
+      "thriller"
     ]
   },
   {
