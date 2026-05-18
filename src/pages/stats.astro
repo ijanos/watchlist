@@ -32,19 +32,30 @@ type StreakResult = {
 };
 
 const MS_PER_WEEK = 7 * 24 * 60 * 60 * 1000;
-const toAbsWeek = (ds: string): number => Math.floor(new Date(ds).getTime() / MS_PER_WEEK);
-const toDateStr = (week: number): string => new Date(week * MS_PER_WEEK).toISOString().split("T")[0];
+
+const toWeekStart = (ds: string): string => {
+  const date = new Date(`${ds}T00:00:00Z`);
+  const day = date.getUTCDay();
+  const daysSinceMonday = (day + 6) % 7;
+
+  date.setUTCDate(date.getUTCDate() - daysSinceMonday);
+
+  return date.toISOString().split("T")[0];
+};
 
 function getLongestWeeklyStreak(dateStrings: string[]): StreakResult {
   if (!dateStrings.length) return { longestStreak: 0, streakStart: null, streakEnd: null };
 
-  const weeks = [...new Set(dateStrings.map(toAbsWeek))].sort((a, b) => a - b);
+  const weeks = [...new Set(dateStrings.map(toWeekStart))].sort();
 
   let best = { streak: 1, start: weeks[0], end: weeks[0] };
   let curr = { streak: 1, start: weeks[0] };
 
   for (let i = 1; i < weeks.length; i++) {
-    if (weeks[i] - weeks[i - 1] === 1) {
+    const previousWeek = new Date(`${weeks[i - 1]}T00:00:00Z`).getTime();
+    const currentWeek = new Date(`${weeks[i]}T00:00:00Z`).getTime();
+
+    if (currentWeek - previousWeek === MS_PER_WEEK) {
       curr.streak++;
       if (curr.streak > best.streak) best = { streak: curr.streak, start: curr.start, end: weeks[i] };
     } else {
@@ -52,7 +63,7 @@ function getLongestWeeklyStreak(dateStrings: string[]): StreakResult {
     }
   }
 
-  return { longestStreak: best.streak, streakStart: toDateStr(best.start), streakEnd: toDateStr(best.end) };
+  return { longestStreak: best.streak, streakStart: best.start, streakEnd: best.end };
 }
 
 const streak = getLongestWeeklyStreak(
