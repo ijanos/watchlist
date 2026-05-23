@@ -25,6 +25,29 @@
     ]
   },
   {
+    "englishTitle": "Reminders of Him",
+    "director": [
+      "Vanessa Caswill"
+    ],
+    "imdbID": "tt33714084",
+    "releaseYear": 2026,
+    "releaseDate": "2026-03-13",
+    "country": [
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Spanish"
+    ],
+    "runtime": 114,
+    "watched": "2026-05-22",
+    "ageCertification": "PG-13",
+    "genres": [
+      "drama",
+      "romance"
+    ]
+  },
+  {
     "englishTitle": "Wuthering Heights",
     "director": [
       "Emerald Fennell"
@@ -4722,6 +4745,31 @@
     "country": [
       "Canada",
       "United States"
+    ]
+  },
+  {
+    "englishTitle": "Mandy",
+    "director": [
+      "Panos Cosmatos"
+    ],
+    "imdbID": "tt6998518",
+    "releaseYear": 2018,
+    "releaseDate": "2018-09-14",
+    "country": [
+      "United Kingdom",
+      "Belgium",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "runtime": 121,
+    "watched": "2026-05-21",
+    "ageCertification": "Not Rated",
+    "genres": [
+      "action",
+      "fantasy",
+      "horror"
     ]
   },
   {
