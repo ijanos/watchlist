@@ -10,7 +10,8 @@ interface Stat {
   runtime: number;
 }
 
-const div = document.querySelector("#runtimesplot")!;
+const div = document.querySelector("#runtimesplot");
+if (!div) throw new Error("Missing #runtimesplot element"); // satisfies TypeScript
 
 const response =  fetch("/data/movielength.json");
 const runtimes = (await response).json() as Promise<Stat[]>;

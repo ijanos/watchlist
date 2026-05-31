@@ -4,12 +4,14 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "build": "eslint && astro check && astro build",
+    "build": "eslint && biome check src/ && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "npm run build && wrangler pages deploy dist/",
-    "addMovie": "npx tsx res/update.ts src/data/watchlist.json"
+    "deploy": "npm run build && npx wrangler pages deploy dist/",
+    "addMovie": "npx tsx res/update.ts src/data/watchlist.json",
+    "format": "biome format --write src/",
+    "lint": "biome check src/",
+    "lint:fix": "biome check --write src/"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
@@ -25,6 +27,7 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.4.15",
     "@eslint/js": "^10.0.1",
     "@types/alpinejs": "^3.13.5",
     "@types/d": "^1.0.4",

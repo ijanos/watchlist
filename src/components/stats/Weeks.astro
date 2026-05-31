@@ -3,12 +3,13 @@
 <div id="weeksofyearplot" class="m-auto"></div>
 
 <script>
-import * as Plot from "@observablehq/plot";
 interface WeekCount {
   year: number;
   week: number;
   count: number;
 }
+
+import * as Plot from "@observablehq/plot";
 
 const response = fetch("/data/weeks.json");
 const data = (await response).json() as Promise<WeekCount[]>;

@@ -1,6 +1,6 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import  "tabulator-tables/dist/css/tabulator_bootstrap4.min.css";
+import Layout from '../layouts/Layout.astro';
+import 'tabulator-tables/dist/css/tabulator_bootstrap4.min.css';
 ---
 
 <Layout title="my watchlist" isFullWidth={ false }>
@@ -10,8 +10,8 @@ import  "tabulator-tables/dist/css/tabulator_bootstrap4.min.css";
 </Layout>
 
 <script>
+    import type { Formatter } from 'tabulator-tables';
     import {TabulatorFull as Tabulator} from 'tabulator-tables';
-    import { type Formatter } from 'tabulator-tables';
 
     new Tabulator("#tabulator-table", {
         height:'89vh',

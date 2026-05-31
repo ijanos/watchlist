@@ -1,6 +1,7 @@
 ---
-import { movies } from "../data/movies.ts";
-const imdbURI = "https://imdb.com/title/";
+import { movies } from '../data/movies.ts';
+
+const imdbURI = 'https://imdb.com/title/';
 ---
 <div x-data="table">
     <input type="text"
@@ -30,9 +31,9 @@ const imdbURI = "https://imdb.com/title/";
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>
         <td class="font-mono text-right text-xs hidden sm:table-cell" >{movie.runtime}</td>
         <td class="hidden">{ String(movie.runtime).padStart(5, '0') }</td>
-        <td class="font-mono text-center" title={`Released: ${movie.releaseDate}` + (movie.watched ?  `\nWatched: ${movie.watched}` : "")}>{movie.releaseYear}</td>
+        <td class="font-mono text-center" title={`Released: ${movie.releaseDate}${movie.watched ? `\nWatched: ${movie.watched}` : ""}`}>{movie.releaseYear}</td>
         <td class="hidden">{ movie.releaseDate }</td>
-        <td class="hover:bg-[#F5C518] text-center"><a class="hover:text-black text-xs" href={imdbURI + movie.imdbID} target="_blank">IMDb</a></td>
+        <td class="hover:bg-[#F5C518] text-center"><a class="hover:text-black text-xs" href={imdbURI + movie.imdbID} target="_blank" rel="noopener">IMDb</a></td>
     </tr>
 )}
 </tbody>

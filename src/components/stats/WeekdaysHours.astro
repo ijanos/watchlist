@@ -1,31 +1,39 @@
 ---
-import { movies as watchlist } from "../../data/movies.ts";
+import { movies as watchlist } from '../../data/movies.ts';
 
-const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] as const;
+const dayNames = [
+	'Sunday',
+	'Monday',
+	'Tuesday',
+	'Wednesday',
+	'Thursday',
+	'Friday',
+	'Saturday',
+] as const;
 const dayCounter = {
-  "Monday": 0,
-  "Tuesday": 0,
-  "Wednesday": 0,
-  "Thursday": 0,
-  "Friday": 0,
-  "Saturday": 0,
-  "Sunday": 0,
+	Monday: 0,
+	Tuesday: 0,
+	Wednesday: 0,
+	Thursday: 0,
+	Friday: 0,
+	Saturday: 0,
+	Sunday: 0,
 };
 
+watchlist.forEach(movie => {
+	if (!movie.watched) return;
+	const dayIndex = new Date(movie.watched).getDay();
+	const day = dayNames[dayIndex];
+	const n = dayCounter[day];
+	dayCounter[day] = n + movie.runtime;
+});
 
-watchlist
-  .filter((m) => m.watched)
-  .forEach((movie) => {
-    const dayIndex = new Date(movie.watched!).getDay();
-    const day = dayNames[dayIndex];
-    const n = dayCounter[day];
-    dayCounter[day] = n + movie.runtime;
-  });
-
-const formattedData = JSON.stringify(Object.entries(dayCounter).map(([day, minutes]) => ({
-    day: day,
-    hours: (minutes / 60)
-})));
+const formattedData = JSON.stringify(
+	Object.entries(dayCounter).map(([day, minutes]) => ({
+		day: day,
+		hours: minutes / 60,
+	})),
+);
 ---
 
 <div id="weekdayhoursplot" class="m-auto" data-days={formattedData}></div>

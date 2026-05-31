@@ -1,16 +1,17 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import watchlist from "../data/watchlist.json";
+import HorizontalLine from '../components/HorizontalLine.astro';
+import Days from '../components/stats/Days.astro';
+import Directors from '../components/stats/Directors.astro';
+import Genres from '../components/stats/Genres.astro';
+import Releaseyears from '../components/stats/Releaseyears.astro';
+import Runtimes from '../components/stats/Runtimes.astro';
+import Watchyears from '../components/stats/Watchyears.astro';
+import Weekdays from '../components/stats/Weekdays.astro';
+import Weeks from '../components/stats/Weeks.astro';
 
-import Weekdays from "../components/stats/Weekdays.astro";
-import Directors from "../components/stats/Directors.astro";
-import Watchyears from "../components/stats/Watchyears.astro";
-import Releaseyears from "../components/stats/Releaseyears.astro";
-import HorizontalLine from "../components/HorizontalLine.astro";
-import Days from "../components/stats/Days.astro";
-import Weeks from "../components/stats/Weeks.astro";
-import Runtimes from "../components/stats/Runtimes.astro";
-import Genres from "../components/stats/Genres.astro";
+import watchlist from '../data/watchlist.json';
+
+import Layout from '../layouts/Layout.astro';
 
 const sumRuntimeMinutes = watchlist.reduce((acc, m) => acc + m.runtime, 0);
 const hours = sumRuntimeMinutes / 60;
@@ -18,56 +19,55 @@ const days = Math.floor(hours / 24);
 
 let directorCounter = new Map<string, number>();
 watchlist
-  .map((m) => m.director)
-  .flat()
-  .forEach((d) => {
-    const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
-    directorCounter.set(d, n + 1);
-  });
+	.flatMap(m => m.director)
+	.forEach(d => {
+		const n = directorCounter.get(d) ?? 0;
+		directorCounter.set(d, n + 1);
+	});
 
 type StreakResult = {
-  longestStreak: number;
-  streakStart: string | null;
-  streakEnd: string | null;
+	longestStreak: number;
+	streakStart: string | null;
+	streakEnd: string | null;
 };
 
 const MS_PER_WEEK = 7 * 24 * 60 * 60 * 1000;
 
 const toWeekStart = (ds: string): string => {
-  const date = new Date(`${ds}T00:00:00Z`);
-  const day = date.getUTCDay();
-  const daysSinceMonday = (day + 6) % 7;
+	const date = new Date(`${ds}T00:00:00Z`);
+	const day = date.getUTCDay();
+	const daysSinceMonday = (day + 6) % 7;
 
-  date.setUTCDate(date.getUTCDate() - daysSinceMonday);
+	date.setUTCDate(date.getUTCDate() - daysSinceMonday);
 
-  return date.toISOString().split("T")[0];
+	return date.toISOString().split('T')[0];
 };
 
 function getLongestWeeklyStreak(dateStrings: string[]): StreakResult {
-  if (!dateStrings.length) return { longestStreak: 0, streakStart: null, streakEnd: null };
+	if (!dateStrings.length) return { longestStreak: 0, streakStart: null, streakEnd: null };
 
-  const weeks = [...new Set(dateStrings.map(toWeekStart))].sort();
+	const weeks = [...new Set(dateStrings.map(toWeekStart))].sort();
 
-  let best = { streak: 1, start: weeks[0], end: weeks[0] };
-  let curr = { streak: 1, start: weeks[0] };
+	let best = { streak: 1, start: weeks[0], end: weeks[0] };
+	let curr = { streak: 1, start: weeks[0] };
 
-  for (let i = 1; i < weeks.length; i++) {
-    const previousWeek = new Date(`${weeks[i - 1]}T00:00:00Z`).getTime();
-    const currentWeek = new Date(`${weeks[i]}T00:00:00Z`).getTime();
+	for (let i = 1; i < weeks.length; i++) {
+		const previousWeek = new Date(`${weeks[i - 1]}T00:00:00Z`).getTime();
+		const currentWeek = new Date(`${weeks[i]}T00:00:00Z`).getTime();
 
-    if (currentWeek - previousWeek === MS_PER_WEEK) {
-      curr.streak++;
-      if (curr.streak > best.streak) best = { streak: curr.streak, start: curr.start, end: weeks[i] };
-    } else {
-      curr = { streak: 1, start: weeks[i] };
-    }
-  }
+		if (currentWeek - previousWeek === MS_PER_WEEK) {
+			curr.streak++;
+			if (curr.streak > best.streak) best = { streak: curr.streak, start: curr.start, end: weeks[i] };
+		} else {
+			curr = { streak: 1, start: weeks[i] };
+		}
+	}
 
-  return { longestStreak: best.streak, streakStart: best.start, streakEnd: best.end };
+	return { longestStreak: best.streak, streakStart: best.start, streakEnd: best.end };
 }
 
 const streak = getLongestWeeklyStreak(
-  watchlist.filter((m) => m.watched).map((m) => m.watched as string)
+	watchlist.filter(m => m.watched).map(m => m.watched as string),
 ).longestStreak;
 ---
 
@@ -138,4 +138,5 @@ const streak = getLongestWeeklyStreak(
 
     <Directors/>
 
+ </div>
 </Layout>

@@ -12,7 +12,8 @@ interface Stat {
   count: number;
 }
 
-const div = document.querySelector("#releaseyearsplot")!;
+const div = document.querySelector("#releaseyearsplot");
+if (!div) throw new Error("Missing #releaseyearsplot element"); // satisfies TypeScript
 
 const response =  fetch("/data/releaseyears.json");
 const years = (await response).json() as Promise<Stat[]>;

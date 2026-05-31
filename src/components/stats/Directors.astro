@@ -1,18 +1,15 @@
 ---
-import watchlist from "../../data/watchlist.json";
+import watchlist from '../../data/watchlist.json';
 
 let directorCounter = new Map<string, number>();
 watchlist
-  .map((m) => m.director)
-  .flat()
-  .forEach((d) => {
-    const n = directorCounter.has(d) ? directorCounter.get(d)! : 0;
-    directorCounter.set(d, n + 1);
-  });
+	.flatMap(m => m.director)
+	.forEach(d => {
+		const n = directorCounter.get(d) ?? 0;
+		directorCounter.set(d, n + 1);
+	});
 
-const directorsArray = Array.from(directorCounter).sort(
-  ([, c1], [, c2]) => c2 - c1
-);
+const directorsArray = Array.from(directorCounter).sort(([, c1], [, c2]) => c2 - c1);
 ---
 
     <div class="gap-2">
