@@ -2,22 +2,22 @@ import { getImage } from 'astro:assets';
 import { movies as watchlist } from '../data/movies.ts';
 
 const movies = await Promise.all(
-	watchlist.map(async m => {
-		const optimizedImg = await getImage({
-			src: import(`../../posters/${m.imdbID}.jpg`),
-			width: 42,
-		});
+ watchlist.map(async m => {
+  const optimizedImg = await getImage({
+   src: import(`../../posters/${m.imdbID}.jpg`),
+   width: 42,
+  });
 
-		return {
-			poster: optimizedImg.src,
-			title: m.englishTitle,
-			director: m.director,
-			release: m.releaseYear,
-			watchyear: m.watched ? m.watched.slice(0, 4) : m.releaseYear,
-		};
-	}),
+  return {
+   poster: optimizedImg.src,
+   title: m.englishTitle,
+   director: m.director,
+   release: m.releaseYear,
+   watchyear: m.watched ? m.watched.slice(0, 4) : m.releaseYear,
+  };
+ }),
 );
 
 export async function GET() {
-	return new Response(JSON.stringify(movies));
+ return new Response(JSON.stringify(movies));
 }
