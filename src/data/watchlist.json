@@ -4024,6 +4024,19 @@
   "country": ["United States", "United Kingdom", "Canada"]
  },
  {
+  "englishTitle": "Nightcrawler",
+  "director": ["Dan Gilroy"],
+  "imdbID": "tt2872718",
+  "releaseYear": 2014,
+  "releaseDate": "2014-10-31",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 117,
+  "watched": "2026-06-06",
+  "ageCertification": "R",
+  "genres": ["crime", "drama", "thriller"]
+ },
+ {
   "englishTitle": "John Wick",
   "watched": "2019-02-13",
   "director": ["Chad Stahelski"],
