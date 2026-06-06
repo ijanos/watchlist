@@ -10,8 +10,8 @@
     "deploy": "npm run build && npx wrangler pages deploy dist/",
     "addMovie": "npx tsx res/update.ts src/data/watchlist.json",
     "format": "biome format --write src/",
-    "lint": "biome check src/",
-    "lint:fix": "biome check --write src/"
+    "lint": "biome check src/ res/",
+    "lint:fix": "biome check --write src/ res/"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",

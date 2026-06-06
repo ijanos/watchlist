@@ -1,56 +1,53 @@
-import omdbkey from "./omdbkey.js";
-import { writeFile, readFile } from 'node:fs/promises';
-import { type Movie } from "../src/data/movies.ts";
+import { readFile, writeFile } from 'node:fs/promises';
+import process from 'node:process';
+import type { Movie } from '../src/data/movies.ts';
+import omdbkey from './omdbkey.js';
 
-const skipGenres = new Set<string>(["made-in-europe"]);
+const skipGenres = new Set<string>(['made-in-europe']);
 
-const genreSubstitues = new Map<string, string>([
-    ["sci-fi", "science-fiction"]
-]);
+const genreSubstitues = new Map<string, string>([['sci-fi', 'science-fiction']]);
 
 function replaceGenre(genre: string[]): string[] {
-    return genre.filter((g) => !skipGenres.has(g)).map((g) => genreSubstitues.get(g) ?? g);
+ return genre.filter(g => !skipGenres.has(g)).map(g => genreSubstitues.get(g) ?? g);
 }
 
 async function getData(imdbid: string) {
-    const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkey}`);
-    const movie = await response.json();
+ const response = await fetch(`https://www.omdbapi.com/?i=${imdbid}&apikey=${omdbkey}`);
+ const movie = await response.json();
 
-    if (movie["Response"] != "True") {
-        console.log(movie);
-        throw new Error("API error");
-    }
+ if (movie.Response !== 'True') {
+  console.log(movie);
+  throw new Error('API error');
+ }
 
-    const released = movie["Released"];
-    const parsedReleaseDate = new Date(released + " UTC");
-    const hasValidReleaseDate = !Number.isNaN(parsedReleaseDate.getTime());
+ const released = movie.Released;
+ const parsedReleaseDate = new Date(`${released} UTC`);
+ const hasValidReleaseDate = !Number.isNaN(parsedReleaseDate.getTime());
 
-    if (!hasValidReleaseDate) {
-        console.warn(`Could not parse release date: ${released}`);
-    }
+ if (!hasValidReleaseDate) {
+  console.warn(`Could not parse release date: ${released}`);
+ }
 
-    const releaseDate = hasValidReleaseDate
-        ? parsedReleaseDate.toISOString().split("T")[0]
-        : released;
+ const releaseDate = hasValidReleaseDate ? parsedReleaseDate.toISOString().split('T')[0] : released;
 
-  return {
-        "englishTitle": movie["Title"],
-        "director": movie["Director"].split(",").map((d: string) => d.trim()),
-        "imdbID": movie["imdbID"],
-        "releaseYear": parseInt(movie["Year"]),
-        "releaseDate": releaseDate,
-        "country": movie["Country"].split(",").map((d: string) => d.trim()),
-        'language': movie["Language"].split(",").map((d: string) => d.trim()),
-        "runtime": parseInt(movie["Runtime"]),
-        "watched": `${new Date().toISOString().slice(0, 10)} CHECKME`,
-        "ageCertification": movie["Rated"],
-        "genres": replaceGenre(movie["Genre"].split(",").map((g: string) => g.trim().toLowerCase()))
-      };
+ return {
+  englishTitle: movie.Title,
+  director: movie.Director.split(',').map((d: string) => d.trim()),
+  imdbID: movie.imdbID,
+  releaseYear: parseInt(movie.Year, 10),
+  releaseDate: releaseDate,
+  country: movie.Country.split(',').map((d: string) => d.trim()),
+  language: movie.Language.split(',').map((d: string) => d.trim()),
+  runtime: parseInt(movie.Runtime, 10),
+  watched: `${new Date().toISOString().slice(0, 10)} CHECKME`,
+  ageCertification: movie.Rated,
+  genres: replaceGenre(movie.Genre.split(',').map((g: string) => g.trim().toLowerCase())),
+ };
 }
 
 const wlistpath = process.argv[2];
 const newMovie = getData(process.argv[3]);
-const watchlist = readFile(wlistpath, { encoding: "utf-8"});
+const watchlist = readFile(wlistpath, { encoding: 'utf-8' });
 
 const w = JSON.parse(await watchlist);
 

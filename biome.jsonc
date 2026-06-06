@@ -32,6 +32,16 @@
           }
         }
       }
+    },
+    {
+      "includes": ["res/**"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noNodejsModules": "off"
+          }
+        }
+      }
     }
   ],
   "linter": {
