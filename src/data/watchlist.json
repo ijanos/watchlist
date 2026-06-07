@@ -1,5 +1,18 @@
 [
  {
+  "englishTitle": "Obsession",
+  "director": ["Curry Barker"],
+  "imdbID": "tt37287335",
+  "releaseYear": 2026,
+  "releaseDate": "2026-05-15",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 108,
+  "watched": "2026-06-07",
+  "ageCertification": "R",
+  "genres": ["horror", "romance", "thriller"]
+ },
+ {
   "englishTitle": "Ready or Not 2: Here I Come",
   "director": ["Matt Bettinelli-Olpin", "Tyler Gillett"],
   "imdbID": "tt33978029",
