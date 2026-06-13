@@ -64,5 +64,5 @@ function searchIndex(movie: Movie): string {
 
 export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();
 export const directorCounts: Map<string, number> = countDirectors(movies);
-export { searchIndex };
 export type { Movie };
+export { searchIndex };
