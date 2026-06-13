@@ -48,5 +48,16 @@ watchlist.forEach(movie => {
  // }
 });
 
+function countDirectors(list: Movie[]): Map<string, number> {
+ const counter = new Map<string, number>();
+ list
+  .flatMap(m => m.director)
+  .forEach(d => {
+   counter.set(d, (counter.get(d) ?? 0) + 1);
+  });
+ return counter;
+}
+
 export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();
+export const directorCounts: Map<string, number> = countDirectors(movies);
 export type { Movie };
