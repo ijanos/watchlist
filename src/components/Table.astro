@@ -1,5 +1,5 @@
 ---
-import { movies } from '../data/movies.ts';
+import { movies, searchIndex } from '../data/movies.ts';
 
 const imdbURI = 'https://imdb.com/title/';
 ---
@@ -25,7 +25,7 @@ const imdbURI = 'https://imdb.com/title/';
 {movies.map((movie) =>
     <tr class="border-t border-t-gray-400/20 border-dotted h-7 hover:bg-yellow-200"
         x-show="$el.dataset.search.includes(search)"
-        data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
+        data-search={searchIndex(movie)}
     >
         <td class="sm:pl-1">{movie.director.join(", ")}</td>
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>

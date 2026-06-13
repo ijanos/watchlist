@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
-import type { Movie } from '../data/movies.ts';
+import { searchIndex, type Movie } from '../data/movies.ts';
 
 interface Props {
 	movie: Movie;
@@ -22,5 +22,5 @@ const posterImage = posterImageModule.default;
   alt={`Poster for ${movie.englishTitle}`}
   x-show="$el.dataset.search.includes(search)"
   data-releasedate={movie.releaseDate}
-  data-search={`${ movie.englishTitle } ${movie.director.join(" ")} ${ movie.originalTitle || '' }`.toLowerCase()}
+  data-search={searchIndex(movie)}
 />

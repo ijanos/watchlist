@@ -58,6 +58,11 @@ function countDirectors(list: Movie[]): Map<string, number> {
  return counter;
 }
 
+function searchIndex(movie: Movie): string {
+ return `${movie.englishTitle} ${movie.director.join(' ')} ${movie.originalTitle ?? ''}`.toLowerCase();
+}
+
 export const movies: Movie[] = indexedWatchlist.sort(compareWatchdate).reverse();
 export const directorCounts: Map<string, number> = countDirectors(movies);
+export { searchIndex };
 export type { Movie };
