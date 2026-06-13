@@ -32,7 +32,7 @@ const links = [
                                     ? activeClass
                                     : inactiveClass
                             }
-                            aria-current="page"
+                            aria-current={Astro.url.pathname === link.href ? 'page' : undefined}
                         >
                             {link.text}
                         </a>
