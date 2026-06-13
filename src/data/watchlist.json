@@ -885,6 +885,19 @@
   "country": ["Australia", "United States"]
  },
  {
+  "englishTitle": "The Fall Guy",
+  "director": ["David Leitch"],
+  "imdbID": "tt1684562",
+  "releaseYear": 2024,
+  "releaseDate": "2024-05-03",
+  "country": ["Canada", "Australia", "United States"],
+  "language": ["English"],
+  "runtime": 126,
+  "watched": "2026-06-12",
+  "ageCertification": "PG-13",
+  "genres": ["action", "comedy", "drama"]
+ },
+ {
   "englishTitle": "Challengers",
   "director": ["Luca Guadagnino"],
   "imdbID": "tt16426418",
