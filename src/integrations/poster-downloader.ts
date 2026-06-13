@@ -43,8 +43,8 @@ export default function posterIntegration(): AstroIntegration {
  return {
   name: 'poster-downloader',
   hooks: {
-   'astro:config:setup': () => {
-    checkPosters(watchlist as Array<Movie>);
+   'astro:config:setup': async () => {
+    await checkPosters(watchlist as Array<Movie>);
    },
   },
  };
