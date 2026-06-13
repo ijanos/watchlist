@@ -25,7 +25,7 @@ import '../styles/global.css';
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class:list={[{mainfullwidth: isFullWidth}, {notmainfullwidth: !isFullWidth}]}>
+	<body class={isFullWidth ? 'mainfullwidth' : 'notmainfullwidth'}>
 		<Nav />
 		<slot />
 		<Footer />
