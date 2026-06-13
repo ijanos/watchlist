@@ -8329,6 +8329,19 @@
   "country": ["United States"]
  },
  {
+  "englishTitle": "Army of Darkness",
+  "director": ["Sam Raimi"],
+  "imdbID": "tt0106308",
+  "releaseYear": 1992,
+  "releaseDate": "1993-02-19",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 81,
+  "watched": "2026-06-13",
+  "ageCertification": "R",
+  "genres": ["comedy", "horror"]
+ },
+ {
   "englishTitle": "Groundhog Day",
   "director": ["Harold Ramis"],
   "imdbID": "tt0107048",
