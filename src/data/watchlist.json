@@ -1,5 +1,18 @@
 [
  {
+  "englishTitle": "Backrooms",
+  "director": ["Kane Parsons"],
+  "imdbID": "tt26657236",
+  "releaseYear": 2026,
+  "releaseDate": "2026-05-29",
+  "country": ["United States", "Canada"],
+  "language": ["English", "Portuguese"],
+  "runtime": 110,
+  "watched": "2026-06-14",
+  "ageCertification": "R",
+  "genres": ["horror", "science-fiction", "thriller"]
+ },
+ {
   "englishTitle": "Obsession",
   "director": ["Curry Barker"],
   "imdbID": "tt37287335",
