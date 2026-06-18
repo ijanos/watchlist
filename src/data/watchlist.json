@@ -6132,6 +6132,19 @@
   "country": ["United States", "United Kingdom", "Germany"]
  },
  {
+  "englishTitle": "Rumor Has It...",
+  "director": ["Rob Reiner"],
+  "imdbID": "tt0398375",
+  "releaseYear": 2005,
+  "releaseDate": "2005-12-25",
+  "country": ["Germany", "Australia", "United States"],
+  "language": ["English", "Spanish"],
+  "runtime": 97,
+  "watched": "2026-06-18",
+  "ageCertification": "PG-13",
+  "genres": ["comedy", "drama", "romance"]
+ },
+ {
   "englishTitle": "Harry Potter and the Goblet of Fire",
   "originalTitle": "Harry Potter and the Goblet of Fire",
   "director": ["Mike Newell"],
