@@ -22,7 +22,7 @@
     "astro": "^6.3.1",
     "chart.js": "^4.4.4",
     "d3": "^7.9.0",
-    "tabulator-tables": "6.4",
+    "tabulator-tables": "6.5",
     "tailwindcss": "^4.3.0",
     "typescript": "^5.2.2"
   },
