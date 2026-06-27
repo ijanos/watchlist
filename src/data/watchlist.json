@@ -4282,6 +4282,19 @@
   "country": ["United States", "Denmark", "Australia", "Norway"]
  },
  {
+  "englishTitle": "Enemy",
+  "director": ["Denis Villeneuve"],
+  "imdbID": "tt2316411",
+  "releaseYear": 2013,
+  "releaseDate": "2014-02-06",
+  "country": ["Canada", "Spain", "France"],
+  "language": ["English"],
+  "runtime": 91,
+  "watched": "2026-06-26",
+  "ageCertification": "R",
+  "genres": ["drama", "mystery", "thriller"]
+ },
+ {
   "englishTitle": "The Wolf of Wall Street",
   "originalTitle": "The Wolf of Wall Street",
   "director": ["Martin Scorsese"],
