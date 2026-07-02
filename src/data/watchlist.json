@@ -8845,6 +8845,19 @@
   "genres": ["animation", "adventure", "comedy"]
  },
  {
+  "englishTitle": "Cocktail",
+  "director": ["Roger Donaldson"],
+  "imdbID": "tt0094889",
+  "releaseYear": 1988,
+  "releaseDate": "1988-07-29",
+  "country": ["United States"],
+  "language": ["English", "Spanish Sign", "Portuguese"],
+  "runtime": 104,
+  "watched": "2026-07-02",
+  "ageCertification": "R",
+  "genres": ["comedy", "drama", "romance"]
+ },
+ {
   "englishTitle": "Akira",
   "originalTitle": "AKIRA",
   "director": ["Katsuhiro Otomo"],
