@@ -78,6 +78,19 @@
   "genres": ["drama", "romance"]
  },
  {
+  "englishTitle": "Good Luck, Have Fun, Don't Die",
+  "director": ["Gore Verbinski"],
+  "imdbID": "tt1341338",
+  "releaseYear": 2026,
+  "releaseDate": "2026-02-13",
+  "country": ["Germany", "United States"],
+  "language": ["English"],
+  "runtime": 134,
+  "watched": "2026-07-04",
+  "ageCertification": "R",
+  "genres": ["action", "adventure", "comedy"]
+ },
+ {
   "englishTitle": "Send Help",
   "director": ["Sam Raimi"],
   "imdbID": "tt8036976",
