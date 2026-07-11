@@ -1936,6 +1936,19 @@
   "genres": ["animation", "comedy", "drama"]
  },
  {
+  "englishTitle": "A Quiet Place Part II",
+  "director": ["John Krasinski"],
+  "imdbID": "tt8332922",
+  "releaseYear": 2020,
+  "releaseDate": "2021-05-28",
+  "country": ["United States"],
+  "language": ["English", "American Sign"],
+  "runtime": 97,
+  "watched": "2026-07-11",
+  "ageCertification": "PG-13",
+  "genres": ["drama", "horror", "science-fiction"]
+ },
+ {
   "englishTitle": "I Care a Lot",
   "originalTitle": "I Care a Lot",
   "director": ["J Blakeson"],
