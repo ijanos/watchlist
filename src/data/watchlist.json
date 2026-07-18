@@ -8955,6 +8955,19 @@
   "country": ["United States"]
  },
  {
+  "englishTitle": "Flowers in the Attic",
+  "director": ["Jeffrey Bloom"],
+  "imdbID": "tt0093036",
+  "releaseYear": 1987,
+  "releaseDate": "1987-11-20",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 93,
+  "watched": "2026-07-17",
+  "ageCertification": "PG-13",
+  "genres": ["drama", "mystery", "thriller"]
+ },
+ {
   "englishTitle": "The Running Man",
   "director": ["Paul Michael Glaser"],
   "imdbID": "tt0093894",
