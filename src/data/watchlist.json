@@ -26,6 +26,19 @@
   "genres": ["horror", "romance", "thriller"]
  },
  {
+  "englishTitle": "They Will Kill You",
+  "director": ["Kirill Sokolov"],
+  "imdbID": "tt31728330",
+  "releaseYear": 2026,
+  "releaseDate": "2026-03-27",
+  "country": ["South Africa", "United States", "Canada"],
+  "language": ["English"],
+  "runtime": 94,
+  "watched": "2026-07-24",
+  "ageCertification": "R",
+  "genres": ["action", "comedy", "horror"]
+ },
+ {
   "englishTitle": "Ready or Not 2: Here I Come",
   "director": ["Matt Bettinelli-Olpin", "Tyler Gillett"],
   "imdbID": "tt33978029",
