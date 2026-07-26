@@ -37,7 +37,7 @@
     "@types/tabulator-tables": "^6.3.0",
     "@typescript-eslint/parser": "^8.23.0",
     "eslint": "^10",
-    "eslint-plugin-astro": "^2",
+    "eslint-plugin-astro": "^3",
     "typescript-eslint": "^8.23.0",
     "wrangler": "^4.0.0"
   }
