@@ -1,5 +1,18 @@
 [
  {
+  "englishTitle": "The Odyssey",
+  "director": ["Christopher Nolan"],
+  "imdbID": "tt33764258",
+  "releaseYear": 2026,
+  "releaseDate": "2026-07-17",
+  "country": ["United Kingdom", "United States"],
+  "language": ["English"],
+  "runtime": 172,
+  "watched": "2026-07-26",
+  "ageCertification": "R",
+  "genres": ["adventure", "drama", "fantasy"]
+ },
+ {
   "englishTitle": "Backrooms",
   "director": ["Kane Parsons"],
   "imdbID": "tt26657236",
