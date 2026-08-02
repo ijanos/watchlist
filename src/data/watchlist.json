@@ -39,6 +39,19 @@
   "genres": ["horror", "romance", "thriller"]
  },
  {
+  "englishTitle": "The Drama",
+  "director": ["Kristoffer Borgli"],
+  "imdbID": "tt33071426",
+  "releaseYear": 2026,
+  "releaseDate": "2026-04-03",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 105,
+  "watched": "2026-08-01",
+  "ageCertification": "R",
+  "genres": ["comedy", "drama", "romance"]
+ },
+ {
   "englishTitle": "They Will Kill You",
   "director": ["Kirill Sokolov"],
   "imdbID": "tt31728330",
