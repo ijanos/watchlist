@@ -39,6 +39,19 @@
   "genres": ["horror", "romance", "thriller"]
  },
  {
+  "englishTitle": "Hokum",
+  "director": ["Damian McCarthy"],
+  "imdbID": "tt35672862",
+  "releaseYear": 2026,
+  "releaseDate": "2026-05-01",
+  "country": ["Ireland", "United Arab Emirates"],
+  "language": ["English"],
+  "runtime": 107,
+  "watched": "2026-08-07",
+  "ageCertification": "R",
+  "genres": ["horror", "thriller"]
+ },
+ {
   "englishTitle": "The Drama",
   "director": ["Kristoffer Borgli"],
   "imdbID": "tt33071426",
