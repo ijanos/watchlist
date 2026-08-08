@@ -156,6 +156,19 @@
   "genres": ["adventure", "horror", "thriller"]
  },
  {
+  "englishTitle": "People We Meet on Vacation",
+  "director": ["Brett Haley"],
+  "imdbID": "tt22740896",
+  "releaseYear": 2026,
+  "releaseDate": "2026-01-06",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 117,
+  "watched": "2026-08-08",
+  "ageCertification": "PG-13",
+  "genres": ["romance"]
+ },
+ {
   "englishTitle": "Marty Supreme",
   "director": ["Josh Safdie"],
   "imdbID": "tt32916440",
