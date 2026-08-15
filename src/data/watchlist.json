@@ -7500,6 +7500,19 @@
   "country": ["Japan", "Hong Kong", "United States"]
  },
  {
+  "englishTitle": "Coyote Ugly",
+  "director": ["David McNally"],
+  "imdbID": "tt0200550",
+  "releaseYear": 2000,
+  "releaseDate": "2000-08-04",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 100,
+  "watched": "2026-08-14",
+  "ageCertification": "PG-13",
+  "genres": ["comedy", "drama", "music"]
+ },
+ {
   "englishTitle": "X-Men",
   "originalTitle": "X-Men",
   "director": ["Bryan Singer"],
