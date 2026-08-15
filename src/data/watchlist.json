@@ -13,6 +13,19 @@
   "genres": ["adventure", "drama", "fantasy"]
  },
  {
+  "englishTitle": "Disclosure Day",
+  "director": ["Steven Spielberg"],
+  "imdbID": "tt15047880",
+  "releaseYear": 2026,
+  "releaseDate": "2026-06-12",
+  "country": ["United States", "Canada", "New Zealand", "Japan"],
+  "language": ["English"],
+  "runtime": 145,
+  "watched": "2026-08-15",
+  "ageCertification": "PG-13",
+  "genres": ["action", "drama", "mystery"]
+ },
+ {
   "englishTitle": "Backrooms",
   "director": ["Kane Parsons"],
   "imdbID": "tt26657236",
