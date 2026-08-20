@@ -8079,6 +8079,19 @@
   "country": ["United States", "United Kingdom"]
  },
  {
+  "englishTitle": "My Best Friend's Wedding",
+  "director": ["P.J. Hogan"],
+  "imdbID": "tt0119738",
+  "releaseYear": 1997,
+  "releaseDate": "1997-06-20",
+  "country": ["United States"],
+  "language": ["English", "French", "Italian"],
+  "runtime": 105,
+  "watched": "2026-08-19",
+  "ageCertification": "PG-13",
+  "genres": ["comedy", "drama", "romance"]
+ },
+ {
   "englishTitle": "The Lost World: Jurassic Park",
   "originalTitle": "The Lost World: Jurassic Park",
   "director": ["Steven Spielberg"],
