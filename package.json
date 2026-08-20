@@ -32,7 +32,6 @@
     "@types/alpinejs": "^3.13.5",
     "@types/d": "^1.0.4",
     "@types/d3": "^7.4.3",
-    "@types/jsdom": "^28",
     "@types/node": "^24",
     "@types/tabulator-tables": "^6.3.0",
     "@typescript-eslint/parser": "^8.23.0",
