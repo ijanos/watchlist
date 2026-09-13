@@ -6677,6 +6677,19 @@
   "country": ["Hungary"]
  },
  {
+  "englishTitle": "RRRrrrr!!!",
+  "director": ["Alain Chabat"],
+  "imdbID": "tt0357111",
+  "releaseYear": 2004,
+  "releaseDate": "2004-01-28",
+  "country": ["France"],
+  "language": ["French"],
+  "runtime": 98,
+  "watched": "2026-09-13",
+  "ageCertification": "N/A",
+  "genres": ["comedy", "crime", "mystery"]
+ },
+ {
   "englishTitle": "The Butterfly Effect",
   "originalTitle": "The Butterfly Effect",
   "director": ["Eric Bress", "J. Mackye Gruber"],
