@@ -7818,6 +7818,19 @@
   "country": ["United States"]
  },
  {
+  "englishTitle": "Practical Magic",
+  "director": ["Griffin Dunne"],
+  "imdbID": "tt0120791",
+  "releaseYear": 1998,
+  "releaseDate": "1998-10-16",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 104,
+  "watched": "2026-09-19",
+  "ageCertification": "PG-13",
+  "genres": ["comedy", "drama", "fantasy"]
+ },
+ {
   "englishTitle": "A Night at the Roxbury",
   "director": ["John Fortenberry"],
   "imdbID": "tt0120770",
