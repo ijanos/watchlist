@@ -26,6 +26,19 @@
   "genres": ["comedy", "drama", "romance"]
  },
  {
+  "englishTitle": "Supergirl",
+  "director": ["Craig Gillespie"],
+  "imdbID": "tt8814476",
+  "releaseYear": 2026,
+  "releaseDate": "2026-06-26",
+  "country": ["United States", "United Kingdom", "Australia", "Canada", "Iceland"],
+  "language": ["English"],
+  "runtime": 108,
+  "watched": "2026-09-18",
+  "ageCertification": "PG-13",
+  "genres": ["action", "adventure", "drama"]
+ },
+ {
   "englishTitle": "Disclosure Day",
   "director": ["Steven Spielberg"],
   "imdbID": "tt15047880",
