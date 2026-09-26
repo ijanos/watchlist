@@ -52,6 +52,19 @@
   "genres": ["action", "drama", "mystery"]
  },
  {
+  "englishTitle": "Masters of the Universe",
+  "director": ["Travis Knight"],
+  "imdbID": "tt0427340",
+  "releaseYear": 2026,
+  "releaseDate": "2026-06-05",
+  "country": ["United States", "Australia", "Canada", "Iceland", "United Kingdom"],
+  "language": ["English"],
+  "runtime": 140,
+  "watched": "2026-09-25",
+  "ageCertification": "PG-13",
+  "genres": ["action", "adventure", "fantasy"]
+ },
+ {
   "englishTitle": "Backrooms",
   "director": ["Kane Parsons"],
   "imdbID": "tt26657236",
