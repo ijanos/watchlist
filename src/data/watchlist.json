@@ -1286,6 +1286,19 @@
   "genres": ["comedy", "drama", "romance"]
  },
  {
+  "englishTitle": "Red, White & Royal Blue",
+  "director": ["Matthew López"],
+  "imdbID": "tt10172266",
+  "releaseYear": 2023,
+  "releaseDate": "2023-08-11",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 118,
+  "watched": "2026-09-26",
+  "ageCertification": "R",
+  "genres": ["comedy", "romance"]
+ },
+ {
   "englishTitle": "Talk to Me",
   "director": ["Danny Philippou", "Michael Philippou"],
   "imdbID": "tt10638522",
