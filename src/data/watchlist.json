@@ -7945,6 +7945,19 @@
   "country": ["United States"]
  },
  {
+  "englishTitle": "The Truman Show",
+  "director": ["Peter Weir"],
+  "imdbID": "tt0120382",
+  "releaseYear": 1998,
+  "releaseDate": "1998-06-05",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 103,
+  "watched": "2026-10-03",
+  "ageCertification": "PG",
+  "genres": ["comedy", "drama"]
+ },
+ {
   "englishTitle": "Godzilla",
   "director": ["Roland Emmerich"],
   "imdbID": "tt0120685",
