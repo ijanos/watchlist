@@ -13,6 +13,19 @@
   "genres": ["comedy", "drama"]
  },
  {
+  "englishTitle": "Verity",
+  "director": ["Michael Showalter"],
+  "imdbID": "tt32261958",
+  "releaseYear": 2026,
+  "releaseDate": "2026-10-02",
+  "country": ["United States"],
+  "language": ["English"],
+  "runtime": 114,
+  "watched": "2026-10-06",
+  "ageCertification": "R",
+  "genres": ["crime", "drama", "mystery"]
+ },
+ {
   "englishTitle": "I Want Your Sex",
   "director": ["Gregg Araki"],
   "imdbID": "tt32332915",
