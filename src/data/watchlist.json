@@ -39,6 +39,19 @@
   "genres": ["comedy", "drama", "romance"]
  },
  {
+  "englishTitle": "Spider-Man: Brand New Day",
+  "director": ["Destin Daniel Cretton"],
+  "imdbID": "tt22084616",
+  "releaseYear": 2026,
+  "releaseDate": "2026-07-31",
+  "country": ["United States", "Canada", "United Kingdom", "Germany"],
+  "language": ["English"],
+  "runtime": 145,
+  "watched": "2026-10-09",
+  "ageCertification": "PG-13",
+  "genres": ["action", "adventure"]
+ },
+ {
   "englishTitle": "The Odyssey",
   "director": ["Christopher Nolan"],
   "imdbID": "tt33764258",
