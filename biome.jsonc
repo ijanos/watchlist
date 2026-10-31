@@ -64,6 +64,13 @@
     "noPrivateImports": "error",
     "noDuplicateAttributes": "error"
    },
+   "nursery": {
+    "noAstroConflictingSetDirectives": "error",
+    "noAstroSetHtmlDirective": "error",
+    "useTailwindStaticClassStrings": "error",
+    "useTailwindShorthandClasses": "warn",
+    "useTailwindSortedClasses": "warn"
+   },
    "a11y": {
     "noAmbiguousAnchorText": "error"
    },

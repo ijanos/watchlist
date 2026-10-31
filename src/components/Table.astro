@@ -7,37 +7,37 @@ const imdbURI = 'https://imdb.com/title/';
     <input type="text"
            x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
            x-on:input.debounce.100ms="update()"
-           class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-gray-300/40 backdrop-blur-sm"
+           class="my-2 w-full rounded-lg border border-gray-300 bg-gray-300/40 p-1 text-xs text-gray-900 backdrop-blur-sm focus:text-base"
           placeholder="search">
 
 
-<table class="w-full text-sm text-left text-gray-700 bg-slate-200/90">
-    <thead class="h-6 text-gray-700 uppercase text-xs bg-gray-50/40">
+<table class="w-full bg-slate-200/90 text-left text-sm text-gray-700">
+    <thead class="h-6 bg-gray-50/40 text-xs text-gray-700 uppercase">
         <tr>
           <th @click="reorder(0)">Director</th>
           <th @click="reorder(1)">Title</th>
-          <th @click="reorder(3)" class="hidden sm:table-cell text-right">Runtime</th>
+          <th @click="reorder(3)" class="hidden text-right sm:table-cell">Runtime</th>
           <th @click="reorder(5)" class="text-center">Release</th>
           <th class="text-center">imdb</th>
         </tr>
     </thead>
     <tbody x-ref="tbody">
 {movies.map((movie) =>
-    <tr class="border-t border-t-gray-400/20 border-dotted h-7 hover:bg-yellow-200"
+    <tr class="h-7 border-t border-dotted border-t-gray-400/20 hover:bg-yellow-200"
         x-show="$el.dataset.search.includes(search)"
         data-search={searchIndex(movie)}
     >
         <td class="sm:pl-1">{movie.director.join(", ")}</td>
         <td class="font-semibold text-slate-900" title={movie.originalTitle}>{movie.englishTitle}</td>
-        <td class="font-mono text-right text-xs hidden sm:table-cell" >{movie.runtime}</td>
+        <td class="hidden text-right font-mono text-xs sm:table-cell" >{movie.runtime}</td>
         <td class="hidden">{ String(movie.runtime).padStart(5, '0') }</td>
-        <td class="font-mono text-center" title={`Released: ${movie.releaseDate}${movie.watched ? `\nWatched: ${movie.watched}` : ""}`}>{movie.releaseYear}</td>
+        <td class="text-center font-mono" title={`Released: ${movie.releaseDate}${movie.watched ? `\nWatched: ${movie.watched}` : ""}`}>{movie.releaseYear}</td>
         <td class="hidden">{ movie.releaseDate }</td>
-        <td class="hover:bg-[#F5C518] text-center"><a class="hover:text-black text-xs" href={imdbURI + movie.imdbID} target="_blank" rel="noopener">IMDb</a></td>
+        <td class="text-center hover:bg-[#F5C518]"><a class="text-xs hover:text-black" href={imdbURI + movie.imdbID} target="_blank" rel="noopener">IMDb</a></td>
     </tr>
 )}
 </tbody>
-<tfoot class="h-6 text-gray-500 text-xs bg-gray-50/40">
+<tfoot class="h-6 bg-gray-50/40 text-xs text-gray-500">
     <tr>
       <th colspan="5">
       <span class="text-gray-900"><span x-text="visible"></span> movies</span> out of <span x-text="$refs.tbody.querySelectorAll('tr').length"></span>

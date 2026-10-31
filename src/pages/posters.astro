@@ -6,23 +6,23 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="posters | Janos' watchlist">
     <div x-data="posters">
-        <div class="flex justify-between flex-wrap drop-shadow-md">
+        <div class="flex flex-wrap justify-between drop-shadow-md">
             <input
                 type="text"
                 x-on:input="search = $el.value.toLowerCase()"
-                class="grow p-1 my-1 text-gray-900 border border-black rounded-l-lg bg-amber-300"
+                class="my-1 grow rounded-l-lg border border-black bg-amber-300 p-1 text-gray-900"
                 placeholder="search"
             />
 
             <div class="inline-flex grow lg:grow-0">
                 <button type="button"
-                    class="border border-black border-l-0 bg-amber-300 text-sm hover:bg-amber-500 text-gray-800 my-1 px-1 grow lg:grow-0"
+                    class="my-1 grow border border-l-0 border-black bg-amber-300 px-1 text-sm text-gray-800 hover:bg-amber-500 lg:grow-0"
                     @click="reorder('release')"
                 >
                     release date
                 </button>
                 <button type="button"
-                    class="border border-black border-l-0 bg-amber-300 text-sm hover:bg-amber-500 text-gray-800 my-1 px-1 rounded-r-lg grow lg:grow-0"
+                    class="my-1 grow rounded-r-lg border border-l-0 border-black bg-amber-300 px-1 text-sm text-gray-800 hover:bg-amber-500 lg:grow-0"
                     @click="reorder('alphabetical')"
                 >
                     alphabetical
@@ -32,7 +32,7 @@ import Layout from '../layouts/Layout.astro';
 
         <div
             x-ref="grid"
-            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center"
+            class="grid grid-cols-2 place-items-center gap-4 p-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5"
         >
             { movies.map((movie) => ( <Poster movie={movie}/> )) }
         </div>
