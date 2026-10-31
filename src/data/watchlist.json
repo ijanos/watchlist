@@ -9143,6 +9143,19 @@
   "country": ["United States", "Ireland"]
  },
  {
+  "englishTitle": "They Live",
+  "director": ["John Carpenter"],
+  "imdbID": "tt0096256",
+  "releaseYear": 1988,
+  "releaseDate": "1988-11-04",
+  "country": ["United States", "Netherlands"],
+  "language": ["English"],
+  "runtime": 94,
+  "watched": "2026-10-30",
+  "ageCertification": "R",
+  "genres": ["action", "horror", "science-fiction"]
+ },
+ {
   "englishTitle": "The Treasure of Swamp Castle",
   "originalTitle": "Szaffi",
   "director": ["Attila Dargay"],
