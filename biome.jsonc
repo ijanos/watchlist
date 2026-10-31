@@ -1,5 +1,5 @@
 {
- "$schema": "https://biomejs.dev/schemas/2.5.0/schema.json",
+ "$schema": "https://biomejs.dev/schemas/2.6.2/schema.json",
  "vcs": {
   "enabled": true,
   "clientKind": "git",
@@ -49,7 +49,8 @@
   "rules": {
    "preset": "recommended",
    "style": {
-    "useImportType": "warn"
+    "useImportType": "warn",
+    "noInlineStyles": "error"
    },
    "complexity": {
     // "noForEach": "warn",
@@ -63,15 +64,6 @@
     "noPrivateImports": "error",
     "noDuplicateAttributes": "error"
    },
-   "nursery": {
-    "useBaseline": {
-     "level": "error",
-     "options": {
-      "available": "newly"
-     }
-    },
-    "noInlineStyles": "error"
-   },
    "a11y": {
     "noAmbiguousAnchorText": "error"
    },
@@ -80,6 +72,14 @@
    },
    "performance": {
     "noSyncScripts": "error"
+   },
+   "suspicious": {
+    "useBaseline": {
+     "level": "error",
+     "options": {
+      "available": "newly"
+     }
+    }
    }
   }
  },
